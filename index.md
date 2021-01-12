@@ -16,9 +16,6 @@ In the coming months, this wiki will grow into a home of information for student
 
 ## Sounds cool but who are you?
 
-My name is Ben MacDonald. I'm currently in my Grade 12 Year at E.P. Scarlett and acted as the Technical Director at the school for the 2020-2021 School Year. Currently I act as the main maintainer for this wiki. I have a strong passion for programming which was partly my motivation for starting this project. Due to COVID-19, I didn't get as much time as I wanted to help out the new techs that joined, so this was my way of passing down what I learned during my time in High School.
-
-Of course, I'm not the only one working on this project, also here, we have:
 
 <TODO: A list of other wonderful people that deserve more credit than I can give them here>
 

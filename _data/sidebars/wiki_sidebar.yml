@@ -28,8 +28,8 @@ entries:
       output: web, pdf
       type: homepage
 
-    - title: Supported features
-      url: /wiki_supported_features.html
+    - title: Example
+      url: /wiki_introduction
       output: web, pdf
 
     - title: About the theme author
