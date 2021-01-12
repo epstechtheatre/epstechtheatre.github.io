@@ -9,4 +9,4 @@ authors: [Ben MacDonald]
 
 ## Welcome to the Lighting Page
 
-In this 
+In this section, you will find guides on various lighting equipment and general lighting concepts

@@ -15,7 +15,7 @@ topnav_dropdowns:
     - title: Categories
       folderitems:
         - title: Overview
-          url: /wiki_introduction.html
+          url: /index.html
         - title: Lighting
           url: /Lighting_landing_page.html
         - title: Sound
