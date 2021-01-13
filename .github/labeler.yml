@@ -12,7 +12,6 @@
 - vscode/*
 - ./*
 - docs/*
-- '!docs/*.md'
   
 'wiki: Lighting':
 - docs/pages/Lighting/*.md 
@@ -29,3 +28,6 @@
 - docs/pages/Wiki/*.html
 - docs/*.md
 - docs/_data/sidebars/wiki_sidebar.yml
+
+'wiki: Images Modified'
+- docs/images/*
