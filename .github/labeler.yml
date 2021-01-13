@@ -12,7 +12,7 @@
 - vscode/*
 - ./*
 - docs/*
-- !docs/*.md'
+- !docs/*.md
   
 'wiki: Lighting':
 - docs/pages/Lighting/*.md 
