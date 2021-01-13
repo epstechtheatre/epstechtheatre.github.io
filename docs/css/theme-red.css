@@ -67,7 +67,7 @@ a.navbar-brand:hover {
 }
 
 .btn-primary {
-    color: #b6003d;
+    color: lightgrey;
     background-color: #be3434;
     border-color: #be3434;
 }
@@ -81,7 +81,7 @@ a.navbar-brand:hover {
 .btn-primary:active,
 .btn-primary.active,
 .open .dropdown-toggle.btn-primary {
-    background-color: #c22424;
+    background-color: #df2727;
     border-color: #be3434;
 }
 
