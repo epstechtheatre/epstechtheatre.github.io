@@ -1,11 +1,31 @@
 'wiki: Backend':
-  - any: ['docs/**/*.css', 'docs/_data/*', '!docs/_data/sidebars', 'docs/_includes/*', 'docs/_layouts/*', 'docs/_tooltips/*', 'docs/js/*.js', 'docs/pdf/*', 'docs/pdfconfigs/*', 'docs/var/*', '.github/*', .vscode/*, './*', 'docs/*', '!docs/*.md']
-
+  - docs/**/*.css
+  - docs/_data/*
+  - docs/_includes/*
+  - docs/_layouts/*
+  - docs/_tooltips/*
+  - docs/js/*.js
+  - docs/pdf/*
+  - docs/pdfconfigs/*
+  - docs/var/*
+  - .github/*
+  - vscode/*
+  - ./*
+  - docs/*
+  - !docs/*.md'
+  
 'wiki: Lighting':
-  - any: ['docs/pages/Lighting/*.md', 'docs/pages/Lighting/*.html', 'docs/_data/sidebars/Lighting_sidebar.yml']
+  - docs/pages/Lighting/*.md 
+  - docs/pages/Lighting/*.html
+  - docs/_data/sidebars/Lighting_sidebar.yml
 
 'wiki: Sound':
-  - any: ['docs/pages/Sound/*.md', 'docs/pages/Sound/*.html', 'docs/_data/sidebars/Lighting_sidebar.yml']
+  - docs/pages/Sound/*.md
+  - docs/pages/Sound/*.html
+  - docs/_data/sidebars/Lighting_sidebar.yml
 
 'wiki: Main':
-  - any: ['docs/pages/Wiki/*.md', 'docs/pages/Wiki/*.html', 'docs/*.md', 'docs/_data/sidebars/wiki_sidebar.yml']
+  - docs/pages/Wiki/*.md
+  - docs/pages/Wiki/*.html
+  - docs/*.md
+  - docs/_data/sidebars/wiki_sidebar.yml
