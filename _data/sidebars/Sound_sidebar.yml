@@ -1,0 +1,59 @@
+# This is your sidebar TOC. The sidebar code loops through sections here and provides the appropriate formatting.
+
+#Adding new pages is easy, here is a general template (Spaces is important!)
+
+#If you are copying this code, make sure to remove the comments at the start of each line, and make sure the spacing at the start is aligned
+
+# - title: The title of the category your page is under
+#   output: web, pdf
+#   folderitems: #This is where your pages and folders are stored under
+#   - title: The title of your page or folder
+#     output: web (you can also add ", pdf") if you want, just make sure "web" is there
+#     url: /The exact text you put for "permalink" on your page
+
+#   #Adding multiple pages is easy
+#   - title: The title of your second page
+#     output: web
+#     url: /The exact text you put for "permalink"
+
+#     subfolders: # If you want to add a folder in the category, include it here
+#     - title: The name of this folder
+#     - output: web
+#     - subfolderitems: #Pages in this folder go under here
+
+#       - title: The title of your page
+#         output: web (you can also add ", pdf") if you want, just make sure "web" is there
+#         url: /The exact text you put for "permalink" on your page
+#         # You cannot save subfolders in subfolders
+
+#       #Adding multiple pages is easy
+#       - title: The title of your second page
+#         output: web
+#         url: /The exact text you put for "permalink"
+
+entries:
+- title: Sound
+  product: Sound
+  #version: 1.0
+  folders:
+
+  - title:
+    output: pdf
+    type: frontmatter
+    folderitems:
+    - title:
+      url: /titlepage.html
+      output: pdf
+      type: frontmatter
+    - title:
+      url: /tocpage.html
+      output: pdf
+      type: frontmatter
+
+  - title: Introduction
+    output: web, pdf
+    folderitems:
+
+    - title: Sound Home
+      url: /Sound_landing_page.html
+      output: web
