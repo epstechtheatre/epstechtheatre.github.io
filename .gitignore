@@ -1,0 +1,8 @@
+docs/_site/
+docs/.sass-cache/
+docs/.jekyll-metadata
+docs/_pdf
+docs/.DS_Store
+docs/.idea
+docs/vendor/
+docs/.bundle/
