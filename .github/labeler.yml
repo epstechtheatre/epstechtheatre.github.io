@@ -29,5 +29,5 @@
 - docs/*.md
 - docs/_data/sidebars/wiki_sidebar.yml
 
-'wiki: Images Modified'
+'wiki: Images Modified':
 - docs/images/*
