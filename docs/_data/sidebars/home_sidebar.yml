@@ -2,21 +2,19 @@
 
 entries:
 - title: Sidebar
-  levels: one
+  
   folders:
-
-  - title: Products
+  - title: Wiki
     output: web
     folderitems:
-    - title: News
-      url: /news.html
-      output: web
-    - title: Theme instructions
-      url: /wiki_introduction.html
-      output: web
-    - title: Product 1
-      url: /Lighting_landing_page.html
-      output: web
-    - title: Product 2
-      url: /Sound_landing_page.html
-      output: web
+      - title: Go Home
+        url: /index.html
+        output: web
+
+      - title: Lighting
+        url: /Lighting_landing_page.html
+        output: web
+
+      - title: Sound
+        url: /Sound_landing_page.html
+        output: web

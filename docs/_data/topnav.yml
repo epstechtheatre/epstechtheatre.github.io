@@ -12,7 +12,7 @@ topnav:
 topnav_dropdowns:
 - title: Topnav dropdowns
   folders:
-    - title: Categories
+    - title: Wikis
       folderitems:
         - title: Overview
           url: /index.html
