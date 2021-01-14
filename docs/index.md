@@ -1,11 +1,15 @@
 ---
-title: "Welcome to the Wiki"
-keywords: homepage, welcome, overview
-tags: [getting_started]
+title: Welcome to the Wiki
+keywords: 'homepage, welcome, overview'
+tags:
+- getting_started
 sidebar: wiki_sidebar
 permalink: index.html
-summary: Welcome to the wiki! This page briefly goes over how to get around the website. Other topics will provide more in depth information. 
-authors: [Ben MacDonad]
+summary: Welcome to the wiki! This page briefly goes over how to get around the website. Other topics will provide more in depth information.
+authors:
+- Ben MacDonad
+draft: true
+last_updated: 'January 13, 2021'
 ---
 
 {% include note.html content="If you are coming from a school other than E.P. Scarlett, welcome! This wiki was tailored to the systems we have and use. There is a chance this will not line up with the systems at your school. If this is the case, I hope you will still find a use for these guides." %}
@@ -29,7 +33,7 @@ With that being said, currently I have finished 0% of the pages I want want to a
 
 Glad to hear! This wiki is open-source on Github. If you have programming experience and a Github account, feel free to follow the instructions over on the repo to submit a pull request.
 
-### What if I'm not a programmer
+### What if I'm not a programmer?
 
 That's all right too! Send an email to [epstechtheatre@gmail.com](mailto:epstechtheatre@gmail.com) and I or someone else will help you out.
 
