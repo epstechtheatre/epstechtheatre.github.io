@@ -602,7 +602,7 @@ a[data-toggle] {
 }
 
 .draft:before {
-    content: "This page is marked as Draft: ";
+    content: "This page is marked as draft: ";
     font-weight: bold;
 }
 
