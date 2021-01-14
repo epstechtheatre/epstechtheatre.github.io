@@ -12,17 +12,19 @@ comments: false
     <div class="summary">{{page.summary}}</div>
     {% endif %}
 
+    {% if page.draft == true %}
+    {% include draft.html %}
+    {% endif %}
+
     {{ content }}
 
     {% if page.authors %}
     <div class="authors">
-        {% for author in page.authors%}
-            {% if forloop.last == true %}
-                <body>{{author}}</body>
-            {% else %}
-                <body>{{author}}, </body>
-            {% endif %}
-        {% endfor %}
+        {% if page.authors %}
+        <div class="authors">
+            <body>{{page.authors | sort: "title" | join: ", "}}
+        </div>
+        {% endif%}
     </div>
     {% endif%}
 </div>

@@ -39,6 +39,10 @@ layout: default
     {% endunless %}
 
 
+    {% if page.draft == true %}
+    {% include draft.html %}
+    {% endif %}
+
     {% if site.github_editme_path %}
 
     <a target="_blank" rel="noopener" href="https://github.com/{{site.github_editme_path}}{{page.path}}" class="btn btn-default githubEditButton" role="button"><i class="fa fa-github fa-lg"></i> Edit me</a>
@@ -61,13 +65,7 @@ layout: default
 
     {% if page.authors %}
     <div class="authors">
-        {% for author in page.authors%}
-            {% if forloop.last == true %}
-                <body>{{author}}</body>
-            {% else %}
-                <body>{{author}}, </body>
-            {% endif %}
-        {% endfor %}
+        <body>{{page.authors | sort | join: ", "}}
     </div>
     {% endif%}
 
