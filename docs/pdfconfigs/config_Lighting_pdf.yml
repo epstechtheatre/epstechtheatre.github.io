@@ -4,9 +4,8 @@ baseurl: "/Lighting-pdf"
 port: 4011
 output: pdf
 product: Lighting
-print_title: Product 1 documentation
-print_subtitle: version 1.0
-output: pdf
+print_title: Lighting Wiki
+#print_subtitle: version 1.0
 defaults:
   -
     scope:

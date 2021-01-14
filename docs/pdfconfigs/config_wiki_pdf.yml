@@ -4,9 +4,8 @@ baseurl: "/wiki-pdf"
 port: 4010
 output: pdf
 product: wiki
-print_title: Jekyll theme for documentation — wiki product
-print_subtitle: version 6.0
-output: pdf
+print_title: "EPS Tech Wiki — Main Overview"
+#print_subtitle: version 6.0
 defaults:
   -
     scope:
