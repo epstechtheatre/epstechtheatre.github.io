@@ -1,18 +1,30 @@
-'wiki: Backend':
-- docs/**/*.css
-- docs/_data/*
-- docs/_includes/*
-- docs/_layouts/*
-- docs/_tooltips/*
+'backend: Scripting':
+- docs/_scripts/*
+- vscode/*
 - docs/js/*.js
 - docs/pdf/*
 - docs/pdfconfigs/*
 - docs/var/*
-- .github/*
-- vscode/*
-- ./*
+- ./* #Yes this will cause problems with index.md and 404.md but I can't do anything about that right now
 - docs/*
+
+'backend: Styling':
+- docs/**/*.css
+- docs/_includes/*
+- docs/_layouts/*
+- docs/_tooltips/*
+- docs/_data/*
+- docs/_fonts/*
+- docs/
   
+'backend: Meta':
+- .github/*
+- docs/licenses
+- ./LICENSE
+- ./README.md
+- ./.gitignore
+
+
 'wiki: Lighting':
 - docs/pages/Lighting/*.md 
 - docs/pages/Lighting/*.html
