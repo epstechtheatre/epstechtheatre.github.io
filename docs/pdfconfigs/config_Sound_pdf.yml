@@ -4,9 +4,8 @@ baseurl: "/Sound-pdf"
 port: 4012
 output: pdf
 product: Sound
-print_title: Product 2 documentation
-print_subtitle: version 1.0
-output: pdf
+print_title: Sound documentation
+#print_subtitle: version 1.0
 defaults:
   -
     scope:
