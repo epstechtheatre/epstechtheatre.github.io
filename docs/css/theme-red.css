@@ -14,15 +14,18 @@ h4 {color: #808080; }
 }
 
 .nav > li.active > a {
-    background-color: #be3434;
+    background-color: #811f1f;
+    transition: 0.2s;
 }
 
 .nav > li > a:hover {
-    background-color: #c22424;
+    background-color: #a71c1c;
+    transition: 0.2s;
 }
 
 div.navbar-collapse .dropdown-menu > li > a:hover {
-    background-color: #be3434;
+    background-color: #c20041;
+    transition: 0.3s;
 }
 
 .nav li.thirdlevel > a {
@@ -40,17 +43,21 @@ a[data-toggle="tooltip"] {
 .navbar-inverse { /* This is the topnav */
     background-color: #990033;
     border-color: #640021;
+    transition: 0.3s;
 }
 .navbar-inverse .navbar-nav>li>a, .navbar-inverse .navbar-brand {
     color: lightgrey;
+    transition: 0.3s
 }
 
 .navbar-inverse .navbar-nav>li>a:hover, a.fa.fa-home.fa-lg.navbar-brand:hover {
-     color: lightgrey;
+     color: white;
+     background-color: #7a0000;
+     transition: 0.2s
 }
 
 a.navbar-brand:hover {
-  color: lightgrey;
+  color: white;
 }
 
 .navbar-inverse .navbar-nav > .open > a, .navbar-inverse .navbar-nav > .open > a:hover, .navbar-inverse .navbar-nav > .open > a:focus {
@@ -58,8 +65,8 @@ a.navbar-brand:hover {
 }
 
 .navbar-inverse .navbar-nav > .open > a, .navbar-inverse .navbar-nav > .open > a:hover, .navbar-inverse .navbar-nav > .open > a:focus {
-    background-color: #88002d;
-    color: lightgrey;
+    background-color: #610000;
+    color: white;
 }
 
 .navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
@@ -70,10 +77,11 @@ a.navbar-brand:hover {
     color: lightgrey;
     background-color: #be3434;
     border-color: #be3434;
+    transition: 0.3s;
 }
 
 .navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:hover, .navbar-inverse .navbar-nav > .active > a:focus {
-    background-color: #bd0000;
+    background-color: #610000;
 }
 
 .btn-primary:hover,
