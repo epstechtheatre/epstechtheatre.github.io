@@ -13,6 +13,7 @@ last_updated: Month Day, Year #Month, Day, Year (ex January 1st, 2021)
 #These are optional, Uncomment these lines one by one if you want to use them
 
 #draft: true        #Let viewers know your page is a draft and might change
+#noedit: true       #Do not display the "improve this page" button (mostly used for system pages)
 #toc: false         #Remove the table of contents that is automatically
 #tags: [each, tag, no_spaces] #Tags must be registered behind the scenes, check the contributing guide for a list of existing tags. 
 ---
