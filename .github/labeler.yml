@@ -39,7 +39,7 @@
 - docs/pages/Wiki/*.md
 - docs/pages/Wiki/*.html
 - docs/*.md
-- docs/_data/sidebars/wiki_sidebar.yml
+- docs/_data/sidebars/Overview_sidebar.yml
 
 'wiki: Images Modified':
 - docs/images/*

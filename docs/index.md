@@ -3,7 +3,7 @@ title: Welcome to the Wiki
 keywords: 'homepage, welcome, overview'
 tags:
 - getting_started
-sidebar: wiki_sidebar
+sidebar: Overview_sidebar
 permalink: index.html
 summary: Welcome to the wiki! This page briefly goes over how to get around the website. Other topics will provide more in depth information.
 authors:

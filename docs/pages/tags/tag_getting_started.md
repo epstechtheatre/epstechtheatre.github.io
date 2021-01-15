@@ -3,7 +3,7 @@ title: "Getting started pages"
 tagName: getting_started
 search: exclude
 permalink: tag_getting_started.html
-sidebar: wiki_sidebar
+sidebar: Overview_sidebar
 folder: tags
 ---
 {% include taglogic.html %}
