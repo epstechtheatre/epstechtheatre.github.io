@@ -4,7 +4,7 @@
 title: "A new page" #Change this to be the name of your page. Ensure your text is enclose with quotation marks.
 keywords: enter, each, keyword, one, by, one #Keywords can be any one-word phrase you like
 
-sidebar: wiki_sidebar *OR* Lighting_sidebar *OR* Sound_sidebar #Completely delete all other options
+sidebar: Overview_sidebar *OR* Lighting_sidebar *OR* Sound_sidebar #Completely delete all other options
 permalink: /Your page name.html #This should be the same as the name of your file
 summary: Write a brief (one or two sentence) description of what information is contained on this page.
 authors: [Your name here] #Others writers add their name with ", Their name"

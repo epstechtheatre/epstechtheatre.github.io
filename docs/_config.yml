@@ -94,7 +94,7 @@ defaults:
 
 sidebars:
 - home_sidebar
-- wiki_sidebar
+- Overview_sidebar
 - Lighting_sidebar
 - Sound_sidebar
 - other

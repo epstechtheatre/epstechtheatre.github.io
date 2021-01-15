@@ -35,11 +35,11 @@
 - docs/pages/Sound/*.html
 - docs/_data/sidebars/Lighting_sidebar.yml
 
-'wiki: Main':
-- docs/pages/Wiki/*.md
-- docs/pages/Wiki/*.html
+'wiki: Overview':
+- docs/pages/Overview/*.md
+- docs/pages/Overview/*.html
 - docs/*.md
-- docs/_data/sidebars/wiki_sidebar.yml
+- docs/_data/sidebars/Overview_sidebar.yml
 
 'wiki: Images Modified':
 - docs/images/*
