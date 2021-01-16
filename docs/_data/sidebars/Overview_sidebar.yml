@@ -60,3 +60,37 @@ entries:
       url: /index.html
       output: web, pdf
       type: homepage
+
+  - title: Contributing
+    output: web
+    folderitems:
+    - title: Info
+      url: /Overview_Contributing_main.html
+      output: web
+
+    - title: Text Editors
+      url: /Overview_Contributing_texteditors.html
+      output: web
+
+    - title: Editing Pages
+      url: /Overview_Contributing_edit_page.html
+      output: web
+
+    - title: Creating Pages
+      url: /Overview_Contributing_create_page.html
+      output: web
+
+    - title: Page Styling
+      url: /Overview_Contributing_styling.html
+
+    - title: Editing Sidebar
+      url: /Overview_Contributing_edit_sidebar.html
+
+    - title: Github
+      subfolderitems:
+        - title: What is Github?
+          url: /Overview_Contributing_github.html
+          output: web
+
+        - title: Pull Requests
+          url: /Overview_Contributing_pullrequests.html
