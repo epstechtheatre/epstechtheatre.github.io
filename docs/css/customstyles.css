@@ -311,7 +311,6 @@ a.accordion-toggle, a.accordion-collapsed {
 /* navgoco sidebar styles (customized) */
 .nav, .nav ul, .nav li {
     list-style: none;
-    transition: 0.3s;
 }
 
 .nav ul {
