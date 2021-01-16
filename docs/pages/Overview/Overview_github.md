@@ -5,7 +5,7 @@ sidebar: Overview_sidebar
 permalink: /Overview_Contributing_github.html
 summary: This page gives information on how our Github page is set up and how to interact with it.
 authors:
-- Benjamin MacDonald
+- Ben MacDonald
 last_updated: 'January 15, 2021'
 draft: true
 ---

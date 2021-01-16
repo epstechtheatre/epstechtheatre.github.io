@@ -5,7 +5,7 @@ sidebar: Overview_sidebar
 permalink: /Overview_Contributing_texteditors.html
 summary: Using a proper text editor is one of the greatest things you can do to simplify making websites. This page contains information on text editors I recommend and how to get started.
 authors:
-- Benjamin MacDonald
+- Ben MacDonald
 last_updated: 'January 15, 2021'
 draft: true
 ---

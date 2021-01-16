@@ -3,7 +3,7 @@
 ## What is this?
 In the coming months, this repository will make home to a wiki of information for students interested in technical theatre to learn and refine their skills. A prettier version will eventually be found at [the Github page for this project](https://epstechtheatre.github.io/)
 
-Currently, the wiki is primarily mainted by Benjamin MacDonald ([Who can be found here](https://github.com/Quantum158/)), the Technical Director at E.P Scarlett in 2020-2021.
+Currently, the wiki is primarily mainted by Ben MacDonald ([Who can be found here](https://github.com/Quantum158/)), the Technical Director at E.P Scarlett in 2020-2021.
 
 ## Progress
 This project is in its early stages. A project board will be created eventually once we have a grasp at what we want the end product to look like

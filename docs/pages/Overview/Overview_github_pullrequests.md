@@ -5,7 +5,7 @@ sidebar: Overview_sidebar
 permalink: /Overview_Contributing_pullrequests.html
 summary: This page gives specific information on pull requests on pull requests and how to author them
 authors:
-- Benjamin MacDonald
+- Ben MacDonald
 last_updated: 'January 15, 2021'
 draft: true
 ---
