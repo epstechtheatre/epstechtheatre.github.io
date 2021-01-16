@@ -1,6 +1,5 @@
 'backend: Scripting':
 - docs/_scripts/*
-- vscode/*
 - docs/js/*.js
 - docs/pdf/*
 - docs/pdfconfigs/*
@@ -19,11 +18,11 @@
   
 'backend: Meta':
 - .github/*
+- .vscode/*
 - docs/licenses
 - ./LICENSE
 - ./README.md
 - ./.gitignore
-
 
 'wiki: Lighting':
 - docs/pages/Lighting/*.md 
