@@ -50,9 +50,101 @@ entries:
       output: pdf
       type: frontmatter
 
-  - title: Getting Started
+  - title: Overview
     output: web, pdf
     folderitems:
     - title: Lighting Home
       url: /Lighting_landing_page.html
+      output: web
+
+    - title: Lighting Definitions
+      url: /Lighting_definitions.html
+      output: web
+
+  - title: Getting Started
+    output: web
+    folderitems:
+    - title: Absolute Basics
+      url: /Lighting_absolute_basics.html
+      output: web
+
+    - title: Operating Shows
+      url: /Lighting_show_op.html
+      output: web
+
+    - title: "Level 1 Skills"
+      url: /Lighting_level_1.html
+      output: web
+
+    - title: "Level 2 Skills"
+      url: /Lighting_level_2.html
+      output: web
+
+    - title: "Level 3 Skills"
+      url: /Lighting_level_3.html
+      output: web
+    
+    - title: "Level 4 Skills"
+      url: /Lighting_level_4.html
+      output: web
+
+  - title: Control Systems
+    output: web
+    folderitems:
+    - title: Overview
+      url: /Lighting_controlsys_overview.html
+      output: web
+
+    - title: Snapshot and Work Light Panels
+      url: /Lighting_controlsys_snaps.html
+      output: web
+
+    - title: Dimmer Racks
+      url: /Lighting_controlsys_dimmers.html
+      output: web
+
+    - title: DMX Distributors
+      url: /Lighting_controlsys_dmx.html
+      output: web
+    
+  - title: <b>Lighting Board Tutorials</b>
+    output: web
+    folderitems:
+    - title: Tutorial Info
+      output: web
+      url: /Lighting_tutorials_info.html
+
+  - title: Effects
+    output: web
+    folderitems:
+    - title: Creating Effects
+      url: /Lighting_tutorials_creating_effects.html
+      output: web
+
+  - title: Palettes
+    output: web
+    folderitems:
+    - title: Creating Palettes
+      url: /Lighting_tutorials_creating_palettes.html
+      output: web
+
+  - title: Macros
+    output: web
+    folderitems:
+    - title: Creating Macros
+      url: /Lighting_tutorials_creating_macros.html
+      output: web
+
+  - title: Magic Sheets
+    output: web
+    folderitems:
+    - title: Creating Magic Sheets
+      url: /Lighting_tutorials_creating_magic_sheets.html
+      output: web
+
+  - title: Settings
+    output: web
+    folderitems:
+    - title: System vs Showfile Settings
+      url: /Lighting_tutorials_sys_vs_show_settings.html
       output: web
