@@ -24,6 +24,10 @@
 - ./README.md
 - ./.gitignore
 
+'backend: Tags Modified':
+- docs/pages/tags/*
+- docs/_data/tags.yml
+
 'wiki: Lighting':
 - docs/pages/Lighting/*.md 
 - docs/pages/Lighting/*.html
@@ -41,4 +45,4 @@
 - docs/_data/sidebars/Overview_sidebar.yml
 
 'wiki: Images Modified':
-- docs/images/*
+- docs/images/**
