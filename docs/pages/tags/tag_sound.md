@@ -1,8 +1,8 @@
 ---
-title: "Mobile Pages"
+title: "Sound Wiki pages"
+tagName: sound
 search: exclude
-tagName: mobile
-permalink: tag_mobile.html
+permalink: tag_sound.html
 sidebar: Overview_sidebar
 folder: tags
 ---

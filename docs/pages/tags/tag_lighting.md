@@ -1,12 +1,11 @@
 ---
-title: "Special layout pages"
-tagName: special_layouts
+title: "Lighting Wiki pages"
+tagName: lighting
 search: exclude
-permalink: tag_special_layouts.html
+permalink: tag_lighting.html
 sidebar: Overview_sidebar
 folder: tags
 ---
-
 {% include taglogic.html %}
 
 {% include links.html %}
