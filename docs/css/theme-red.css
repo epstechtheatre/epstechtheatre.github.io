@@ -127,3 +127,11 @@ li.sidebarTitle {
 .navbar-inverse .navbar-toggle {
     border-color: #640021;
 }
+
+a {
+    color: #dd0000;
+}
+
+a:hover {
+    color: #a83434;
+}
