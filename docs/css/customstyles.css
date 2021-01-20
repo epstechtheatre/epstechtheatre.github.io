@@ -853,12 +853,6 @@ span.soft {
     color: #c0c0c0;
 }
 
-.githubEditButton {
-    margin-bottom:7px;
-    float: right;
-    display: inline;
-}
-
 .post-title-main {
     display: inline;
 }
@@ -901,6 +895,12 @@ span.soft {
     ul#mysidebar {
         width: 225px;
     }
+
+    .githubEditButton {
+        margin-bottom:7px;
+        float: right;
+        display: inline;
+    }
 }
 
 @media (max-width: 900px) {
@@ -908,6 +908,10 @@ span.soft {
     ul#mysidebar {
         max-width: 100%;
     }
+}
+
+a {
+    transition: 0.1s;
 }
 
 .col-md-9 img {
