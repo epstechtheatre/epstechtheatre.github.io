@@ -36,7 +36,7 @@
 'wiki: Sound':
 - docs/pages/Sound/**.md
 - docs/pages/Sound/**.html
-- docs/_data/sidebars/Lighting_sidebar.yml
+- docs/_data/sidebars/Sound_sidebar.yml
 
 'wiki: Overview':
 - docs/pages/Overview/**.md
