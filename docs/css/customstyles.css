@@ -97,8 +97,8 @@ margin-top: -40px
 
 .pageSummary {
     font-size:13px;
-    display:block;
-    margin-bottom:15px;
+    display:inline-block;
+    /*margin-bottom:15px;*/
     padding-left:20px;
 }
 
@@ -884,9 +884,14 @@ span.soft {
     }
 }
 
-@media (max-width: 990px) {
+@media (max-width: 999px) {
     #mysidebar {
         position: relative;
+    }
+
+    .githubEditButton {
+        display: block;
+        max-width: 175px;
     }
 }
 
@@ -896,10 +901,13 @@ span.soft {
         width: 225px;
     }
 
-    .githubEditButton {
-        margin-bottom:7px;
-        float: right;
+    .post-title-main {
         display: inline;
+        width: 40%;
+    }
+
+    .githubEditButton {
+        float: right;
     }
 }
 
