@@ -60,6 +60,7 @@ body {
 }
 
 
+
 .gi-2x{font-size: 2em;}
 .gi-3x{font-size: 3em;}
 .gi-4x{font-size: 4em;}
@@ -912,7 +913,6 @@ span.soft {
 }
 
 @media (max-width: 900px) {
-
     ul#mysidebar {
         max-width: 100%;
     }
