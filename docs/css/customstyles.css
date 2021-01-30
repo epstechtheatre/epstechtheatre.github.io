@@ -52,15 +52,21 @@ body {
 .bs-callout-warning h4 {
     color: #f0ad4e;
 }
-.bs-callout-info {
+.bs-callout-info,
+.bs-callout-tip {
     border-left-color: #5bc0de;
 }
 .bs-callout-info h4 {
     color: #5bc0de;
 }
 
+.button-tooltip {
+    display: inline-block;
+}
+
 .button-sequence {
     display: flex;
+    flex-wrap: wrap;
     background-color:#F5F5F5;
     border: 1px solid #bebebe;
     border-radius: 5px;
@@ -74,9 +80,10 @@ body {
     align-items: center;
     justify-content: center;
     display: flex;
-    padding: 10px;
+    margin-top: 10px;
     width: 75px;
     height: 75px;
+    padding-top: 5px;
     /* margin-right: 10px; */
     box-shadow: 0px 2px 5px 1px rgba(121, 121, 121, 0.5);
     color: white;
@@ -84,21 +91,34 @@ body {
 }
 
 .keyboard-svg-display {
-    display: none;
+    visibility: hidden;
+    position: absolute;
+    display: flex;
+    transition: visibility 0s 0.2s, opacity 0.2s linear;
+    pointer-events: none;
+    opacity: 0;
+    transition: 0.2s;
+    align-self: flex-end;
+    transform: translateY(105%);
 }
 
+.display-button-keypad:hover + .keyboard-svg-display,
+.display-button-softkey:hover + .keyboard-svg-display,
 .display-button-keypad:active + .keyboard-svg-display,
 .display-button-softkey:active + .keyboard-svg-display {
-    float: inline-start;
-    display: flex;
-    position: relative;
-    transition: 1s;
+    visibility: visible;
+    opacity: 1;
+    transition: opacity 0.2s linear;
+    background-color: #f5f5f5d0;
+    border-radius: 15px;
+    border: 1px solid #BEBEBE;
+    width: auto;
+    z-index: 3;
 }
 
 .display-button-keypad {
     border: 3px solid midnightblue;
     background-color: rgb(66, 66, 66);
-
     border-style: ridge;
 }
 

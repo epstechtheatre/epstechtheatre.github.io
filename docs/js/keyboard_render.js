@@ -1,26 +1,55 @@
+var Svgholder;
 
-var highlight = document.currentScript.getAttribute("highlightText")
-var objectID = document.currentScript.getAttribute("objectID")
+if (!Svgholder) {
+    Svgholder = class svgholder {
+        constructor(highlight, objectID) {
+            this.highlight = highlight
+            this.objectID = objectID
 
-console.log(highlight)
-//console.log(objectID)
+            this.svgholder = document.getElementById(objectID)
+            this.createCallbackEvent()
+        }
 
-var svg = document.getElementById(objectID)
+        createCallbackEvent() {
+            let Me = this
+            function callbackRouter() {
+                Me.loadHandler(this)
+            }
 
-if (svg) {
-    console.log("has svg")
-}
-
-svg.addEventListener("load", function() {
-    var svgDoc = svg.contentDocument.documentElement
-    let elements = svgDoc.getElementsByTagName("title")
-
-    for (let e in elements) {
-        console.log(elements[e].textContent.toString().toLowerCase().replace(" ", ""))
-        if (elements[e].textContent.toString().toLowerCase().replace(" ", "") == highlight.toString().toLowerCase().replace(" ", "")) {
-            svgDoc.getElementById(elements[e].parentElement.id).children[1].style = "fill:lime" //Child 1 is always the rectangle element when saved from visio
-            //Eventually this should probably set a class so the stylesheet can do the colour
-            break;
+            this.svgholder.addEventListener("load", callbackRouter, false)
+        }
+    
+        loadHandler(doc) {
+            doc.contentDocument.getElementById(this.parseHighlight()).children[1].style = "fill:lime"
+        }
+    
+        parseHighlight() {
+            let text = this.highlight.toLowerCase()
+            text = text.replace(" ", "").replace("_", "")
+    
+            if (text == ".") {
+                return "dot"
+            }
+    
+            if (text == "/") {
+                return "slash"
+            }
+    
+            if (text == "+") {
+                return "plus"
+            }
+    
+            if (text == "-") {
+                return "minus"
+            }
+    
+            //Edge cases dealt with, now we can remove slashes from others (like label/note)
+    
+            text = text.replace("/", "")
+    
+            return text;
         }
     }
-}, false)
+}
+
+new Svgholder(document.currentScript.getAttribute("highlightText"), document.currentScript.getAttribute("objectID"))

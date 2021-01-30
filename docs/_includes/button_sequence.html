@@ -19,8 +19,8 @@
         {% endif %}
 
         <div class="keyboard-svg-display">
-            <object id="svg-{{usableText}}" data="/images/svg/Keyboard Overlay Source.svg" type="image/svg+xml"></object>
-            {% assign objectID = "svg-" | append: usableText %}
+            <object id="svg-{{forloop.index}}" data="/images/svg/Keyboard Overlay Source.svg" type="image/svg+xml"></object>
+            {% assign objectID = "svg-" | append: forloop.index %}
 
             <script src="js/keyboard_render.js" highlightText="{{usableText}}" objectID="{{objectID}}"></script>
         </div>
@@ -29,3 +29,5 @@
         {% endunless %}
     {% endfor %}
 </div>
+{% include callout.html type="tip" content="Hover over the buttons to see where they are on the keyboard!" %}
+
