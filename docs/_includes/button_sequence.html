@@ -11,11 +11,11 @@
             {% assign contentLength = {{buttonText.size | minus: 2 }}%}
             {% assign usableText = {{buttonText | slice: 1, contentLength }} %}
             <div class="display-button-softkey">
-                {{usableText}}
+                {{usableText | capitalize }}
             </div>
         {% else %}
             {% assign usableText = buttonText %}
-            <div class="display-button-keypad">{{buttonText}}</div>
+            <div class="display-button-keypad">{{buttonText | capitalize }}</div>
         {% endif %}
 
         <div class="keyboard-svg-display">
@@ -28,6 +28,14 @@
         <div class="display-button-separator">▶</div>
         {% endunless %}
     {% endfor %}
-</div>
-{% include callout.html type="tip" content="Hover over the buttons to see where they are on the keyboard!" %}
 
+    {% unless include.noLegend == true %}
+    <div class="display-button-legend">
+        {% include callout.html type="success" content="Solid boxes represent keyboard buttons<br>Dotted boxes represent softkeys" %}
+    </div>
+    {% endunless %}
+</div>
+
+{% unless include.noTip == true %}
+{% include tip.html content="Hover over a button to see where it is on the keyboard" %}
+{% endunless %}
