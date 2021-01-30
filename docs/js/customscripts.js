@@ -20,6 +20,14 @@ $( document ).ready(function() {
      */
     anchors.add('h2,h3,h4,h5');
 
+    // Activate button keypad display overlays
+    $('.display-button-softkey').mouseenter(function() {
+        KeyboardSVGHandler.showNewKey(this, $(this).data('keyid'), true)
+    })
+
+    $('.display-button-keypad').mouseenter(function() {
+        KeyboardSVGHandler.showNewKey(this, $(this).data('keyid'))
+    })
 });
 
 // needed for nav tabs on pages. See Formatting > Nav tabs for more details.
@@ -52,3 +60,82 @@ $(function() {
         }
     });
 });
+
+class KeyboardSVGHandler {
+    static currentKeys = [];
+
+    static showNewKey(obj, keyID, revertToSoftkey = false) {
+        if (this.currentKeys.length > 0) {
+            for (let key of this.currentKeys) {
+                key.children[1].style = "fill:white"
+            }
+            this.currentKeys = []
+        }
+        let searchElement = this.parseHighlight(keyID)
+
+        if (searchElement === "softkey") {
+            for (let sk of this.getSoftkeyKeys()) {
+                let targetKey = obj.parentElement.querySelector(".keyboard-svg-graphic").contentDocument.documentElement.getElementById(sk)
+                this.currentKeys.push(targetKey)
+                targetKey.children[1].style = "fill:lime"
+            }
+        } else {
+            let targetKey = obj.parentElement.querySelector(".keyboard-svg-graphic").contentDocument.documentElement.getElementById(searchElement)
+
+            if (!targetKey && revertToSoftkey === true) {
+                return this.showNewKey(obj, "softkey")
+            } else {
+                this.currentKeys.push(targetKey)
+                targetKey.children[1].style = "fill:lime"
+            }
+        }
+    }
+
+    static parseHighlight(text) {
+        text = text.toString().toLowerCase()
+        text = text.replace(" ", "").replace("_", "")
+
+        //Theres a few edge cases that make designing more intuitive
+        switch (text) {
+            case ".":
+                return "dot"
+
+            case "/":
+                return "slash"
+
+            case "+":
+                return "plus"
+
+            case "-":
+                return "minus"
+
+            case "softkey":
+                return "softkey"
+
+            case "label":
+            case "note":
+            case "notelabel":
+                return "labelnote"
+
+            default:
+                break;
+        }    
+        //Edge cases dealt with, now we can remove slashes from others (like label/note)
+
+        text = text.replace("/", "")
+
+        return text;
+    }
+
+    static getSoftkeyKeys() {
+        return [
+            "s1",
+            "s2",
+            "s3",
+            "s4",
+            "s5",
+            "s6",
+            "moresk"
+        ]
+    }
+}
