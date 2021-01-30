@@ -1,0 +1,31 @@
+<!-- Display a sequence of buttons that look asthetically nice -->
+
+<div class="button-sequence">
+    {% assign texts = {{include.content | replace: "  ", " " | split: ', '}} %}
+
+    {% for buttonText in texts %}
+        {% assign firstChar = {{buttonText | slice: 0,0}} %}
+        {% assign lastChar = {{buttonText | slice: -1,-1}} %}
+
+        {% if firstChar == "{" and lastChar == "}" %}
+            {% assign contentLength = {{buttonText.size | minus: 2 }}%}
+            {% assign usableText = {{buttonText | slice: 1, contentLength }} %}
+            <div class="display-button-softkey">
+                {{usableText}}
+            </div>
+        {% else %}
+            {% assign usableText = buttonText %}
+            <div class="display-button-keypad">{{buttonText}}</div>
+        {% endif %}
+
+        <div class="keyboard-svg-display">
+            <object id="svg-{{usableText}}" data="/images/svg/Keyboard Overlay Source.svg" type="image/svg+xml"></object>
+            {% assign objectID = "svg-" | append: usableText %}
+
+            <script src="js/keyboard_render.js" highlightText="{{usableText}}" objectID="{{objectID}}"></script>
+        </div>
+        {% unless forloop.last %}
+        <div class="display-button-separator">▶</div>
+        {% endunless %}
+    {% endfor %}
+</div>

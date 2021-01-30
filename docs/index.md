@@ -13,11 +13,6 @@ last_updated: 'January 13, 2021'
 ---
 
 {% include note.html content="If you are coming from a school other than E.P. Scarlett, welcome! This wiki was tailored to the systems we have and use. There is a chance this will not line up with the systems at your school. If this is the case, I hope you will still find a use for these guides." %}
-
-Press<br>
-
-{% include display_button.html content="test" %}<br>
-to do this
 ## Welcome
 
 In the coming months, this wiki will grow into a home of information for students interested in technical theatre. My hope is this will help to reduce the learning curve that is commonly associated with the work we do. This guide will cover everything from lighting to sound (maybe), beginner to advanced.
