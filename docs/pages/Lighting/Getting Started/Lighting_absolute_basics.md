@@ -5,13 +5,12 @@ sidebar: Lighting_sidebar
 permalink: Lighting_absolute_basics.html
 folder: Lighting
 authors: [Ben MacDonald]
-summary: This page goes over everything you need to get started on the lighting board to interact with our lighting grid.
+summary: The most basic of what you need to know in order to interact with our lighting grid.
 draft: true
 ---
 
-{% include note.html content="This wiki is tailed to the lighting network present at Dr. E.P. Scarlett, I highly recommend students from other schools that are just starting out skip to the <a alt='Level 1 Basics Tutorial' href='./Lighting_level_1.html'>\"Level\" Tutorials</a>" %}
+{% include note.html content="This page is very specifically tailored to the lighting network present at Dr. E.P. Scarlett, I highly recommend students from other schools that are just starting out skip to the <a alt='Level 1 Basics Tutorial' href='./Lighting_level_1.html'>\"Level\" Tutorials</a>" %}
 
-This section covers the absolute minimum to not blow up lights and use the board
 
 - How to turn on
 - How to turn off
