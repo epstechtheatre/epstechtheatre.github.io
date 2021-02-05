@@ -2,21 +2,27 @@
 {
   "frontMatter.taxonomy.seoTitleLength": 25,
   "frontMatter.taxonomy.tags": [
+    "contributing",
     "getting_started",
-    "content_types",
+    "lighting",
+    "maintenance",
     "navigation",
-    "formatting",
-    "publishing",
-    "single_sourcing",
-    "special_layouts",
-    "collaboration",
     "news",
+    "other",
+    "sound",
     "troubleshooting",
-    "mobile"
   ],
   "frontMatter.panel.freeform": false,
   "frontMatter.taxonomy.indentArrays": false,
   "frontMatter.taxonomy.dateField": "last_updated",
-  "frontMatter.taxonomy.dateFormat": "MMMM d, yyyy"
+  "frontMatter.taxonomy.dateFormat": "MMMM d, yyyy",
+  "cSpell.words": [
+    "Mainfile",
+    "Showfile",
+    "Scarlett"
+  ],
+  "cSpell.enableFiletypes": [
+    "liquid"
+  ]
 }
 
