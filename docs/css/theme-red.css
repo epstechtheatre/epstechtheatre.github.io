@@ -73,6 +73,14 @@ a.navbar-brand:hover {
     border-color: #c22424 !important;
 }
 
+.display-button-keypad {
+    border-color: #c9265c
+}
+
+.display-button-softkey {
+    border-color: #d17327
+}
+
 .btn-primary {
     color: lightgrey;
     background-color: #be3434;
@@ -126,4 +134,12 @@ li.sidebarTitle {
 
 .navbar-inverse .navbar-toggle {
     border-color: #640021;
+}
+
+a {
+    color: #dd0000;
+}
+
+a:hover {
+    color: #a83434;
 }

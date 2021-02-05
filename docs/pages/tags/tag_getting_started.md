@@ -1,5 +1,5 @@
 ---
-title: "Getting started pages"
+title: "Getting Started Pages"
 tagName: getting_started
 search: exclude
 permalink: tag_getting_started.html

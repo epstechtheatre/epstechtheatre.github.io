@@ -1,8 +1,8 @@
 ---
-title: "Content types pages"
-tagName: content_types
+title: "Maintenance pages"
+tagName: maintenance
 search: exclude
-permalink: tag_content_types.html
+permalink: tag_maintenance.html
 sidebar: Overview_sidebar
 folder: tags
 ---

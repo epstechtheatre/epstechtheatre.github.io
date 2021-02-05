@@ -3,7 +3,7 @@ repository: epstechtheatre/epstechtheatre.github.io/
 output: web
 # this property is useful for conditional filtering of content that is separate from the PDF.
 
-topnav_title: E.P. Scarlett Technical Theatre Wiki
+topnav_title: E.P. Scarlett Tech Theatre Wiki
 # this appears on the top navigation bar next to the home button
 
 site_title: Tech Theatre Wiki
@@ -99,7 +99,7 @@ sidebars:
 - Sound_sidebar
 - other
 
-description: "Intended as a starting place for students new to technical theatre to fast track the learning curve commonly associated with the field"
+description: "Intended as a starting place for students new to technical theatre to fast track the learning curve commonly associated with our field of work"
 # the description is used in the feed.xml file
 
 # needed for sitemap.xml file only

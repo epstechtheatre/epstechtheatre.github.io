@@ -1,8 +1,8 @@
 ---
-title: "Collaboration pages"
-tagName: collaboration
+title: "Contributing Pages"
+tagName: contributing
 search: exclude
-permalink: tag_collaboration.html
+permalink: tag_contributing.html
 sidebar: Overview_sidebar
 folder: tags
 ---
