@@ -81,16 +81,22 @@ entries:
       output: web
 
     - title: Page Styling
+      output: web
       url: /Overview_Contributing_styling.html
 
     - title: Editing Sidebar
+      output: web
       url: /Overview_Contributing_edit_sidebar.html
 
-    - title: Github
-      subfolderitems:
-        - title: What is Github?
-          url: /Overview_Contributing_github.html
-          output: web
 
-        - title: Pull Requests
-          url: /Overview_Contributing_pullrequests.html
+      subfolders:
+      - title: Github
+        output: web
+        subfolderitems:
+          - title: What is Github?
+            url: /Overview_Contributing_github.html
+            output: web
+
+          - title: Pull Requests
+            output: web
+            url: /Overview_Contributing_pullrequests.html

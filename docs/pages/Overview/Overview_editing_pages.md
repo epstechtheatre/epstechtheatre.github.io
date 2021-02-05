@@ -5,7 +5,7 @@ sidebar: Overview_sidebar
 permalink: /Overview_Contributing_edit_page.html
 summary: Editing existing pages is the easiest way to contribute, and can even be done straight from your web browser! This articles talks about how to edit pages
 authors:
-- Benjamin MacDonald
+- Ben MacDonald
 last_updated: 'January 15, 2021'
 draft: true
 ---

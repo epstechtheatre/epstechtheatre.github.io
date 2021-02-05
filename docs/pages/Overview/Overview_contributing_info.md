@@ -5,7 +5,7 @@ sidebar: Overview_sidebar
 permalink: /Overview_Contributing_main.html
 summary: General information on how to contribute to the wiki
 authors:
-- Benjamin MacDonald
+- Ben MacDonald
 last_updated: 'January 15, 2021'
 draft: true
 ---
