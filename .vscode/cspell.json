@@ -4,6 +4,15 @@
     "words": [
         "EPS",
         "callout",
-        "controlsys"
-    ]
+        "controlsys",
+        "taglogic",
+        "Scarlett",
+        "Showfile",
+        "offleft",
+        "offright",
+        "woah",
+        "noedit",
+        "Mainfile"
+    ],
+    "ignorePaths": ["act/**"]
 }
