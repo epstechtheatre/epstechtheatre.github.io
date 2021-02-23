@@ -37,7 +37,7 @@ I have additional notes to add in this section (please describe):
 
 ## Github
 - [ ] I have gone through the above checklist and have filled out, removed, or added all necessary information
-- [ ] (Do after submitting) I have checked the labels attached to the pull request and verified they accurately describe my changes.
+- [ ] (Do after submitting) I have checked the labels attached to the pull request and verified they accurately describe my changes
 
 ## Other points
 I have additional notes that I would like to include (please describe):
