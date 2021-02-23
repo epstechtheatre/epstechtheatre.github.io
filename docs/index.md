@@ -7,10 +7,16 @@ sidebar: Overview_sidebar
 permalink: index.html
 summary: Welcome to the wiki! This page briefly goes over how to get around the website. Other topics will provide more in depth information.
 authors:
-- Ben MacDonad
+- Ben MacDonald
 draft: true
 last_updated: 'January 13, 2021'
 ---
+
+asdas asfasdf  fasdfasdf   a asdfas 
+
+
+
+
 
 {% include note.html content="If you are coming from a school other than E.P. Scarlett, welcome! This wiki was tailored to the systems we have and use. There is a chance this will not line up with the systems at your school. If this is the case, I hope you will still find a use for these guides." %}
 ## Welcome
