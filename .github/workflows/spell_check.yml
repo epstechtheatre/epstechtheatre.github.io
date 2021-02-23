@@ -12,4 +12,3 @@ jobs:
           paths: "**/*.{md}"
           config: .vscode/cspell.json
           exclude: LICENSE.md
-          repo-token: "${{ secrets.GITHUB_TOKEN }}"
