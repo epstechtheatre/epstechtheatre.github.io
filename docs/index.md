@@ -12,13 +12,6 @@ draft: true
 last_updated: 'January 13, 2021'
 ---
 
-These are bad wrodds ajew joooi bleh 
-
-
-
-
-
-
 {% include note.html content="If you are coming from a school other than E.P. Scarlett, welcome! This wiki was tailored to the systems we have and use. There is a chance this will not line up with the systems at your school. If this is the case, I hope you will still find a use for these guides." %}
 ## Welcome
 
