@@ -3,7 +3,7 @@ on: [ pull_request ]
 
 jobs:
   Spell:
-    runs-on: ubuntu-final
+    runs-on: ubuntu-latest
 
     steps:
       - uses: zwaldowski/cspell-action@1.0.0
