@@ -10,4 +10,4 @@ jobs:
       with:
         repo-token: ${{ secrets.GITHUB_TOKEN }}
         issue-message: "Thank you for submitting your first issue! It may take a little while for your submission to be acknowledged so check back later. Note: If you haven't done so already, make sure to add labels to your issue so that contributors can find it more easily!"
-        pr-message: "Thank you for submitting your first pull request! Another contributor will review your contribution shortly. Until then, no further action is required by you. Note: If you haven't done so already, make sure you have completed the checklist so reviewers know what they need to check for!"
+        pr-message: "Thank you for submitting your first pull request! Another contributor will review your changes once your checklist is complete (if it is not already). If you have finished your checklist, no further action is needed from you at this time. If you need help, click the 'labels' button on the right-hand side of the page, then click the 'Help wanted' label."
