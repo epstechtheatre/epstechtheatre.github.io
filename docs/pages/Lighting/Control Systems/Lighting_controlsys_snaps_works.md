@@ -18,7 +18,7 @@ Include permanent panels (Stage, Booth, Audience L/R) AND portable controller (w
 
 - House lights
   - Lockout exemption
-  - Breif nod to the old lightswitches that were taped over in offleft and offright
+  - Brief nod to the old light switches that were taped over in offleft and offright
 
 - "White Buttons"
   - Lockout behaviour

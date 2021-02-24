@@ -1,0 +1,22 @@
+{
+    "version": "0.1",
+    "language": "en-US",
+    "words": [
+        "behaviour",
+        "callout",
+        "controlsys",
+        "EPS",
+        "Mainfile",
+        "noedit",
+        "offleft",
+        "offright",
+        "Scarlett",
+        "Scarlett's",
+        "Showfile",
+        "taglogic",
+        "woah"
+    ],
+    "ignorePaths": [
+        "act/**"
+    ]
+}
