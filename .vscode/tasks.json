@@ -13,7 +13,7 @@
             },
             "options": {
                 "cwd": "${workspaceFolder}/docs"
-            },
+            }
         },
         {
             "label": "Bundle Update",
@@ -26,7 +26,8 @@
         {
             "label": "Run CSpell",
             "type": "shell",
-            "command": "cspell --config .\\.vscode\\cspell.json **/*.md"
+            "command": "cspell --config .\\.vscode\\cspell.json **/*.md",
+            "problemMatcher": []
         }
     ]
 }

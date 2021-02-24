@@ -2,17 +2,21 @@
     "version": "0.1",
     "language": "en-US",
     "words": [
-        "EPS",
+        "behaviour",
         "callout",
         "controlsys",
-        "taglogic",
-        "Scarlett",
-        "Showfile",
+        "EPS",
+        "Mainfile",
+        "noedit",
         "offleft",
         "offright",
-        "woah",
-        "noedit",
-        "Mainfile"
+        "Scarlett",
+        "Scarlett's",
+        "Showfile",
+        "taglogic",
+        "woah"
     ],
-    "ignorePaths": ["act/**"]
+    "ignorePaths": [
+        "act/**"
+    ]
 }
