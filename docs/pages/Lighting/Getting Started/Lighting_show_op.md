@@ -5,7 +5,7 @@ sidebar: Lighting_sidebar
 permalink: Lighting_show_op.html
 folder: Lighting
 authors: [Ben MacDonald]
-summary: This page contains the bare minumim information required to create and run a cue list on the lighting board
+summary: This page contains the bare minimum information required to create and run a cue list on the lighting board
 draft: true
 ---
 

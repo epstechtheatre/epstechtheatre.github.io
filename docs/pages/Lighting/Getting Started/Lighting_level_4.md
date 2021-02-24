@@ -19,4 +19,4 @@ draft: true
   - Restoring backups
 - File management
   - How to do it
-    - Scarletts Self-Defined convention
+    - Scarlett's Self-Defined convention

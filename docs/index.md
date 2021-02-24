@@ -7,7 +7,7 @@ sidebar: Overview_sidebar
 permalink: index.html
 summary: Welcome to the wiki! This page briefly goes over how to get around the website. Other topics will provide more in depth information.
 authors:
-- Ben MacDonad
+- Ben MacDonald
 draft: true
 last_updated: 'January 13, 2021'
 ---
