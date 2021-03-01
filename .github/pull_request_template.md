@@ -10,24 +10,15 @@ My changes:
  - Update HTML, CSS, Github meta, or scripts used to generate the site 
  - Makes changes not listed (please describe):
 
-## Proofing
- - [ ] I have checked how my changes display on a preview of the website
- 
- - [ ] I need help checking how my changes display on a local copy of the website
-
-I have additional notes to add in this section (please describe): 
-
 ## Organization
- - [ ] I have checked my changes to not duplicate or delete information already present on another page
+- [ ] I have checked my changes to not duplicate or delete information already present on another page
 
 Delete the following if you are just modifying a page
- - [ ] I have added or removed my new or deleted pages from their respective sidebars
-
-I have additional notes to add in this section (please describe): 
+- [ ] I have added or removed my new or deleted pages from their respective sidebars
 
 ## Github
 - [ ] I have gone through the above checklist and have filled out, removed, or added all necessary information
-- [ ] (Do after submitting) I have checked the labels attached to the pull request and verified they accurately describe my changes
+- [ ] (Do after creating) I have checked the labels that were attached to this thread and verified they accurately describe my changes
 
 ## Other points
 I have additional notes that I would like to include (please describe):
