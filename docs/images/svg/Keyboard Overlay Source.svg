@@ -24,18 +24,18 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="2.8"
-     inkscape:cx="185.60578"
-     inkscape:cy="150.25145"
+     inkscape:zoom="1.979899"
+     inkscape:cx="189.90201"
+     inkscape:cy="150.53103"
      inkscape:document-units="mm"
      inkscape:current-layer="g519"
      inkscape:document-rotation="0"
      showgrid="false"
-     inkscape:window-width="1920"
-     inkscape:window-height="1057"
-     inkscape:window-x="-8"
-     inkscape:window-y="-8"
-     inkscape:window-maximized="1"
+     inkscape:window-width="1902"
+     inkscape:window-height="1033"
+     inkscape:window-x="96"
+     inkscape:window-y="0"
+     inkscape:window-maximized="0"
      units="px" />
   <metadata
      id="metadata5">
@@ -203,7 +203,7 @@
            id="manual_wheel"
            v:mID="104"
            v:groupContext="shape"
-           transform="matrix(0.5349779,0,0,0.46696605,269.24551,-248.67735)">
+           transform="matrix(0.5349779,0,0,0.46696605,269.24551,-242.85811)">
           <title
              id="title59">Manual Wheel</title>
           <rect
@@ -1575,6 +1575,39 @@
              height="65.511299"
              class="st2"
              id="rect516" />
+        </g>
+        <g
+           id="power"
+           v:mID="243"
+           v:groupContext="shape"
+           transform="matrix(0.26006156,0,0,0.22699988,-6.5216738,-272.7187)"
+           style="font-size:12px;overflow:visible;color-interpolation-filters:sRGB;fill:none;fill-rule:evenodd;stroke-width:1.69379;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none">
+          <title
+             id="title509-9">Power</title>
+          <circle
+             cx="29.480101"
+             cy="434.40302"
+             class="st1"
+             id="ellipse511-2"
+             r="29.480101"
+             style="stroke-width:1.69379;stroke-miterlimit:4;stroke-dasharray:none" />
+        </g>
+        <g
+           id="usb"
+           v:mID="94"
+           v:groupContext="shape"
+           transform="matrix(0.24365835,0,0,0.27800927,-1.7875885,-262.14525)"
+           style="font-size:12px;overflow:visible;color-interpolation-filters:sRGB;fill:none;fill-rule:evenodd;stroke-width:1.58121;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none">
+          <title
+             id="title19-3">USB</title>
+          <rect
+             x="0"
+             y="424.90399"
+             width="22.437599"
+             height="38.979198"
+             class="st1"
+             id="rect21-2"
+             style="stroke-width:1.58121;stroke-miterlimit:4;stroke-dasharray:none" />
         </g>
       </g>
     </g>

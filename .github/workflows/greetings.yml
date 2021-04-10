@@ -1,0 +1,13 @@
+name: Greetings
+
+on: [pull_request, issues]
+
+jobs:
+  greeting:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/first-interaction@v1
+      with:
+        repo-token: ${{ secrets.GITHUB_TOKEN }}
+        issue-message: "Thank you for submitting your first issue! It may take a little while for your submission to be acknowledged so check back later. Note: If you haven't done so already, make sure to add labels to your issue so that contributors can find it more easily!"
+        pr-message: "Thank you for submitting your first pull request! Another contributor will review your changes once your checklist is complete (if it is not already). If you have finished your checklist, no further action is needed from you at this time. If you need help, click the 'labels' button on the right-hand side of the page, then click the 'Help wanted' label."

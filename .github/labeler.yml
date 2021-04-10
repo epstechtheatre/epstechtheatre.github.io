@@ -17,8 +17,8 @@
 - docs/
   
 'backend: Meta':
-- .github/*
-- .vscode/*
+- .github/**/*
+- .vscode/**/*
 - docs/licenses
 - ./LICENSE
 - ./README.md
