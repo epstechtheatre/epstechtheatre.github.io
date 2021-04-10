@@ -9,28 +9,15 @@ summary: This level covers the basics of the functions of the lighting board, as
 draft: true
 ---
 
-- How to turn on
-- How to turn off
-- Load Showfile
-- Create Showfile/Copy Mainfile
-- Interact with buttons
-- Interact with monitors
-  - Certain tabs:
-    - Color Picker
-    - Magic Sheet
-    - Cue List (PSD)
-    - Live Table
-    - Closing Tabs
-- Turn on and off lights
-  - Keypad
-    - Percentage, Wheel, Out, Full, Sneak
-  - Sliders (/Faders)
-    - What they do
-    - The Buttons
-      - "Bump"
-      - "The forbidden top button
-- General lighting practices at Scarlett
-  - Warmup and Shutdown Protocol
-  
-- Interact with magic sheet
-- HOW to plug in cables so stuff works (WHY will be basics 2)
+- Encoders
+- Weird buttons with easy usages
+  - RemDim
+  - Offset
+  - Query
+  - Softkeys (just how they work)
+  - Update
+- Lights with Dimmer and DMX
+  - Movers, encoder pages, etc.
+- Navigating system panel
+  - Exiting EOS without shutting down and how to get back in
+  - 

@@ -20,5 +20,6 @@ draft: true
 - Why each cable goes where
 - Settings Universe/Address for a light (on the grid)
 - The way universes are set up at scarlett (a vs b)
-- Lights with Dimmer and DMX
 - Patching Lights
+  - Attributes
+  - Database
