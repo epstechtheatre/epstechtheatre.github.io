@@ -17,4 +17,5 @@ Delete the following if you are just modifying a page
 - [ ] I have added or removed my new or deleted pages from their respective sidebars
 ## Other points
 - [ ] I have gone through the above checklist and have filled out, removed, or added all necessary information
+
 I have additional notes that I would like to include (please describe):
