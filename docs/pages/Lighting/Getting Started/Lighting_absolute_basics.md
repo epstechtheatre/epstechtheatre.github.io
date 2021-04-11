@@ -26,7 +26,7 @@ draft: true
     - Closing Tabs
 - Turn on and off lights
   - Keypad
-    - Percentage, Wheel, Out, Full, Sneak
+    - Percentage, Wheel, Out, Full, Sneak, Group
   - Sliders (/Faders)
     - What they do
     - The Buttons

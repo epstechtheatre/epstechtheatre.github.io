@@ -20,3 +20,6 @@ draft: true
 - File management
   - How to do it
     - Scarlett's Self-Defined convention
+
+- Crazy stuff like custom fixtures
+  - Expand this to have weird stuff only Ben knows
