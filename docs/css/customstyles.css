@@ -77,11 +77,11 @@ body {
 .inline-display-button {
     margin:0px;
     margin-bottom:6px;
-    background-color: #BEBEBE;
+    background-color: #cfcfcf;
     border-radius: 3px;
     padding-left: 4px;
     padding-right: 0px;
-    border-color: grey;
+    border-color: rgb(129, 0, 0);
     border-style: solid;
     margin-right: 4px;
 }

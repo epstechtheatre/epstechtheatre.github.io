@@ -76,7 +76,7 @@ class KeyboardSVGHandler {
             this.currentKeys = []
         }
 
-        keyID = keyID.replace("{", "").replace("}", "").replace("_", "")
+        keyID = keyID.replace("{", "").replace("}", "").replace("_", "").replace("[", "").replace("]", "").toLowerCase()
         let searchElement = this.parseHighlight(keyID)
 
         if (searchElement === "softkey") {
