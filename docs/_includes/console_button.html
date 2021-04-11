@@ -1,26 +1,4 @@
-<!-- Display a sequence of keyboard buttons that look asthetically nice -->
-
-
-<!-- Content syntax: "Button or {Softkey in brackets}" -->
-
-{% assign buttonText = {{include.content | replace: "  ", " "}} %}
-
-<!-- Create the button, it has a "onmouseover and onmouseout event that will call the script to render the proper keyboard display" -->
-{% assign firstChar = {{buttonText | slice: 0,0}} %}
-{% assign lastChar = {{buttonText | slice: -1,-1}} %}
-
-{% if firstChar == "{" and lastChar == "}" %}
-    {% assign contentLength = {{buttonText.size | minus: 2 }}%}
-    {% assign usableText = {{buttonText | slice: 1, contentLength }} %}
-<div class="display-button-softkey" data-keyid="{{usableText}}">
-    {{usableText | capitalize }}
-</div>
-{% else %}
-    {% assign usableText = buttonText %}
-<div class="display-button-keypad" data-keyid="{{usableText}}">
-    {{buttonText | capitalize }}
-</div>
-{% endif %}
-
-<!-- Create the keyboard graphic, it is shared across all buttons in this helper window -->
-<object class="keyboard-svg-graphic" data="/images/svg/Keyboard Overlay Source.svg" type="image/svg+xml" style="transform: translateY(0%);"></object>
+<p2 class="inline-display-button" data-keyid="{{include.content}}">
+    {{include.content}}
+    <object class="keyboard-svg-graphic" data="/images/svg/Keyboard Overlay Source.svg" type="image/svg+xml" style="transform: translateY(0%); margin: 0"></object>
+</p2>
