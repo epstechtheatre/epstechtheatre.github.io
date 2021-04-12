@@ -3,6 +3,11 @@ layout: default
 ---
 
 <div class="post-header">
+    {% if page.private == true %}
+    {% include private.html %}
+    {% endif %}
+
+
    <h1 class="post-title-main">{{ page.title }}</h1>
    
    {% if site.github_editme_path and page.noedit != true %}

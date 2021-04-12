@@ -3,6 +3,10 @@ layout: default_print
 comments: false
 ---
 <div class="post-header">
+    {% if page.private == true %}
+    {% include private.html %}
+    {% endif %}
+    
     <h1 class="post-title-main" id="{{page.permalink | replace: '/', '' }}">{{ page.title }}</h1>
 </div>
 

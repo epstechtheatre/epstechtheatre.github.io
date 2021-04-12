@@ -176,9 +176,15 @@ body {
 .gi-4x{font-size: 4em;}
 .gi-5x{font-size: 5em;}
 
-
-
-
+.private-page-warning {
+    padding: 25px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    border-style: solid;
+    color: #a94442;
+    background-color: #f2dede;
+    font-size: larger;
+}
 
 .breadcrumb > .active {color: #777 !important;}
 
