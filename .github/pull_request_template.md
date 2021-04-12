@@ -1,5 +1,5 @@
 ## Type of Change(s)
-Delete any bullet that does not apply
+`Delete any bullet that does not apply`
 
 My changes:
  - Modifies an existing wiki page
@@ -13,7 +13,7 @@ My changes:
 - [ ] My changes do not duplicate or delete information already present on another page
 
 
-Delete the following if you are just modifying a page
+`Delete the following if you are just modifying a page`
 - [ ] I have added or removed my new or deleted pages from their respective sidebars
 
 
