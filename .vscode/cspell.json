@@ -14,7 +14,11 @@
         "Scarlett's",
         "Showfile",
         "taglogic",
-        "woah"
+        "woah",
+        "Submaster",
+        "Softkey",
+        "Submasters",
+        "Softkeys"
     ],
     "ignorePaths": [
         "act/**"
