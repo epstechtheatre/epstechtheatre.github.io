@@ -28,6 +28,7 @@ draft: true
 
 - Blind Mode vs Live Mode
   - Working in Blind Mode
+  - Blind mode tabs
 - Cue Only vs Tracking Mode
 - Important system config
 - Controlling from phone

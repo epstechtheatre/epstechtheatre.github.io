@@ -8,7 +8,6 @@ My changes:
  - Update HTML, CSS, Github meta, or scripts used to generate the site 
  - Make changes not listed (please describe):
 
-
 ## Organization:
 - [ ] My changes do not duplicate or delete information already present on another page
 

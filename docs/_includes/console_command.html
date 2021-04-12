@@ -1,5 +1,7 @@
 <!-- Display a sequence of keyboard buttons that look asthetically nice -->
 
+
+<!-- Content syntax: "Button, Separated, By, Commas, {Softkey in brackets}" -->
 <div class="button-sequence">
     {% assign texts = {{include.content | replace: "  ", " " | split: ', '}} %}
     

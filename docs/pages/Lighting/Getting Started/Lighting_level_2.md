@@ -16,9 +16,19 @@ draft: true
   - Colour/"Mood"
   - Colour Theory, Lighting Set/Props
   
+- More logistical lighting board controls
+  - Focus palettes
+  - Colour Palettes
+  - ... Palettes
+  - Query
+  - Copy to/Move to with other targets
+  - Recall from
+  - Next/Last
+- Recording only specific channel data to targets
 - DMX, Universes, Addresses, Channels vs Addresses
 - Why each cable goes where
 - Settings Universe/Address for a light (on the grid)
 - The way universes are set up at scarlett (a vs b)
-- Lights with Dimmer and DMX
 - Patching Lights
+  - Attributes
+  - Database

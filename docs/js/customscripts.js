@@ -28,6 +28,10 @@ $( document ).ready(function() {
     $('.display-button-keypad').mouseenter(function() {
         KeyboardSVGHandler.showNewKey(this, $(this).data('keyid'))
     })
+
+    $('.inline-display-button').mouseenter(function() {
+        KeyboardSVGHandler.showNewKey(this, $(this).data('keyid'))
+    })
 });
 
 // needed for nav tabs on pages. See Formatting > Nav tabs for more details.
@@ -71,16 +75,25 @@ class KeyboardSVGHandler {
             }
             this.currentKeys = []
         }
+
+        keyID = keyID.replace("{", "").replace("}", "").replace("_", "").replace("[", "").replace("]", "").toLowerCase()
         let searchElement = this.parseHighlight(keyID)
 
         if (searchElement === "softkey") {
             for (let sk of this.getSoftkeyKeys()) {
-                let targetKey = obj.parentElement.querySelector(".keyboard-svg-graphic").contentDocument.documentElement.getElementById(sk)
+                let targetKey = obj.querySelector(".keyboard-svg-graphic").contentDocument.documentElement.getElementById(sk)
+                if (!targetKey) targetKey = obj.parentElement.querySelector(".keyboard-svg-graphic").contentDocument.documentElement.getElementById(sk)
+
+                if (!targetKey) continue
+
                 this.currentKeys.push(targetKey)
                 targetKey.children[1].style = "fill:lime"
             }
         } else {
-            let targetKey = obj.parentElement.querySelector(".keyboard-svg-graphic").contentDocument.documentElement.getElementById(searchElement)
+            let targetKey = obj.querySelector(".keyboard-svg-graphic").contentDocument.documentElement.getElementById(searchElement)
+            if (!targetKey) targetKey = obj.parentElement.querySelector(".keyboard-svg-graphic").contentDocument.documentElement.getElementById(searchElement)
+
+            if (!targetKey) return
 
             if (!targetKey && revertToSoftkey === true) {
                 return this.showNewKey(obj, "softkey")
