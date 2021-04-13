@@ -83,23 +83,26 @@ class KeyboardSVGHandler {
 
         if (Array.isArray(searchElement)) {
             for (let element of searchElement) {
-                let targetKey = obj.querySelector(".keyboard-svg-graphic")?.contentDocument.documentElement.getElementById(element)
-                if (!targetKey) targetKey = obj.parentElement.querySelector(".keyboard-svg-graphic")?.contentDocument.documentElement.getElementById(element)
+                let targetKey = obj.querySelector(".keyboard-svg-graphic")
+                if (!targetKey) targetKey = obj.parentElement.querySelector(".keyboard-svg-graphic")
 
                 if (!targetKey) continue
+
+                targetKey = targetKey.contentDocument.documentElement.getElementById(element)
 
                 this.currentKeys.push(targetKey)
                 targetKey.children[1].style = "fill:lime"
             }
         } else {
-            let targetKey = obj.querySelector(".keyboard-svg-graphic")?.contentDocument.documentElement.getElementById(searchElement)
-            if (!targetKey) targetKey = obj.parentElement.querySelector(".keyboard-svg-graphic")?.contentDocument.documentElement.getElementById(searchElement)
-
-            if (!targetKey) return
+            let targetKey = obj.querySelector(".keyboard-svg-graphic")
+            if (!targetKey) targetKey = obj.parentElement.querySelector(".keyboard-svg-graphic")
 
             if (!targetKey && revertToSoftkey === true) {
                 return this.showNewKey(obj, "softkey")
             } else {
+                targetKey = targetKey.contentDocument.documentElement.getElementById(searchElement)
+
+
                 this.currentKeys.push(targetKey)
                 targetKey.children[1].style = "fill:lime"
             }
