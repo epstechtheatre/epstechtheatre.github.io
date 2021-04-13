@@ -76,13 +76,15 @@ class KeyboardSVGHandler {
             this.currentKeys = []
         }
 
-        keyID = keyID.replace("{", "").replace("}", "").replace("_", "").replace("[", "").replace("]", "").toLowerCase()
+        keyID = keyID.toString().replace("{", "").replace("}", "").replace("_", "").replace("[", "").replace("]", "").toLowerCase()
+
+        //Returns a string, or array of strings
         let searchElement = this.parseHighlight(keyID)
 
-        if (searchElement === "softkey") {
-            for (let sk of this.getSoftkeyKeys()) {
-                let targetKey = obj.querySelector(".keyboard-svg-graphic").contentDocument.documentElement.getElementById(sk)
-                if (!targetKey) targetKey = obj.parentElement.querySelector(".keyboard-svg-graphic").contentDocument.documentElement.getElementById(sk)
+        if (Array.isArray(searchElement)) {
+            for (let element of searchElement) {
+                let targetKey = obj.querySelector(".keyboard-svg-graphic")?.contentDocument.documentElement.getElementById(element)
+                if (!targetKey) targetKey = obj.parentElement.querySelector(".keyboard-svg-graphic")?.contentDocument.documentElement.getElementById(element)
 
                 if (!targetKey) continue
 
@@ -90,8 +92,8 @@ class KeyboardSVGHandler {
                 targetKey.children[1].style = "fill:lime"
             }
         } else {
-            let targetKey = obj.querySelector(".keyboard-svg-graphic").contentDocument.documentElement.getElementById(searchElement)
-            if (!targetKey) targetKey = obj.parentElement.querySelector(".keyboard-svg-graphic").contentDocument.documentElement.getElementById(searchElement)
+            let targetKey = obj.querySelector(".keyboard-svg-graphic")?.contentDocument.documentElement.getElementById(searchElement)
+            if (!targetKey) targetKey = obj.parentElement.querySelector(".keyboard-svg-graphic")?.contentDocument.documentElement.getElementById(searchElement)
 
             if (!targetKey) return
 
@@ -122,8 +124,19 @@ class KeyboardSVGHandler {
             case "-":
                 return "minus"
 
+            case "number":
+                return this.getNumbers();
+
             case "softkey":
-                return "softkey"
+                return this.getSoftkeyKeys();
+
+            case "encoderpage":
+            case "encoderpages":
+                return this.getEncoderPages();
+
+            case "encoderwheel":
+            case "encoderwheels":
+                return this.getEncoderWheels();
 
             case "label":
             case "note":
@@ -149,6 +162,41 @@ class KeyboardSVGHandler {
             "s5",
             "s6",
             "moresk"
+        ]
+    }
+
+    static getEncoderPages() {
+        return [
+            "focus",
+            "color",
+            "intensity",
+            "form",
+            "image",
+            "shutter"
+        ]
+    }
+
+    static getEncoderWheels() {
+        return [
+            "encoder1",
+            "encoder2",
+            "encoder3",
+            "encoder4"
+        ]
+    }
+
+    static getNumbers() {
+        return [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9",
+            "0"
         ]
     }
 }

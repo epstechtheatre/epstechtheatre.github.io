@@ -89,7 +89,7 @@ body {
     visibility: visible;
     opacity: 1;
     transition: opacity 0.2s linear;
-    background-color: #f5f5f5d0;
+    background-color: #f5f5f5e7;
     border-radius: 15px;
     border: 1px solid #BEBEBE;
     width: auto;
@@ -181,7 +181,7 @@ body {
     border-radius: 5px;
     margin-bottom: 20px;
     border-style: solid;
-    color: #a94442;
+    color: #be8200;
     background-color: #f2dede;
     font-size: larger;
 }
