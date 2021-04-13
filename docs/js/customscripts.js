@@ -143,6 +143,11 @@ class KeyboardSVGHandler {
             case "notelabel":
                 return "labelnote"
 
+            case "stop":
+            case "back":
+            case "stopback":
+                return "stopback"
+
             default:
                 break;
         }    
