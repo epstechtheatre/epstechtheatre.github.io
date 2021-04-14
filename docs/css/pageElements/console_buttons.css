@@ -1,0 +1,106 @@
+.button-sequence {
+    display: flex;
+    flex-wrap: wrap;
+    background-color:#F5F5F5;
+    border: 1px solid #bebebe;
+    border-radius: 5px;
+    padding: 10px;
+    width: 100%;
+}
+
+.inline-display-button {
+    margin:0px;
+    margin-bottom:6px;
+    background-color: #cfcfcf;
+    border-radius: 3px;
+    padding-left: 4px;
+    padding-right: 0px;
+    border-color: rgb(129, 0, 0);
+    border-style: solid;
+    margin-right: 4px;
+}
+.inline-display-button:hover > .keyboard-svg-graphic {
+    visibility: visible;
+    opacity: 1;
+    transition: opacity 0.2s linear;
+    background-color: #f5f5f5e7;
+    border-radius: 15px;
+    border: 1px solid #BEBEBE;
+    width: auto;
+    z-index: 3;
+}
+
+.display-button-keypad,
+.display-button-softkey {
+    border-style: ridge;
+    border-radius: 15%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-top: 10px;
+    width: 75px;
+    height: 75px;
+    padding-top: 5px;
+    /* margin-right: 10px; */
+    box-shadow: 0px 2px 5px 1px rgba(121, 121, 121, 0.75);
+    color: white;
+    font-size: 110%;
+    text-align: center;
+}
+
+.keyboard-svg-graphic {
+    visibility: hidden;
+    position: absolute;
+    display: flex;
+    transition: visibility 0s 0.2s, opacity 0.2s linear;
+    pointer-events: none;
+    opacity: 0;
+    transition: 0.2s;
+    align-self: flex-end;
+    transform: translateY(110%);
+    max-width: 75%;
+    object-fit: contain;
+}
+
+.display-button-keypad:hover ~ .keyboard-svg-graphic,
+.display-button-softkey:hover ~ .keyboard-svg-graphic {
+    visibility: visible;
+    opacity: 1;
+    transition: opacity 0.2s linear;
+    background-color: #f5f5f5d0;
+    border-radius: 15px;
+    border: 1px solid #BEBEBE;
+    width: auto;
+    z-index: 3;
+}
+
+.display-button-keypad {
+    border: 3px solid midnightblue;
+    background-color: rgb(66, 66, 66);
+    border-style: ridge;
+}
+
+.display-button-softkey {
+    border: 3px solid rgb(33, 33, 153);
+    background-color: rgb(97, 97, 97);
+    border-style: ridge dotted;
+}
+
+.display-button-separator {
+    font-size: x-large;
+    /* justify-content: center; */
+    align-items: center;
+    transform: translateY(7px);
+    display: flex;
+    padding: 3px;
+}
+
+.button-sequence-legend {
+    width: 100%;
+    padding: 5px;
+    margin: 10px 0;
+    border: 1px solid #eee;
+    border-left-width: 3px;
+    border-left-color: #f3a435;
+    border-radius: 3px;
+}
