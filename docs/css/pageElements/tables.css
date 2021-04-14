@@ -1,0 +1,101 @@
+table {
+    background-color: transparent;
+}
+
+table {
+    max-width: 90%;
+    margin-bottom: 20px;
+    border: 1px solid #dedede;
+}
+
+table > thead > tr > th,
+table > tbody > tr > th,
+table > tfoot > tr > th,
+table > thead > tr > td,
+table > tbody > tr > td,
+table > tfoot > tr > td {
+    padding: 8px;
+    line-height: 1.42857143;
+    vertical-align: top;
+    border-top: 1px solid #ddd;
+}
+table > thead > tr > th {
+    vertical-align: bottom;
+    border-bottom: 2px solid #ddd;
+    text-transform: none;
+    background-color: #777;
+    color: white;
+    text-align: left;
+}
+
+table > caption + thead > tr:first-child > th,
+table > colgroup + thead > tr:first-child > th,
+table > thead:first-child > tr:first-child > th,
+table > caption + thead > tr:first-child > td,
+table > colgroup + thead > tr:first-child > td,
+table > thead:first-child > tr:first-child > td {
+    border-top: 0;
+}
+
+table > tbody > tr:nth-of-type(odd) {
+    background-color: #f9f9f9;
+}
+
+table col[class*="col-"] {
+    position: static;
+    display: table-column;
+    float: none;
+}
+table td[class*="col-"],
+table th[class*="col-"] {
+    position: static;
+    display: table-cell;
+    float: none;
+}
+
+table tr td {
+    hyphens: auto;
+}
+
+table p {
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+
+table th code {
+    color: white;
+}
+
+table.profile thead tr th {
+    background-color: #248ec2;
+}
+
+table.dataTable thead {
+    background-color: #444;
+}
+table td {
+    hyphens: auto;
+}
+
+table thead th code.highlighter-rouge {
+    background-color: transparent;
+}
+
+section table tr.success {
+    background-color: #dff0d8 !important;
+}
+
+table tr.info {
+    background-color: #d9edf7 !important;
+}
+
+section table tr.warning, table tr.testing, table tr.testing > td.sorting_1  {
+    background-color: #fcf8e3 !important;
+}
+section table tr.danger, table tr.preference, table tr.preference > td.sorting_1  {
+    background-color: #f2dede !important;
+}
+
+table.request thead tr th {
+    background-color: #ED1951;
+}

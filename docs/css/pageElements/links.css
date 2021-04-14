@@ -1,0 +1,50 @@
+a {
+    transition: 0.1s;
+}
+
+/* this part adds an icon after external links, using FontAwesome*/
+a[href^="http://"]:after, a[href^="https://"]:after {
+    content: "\f08e";
+    font-family: FontAwesome;
+    font-weight: normal;
+    font-style: normal;
+    display: inline-block;
+    text-decoration: none;
+    padding-left: 3px;
+}
+
+/* Strip the outbound icon when this class is present */
+a[href].noCrossRef::after,
+a.no_icon:after
+ {
+    content:"" !important;
+    padding-left: 0;
+}
+
+a[data-toggle="tooltip"] {
+    color: #649345;
+    font-style: italic;
+    cursor: default;
+}
+
+.seriesNext, .seriesContext {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+a.accordion-toggle {
+    font-style: normal;
+}
+
+a.accordion-toggle, a.accordion-collapsed {
+    font-size: 14px;
+    text-decoration: none;
+}
+
+a[data-toggle] {
+    color: #248EC2;
+}
+
+a.fa.fa-envelope-o.mailto {
+    font-weight: 600;
+}
