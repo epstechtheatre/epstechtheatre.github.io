@@ -73,6 +73,7 @@ table.profile thead tr th {
 table.dataTable thead {
     background-color: #444;
 }
+
 table td {
     hyphens: auto;
 }
@@ -80,6 +81,8 @@ table td {
 table thead th code.highlighter-rouge {
     background-color: transparent;
 }
+
+table code {background-color: transparent;}
 
 section table tr.success {
     background-color: #dff0d8 !important;
