@@ -24,7 +24,8 @@
         "Scroller",
         "Scrollers",
         "Cuelist",
-        "Cuelists"
+        "Cuelists",
+        "Drysdale"
     ],
     "ignorePaths": [
         "act/**"
