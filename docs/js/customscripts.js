@@ -88,8 +88,10 @@ function showNewKey(pageObj, keyID, revertToSoftkey = false) {
 
             targetKey = targetKey.contentDocument.documentElement.getElementById(element)
 
-            currentKeys.push(targetKey)
-            targetKey.children[1].style = "fill:lime"
+            if (targetKey) {
+                currentKeys.push(targetKey)
+                targetKey.children[1].style = "fill:lime"
+            }
         }
     } else {
         let targetKey = pageObj.querySelector(".keyboard-svg-graphic")
@@ -100,16 +102,23 @@ function showNewKey(pageObj, keyID, revertToSoftkey = false) {
         } else {
             targetKey = targetKey.contentDocument.documentElement.getElementById(searchElement)
 
-
-            this.currentKeys.push(targetKey)
-            targetKey.children[1].style = "fill:lime"
+            if (targetKey) {
+                this.currentKeys.push(targetKey)
+                targetKey.children[1].style = "fill:lime"
+            }
         }
     }
 }
 
 function parseHighlight(text) {
     text = text.toString().toLowerCase()
-    text = text.replace(" ", "").replace("_", "")
+    text = text.replace("  ", " ").replace(" ", "_")
+
+    if (!isNaN(text) && !isNaN(parseFloat(text))) {
+        //This is a valid number. If the number is over 9, highlight all numbers present in the string
+
+        return text.split("")
+    }
 
     //Theres a few edge cases that make designing more intuitive
     switch (text) {
