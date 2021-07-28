@@ -18,7 +18,14 @@
         "Submaster",
         "Softkey",
         "Submasters",
-        "Softkeys"
+        "Softkeys",
+        "Cyc",
+        "Cycs",
+        "Scroller",
+        "Scrollers",
+        "Cuelist",
+        "Cuelists",
+        "Drysdale"
     ],
     "ignorePaths": [
         "act/**"

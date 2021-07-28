@@ -1,6 +1,5 @@
 $('#mysidebar').height($(".nav").height());
 
-
 $( document ).ready(function() {
 
     //this script says, if the height of the viewport is greater than 800px, then insert affix class, which makes the nav bar float in a fixed
@@ -22,11 +21,15 @@ $( document ).ready(function() {
 
     // Activate button keypad display overlays
     $('.display-button-softkey').mouseenter(function() {
-        KeyboardSVGHandler.showNewKey(this, $(this).data('keyid'), true)
+        showNewKey(this, $(this).data('keyid'), true)
     })
 
     $('.display-button-keypad').mouseenter(function() {
-        KeyboardSVGHandler.showNewKey(this, $(this).data('keyid'))
+        showNewKey(this, $(this).data('keyid'))
+    })
+
+    $('.inline-display-button').mouseenter(function() {
+        showNewKey(this, $(this).data('keyid'))
     })
 
     $('.inline-display-button').mouseenter(function() {
@@ -65,90 +68,153 @@ $(function() {
     });
 });
 
-class KeyboardSVGHandler {
-    static currentKeys = [];
+var currentKeys = [];
 
-    static showNewKey(obj, keyID, revertToSoftkey = false) {
-        if (this.currentKeys.length > 0) {
-            for (let key of this.currentKeys) {
-                key.children[1].style = "fill:white"
-            }
-            this.currentKeys = []
+function showNewKey(pageObj, keyID, revertToSoftkey = false) {
+    if (currentKeys.length > 0) {
+        for (let key of currentKeys) {
+            key.children[1].style = "fill:white"
         }
+        currentKeys = []
+    }
 
-        keyID = keyID.replace("{", "").replace("}", "").replace("_", "").replace("[", "").replace("]", "").toLowerCase()
-        let searchElement = this.parseHighlight(keyID)
+    keyID = keyID.toString().replace("{", "").replace("}", "").replace("_", "").replace("[", "").replace("]", "").toLowerCase()
 
-        if (searchElement === "softkey") {
-            for (let sk of this.getSoftkeyKeys()) {
-                let targetKey = obj.querySelector(".keyboard-svg-graphic").contentDocument.documentElement.getElementById(sk)
-                if (!targetKey) targetKey = obj.parentElement.querySelector(".keyboard-svg-graphic").contentDocument.documentElement.getElementById(sk)
+    //Returns a string, or array of strings
+    let searchElement = parseHighlight(keyID)
 
-                if (!targetKey) continue
+    if (Array.isArray(searchElement)) {
+        for (let element of searchElement) {
+            let targetKey = pageObj.querySelector(".keyboard-svg-graphic")
+            if (!targetKey) targetKey = pageObj.parentElement.querySelector(".keyboard-svg-graphic")
 
-                this.currentKeys.push(targetKey)
+            if (!targetKey) continue
+
+            targetKey = targetKey.contentDocument.documentElement.getElementById(element)
+
+            if (targetKey) {
+                currentKeys.push(targetKey)
                 targetKey.children[1].style = "fill:lime"
             }
+        }
+    } else {
+        let targetKey = pageObj.querySelector(".keyboard-svg-graphic")
+        if (!targetKey) targetKey = pageObj.parentElement.querySelector(".keyboard-svg-graphic")
+
+        if (!targetKey && revertToSoftkey === true) {
+            return this.showNewKey(pageObj, "softkey")
         } else {
-            let targetKey = obj.querySelector(".keyboard-svg-graphic").contentDocument.documentElement.getElementById(searchElement)
-            if (!targetKey) targetKey = obj.parentElement.querySelector(".keyboard-svg-graphic").contentDocument.documentElement.getElementById(searchElement)
+            targetKey = targetKey.contentDocument.documentElement.getElementById(searchElement)
 
-            if (!targetKey) return
-
-            if (!targetKey && revertToSoftkey === true) {
-                return this.showNewKey(obj, "softkey")
-            } else {
+            if (targetKey) {
                 this.currentKeys.push(targetKey)
                 targetKey.children[1].style = "fill:lime"
             }
         }
     }
+}
 
-    static parseHighlight(text) {
-        text = text.toString().toLowerCase()
-        text = text.replace(" ", "").replace("_", "")
+function parseHighlight(text) {
+    text = text.toString().toLowerCase()
+    text = text.replace("  ", " ").replace(" ", "_")
 
-        //Theres a few edge cases that make designing more intuitive
-        switch (text) {
-            case ".":
-                return "dot"
+    if (!isNaN(text) && !isNaN(parseFloat(text))) {
+        //This is a valid number. If the number is over 9, highlight all numbers present in the string
 
-            case "/":
-                return "slash"
-
-            case "+":
-                return "plus"
-
-            case "-":
-                return "minus"
-
-            case "softkey":
-                return "softkey"
-
-            case "label":
-            case "note":
-            case "notelabel":
-                return "labelnote"
-
-            default:
-                break;
-        }    
-        //Edge cases dealt with, now we can remove slashes from others (like label/note)
-
-        text = text.replace("/", "")
-
-        return text;
+        return text.split("")
     }
 
-    static getSoftkeyKeys() {
-        return [
-            "s1",
-            "s2",
-            "s3",
-            "s4",
-            "s5",
-            "s6",
-            "moresk"
-        ]
-    }
+    //Theres a few edge cases that make designing more intuitive
+    switch (text) {
+        case ".":
+            return "dot"
+
+        case "/":
+            return "slash"
+
+        case "+":
+            return "plus"
+
+        case "-":
+            return "minus"
+
+        case "number":
+            return getNumbers();
+
+        case "softkey":
+            return getSoftkeyKeys();
+
+        case "encoderpage":
+        case "encoderpages":
+            return getEncoderPages();
+
+        case "encoderwheel":
+        case "encoderwheels":
+            return getEncoderWheels();
+
+        case "label":
+        case "note":
+        case "notelabel":
+            return "labelnote"
+
+        case "stop":
+        case "back":
+        case "stopback":
+            return "stopback"
+
+        default:
+            break;
+    }    
+    //Edge cases dealt with, now we can remove slashes from others (like label/note)
+
+    text = text.replace("/", "")
+
+    return text;
+}
+
+function getSoftkeyKeys() {
+    return [
+        "s1",
+        "s2",
+        "s3",
+        "s4",
+        "s5",
+        "s6",
+        "moresk"
+    ]
+}
+
+function getEncoderPages() {
+    return [
+        "focus",
+        "color",
+        "intensity",
+        "form",
+        "image",
+        "shutter"
+    ]
+}
+
+function getEncoderWheels() {
+    return [
+        "encoder1",
+        "encoder2",
+        "encoder3",
+        "encoder4"
+    ]
+}
+
+function getNumbers() {
+    return [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9",
+        "0"
+    ]
 }
