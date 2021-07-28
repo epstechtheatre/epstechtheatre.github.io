@@ -1,11 +1,9 @@
-<!-- Display a sequence of keyboard buttons that look asthetically nice -->
-
+<!-- Display a sequence of keyboard buttons that look aesthetically nice -->
 
 <!-- Content syntax: "Button, Separated, By, Commas, {Softkey in brackets}" -->
 <div class="button-sequence">
     {% assign texts = {{include.content | replace: "  ", " " | split: ', '}} %}
     
-    <!-- Create the buttons, each has a "onmouseover and onmouseout event that will call the script to render the proper keyboard display" -->
     {% for buttonText in texts %}
         {% assign firstChar = {{buttonText | slice: 0,0}} %}
         {% assign lastChar = {{buttonText | slice: -1,-1}} %}
@@ -24,12 +22,9 @@
         {% endif %}
 
         {% unless forloop.last %}
-        <div class="display-button-separator">▶</div>
+        <p class="display-button-separator">▶</p>
         {% endunless %}
     {% endfor %}
-
-    <!-- Create the keyboard graphic, it is shared across all buttons in this helper window -->
-    <object class="keyboard-svg-graphic" data="/images/svg/Keyboard Overlay Source.svg" type="image/svg+xml"></object>
 
     <!-- Create a legend for the buttons, unless disabled with flag -->
     {% unless include.noLegend == true %}

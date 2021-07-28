@@ -1,0 +1,69 @@
+{
+    "console button": {
+        "prefix": ["console button", "keypad button", "button"],
+        "body": "{% include console_button.html content=\"$1\" %} $0"
+    },
+
+    "console sequence": {
+        "prefix": ["console command", "button sequence", "sequence", "command"],
+        "body": [
+            "{% include console_command.html content=\"$1\" noLegend=false noTip=false %}",
+            "$0"
+        ]
+    },
+
+    "note": {
+        "prefix": "note",
+        "body": [
+            "{% include note.html content=\"$1\" %}",
+            "$0"
+        ]
+    },
+
+    "warning": {
+        "prefix": "warning",
+        "body": [
+            "{% include warning.html content=\"$1\" %}",
+            "$0"
+        ]
+    },
+
+    "tip": {
+        "prefix": "tip",
+        "body": [
+            "{% include itp.html content=\"$1\" %}",
+            "$0"
+        ]
+    },
+
+    "important": {
+        "prefix": "important",
+        "body": [
+            "{% include important.html content=\"$1\" %}",
+            "$0"
+        ]
+    },
+
+    "image": {
+        "prefix": "image",
+        "body": [
+            "{% include image.html file=\"$1\" alt=\"$2\" caption=\"$3\" max-width=\"$4\" url=\"$5\" %}",
+            "$0"
+        ]
+    },
+
+    "inline image": {
+        "prefix": "inline-image",
+        "body": [
+            "{% include inline_image.html file=\"$1\" type=\"$2\" caption=\"$3\" %}",
+            "$0"
+        ]
+    },
+
+    "callout": {
+        "body": [
+            "{% include callout.html type=\"$1\" content=\"$2\" %}",
+            "$0"
+        ]
+    }
+}

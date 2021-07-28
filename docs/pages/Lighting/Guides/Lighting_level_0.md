@@ -1,15 +1,16 @@
 ---
-title: Absolute Basics
-keywords: [lighting, overview, getting started]
+title: Level 0 (Absolute Basics)
+keywords: [lighting, overview, getting started, guide, basics]
 sidebar: Lighting_sidebar
 permalink: Lighting_absolute_basics.html
 folder: Lighting
-authors: [Ben MacDonald]
+authors: [Ben MacDonald, Katie Drysdale]
 summary: The most basic of what you need to know in order to interact with our lighting grid. It utilizes our existing setup but does not explain any theory behind why you do what you do.
 draft: true
 ---
 
-{% include note.html content="This page is very specifically tailored to the lighting network present at Dr. E.P. Scarlett, I highly recommend students from other schools that are just starting out skip to the <a alt='Level 1 Basics Tutorial' href='./Lighting_level_1.html'>\"Level\" Tutorials</a>" %}
+
+{% include note.html content="This page is very specifically tailored to the lighting network present at Dr. E.P. Scarlett, I highly recommend students from other schools that are just starting out take everything with a grain of salt, or go through the guide with a mentor so they can make corrections as they need to." %}
 
 
 - How to turn on

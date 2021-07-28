@@ -31,10 +31,6 @@ $( document ).ready(function() {
     $('.inline-display-button').mouseenter(function() {
         showNewKey(this, $(this).data('keyid'))
     })
-
-    $('.inline-display-button').mouseenter(function() {
-        KeyboardSVGHandler.showNewKey(this, $(this).data('keyid'))
-    })
 });
 
 // needed for nav tabs on pages. See Formatting > Nav tabs for more details.
@@ -69,49 +65,63 @@ $(function() {
 });
 
 var currentKeys = [];
+var currentGraphic;
 
 function showNewKey(pageObj, keyID, revertToSoftkey = false) {
-    if (currentKeys.length > 0) {
-        for (let key of currentKeys) {
-            key.children[1].style = "fill:white"
-        }
-        currentKeys = []
+    if (currentGraphic !== undefined) {
+        currentGraphic.remove();
+        currentGraphic = undefined;
     }
 
-    keyID = keyID.toString().replace("{", "").replace("}", "").replace("_", "").replace("[", "").replace("]", "").toLowerCase()
 
-    //Returns a string, or array of strings
-    let searchElement = parseHighlight(keyID)
+    // <!-- Create the keyboard graphic, it is shared across all buttons in this helper window -->
+    const View = document.createElement("object")
+    View.className = "keyboard-svg-graphic"
+    View.data = "/images/svg/Keyboard Overlay Source.svg"
+    View.type = "image/svg+xml"
+    View.name = "Keyboard Graphic"
 
-    if (Array.isArray(searchElement)) {
-        for (let element of searchElement) {
-            let targetKey = pageObj.querySelector(".keyboard-svg-graphic")
-            if (!targetKey) targetKey = pageObj.parentElement.querySelector(".keyboard-svg-graphic")
+    pageObj.insertAdjacentElement("afterbegin", View)
+    currentGraphic = View;
 
-            if (!targetKey) continue
-
-            targetKey = targetKey.contentDocument.documentElement.getElementById(element)
-
-            if (targetKey) {
-                currentKeys.push(targetKey)
-                targetKey.children[1].style = "fill:lime"
+    View.addEventListener("load", (event) => {
+        if (currentKeys.length > 0) {
+            for (let key of currentKeys) {
+                key.children[1].style = "fill:white"
             }
+            currentKeys = []
         }
-    } else {
-        let targetKey = pageObj.querySelector(".keyboard-svg-graphic")
-        if (!targetKey) targetKey = pageObj.parentElement.querySelector(".keyboard-svg-graphic")
 
-        if (!targetKey && revertToSoftkey === true) {
-            return this.showNewKey(pageObj, "softkey")
+        keyID = keyID.toString().replace("{", "").replace("}", "").replace("_", "").replace("[", "").replace("]", "").toLowerCase()
+
+        //Returns a string, or array of strings
+        let searchElement = parseHighlight(keyID)
+
+        const docElement = View.contentWindow.document.documentElement;
+        if (Array.isArray(searchElement)) {
+            for (let element of searchElement) {
+                let targetKey = docElement.getElementById(element)
+
+                if (targetKey) {
+                    currentKeys.push(targetKey)
+                    targetKey.children[1].style = "fill:lime"
+                }
+            }
         } else {
-            targetKey = targetKey.contentDocument.documentElement.getElementById(searchElement)
+            let targetKey = docElement.getElementById(searchElement)
 
-            if (targetKey) {
-                this.currentKeys.push(targetKey)
-                targetKey.children[1].style = "fill:lime"
+            if (!targetKey && revertToSoftkey === true) {
+                return this.showNewKey(pageObj, "softkey")
+            } else {
+                targetKey = docElement.getElementById(searchElement)
+
+                if (targetKey) {
+                    this.currentKeys.push(targetKey)
+                    targetKey.children[1].style = "fill:lime"
+                }
             }
         }
-    }
+    })
 }
 
 function parseHighlight(text) {
