@@ -47,7 +47,7 @@ In the screen that says “Browser: file”, just below “> File”, click “P
 
 {% include note.html content="Depending on who you are doing this with, you may want to skip this section for the time being.You should learn it eventually, but if you just need to learn how to control lights, this section is not useful presently" %}
 
-A showfile is basically just like any other document on a computer. Just like you might have different word documents for different assignments or images in your phone, a showfile is just a bunch of data related to a certain show. If you’re in the wrong file, you won’t have the right cues, or even worse, you could accidentally erase someone else’s cues. 
+A showfile is basically just like any other document on a computer. Just like you might have different word documents for different assignments or images in your phone, a showfile is just a bunch of data related to a certain show. If you’re in the wrong file, you won’t have the right cues, or even worse, you could accidentally erase someone elses cues. 
 
 ### Loading Showfiles
 It’s good practice to first save whatever file you’re in. Do this by either clicking {% include console_button.html content="Shift" %} and {% include console_button.html content="Update" %} at the same time, or by going to the file browser, clicking “File”, then clicking “Save”
@@ -176,7 +176,7 @@ I personally use groups more often than selecting individual channels. You can i
 I briefly mentioned before that you can click buttons on the magic sheet to select channels. Well you can also click multiple channels at the same time to do exactly the same as if you were typing it in the command line. The larger labels for groups of buttons are, you guessed it, group selectors.
 
 #### Using the Faders
-Faders (the black slidey thing to the side of the console) are basically just fancy groups. Instead of having to type in the group name every time, you can just move the slider up or down. Plus, it also acts like a scale. If you want to turn a group on at 50%, you move the corresponding slider 50% up the track. These are great in shows when you have groups that you always use at slightly different intensity levels. They are also great in improv shows because they offer a lot of control very quickly.
+Faders (the black slidey things to the side of the console) are basically just fancy groups. Instead of having to type in the group name every time, you can just move the slider up or down. Plus, it also acts like a scale. If you want to turn a group on at 50%, you move the corresponding slider 50% up the track. These are great in shows when you have groups that you always use at slightly different intensity levels. They are also great in improv shows because they offer a lot of control very quickly.
 
 ## Conclusion
 That is about all you need to know in order to interact with lights. Now you can move onto the levelled guides. Level 1 will, among other things cover recording cues like you would for a show.
