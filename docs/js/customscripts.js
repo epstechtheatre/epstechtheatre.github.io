@@ -209,6 +209,13 @@ function parseHighlight(text) {
         case "stopback":
             return "stopback"
 
+        case "silverknob":
+        case "manualknob":
+        case "spinnywheel":
+        case "jennifer":
+        case "silverwheel":
+            return "manualwheel"
+
         default:
             break;
     }    
