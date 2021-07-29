@@ -1,3 +1,5 @@
+const KEYBOARD_SVG_FADE_TIME = 150;
+
 $('#mysidebar').height($(".nav").height());
 
 $( document ).ready(function() {
@@ -25,23 +27,23 @@ $( document ).ready(function() {
         showNewKey(this, $(this).data('keyid'), true)
     })
     .mouseleave(function() {
-        unShow(this)
+        unShow()
     })
 
     $('.display-button-keypad')
     .mouseenter(function() {
-        showNewKey(this, $(this).data('keyid'))
+        showNewKey(this, $(this).data('keyid'), false) //TODO: These currently don't have softkey support (maybe they should)
     })
     .mouseleave(function() {
-        unShow(this)
+        unShow()
     })
 
     $('.inline-display-button')
     .mouseenter(function() {
-        showNewKey(this, $(this).data('keyid'))
+        showNewKey(this, $(this).data('keyid'), false) //TODO: These currently don't have softkey support (maybe they should)
     })
     .mouseleave(function() {
-        unShow(this)
+        unShow()
     })
 });
 
@@ -79,67 +81,84 @@ $(function() {
 var currentKeys = [];
 var currentGraphic;
 
-function unShow(pageObj) {
-    if (currentGraphic) {
-        currentGraphic.remove()
+function unShow() {
+    if (currentGraphic !== undefined) {
+        let work = currentGraphic;
+        currentGraphic = undefined;
+        visualAnimateOut(work).then(() => {
+            work.remove()
+        })
     }
 }
 
-function showNewKey(pageObj, keyID, revertToSoftkey = false) {
-    if (currentGraphic !== undefined) {
-        currentGraphic.remove();
-        currentGraphic = undefined;
+function showNewKey(pageObj, keyID, revertToSoftkey, currentView = undefined) {
+    unShow()
+
+    // Create the keyboard graphic
+    let View;
+
+    if (currentView) {
+        View = currentView
+
+        ViewDoWork(View, keyID, revertToSoftkey)
+    } else {
+        View = document.createElement("object")
+        View.className = "keyboard-svg-graphic"
+        View.data = "/images/svg/Keyboard Overlay Source.svg"
+        View.type = "image/svg+xml"
+        View.name = "Keyboard Graphic"
+    
+        pageObj.insertAdjacentElement("afterbegin", View)
+        currentGraphic = View;
+
+        View.addEventListener("load", () => {
+            ViewDoWork(View, keyID, revertToSoftkey)
+        })
+    }
+}
+
+function ViewDoWork(View, keyID, revertToSoftkey) {
+    if (currentKeys.length > 0) {
+        for (let key of currentKeys) {
+            key.children[1].style = "fill:white"
+        }
+        currentKeys = []
     }
 
+    keyID = keyID.toString().replace("{", "").replace("}", "").replace("_", "").replace("[", "").replace("]", "").replace(" ", "").toLowerCase()
 
-    // <!-- Create the keyboard graphic, it is shared across all buttons in this helper window -->
-    const View = document.createElement("object")
-    View.className = "keyboard-svg-graphic"
-    View.data = "/images/svg/Keyboard Overlay Source.svg"
-    View.type = "image/svg+xml"
-    View.name = "Keyboard Graphic"
+    //Returns a string, or array of strings
+    let searchElement = parseHighlight(keyID)
 
-    pageObj.insertAdjacentElement("afterbegin", View)
-    currentGraphic = View;
+    const docElement = View.contentWindow.document.documentElement;
+    if (Array.isArray(searchElement)) {
+        for (let element of searchElement) {
+            let targetKey = docElement.getElementById(element)
 
-    View.addEventListener("load", (event) => {
-        if (currentKeys.length > 0) {
-            for (let key of currentKeys) {
-                key.children[1].style = "fill:white"
+            if (targetKey) {
+                currentKeys.push(targetKey)
+                targetKey.children[1].style = "fill:lime"
             }
-            currentKeys = []
         }
+    } else {
+        let targetKey = docElement.getElementById(searchElement)
 
-        keyID = keyID.toString().replace("{", "").replace("}", "").replace("_", "").replace("[", "").replace("]", "").toLowerCase()
-
-        //Returns a string, or array of strings
-        let searchElement = parseHighlight(keyID)
-
-        const docElement = View.contentWindow.document.documentElement;
-        if (Array.isArray(searchElement)) {
-            for (let element of searchElement) {
-                let targetKey = docElement.getElementById(element)
-
-                if (targetKey) {
-                    currentKeys.push(targetKey)
-                    targetKey.children[1].style = "fill:lime"
-                }
-            }
+        if (!targetKey && revertToSoftkey === true) {
+            return this.showNewKey(pageObj, "softkey", View)
         } else {
-            let targetKey = docElement.getElementById(searchElement)
+            targetKey = docElement.getElementById(searchElement)
 
-            if (!targetKey && revertToSoftkey === true) {
-                return this.showNewKey(pageObj, "softkey")
-            } else {
-                targetKey = docElement.getElementById(searchElement)
-
-                if (targetKey) {
-                    this.currentKeys.push(targetKey)
-                    targetKey.children[1].style = "fill:lime"
-                }
+            if (targetKey) {
+                this.currentKeys.push(targetKey)
+                targetKey.children[1].style = "fill:lime"
             }
         }
-    })
+    }
+
+    if (View.style.opacity !== 100) {
+        View.style.transition = `opacity ${KEYBOARD_SVG_FADE_TIME}ms linear`;
+        View.style.opacity = 100;
+    }
 }
 
 function parseHighlight(text) {
@@ -245,4 +264,19 @@ function getNumbers() {
         "9",
         "0"
     ]
+}
+
+function visualAnimateOut(element) {
+    return new Promise(resolve => {
+        if (element.style.opacity != 100) {
+            resolve()
+            return;
+        }
+
+        element.style.opacity = 0;
+    
+        setTimeout(() => {
+            resolve()
+        }, KEYBOARD_SVG_FADE_TIME);
+    })
 }
