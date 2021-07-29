@@ -1,7 +1,7 @@
 {
     "console button": {
         "prefix": ["console button", "keypad button", "button"],
-        "body": "{% include console_button.html content=\"$1\" %} $0"
+        "body": "{% include console_button.html content=\"$1\" %}$0"
     },
 
     "console sequence": {
@@ -31,7 +31,7 @@
     "tip": {
         "prefix": "tip",
         "body": [
-            "{% include itp.html content=\"$1\" %}",
+            "{% include tip.html content=\"$1\" %}",
             "$0"
         ]
     },
@@ -63,6 +63,49 @@
     "callout": {
         "body": [
             "{% include callout.html type=\"$1\" content=\"$2\" %}",
+            "$0"
+        ]
+    },
+
+    "lighting front matter": {
+        "prefix": ["lighting front matter"],
+        "body": [
+            "---",
+            "title: $1",
+            "keywords: [$2]",
+            "sidebar: Lighting_sidebar",
+            "permalink: Lighting_$3.html",
+            "folder: Lighting",
+            "draft: true",
+            "toc: true",
+            "authors: [$4]",
+            "summary: $5",
+            "# last_updated: Month Day, Year",
+            "# tags: []",
+            "---",
+            "$0"
+        ]
+    },
+
+    "full front matter": {
+        "prefix": ["full fm"],
+        "body": [
+            "---",
+            "title: $1",
+            "keywords: [$2]",
+            "sidebar: $3_sidebar",
+            "permalink: $4.html",
+            "folder: $5",
+            "authors: [$6]",
+            "draft: true",
+            "summary: $7",
+            "# tags: []",
+            "# noedit: true",
+            "# toc: false",
+            "# private: true",
+            "# search: exclude",
+            "# last_updated: Month Day, Year",
+            "---",
             "$0"
         ]
     }
