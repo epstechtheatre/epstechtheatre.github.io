@@ -1,12 +1,15 @@
 # Welcome to the EPS Technical Theatre Guide
 
 ## What is this?
-In the coming months, this repository will make home to a wiki of information for students interested in technical theatre to learn and refine their skills. A prettier can be found at [the Github page for this project](https://epstechtheatre.github.io/)
+This repository is home to a ton of information for students interested in technical theatre so they can learn and refine their skills. A static site is also generated and can be found [here](https://epstechtheatre.github.io/).
 
-Currently, the wiki is primarily maintained by [Ben MacDonald](https://github.com/Quantum158/), the Technical Director at E.P Scarlett during the 2020-2021 school year.
+The project was created and is currently led by [Ben MacDonald](https://github.com/Quantum158/), the Technical Director at E.P Scarlett during the 2020-2021 school year. They will help maintain the repo at least until they complete their bachelor's degree.
 
 ## Progress
-This project is in its early stages. Check the [Projects Board](https://github.com/epstechtheatre/epstechtheatre.github.io/projects) for information.
+This project is in its early stages.
+The main focus currently is on the initial content for the lighting section.
 
 ## Contributing and Contact
-I encourage future students to share any new knowledge they acquire on this page as well, however, I do realize Github can be quite intimidating to those with no prior experience in programming. A contribution tutorial is being drafted and eventually will be posted to the website. If you need any support, send an email to [epstechtheatre@gmail.com](mailto:epstechtheatre@gmail.com) with "Tech Theatre Wiki" in the subject line.
+I encourage future students to share any new knowledge they acquire on this page as well, however, I do realize Github can be quite intimidating to those with no prior experience in programming. Students at Dr. E.P. Scarlett who wish to contribute should ask their Drama or Technical Theatre teacher for more info.
+
+Alternatively, if you need any support, send an email to [epstechtheatre@gmail.com](mailto:epstechtheatre@gmail.com) with "Tech Theatre Wiki" in the subject line.
