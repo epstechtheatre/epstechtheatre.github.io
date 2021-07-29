@@ -8,6 +8,12 @@
 @import "pageElements/links.css";
 @import "pageElements/userMap.css";
 
+.navbar-static-top {
+    position: sticky !important;
+    position: -webkit-sticky !important;
+    top: 0px
+}
+
 .button-tooltip {
     display: inline-block;
 }

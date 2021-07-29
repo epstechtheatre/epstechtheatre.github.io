@@ -132,21 +132,28 @@ div#toc ul {
     background-color: whitesmoke;
     padding: 5px;
     border-radius: 5px;
-    max-width: 300px;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+    border-left-style: solid;
+    border-width: 2px;
+    border-color: rgb(192, 192, 192);
+    max-width: 400px;
+    min-width: min-content;
     color: gray;
 }
 
 div#toc ul li ul {
     padding-left:8px;
-
+    max-width: fit-content;
 }
 
 div#toc ul li ul li::before {
-    content: "–  ";
+    content: "•  ";
 }
 
 div#toc >ul::before {
     content: "Table of Contents";
+    font-size: x-large;
     font-weight: 500;
     color: #555;
     text-align:center;
@@ -242,6 +249,7 @@ a.dropdown-toggle, .navbar-inverse .navbar-nav > li > a  {
         padding-bottom: 10px;
     }
     .collapse.in{
+        overflow-y: visible !important;
         display:block !important;
     }
 }

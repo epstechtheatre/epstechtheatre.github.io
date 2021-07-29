@@ -9,19 +9,25 @@
 }
 
 .inline-display-button {
-    margin:0px;
-    margin-bottom:6px;
+    margin-left:0px;
+    /* margin-bottom:6px; */
     background-color: #cfcfcf;
     border-radius: 3px;
     padding-left: 4px;
-    padding-right: 0px;
+    padding-right: 4px;
     border-color: rgb(129, 0, 0);
-    border-style: solid;
-    margin-right: 4px;
+    border-style: ridge;
+    /* margin-right: 4px; */
+    overflow-x: hidden;
+    white-space: nowrap;
+    display: inline-flex;
+    font-weight: bold;
+    line-break:normal;
 }
 
 .display-button-keypad,
 .display-button-softkey {
+    position: relative;
     border-style: ridge;
     border-radius: 15%;
     align-items: center;
@@ -48,9 +54,19 @@
     z-index: 3;
     background-color: #f5f5f5d0;
     border-radius: 15px;
-    border: 1px solid #BEBEBE;
+    border: 1px ridge #BEBEBE;
     width: auto;
-    margin-top: 2.5rem;
+}
+
+.display-button-softkey > .keyboard-svg-graphic,
+.display-button-keypad > .keyboard-svg-graphic {
+    top: 100%;
+    margin-top: 0.5rem;
+}
+
+.inline-display-button .keyboard-svg-graphic {
+    transform: translateX(-43%);
+    margin-top: 2.5rem
 }
 
 .display-button-keypad {
@@ -69,9 +85,9 @@
     font-size: x-large;
     /* justify-content: center; */
     align-items: center;
-    transform: translateY(7px);
-    display: flex;
+    display: inline-flex;
     padding: 3px;
+    transform: translateY(0.35em);
     pointer-events: none;
 }
 

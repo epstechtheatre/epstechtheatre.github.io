@@ -95,3 +95,19 @@ div.alert code, h2 code {
     color: inherit;
     padding: 0px;
 }
+
+.alert-success {
+    border-color: #3C763D;
+}
+
+.alert-info {
+    border-color: #3170B0
+}
+
+.alert-danger {
+    border-color: #A94442;
+}
+
+.alert-warning {
+    border-color: #444444;
+}

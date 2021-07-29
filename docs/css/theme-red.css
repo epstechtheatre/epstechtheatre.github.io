@@ -143,3 +143,9 @@ a {
 a:hover {
     color: #a83434;
 }
+
+input:focus { 
+    outline: none !important;
+    border-color: #55061e;
+    box-shadow: 0 0 10px #55061e;
+}

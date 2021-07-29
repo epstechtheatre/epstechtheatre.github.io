@@ -3,12 +3,12 @@ $('#mysidebar').height($(".nav").height());
 $( document ).ready(function() {
 
     //this script says, if the height of the viewport is greater than 800px, then insert affix class, which makes the nav bar float in a fixed
-    // position as your scroll. if you have a lot of nav items, this height may not work for you.
+    // position as your scroll. if you have a lot of nav items, this height may not work for you. <-- Yeah no duh
     var h = $(window).height();
     //console.log (h);
-    if (h > 800) {
-        $( "#mysidebar" ).attr("class", "nav affix");
-    }
+    // if (h > 800) {
+    //     $( "#mysidebar" ).attr("class", "nav affix");
+    // }
     // activate tooltips. although this is a bootstrap js function, it must be activated this way in your theme.
     $('[data-toggle="tooltip"]').tooltip({
         placement : 'top'
@@ -20,16 +20,28 @@ $( document ).ready(function() {
     anchors.add('h2,h3,h4,h5');
 
     // Activate button keypad display overlays
-    $('.display-button-softkey').mouseenter(function() {
+    $('.display-button-softkey')
+    .mouseenter(function() {
         showNewKey(this, $(this).data('keyid'), true)
     })
-
-    $('.display-button-keypad').mouseenter(function() {
-        showNewKey(this, $(this).data('keyid'))
+    .mouseleave(function() {
+        unShow(this)
     })
 
-    $('.inline-display-button').mouseenter(function() {
+    $('.display-button-keypad')
+    .mouseenter(function() {
         showNewKey(this, $(this).data('keyid'))
+    })
+    .mouseleave(function() {
+        unShow(this)
+    })
+
+    $('.inline-display-button')
+    .mouseenter(function() {
+        showNewKey(this, $(this).data('keyid'))
+    })
+    .mouseleave(function() {
+        unShow(this)
     })
 });
 
@@ -66,6 +78,12 @@ $(function() {
 
 var currentKeys = [];
 var currentGraphic;
+
+function unShow(pageObj) {
+    if (currentGraphic) {
+        currentGraphic.remove()
+    }
+}
 
 function showNewKey(pageObj, keyID, revertToSoftkey = false) {
     if (currentGraphic !== undefined) {
