@@ -9,8 +9,6 @@ noedit: true
 draft: true
 ---
 
-
-
 ## Prelude
 This is going to be very out of order just so you know. It covers a lot of random information that is fragmented and may feel out of place. Regardless, I wanted to give a quick rundown on some of the component of this page. Above this paragraph is a table of contents to help organize everything, each line is a hyperlink that jumps straight to that section.
 

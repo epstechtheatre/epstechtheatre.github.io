@@ -61,31 +61,38 @@ entries:
       url: /Lighting_definitions.html
       output: web
 
-  - title: Getting Started
+  - title: Guides
     output: web
     folderitems:
-    - title: Absolute Basics
-      url: /Lighting_absolute_basics.html
+    - title: Level 0 (Absolute Basics)
+      url: /Lighting_level_0.html
+      output: web
+
+    - title: "Level 1"
+      url: /Lighting_level_1.html
+      output: web
+
+    - title: "Level 2"
+      url: /Lighting_level_2.html
+      output: web
+
+    - title: "Level 3"
+      url: /Lighting_level_3.html
+      output: web
+    
+    - title: "Level 4"
+      url: /Lighting_level_4.html
       output: web
 
     - title: Operating Shows
       url: /Lighting_show_op.html
       output: web
 
-    - title: "Level 1 Skills"
-      url: /Lighting_level_1.html
-      output: web
-
-    - title: "Level 2 Skills"
-      url: /Lighting_level_2.html
-      output: web
-
-    - title: "Level 3 Skills"
-      url: /Lighting_level_3.html
-      output: web
-    
-    - title: "Level 4 Skills"
-      url: /Lighting_level_4.html
+  - title: Troubleshooting
+    output: web
+    folderitems:
+    - title: Troubleshooting Home
+      url: /Lighting_troubleshooting_landing_page.html
       output: web
 
   - title: Control Systems
@@ -107,12 +114,19 @@ entries:
       url: /Lighting_controlsys_dmx.html
       output: web
     
-  - title: <b>Lighting Board Tutorials</b>
+  - title: <b>Tutorials</b>
     output: web
     folderitems:
-    - title: Tutorial Info
+    - title: Info
       output: web
       url: /Lighting_tutorials_info.html
+
+  - title: Keyboard Buttons
+    output: web
+    folderitems:
+    - title: Info
+      output: web
+      url: /Lighting_keyboard_buttons_info.html
 
   - title: Effects
     output: web
