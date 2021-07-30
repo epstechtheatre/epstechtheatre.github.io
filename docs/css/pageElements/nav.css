@@ -178,6 +178,11 @@ a.dropdown-toggle, .navbar-inverse .navbar-nav > li > a  {
     margin-left: 10px;
 }
 
+.dropdown-menu {
+    left: 10px !important;
+    right: auto !important;
+}
+
 /* not sure if using this ...*/
 .navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
     border-color: #248ec2 !important;
@@ -212,6 +217,11 @@ a.dropdown-toggle, .navbar-inverse .navbar-nav > li > a  {
 @media (max-width: 767px) {
     .navbar-inverse .navbar-nav .open .dropdown-menu > li > a {
         color: #444;
+    }
+
+    .navbar-inverse .navbar-nav .open .dropdown-menu {
+        left: 10px !important;
+        position: relative;
     }
 }
 
