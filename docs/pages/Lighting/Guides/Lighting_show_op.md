@@ -7,6 +7,8 @@ folder: Lighting
 authors: [Ben MacDonald]
 summary: This page contains the bare minimum information required to create and run a cue list on the lighting board
 draft: true
+tags: [getting_started]
+customPageType: guide
 ---
 
 - Recording cues

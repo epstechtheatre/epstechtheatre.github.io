@@ -7,6 +7,8 @@ folder: Lighting
 authors: [Ben MacDonald]
 summary: This level covers the basics of the functions of the lighting board, as well as what most of the buttons do
 draft: true
+tags: [getting_started]
+customPageType: guide
 ---
 
 - Encoders

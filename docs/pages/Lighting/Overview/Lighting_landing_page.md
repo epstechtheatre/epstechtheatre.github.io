@@ -4,8 +4,12 @@ keywords: [lighting, overview, getting started]
 sidebar: Lighting_sidebar
 permalink: Lighting_landing_page.html
 folder: Lighting
+tags: [navigation]
 draft: true
 toc: false
+tags: [getting_started]
+customPageType: nav
+summary: An entry node for those looking for lighting information.
 ---
 
 
@@ -13,7 +17,7 @@ toc: false
 {% include important.html content="During development. Most pages will be stubs." %}
 ## Welcome to the Lighting Page
 
-In this section, you will find guides on various lighting equipment and general lighting concepts. If you are new to lighting, we recommend starting with the [guides](./Lighting_level_0.md).
+In this section, you will find guides on various lighting equipment and general lighting concepts. If you are new to lighting, we recommend starting with the [guides](./Lighting_level_0.html).
 
 
 ## Wiki Structure

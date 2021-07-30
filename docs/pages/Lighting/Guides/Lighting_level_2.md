@@ -7,6 +7,8 @@ folder: Lighting
 authors: [Ben MacDonald]
 summary:  This level covers lighting theory and applying that on the board
 draft: true
+tags: [getting_started]
+customPageType: guide
 ---
 
 - 3 Point lighting

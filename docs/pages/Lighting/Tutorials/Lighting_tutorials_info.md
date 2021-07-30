@@ -7,6 +7,8 @@ folder: Lighting
 authors: [Ben MacDonald]
 summary: The following categories are all distinct tutorials on various functions of the lighting board.
 draft: true
+tags: [getting_started]
+customPageType: tutorial
 ---
 
 Tutorials are organized by: 

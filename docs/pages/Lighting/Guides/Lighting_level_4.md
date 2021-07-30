@@ -7,6 +7,8 @@ folder: Lighting
 authors: [Ben MacDonald]
 summary:  This level contains information on changing settings, making backups, and file management on the lighting board
 draft: true
+tags: [getting_started]
+customPageType: guide
 ---
 
 - Settings
