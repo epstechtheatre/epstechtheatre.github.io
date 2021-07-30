@@ -5,6 +5,7 @@ search: exclude
 permalink: tag_sound.html
 sidebar: Overview_sidebar
 folder: tags
+noedit: true
 ---
 {% include taglogic.html %}
 
