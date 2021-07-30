@@ -4084,7 +4084,6 @@ tbody.collapse.in {
 .dropdown-menu {
     position: absolute;
     top: 100%;
-    left: 0;
     z-index: 1000;
     display: none;
     float: left;
@@ -5020,7 +5019,7 @@ textarea.input-group-sm>.input-group-btn>.btn {
 
 @media (max-width:767px) {
     .navbar-nav .open .dropdown-menu {
-        position: static;
+        position: relative;
         float: none;
         width: auto;
         margin-top: 0;
