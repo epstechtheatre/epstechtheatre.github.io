@@ -225,6 +225,14 @@ function parseHighlight(text) {
         case "colour":
             return "colour"
 
+        case "undo":
+        case "redo":
+            return "undoredo"
+
+        case "qonly":
+        case "track":
+            return "qonlytrack"
+
         default:
             break;
     }    
