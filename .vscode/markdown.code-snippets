@@ -80,15 +80,15 @@
         "prefix": ["lighting front matter"],
         "body": [
             "---",
-            "title: $1",
-            "keywords: [$2]",
+            "title: ${TM_FILENAME_BASE:$1}",
             "sidebar: Lighting_sidebar",
-            "permalink: Lighting_$3.html",
+            "permalink: Lighting_$2_$3${TM_FILENAME_BASE}.html",
             "folder: Lighting",
-            "draft: true",
-            "toc: true",
-            "authors: [$4]",
-            "summary: $5",
+            "# draft: true",
+            "# toc: true",
+            "# summary: ",
+            "# keywords: []",
+            "# authors: []",
             "# last_updated: Month Day, Year",
             "# tags: []",
             "---",
@@ -101,14 +101,14 @@
         "prefix": ["full fm"],
         "body": [
             "---",
-            "title: $1",
-            "keywords: [$2]",
-            "sidebar: $3_sidebar",
-            "permalink: $4.html",
+            "title: ${TM_FILENAME_BASE:$1}",
+            "sidebar: $2_sidebar",
+            "permalink: $3_$4${TM_FILENAME_BASE}.html",
             "folder: $5",
-            "authors: [$6]",
             "draft: true",
-            "summary: $7",
+            "# summary:",
+            "# keywords: []",
+            "# authors: []",
             "# tags: []",
             "# noedit: true",
             "# toc: false",
@@ -120,5 +120,15 @@
             "$0"
         ],
         "scope": "markdown"
+    },
+
+    "sidebar webpage": {
+        "prefix": "sidebar webpage",
+        "body": [
+            "- title: $1",
+            "  output: web",
+            "  url: /$2.html",
+            "$0"
+        ]
     }
 }
