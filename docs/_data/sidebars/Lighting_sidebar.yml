@@ -124,9 +124,298 @@ entries:
   - title: Keyboard Buttons
     output: web
     folderitems:
-    - title: Info
+    - title: <u><i>Section Info</i></u>
       output: web
       url: /Lighting_keyboard_buttons_info.html
+
+    - title: About
+      output: web
+      url: /Lighting_keyboard_about.html
+
+    - title: Assert
+      output: web
+      url: /Lighting_keyboard_assert.html
+      
+    - title: At
+      output: web
+      url: /Lighting_keyboard_at.html
+
+    - title: Black Out
+      output: web
+      url: /Lighting_keyboard_black_out.html
+    
+    - title: Beam Palette
+      output: web
+      url: /Lighting_keyboard_beam_palette.html
+    
+    - title: Blind
+      output: web
+      url: /Lighting_keyboard_blind.html
+    
+    - title: Block
+      output: web
+      url: /Lighting_keyboard_block.html
+    
+    - title: Capture
+      output: web
+      url: /Lighting_keyboard_capture.html
+
+    - title: Clear
+      output: web
+      url: /Lighting_keyboard_clear.html
+
+    - title: Color
+      output: web
+      url: /Lighting_keyboard_color.html
+    
+    - title: Colour Palette
+      output: web
+      url: /Lighting_keyboard_color_palette.html
+    
+    - title: Copy To / Move To
+      output: web
+      url: /Lighting_keyboard_copy_to_move_to.html
+    
+    - title: Cue
+      output: web
+      url: /Lighting_keyboard_cue.html
+
+    - title: Custom
+      output: web
+      url: /Lighting_keyboard_intensity.html
+    
+    - title: Data
+      output: web
+      url: /Lighting_keyboard_data.html
+    
+    - title: Delay
+      output: web
+      url: /Lighting_keyboard_delay.html
+    
+    - title: Delete
+      output: web
+      url: /Lighting_keyboard_delete.html
+    
+    - title: Displays
+      output: web
+      url: /Lighting_keyboard_displays.html
+
+    - title: Dot
+      output: web
+      url: /Lighting_keyboard_dot.html
+    
+    - title: Effect
+      output: web
+      url: /Lighting_keyboard_effect.html
+
+    - title: Escape
+      output: web
+      url: /Lighting_keyboard_escape.html
+
+    - title: Expand
+      output: web
+      url: /Lighting_keyboard_expand.html
+
+    - title: Encoders
+      output: web
+      url: /Lighting_keyboard_encoders.html.html
+    
+    - title: Fader Page
+      output: web
+      url: /Lighting_keyboard_fader_control.html
+    
+    - title: Flexi
+      output: web
+      url: /Lighting_keyboard_flexi.html
+
+    - title: Focus
+      output: web
+      url: /Lighting_keyboard_focus.html.html
+    
+    - title: Focus Palette
+      output: web
+      url: /Lighting_keyboard_focus_palette.html
+
+    - title: Form
+      output: web
+      url: /Lighting_keyboard_form.html
+    
+    - title: Format
+      output: web
+      url: /Lighting_keyboard_format.html
+    
+    - title: Full
+      output: web
+      url: /Lighting_keyboard_full.html
+
+    - title: Go
+      output: web
+      url: /Lighting_keyboard_go.html
+    
+    - title: Go To Cue
+      output: web
+      url: /Lighting_keyboard_go_to_cue.html
+    
+    - title: Group
+      output: web
+      url: /Lighting_keyboard_group.html
+    
+    - title: Help
+      output: web
+      url: /Lighting_keyboard_help.html
+
+    - title: Home
+      output: web
+      url: /Lighting_keyboard_home.html
+
+    - title: Image
+      output: web
+      url: /Lighting_keyboard_image.html
+    
+    - title: Int Palette
+      output: web
+      url: /Lighting_keyboard_int_palette.html
+    
+    - title: Label / Note
+      output: web
+      url: /Lighting_keyboard_label_note.html
+    
+    - title: Last
+      output: web
+      url: /Lighting_keyboard_last.html
+    
+    - title: Learn
+      output: web
+      url: /Lighting_keyboard_learn.html
+    
+    - title: Live
+      output: web
+      url: /Lighting_keyboard_live.html
+
+    - title: Load
+      output: web
+      url: /Lighting_keyboard_load.html
+    
+    - title: Macro
+      output: web
+      url: /Lighting_keyboard_macro.html
+    
+    - title: Mark
+      output: web
+      url: /Lighting_keyboard_mark.html
+
+    - title: Minus
+      output: web
+      url: /Lighting_keyboard_minus
+
+    - title: More Sk
+      output: web
+      url: /Lighting_keyboard_more_sk.html
+    
+    - title: Next
+      output: web
+      url: /Lighting_keyboard_next.html
+    
+    - title: Out
+      output: web
+      url: /Lighting_keyboard_out.html
+    
+    - title: Park
+      output: web
+      url: /Lighting_keyboard_park.html
+    
+    - title: Part
+      output: web
+      url: /Lighting_keyboard_part.html
+    
+    - title: Path
+      output: web
+      url: /Lighting_keyboard_path.html
+
+    - title: Plus
+      output: web
+      url: /Lighting_keyboard_plus.html    
+
+    - title: Power Button
+      output: web
+      url: /Lighting_keyboard_power.html
+    
+    - title: Preset
+      output: web
+      url: /Lighting_keyboard_preset.html
+    
+    - title: Q Only / Track
+      output: web
+      url: /Lighting_keyboard_q_only_track.html
+    
+    - title: Query
+      output: web
+      url: /Lighting_keyboard_query.html
+    
+    - title: Recall From
+      output: web
+      url: /Lighting_keyboard_recall_from.html
+    
+    - title: Record
+      output: web
+      url: /Lighting_keyboard_record.html
+    
+    - title: Record Only
+      output: web
+      url: /Lighting_keyboard_record_only.html
+    
+    - title: Rem Dim
+      output: web
+      url: /Lighting_keyboard_rem_dim.html
+    
+    - title: Shift
+      output: web
+      url: /Lighting_keyboard_shift.html
+
+    - title: Shutter
+      output: web
+      url: /Lighting_keyboard_shutter.html
+    
+    - title: Slash (/)
+      output: web
+      url: /Lighting_keyboard_slash.html
+    
+    - title: Sneak
+      output: web
+      url: /Lighting_keyboard_sneak.html
+
+    - title: Softkeys
+      output: web
+      url: /Lighting_keyboard_softkeys.html
+
+    - title: Stop / Back
+      output: web
+      url: /Lighting_keyboard_stop_back.html
+    
+    - title: Sub
+      output: web
+      url: /Lighting_keyboard_sub.html
+    
+    - title: Tab
+      output: web
+      url: /Lighting_keyboard_tab.html
+    
+    - title: Time
+      output: web
+      url: /Lighting_keyboard_time.html
+    
+    - title: Thru
+      output: web
+      url: /Lighting_keyboard_thru.html
+
+    - title: Undo / Redo
+      output: web
+      url: /Lighting_keyboard_undo_redo.html
+    
+    - title: Update
+      output: web
+      url: /Lighting_keyboard_update.html
+    
 
   - title: Effects
     output: web
