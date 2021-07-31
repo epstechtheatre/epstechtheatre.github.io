@@ -216,6 +216,15 @@ function parseHighlight(text) {
         case "silverwheel":
             return "manualwheel"
 
+        case "colourpalette":
+            return "colorpalette"
+
+        case "intensitypalette":
+            return "intpalette"
+
+        case "colour":
+            return "colour"
+
         default:
             break;
     }    
