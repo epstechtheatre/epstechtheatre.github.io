@@ -1,3 +1,7 @@
+<div id="visual-svg-click-tip">
+    Please ensure Javascript is enabled or try refreshing the page.
+</div>
+
 <div class="linked_console_svg_wrapper">
     <script src="js/svg_button_url_dict.js"></script> 
     <!-- var is buttonURLDict -->
@@ -8,22 +12,26 @@
         const returnColour = "#BF003F"
 
         window.addEventListener("load", function() {
+            document.getElementById("visual-svg-click-tip").innerText = "Click on a button to be taken to its help page"
+
             const display = document.getElementById("linked_console_svg").contentDocument.documentElement;
 
             for (element of display.querySelectorAll("*")) {
                 let valid = false;
                 if (buttonURLDict[element.id]) {
                     valid = true;
-                    console.log(buttonURLDict[element.id])
                     element.onclick = function(element) {
                         window.location = buttonURLDict[element.currentTarget.id]
                     }
                 } else if (["encoder1", "encoder2", "encoder3", "encoder4"].includes(element.id)) {
                     valid = true;
                     element.onclick = function() {window.location = buttonURLDict["encoders"]}
-                } else if (element.id.match(/^s[1-6]$/))  {
+                } else if (element.id.match(/^s[1-6]$/)) {
                     valid = true;
                     element.onclick = function() {window.location = buttonURLDict["softkeys"]}
+                } else if (element.id.match(/^[0-9]$/)) {
+                    valid = true;
+                    element.onclick = function() {window.location = buttonURLDict["numbers"]}
                 }
 
                 if (valid) {
