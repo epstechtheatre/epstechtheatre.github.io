@@ -6,13 +6,16 @@
         {
             "label": "Bundle Exec Build Jekyll Serve",
             "type": "shell",
-            "command": "bundle exec jekyll serve --host=0.0.0.0 --port 20000",
+            "command": "bundle exec jekyll serve --host=0.0.0.0 --port 20000 --livereload",
             "group": {
                 "kind": "build",
                 "isDefault": true
             },
             "options": {
                 "cwd": "${workspaceFolder}/docs",
+            },
+            "runOptions": {
+                "instanceLimit": 1
             }
         },
         {
