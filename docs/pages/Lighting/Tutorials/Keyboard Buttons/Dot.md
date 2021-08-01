@@ -1,5 +1,5 @@
 ---
-title: Dot (•)
+title: •
 sidebar: Lighting_sidebar
 permalink: Lighting_keyboard_dot.html
 folder: Lighting
