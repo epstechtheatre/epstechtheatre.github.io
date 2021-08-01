@@ -219,6 +219,10 @@ entries:
     - title: Encoders
       output: web
       url: /Lighting_keyboard_encoders.html.html
+
+    - title: Enter
+      output: web
+      url: /Lighting_keyboard_enter.html
     
     - title: Fader Page
       output: web
@@ -315,6 +319,10 @@ entries:
     - title: Next
       output: web
       url: /Lighting_keyboard_next.html
+
+    - title: Numbers
+      output: web
+      url: /Lighting_keyboard_numbers.html.html
     
     - title: Out
       output: web
@@ -367,6 +375,10 @@ entries:
     - title: Rem Dim
       output: web
       url: /Lighting_keyboard_rem_dim.html
+
+    - title: Select Last
+      output: web
+      url: /Lighting_keyboard_select_last.html
     
     - title: Shift
       output: web
