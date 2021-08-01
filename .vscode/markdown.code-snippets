@@ -129,6 +129,7 @@
             "  output: web",
             "  url: /$2.html",
             "$0"
-        ]
+        ],
+        "scope": "yaml"
     }
 }
