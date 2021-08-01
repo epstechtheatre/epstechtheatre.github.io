@@ -1,7 +1,7 @@
 ---
 title: Stop / Back
 sidebar: Lighting_sidebar
-permalink: Lighting_keyboard_stopBack.html
+permalink: Lighting_keyboard_stop_back.html
 folder: Lighting
 # draft: true
 # toc: true
