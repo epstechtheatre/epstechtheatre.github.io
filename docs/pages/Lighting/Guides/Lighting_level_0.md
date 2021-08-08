@@ -7,14 +7,22 @@ folder: Lighting
 authors: [Ben MacDonald, Katie Drysdale]
 summary: The most basic of what you need to know in order to interact with our lighting grid. It utilizes our existing setup but does not explain any theory behind why you do what you do.
 draft: true
-tags: [getting_started]
+tags: [getting_started, lighting]
 customPageType: guide
 ---
 
 {% include note.html content="This page is very specifically tailored to the lighting network present at Dr. E.P. Scarlett, I highly recommend students from other schools that are just starting out take everything with a grain of salt, or go through the guide with a mentor so they can make corrections as they need to." %}
 
+## Outcomes of this Guide
+☑ Understand what lighting can do for a theatrical production<br>
+☑ What a lighting board is<br>
+☑ How to turn on and off a lighting board<br>
+☑ How to turn on and off any light connected to the lighting board, controlling lights both individually and concurrently<br>
+☑ How to load and create showfiles within the lighting board software<br>
+☑ How to navigate parts of the lighting software<br>
+☑ How to view and interact with the "Magic Sheet"
 
-## Before you begin
+## Before You Begin
 If you did any lighting work in your previous school, you might have used a lighting board with a bunch of sliders, where each slider controlled one light (or one colour of a multicoloured light). This is called an analogue lighting board. 
 
 At Scarlett, we have a digital lighting board. The main difference is, unlike an analogue board, our control system is an application running on a computer. This means that, among other things, we can utilize the power of automation to create and run our shows. No preparing the sliders for the next cue or fretting over a cue sheet with all the different slider positions. In a theatre like ours that has upwards of 50 active lights, having a digital system becomes a necessity.
