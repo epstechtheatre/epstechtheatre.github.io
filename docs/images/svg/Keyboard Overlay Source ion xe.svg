@@ -11,8 +11,8 @@
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    width="431.08331"
-   height="240.79955"
-   viewBox="0 0 114.05746 63.711547"
+   height="241"
+   viewBox="0 0 114.05746 63.764584"
    version="1.1"
    id="display_keyboard"
    inkscape:version="1.0.2 (e86c870879, 2021-01-15, custom)"
@@ -39,9 +39,9 @@
        inkscape:collect="always"
        xlink:href="#linearGradient1255"
        id="linearGradient1257"
-       x1="-52.154829"
+       x1="-52.154827"
        y1="391.35513"
-       x2="-20.580485"
+       x2="-20.580484"
        y2="391.35513"
        gradientUnits="userSpaceOnUse" />
     <linearGradient
@@ -50,7 +50,7 @@
        id="linearGradient1288"
        x1="-0.6685248"
        y1="449.14307"
-       x2="30.148625"
+       x2="30.148624"
        y2="449.14307"
        gradientUnits="userSpaceOnUse" />
   </defs>
@@ -61,9 +61,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="1.9494505"
-     inkscape:cx="238.63415"
-     inkscape:cy="108.13398"
+     inkscape:zoom="30.402859"
+     inkscape:cx="274.6886"
+     inkscape:cy="0.72516494"
      inkscape:document-units="mm"
      inkscape:current-layer="g519"
      inkscape:document-rotation="0"
@@ -89,7 +89,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title />
+        <dc:title></dc:title>
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -112,7 +112,7 @@
            id="master"
            v:mID="98"
            v:groupContext="shape"
-           transform="matrix(0.5641739,0,0,0.4934896,-6.6450083,-388.74016)"
+           transform="matrix(0.5641739,0,0,0.4934896,-6.6450083,-388.6841)"
            style="font-size:12px;overflow:visible;color-interpolation-filters:sRGB;fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.947079;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:3;stroke-dasharray:none;stroke-opacity:1;paint-order:normal">
           <title
              id="title34-3">Master</title>
@@ -137,7 +137,7 @@
            id="playbackfaderback1"
            v:mID="92"
            v:groupContext="shape"
-           transform="matrix(0.66955584,0,0,0.87659643,-2.4629244,-457.34592)"
+           transform="matrix(0.66955584,0,0,0.87659643,-2.4629244,-457.28986)"
            style="stroke:#000000;stroke-width:0.652285;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:3;stroke-dasharray:none;stroke-opacity:1;paint-order:normal">
           <title
              id="title3061">weeeee!</title>
@@ -154,7 +154,7 @@
            id="Playback_1"
            v:mID="94"
            v:groupContext="shape"
-           transform="matrix(0.56007854,0,0,0.46696605,-6.7379205,-281.87356)"
+           transform="matrix(0.56007854,0,0,0.46696605,-6.7379205,-281.8175)"
            style="stroke:#000000;stroke-width:0.977155;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:3;stroke-dasharray:none;stroke-opacity:1;paint-order:normal">
           <title
              id="title19">Playback 1</title>
@@ -171,7 +171,7 @@
            id="playbackfaderback2"
            v:mID="93"
            v:groupContext="shape"
-           transform="matrix(0.66810033,0,0,0.87677276,18.302802,-457.42772)"
+           transform="matrix(0.66810033,0,0,0.87677276,18.302802,-457.37166)"
            style="stroke:#000000;stroke-width:0.652929;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:3;stroke-dasharray:none;stroke-opacity:1;paint-order:normal">
           <title
              id="title3063">weeeee!</title>
@@ -188,7 +188,7 @@
            id="Playback_2"
            v:mID="95"
            v:groupContext="shape"
-           transform="matrix(0.54695478,0,0,0.46696605,14.144834,-332.77519)"
+           transform="matrix(0.54695478,0,0,0.46696605,14.144834,-332.71913)"
            style="stroke:#000000;stroke-width:0.988808;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:3;stroke-dasharray:none;stroke-opacity:1;paint-order:normal">
           <title
              id="title29">Playback 2</title>
@@ -205,7 +205,7 @@
            id="stopback"
            v:mID="98"
            v:groupContext="shape"
-           transform="matrix(0.56417391,0,0,0.49348955,-6.6450089,-254.17)"
+           transform="matrix(0.56417391,0,0,0.49348955,-6.6450089,-254.11394)"
            style="stroke:#000000;stroke-width:0.947076;stroke-linejoin:miter;stroke-miterlimit:3;stroke-dasharray:none;stroke-opacity:1;paint-order:normal">
           <title
              id="title34">Stop Back</title>
@@ -222,7 +222,7 @@
            id="go"
            v:mID="99"
            v:groupContext="shape"
-           transform="matrix(0.61140332,0,0,0.46696605,35.291388,-212.51121)"
+           transform="matrix(0.61140332,0,0,0.46696605,35.291388,-212.45515)"
            style="stroke:#000000;stroke-width:0.935414;stroke-linejoin:miter;stroke-opacity:1;paint-order:normal">
           <title
              id="title39">Go</title>
@@ -239,7 +239,7 @@
            id="shift"
            v:mID="169"
            v:groupContext="shape"
-           transform="matrix(0.5349779,0,0,0.49348967,120.91807,-203.83012)"
+           transform="matrix(0.5349779,0,0,0.49348967,120.91807,-203.77406)"
            style="stroke:#000000;stroke-width:0.972576;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:3;stroke-dasharray:none;stroke-opacity:1;paint-order:normal">
           <title
              id="title214">Shift</title>
@@ -256,7 +256,7 @@
            id="manualwheel1"
            v:mID="104"
            v:groupContext="shape"
-           transform="matrix(0.56417292,0,0,0.57382519,51.566552,-269.61421)"
+           transform="matrix(0.56417292,0,0,0.57382519,51.566552,-269.55815)"
            style="font-size:12px;overflow:visible;color-interpolation-filters:sRGB;fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.878284;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:3;stroke-dasharray:none;stroke-opacity:1;paint-order:normal">
           <title
              id="title59-0">Manual Wheel 1</title>
@@ -273,7 +273,7 @@
            id="delay"
            v:mID="169"
            v:groupContext="shape"
-           transform="matrix(0.5349779,0,0,0.49348967,137.54995,-203.83012)"
+           transform="matrix(0.5349779,0,0,0.49348967,137.54995,-203.77406)"
            style="font-size:12px;overflow:visible;color-interpolation-filters:sRGB;fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.972576;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:3;stroke-dasharray:none;stroke-opacity:1;paint-order:normal">
           <title
              id="title214-1">Delay</title>
@@ -290,7 +290,7 @@
            id="macro-9"
            v:mID="169"
            v:groupContext="shape"
-           transform="matrix(0.5349779,0,0,0.49348967,154.18182,-203.83012)"
+           transform="matrix(0.5349779,0,0,0.49348967,154.18182,-203.77406)"
            style="font-size:12px;overflow:visible;color-interpolation-filters:sRGB;fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.972576;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:3;stroke-dasharray:none;stroke-opacity:1;paint-order:normal">
           <title
              id="title214-0">Time</title>
@@ -310,7 +310,8 @@
            cy="-159.89841"
            rx="20.789843"
            ry="18.185154"
-           inkscape:label="#encoder4">
+           inkscape:label="#encoder4"
+           transform="translate(0,0.05606113)">
           <title
              id="title3055">Encoder 4</title>
         </ellipse>
@@ -318,7 +319,7 @@
            id="preset"
            v:mID="169"
            v:groupContext="shape"
-           transform="matrix(0.5349779,0,0,0.49348967,120.91807,-218.37824)"
+           transform="matrix(0.5349779,0,0,0.49348967,120.91807,-218.32218)"
            style="font-size:12px;overflow:visible;color-interpolation-filters:sRGB;fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.972576;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:3;stroke-dasharray:none;stroke-opacity:1;paint-order:normal">
           <title
              id="title214-05">Preset</title>
@@ -335,7 +336,7 @@
            id="sub"
            v:mID="169"
            v:groupContext="shape"
-           transform="matrix(0.5349779,0,0,0.49348967,137.54995,-218.37824)"
+           transform="matrix(0.5349779,0,0,0.49348967,137.54995,-218.32218)"
            style="font-size:12px;overflow:visible;color-interpolation-filters:sRGB;fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.972576;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:3;stroke-dasharray:none;stroke-opacity:1;paint-order:normal">
           <title
              id="title214-1-9">Sub</title>
@@ -352,7 +353,7 @@
            id="group"
            v:mID="169"
            v:groupContext="shape"
-           transform="matrix(0.5349779,0,0,0.49348967,154.18182,-218.37824)"
+           transform="matrix(0.5349779,0,0,0.49348967,154.18182,-218.32218)"
            style="font-size:12px;overflow:visible;color-interpolation-filters:sRGB;fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.972576;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:3;stroke-dasharray:none;stroke-opacity:1;paint-order:normal">
           <title
              id="title214-0-7">Group</title>
@@ -369,7 +370,7 @@
            id="colorpalette"
            v:mID="169"
            v:groupContext="shape"
-           transform="matrix(0.5349779,0,0,0.49348967,120.91807,-232.92636)"
+           transform="matrix(0.5349779,0,0,0.49348967,120.91807,-232.8703)"
            style="font-size:12px;overflow:visible;color-interpolation-filters:sRGB;fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.972576;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:3;stroke-dasharray:none;stroke-opacity:1;paint-order:normal">
           <title
              id="title214-17">Color Palette</title>
@@ -386,7 +387,7 @@
            id="beampalette"
            v:mID="169"
            v:groupContext="shape"
-           transform="matrix(0.5349779,0,0,0.49348967,137.54995,-232.92636)"
+           transform="matrix(0.5349779,0,0,0.49348967,137.54995,-232.8703)"
            style="font-size:12px;overflow:visible;color-interpolation-filters:sRGB;fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.972576;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:3;stroke-dasharray:none;stroke-opacity:1;paint-order:normal">
           <title
              id="title214-1-1">Beam Palette</title>
@@ -403,7 +404,7 @@
            id="update"
            v:mID="169"
            v:groupContext="shape"
-           transform="matrix(0.5349779,0,0,0.49348967,154.18182,-232.92636)"
+           transform="matrix(0.5349779,0,0,0.49348967,154.18182,-232.8703)"
            style="font-size:12px;overflow:visible;color-interpolation-filters:sRGB;fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.972576;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:3;stroke-dasharray:none;stroke-opacity:1;paint-order:normal">
           <title
              id="title214-0-4">Update</title>
@@ -420,7 +421,7 @@
            id="intpalette"
            v:mID="169"
            v:groupContext="shape"
-           transform="matrix(0.5349779,0,0,0.49348967,120.91807,-247.47449)"
+           transform="matrix(0.5349779,0,0,0.49348967,120.91807,-247.41843)"
            style="font-size:12px;overflow:visible;color-interpolation-filters:sRGB;fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.972576;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:3;stroke-dasharray:none;stroke-opacity:1;paint-order:normal">
           <title
              id="title214-9">Intensity Palette</title>
@@ -437,7 +438,7 @@
            id="focuspalette"
            v:mID="169"
            v:groupContext="shape"
-           transform="matrix(0.5349779,0,0,0.49348967,137.54994,-247.47449)"
+           transform="matrix(0.5349779,0,0,0.49348967,137.54994,-247.41843)"
            style="font-size:12px;overflow:visible;color-interpolation-filters:sRGB;fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.972576;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:3;stroke-dasharray:none;stroke-opacity:1;paint-order:normal">
           <title
              id="title214-1-5">Focus Palette</title>
@@ -454,7 +455,7 @@
            id="recordonly"
            v:mID="169"
            v:groupContext="shape"
-           transform="matrix(0.5349779,0,0,0.49348967,154.18181,-247.47449)"
+           transform="matrix(0.5349779,0,0,0.49348967,154.18181,-247.41843)"
            style="font-size:12px;overflow:visible;color-interpolation-filters:sRGB;fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.972576;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:3;stroke-dasharray:none;stroke-opacity:1;paint-order:normal">
           <title
              id="title214-0-3">Record Only</title>
@@ -471,7 +472,7 @@
            id="part"
            v:mID="169"
            v:groupContext="shape"
-           transform="matrix(0.5349779,0,0,0.49348967,120.91807,-262.02261)"
+           transform="matrix(0.5349779,0,0,0.49348967,120.91807,-261.96655)"
            style="font-size:12px;overflow:visible;color-interpolation-filters:sRGB;fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.972576;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:3;stroke-dasharray:none;stroke-opacity:1;paint-order:normal">
           <title
              id="title214-7">Part</title>
@@ -488,7 +489,7 @@
            id="cue"
            v:mID="169"
            v:groupContext="shape"
-           transform="matrix(0.5349779,0,0,0.49348967,137.54994,-262.02261)"
+           transform="matrix(0.5349779,0,0,0.49348967,137.54994,-261.96655)"
            style="font-size:12px;overflow:visible;color-interpolation-filters:sRGB;fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.972576;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:3;stroke-dasharray:none;stroke-opacity:1;paint-order:normal">
           <title
              id="title214-1-3">Cue</title>
@@ -505,7 +506,7 @@
            id="record"
            v:mID="169"
            v:groupContext="shape"
-           transform="matrix(0.5349779,0,0,0.49348967,154.18181,-262.02261)"
+           transform="matrix(0.5349779,0,0,0.49348967,154.18181,-261.96655)"
            style="font-size:12px;overflow:visible;color-interpolation-filters:sRGB;fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.972576;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:3;stroke-dasharray:none;stroke-opacity:1;paint-order:normal">
           <title
              id="title214-0-2">Record</title>
@@ -522,7 +523,7 @@
            id="delete"
            v:mID="169"
            v:groupContext="shape"
-           transform="matrix(0.5349779,0,0,0.49348967,120.91807,-283.84479)"
+           transform="matrix(0.5349779,0,0,0.49348967,120.91807,-283.78873)"
            style="font-size:12px;overflow:visible;color-interpolation-filters:sRGB;fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.972576;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:3;stroke-dasharray:none;stroke-opacity:1;paint-order:normal">
           <title
              id="title214-4">Delete</title>
@@ -539,7 +540,7 @@
            id="path"
            v:mID="169"
            v:groupContext="shape"
-           transform="matrix(0.5349779,0,0,0.49348967,137.54995,-283.84479)"
+           transform="matrix(0.5349779,0,0,0.49348967,137.54995,-283.78873)"
            style="font-size:12px;overflow:visible;color-interpolation-filters:sRGB;fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.972576;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:3;stroke-dasharray:none;stroke-opacity:1;paint-order:normal">
           <title
              id="title214-1-58">Path</title>
@@ -556,7 +557,7 @@
            id="effect"
            v:mID="169"
            v:groupContext="shape"
-           transform="matrix(0.5349779,0,0,0.49348967,154.18182,-283.84479)"
+           transform="matrix(0.5349779,0,0,0.49348967,154.18182,-283.78873)"
            style="font-size:12px;overflow:visible;color-interpolation-filters:sRGB;fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.972576;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:3;stroke-dasharray:none;stroke-opacity:1;paint-order:normal">
           <title
              id="title214-0-20">Effect</title>
@@ -573,7 +574,7 @@
            id="macro"
            v:mID="169"
            v:groupContext="shape"
-           transform="matrix(0.5349779,0,0,0.49348967,120.91807,-298.39292)"
+           transform="matrix(0.5349779,0,0,0.49348967,120.91807,-298.33686)"
            style="font-size:12px;overflow:visible;color-interpolation-filters:sRGB;fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.972576;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:3;stroke-dasharray:none;stroke-opacity:1;paint-order:normal">
           <title
              id="title214-8">Macro</title>
@@ -590,7 +591,7 @@
            id="help"
            v:mID="169"
            v:groupContext="shape"
-           transform="matrix(0.5349779,0,0,0.49348967,137.54995,-298.39292)"
+           transform="matrix(0.5349779,0,0,0.49348967,137.54995,-298.33686)"
            style="font-size:12px;overflow:visible;color-interpolation-filters:sRGB;fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.972576;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:3;stroke-dasharray:none;stroke-opacity:1;paint-order:normal">
           <title
              id="title214-1-98">Help</title>
@@ -607,7 +608,7 @@
            id="learn"
            v:mID="169"
            v:groupContext="shape"
-           transform="matrix(0.5349779,0,0,0.49348967,154.18182,-298.39292)"
+           transform="matrix(0.5349779,0,0,0.49348967,154.18182,-298.33686)"
            style="font-size:12px;overflow:visible;color-interpolation-filters:sRGB;fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.972576;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:3;stroke-dasharray:none;stroke-opacity:1;paint-order:normal">
           <title
              id="title214-0-23">Learn</title>
@@ -624,7 +625,7 @@
            id="displays"
            v:mID="169"
            v:groupContext="shape"
-           transform="matrix(0.5349779,0,0,0.49348967,120.91807,-320.2151)"
+           transform="matrix(0.5349779,0,0,0.49348967,120.91807,-320.15904)"
            style="font-size:12px;overflow:visible;color-interpolation-filters:sRGB;fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.972576;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:3;stroke-dasharray:none;stroke-opacity:1;paint-order:normal">
           <title
              id="title214-8-9">Displays</title>
@@ -641,7 +642,7 @@
            id="address_patch"
            v:mID="169"
            v:groupContext="shape"
-           transform="matrix(0.5349779,0,0,0.49348967,137.54995,-320.2151)"
+           transform="matrix(0.5349779,0,0,0.49348967,137.54995,-320.15904)"
            style="font-size:12px;overflow:visible;color-interpolation-filters:sRGB;fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.972576;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:3;stroke-dasharray:none;stroke-opacity:1;paint-order:normal">
           <title
              id="title214-1-98-1">Address / Patch</title>
@@ -658,7 +659,7 @@
            id="encoder_display"
            v:mID="169"
            v:groupContext="shape"
-           transform="matrix(0.5349779,0,0,0.49348967,154.18182,-320.2151)"
+           transform="matrix(0.5349779,0,0,0.49348967,154.18182,-320.15904)"
            style="font-size:12px;overflow:visible;color-interpolation-filters:sRGB;fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.972576;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:3;stroke-dasharray:none;stroke-opacity:1;paint-order:normal">
           <title
              id="title214-0-23-4">Encoder Display</title>
@@ -675,7 +676,7 @@
            id="clear"
            v:mID="169"
            v:groupContext="shape"
-           transform="matrix(0.5349779,0,0,0.49348967,179.12963,-203.83012)"
+           transform="matrix(0.5349779,0,0,0.49348967,179.12963,-203.77406)"
            style="font-size:12px;overflow:visible;color-interpolation-filters:sRGB;fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.972576;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:3;stroke-dasharray:none;stroke-opacity:1;paint-order:normal">
           <title
              id="title214-5">Clear</title>
@@ -692,7 +693,7 @@
            id="0"
            v:mID="169"
            v:groupContext="shape"
-           transform="matrix(0.5349779,0,0,0.49348967,195.76151,-203.83012)"
+           transform="matrix(0.5349779,0,0,0.49348967,195.76151,-203.77406)"
            style="font-size:12px;overflow:visible;color-interpolation-filters:sRGB;fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.972576;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:3;stroke-dasharray:none;stroke-opacity:1;paint-order:normal">
           <title
              id="title214-1-30">0</title>
@@ -709,7 +710,7 @@
            id="Dot"
            v:mID="169"
            v:groupContext="shape"
-           transform="matrix(0.5349779,0,0,0.49348967,212.39338,-203.83012)"
+           transform="matrix(0.5349779,0,0,0.49348967,212.39338,-203.77406)"
            style="font-size:12px;overflow:visible;color-interpolation-filters:sRGB;fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.972576;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:3;stroke-dasharray:none;stroke-opacity:1;paint-order:normal">
           <title
              id="title214-0-75">.</title>
@@ -726,7 +727,7 @@
            id="1"
            v:mID="169"
            v:groupContext="shape"
-           transform="matrix(0.5349779,0,0,0.49348967,179.12963,-218.37824)"
+           transform="matrix(0.5349779,0,0,0.49348967,179.12963,-218.32218)"
            style="font-size:12px;overflow:visible;color-interpolation-filters:sRGB;fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.972576;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:3;stroke-dasharray:none;stroke-opacity:1;paint-order:normal">
           <title
              id="title214-05-1">1</title>
@@ -743,7 +744,7 @@
            id="2"
            v:mID="169"
            v:groupContext="shape"
-           transform="matrix(0.5349779,0,0,0.49348967,195.76151,-218.37824)"
+           transform="matrix(0.5349779,0,0,0.49348967,195.76151,-218.32218)"
            style="font-size:12px;overflow:visible;color-interpolation-filters:sRGB;fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.972576;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:3;stroke-dasharray:none;stroke-opacity:1;paint-order:normal">
           <title
              id="title214-1-9-7">2</title>
@@ -760,7 +761,7 @@
            id="3"
            v:mID="169"
            v:groupContext="shape"
-           transform="matrix(0.5349779,0,0,0.49348967,212.39338,-218.37824)"
+           transform="matrix(0.5349779,0,0,0.49348967,212.39338,-218.32218)"
            style="font-size:12px;overflow:visible;color-interpolation-filters:sRGB;fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.972576;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:3;stroke-dasharray:none;stroke-opacity:1;paint-order:normal">
           <title
              id="title214-0-7-8">3</title>
@@ -777,7 +778,7 @@
            id="4"
            v:mID="169"
            v:groupContext="shape"
-           transform="matrix(0.5349779,0,0,0.49348967,179.12963,-232.92636)"
+           transform="matrix(0.5349779,0,0,0.49348967,179.12963,-232.8703)"
            style="font-size:12px;overflow:visible;color-interpolation-filters:sRGB;fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.972576;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:3;stroke-dasharray:none;stroke-opacity:1;paint-order:normal">
           <title
              id="title214-17-2">4</title>
@@ -794,7 +795,7 @@
            id="5"
            v:mID="169"
            v:groupContext="shape"
-           transform="matrix(0.5349779,0,0,0.49348967,195.76151,-232.92636)"
+           transform="matrix(0.5349779,0,0,0.49348967,195.76151,-232.8703)"
            style="font-size:12px;overflow:visible;color-interpolation-filters:sRGB;fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.972576;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:3;stroke-dasharray:none;stroke-opacity:1;paint-order:normal">
           <title
              id="title214-1-1-5">5</title>
@@ -811,7 +812,7 @@
            id="6"
            v:mID="169"
            v:groupContext="shape"
-           transform="matrix(0.5349779,0,0,0.49348967,212.39338,-232.92636)"
+           transform="matrix(0.5349779,0,0,0.49348967,212.39338,-232.8703)"
            style="font-size:12px;overflow:visible;color-interpolation-filters:sRGB;fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.972576;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:3;stroke-dasharray:none;stroke-opacity:1;paint-order:normal">
           <title
              id="title214-0-4-9">6</title>
@@ -828,7 +829,7 @@
            id="7"
            v:mID="169"
            v:groupContext="shape"
-           transform="matrix(0.5349779,0,0,0.49348967,179.12963,-247.47449)"
+           transform="matrix(0.5349779,0,0,0.49348967,179.12963,-247.41843)"
            style="font-size:12px;overflow:visible;color-interpolation-filters:sRGB;fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.972576;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:3;stroke-dasharray:none;stroke-opacity:1;paint-order:normal">
           <title
              id="title214-9-1">7</title>
@@ -845,7 +846,7 @@
            id="8"
            v:mID="169"
            v:groupContext="shape"
-           transform="matrix(0.5349779,0,0,0.49348967,195.7615,-247.47449)"
+           transform="matrix(0.5349779,0,0,0.49348967,195.7615,-247.41843)"
            style="font-size:12px;overflow:visible;color-interpolation-filters:sRGB;fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.972576;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:3;stroke-dasharray:none;stroke-opacity:1;paint-order:normal">
           <title
              id="title214-1-5-4">8</title>
@@ -862,7 +863,7 @@
            id="9"
            v:mID="169"
            v:groupContext="shape"
-           transform="matrix(0.5349779,0,0,0.49348967,212.39337,-247.47449)"
+           transform="matrix(0.5349779,0,0,0.49348967,212.39337,-247.41843)"
            style="font-size:12px;overflow:visible;color-interpolation-filters:sRGB;fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.972576;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:3;stroke-dasharray:none;stroke-opacity:1;paint-order:normal">
           <title
              id="title214-0-3-9">9</title>
@@ -879,7 +880,7 @@
            id="plus"
            v:mID="169"
            v:groupContext="shape"
-           transform="matrix(0.5349779,0,0,0.49348967,179.12963,-262.02261)"
+           transform="matrix(0.5349779,0,0,0.49348967,179.12963,-261.96655)"
            style="font-size:12px;overflow:visible;color-interpolation-filters:sRGB;fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.972576;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:3;stroke-dasharray:none;stroke-opacity:1;paint-order:normal">
           <title
              id="title214-7-9">+</title>
@@ -896,7 +897,7 @@
            id="thru"
            v:mID="169"
            v:groupContext="shape"
-           transform="matrix(0.5349779,0,0,0.49348967,195.7615,-262.02261)"
+           transform="matrix(0.5349779,0,0,0.49348967,195.7615,-261.96655)"
            style="font-size:12px;overflow:visible;color-interpolation-filters:sRGB;fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.972576;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:3;stroke-dasharray:none;stroke-opacity:1;paint-order:normal">
           <title
              id="title214-1-3-8">Thru</title>
@@ -913,7 +914,7 @@
            id="minus"
            v:mID="169"
            v:groupContext="shape"
-           transform="matrix(0.5349779,0,0,0.49348967,212.39337,-262.02261)"
+           transform="matrix(0.5349779,0,0,0.49348967,212.39337,-261.96655)"
            style="font-size:12px;overflow:visible;color-interpolation-filters:sRGB;fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.972576;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:3;stroke-dasharray:none;stroke-opacity:1;paint-order:normal">
           <title
              id="title214-0-2-7">-</title>
@@ -930,7 +931,7 @@
            id="gotocue"
            v:mID="169"
            v:groupContext="shape"
-           transform="matrix(0.5349779,0,0,0.49348967,179.12963,-283.84479)"
+           transform="matrix(0.5349779,0,0,0.49348967,179.12963,-283.78873)"
            style="font-size:12px;overflow:visible;color-interpolation-filters:sRGB;fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.972576;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:3;stroke-dasharray:none;stroke-opacity:1;paint-order:normal">
           <title
              id="title214-4-7">Go To Cue</title>
@@ -947,7 +948,7 @@
            id="block"
            v:mID="169"
            v:groupContext="shape"
-           transform="matrix(0.5349779,0,0,0.49348967,195.76151,-283.84479)"
+           transform="matrix(0.5349779,0,0,0.49348967,195.76151,-283.78873)"
            style="font-size:12px;overflow:visible;color-interpolation-filters:sRGB;fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.972576;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:3;stroke-dasharray:none;stroke-opacity:1;paint-order:normal">
           <title
              id="title214-1-58-0">Block</title>
@@ -964,7 +965,7 @@
            id="assert1"
            v:mID="169"
            v:groupContext="shape"
-           transform="matrix(0.5349779,0,0,0.49348967,212.39338,-283.84479)"
+           transform="matrix(0.5349779,0,0,0.49348967,212.39338,-283.78873)"
            style="font-size:12px;overflow:visible;color-interpolation-filters:sRGB;fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.972576;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:3;stroke-dasharray:none;stroke-opacity:1;paint-order:normal">
           <title
              id="title214-0-20-9">Assert</title>
@@ -981,7 +982,7 @@
            id="query"
            v:mID="169"
            v:groupContext="shape"
-           transform="matrix(0.5349779,0,0,0.49348967,179.12963,-298.39292)"
+           transform="matrix(0.5349779,0,0,0.49348967,179.12963,-298.33686)"
            style="font-size:12px;overflow:visible;color-interpolation-filters:sRGB;fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.972576;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:3;stroke-dasharray:none;stroke-opacity:1;paint-order:normal">
           <title
              id="title214-8-1">Query</title>
@@ -998,7 +999,7 @@
            id="copyto_moveto"
            v:mID="169"
            v:groupContext="shape"
-           transform="matrix(0.5349779,0,0,0.49348967,195.76151,-298.39292)"
+           transform="matrix(0.5349779,0,0,0.49348967,195.76151,-298.33686)"
            style="font-size:12px;overflow:visible;color-interpolation-filters:sRGB;fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.972576;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:3;stroke-dasharray:none;stroke-opacity:1;paint-order:normal">
           <title
              id="title214-1-98-2">Copy To / Move To</title>
@@ -1015,7 +1016,7 @@
            id="recallfrom"
            v:mID="169"
            v:groupContext="shape"
-           transform="matrix(0.5349779,0,0,0.49348967,212.39338,-298.39292)"
+           transform="matrix(0.5349779,0,0,0.49348967,212.39338,-298.33686)"
            style="font-size:12px;overflow:visible;color-interpolation-filters:sRGB;fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.972576;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:3;stroke-dasharray:none;stroke-opacity:1;paint-order:normal">
           <title
              id="title214-0-23-8">Recall From </title>
@@ -1032,7 +1033,7 @@
            id="intensity_s1"
            v:mID="169"
            v:groupContext="shape"
-           transform="matrix(0.5349779,0,0,0.49348967,179.12963,-320.2151)"
+           transform="matrix(0.5349779,0,0,0.49348967,179.12963,-320.15904)"
            style="font-size:12px;overflow:visible;color-interpolation-filters:sRGB;fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.972576;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:3;stroke-dasharray:none;stroke-opacity:1;paint-order:normal">
           <title
              id="title214-8-9-0">Intensity / S1</title>
@@ -1049,7 +1050,7 @@
            id="focus_s2"
            v:mID="169"
            v:groupContext="shape"
-           transform="matrix(0.5349779,0,0,0.49348967,195.76151,-320.2151)"
+           transform="matrix(0.5349779,0,0,0.49348967,195.76151,-320.15904)"
            style="font-size:12px;overflow:visible;color-interpolation-filters:sRGB;fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.972576;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:3;stroke-dasharray:none;stroke-opacity:1;paint-order:normal">
           <title
              id="title214-1-98-1-7">Focus / S2</title>
@@ -1066,7 +1067,7 @@
            id="color_s3"
            v:mID="169"
            v:groupContext="shape"
-           transform="matrix(0.5349779,0,0,0.49348967,212.39338,-320.2151)"
+           transform="matrix(0.5349779,0,0,0.49348967,212.39338,-320.15904)"
            style="font-size:12px;overflow:visible;color-interpolation-filters:sRGB;fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.972576;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:3;stroke-dasharray:none;stroke-opacity:1;paint-order:normal">
           <title
              id="title214-0-23-4-5">Color / S3</title>
@@ -1083,7 +1084,7 @@
            id="at"
            v:mID="169"
            v:groupContext="shape"
-           transform="matrix(0.534978,0,0,0.49348971,237.34119,-203.83013)"
+           transform="matrix(0.534978,0,0,0.49348971,237.34119,-203.77407)"
            style="font-size:12px;overflow:visible;color-interpolation-filters:sRGB;fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.97258;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:3;stroke-dasharray:none;stroke-opacity:1;paint-order:normal">
           <title
              id="title214-93">At</title>
@@ -1100,7 +1101,7 @@
            id="full"
            v:mID="169"
            v:groupContext="shape"
-           transform="matrix(0.5349779,0,0,0.49348967,237.34119,-218.37824)"
+           transform="matrix(0.5349779,0,0,0.49348967,237.34119,-218.32218)"
            style="font-size:12px;overflow:visible;color-interpolation-filters:sRGB;fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.972576;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:3;stroke-dasharray:none;stroke-opacity:1;paint-order:normal">
           <title
              id="title214-05-6">Full</title>
@@ -1117,7 +1118,7 @@
            id="level"
            v:mID="169"
            v:groupContext="shape"
-           transform="matrix(0.5349779,0,0,0.49348967,253.97307,-218.37824)"
+           transform="matrix(0.5349779,0,0,0.49348967,253.97307,-218.32218)"
            style="font-size:12px;overflow:visible;color-interpolation-filters:sRGB;fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.972576;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:3;stroke-dasharray:none;stroke-opacity:1;paint-order:normal">
           <title
              id="title214-1-9-6">Level</title>
@@ -1134,7 +1135,7 @@
            id="qonly_track"
            v:mID="169"
            v:groupContext="shape"
-           transform="matrix(0.5349779,0,0,0.49348967,270.60494,-218.37824)"
+           transform="matrix(0.5349779,0,0,0.49348967,270.60494,-218.32218)"
            style="font-size:12px;overflow:visible;color-interpolation-filters:sRGB;fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.972576;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:3;stroke-dasharray:none;stroke-opacity:1;paint-order:normal">
           <title
              id="title214-0-7-1">Q Only / Track</title>
@@ -1151,7 +1152,7 @@
            id="out"
            v:mID="169"
            v:groupContext="shape"
-           transform="matrix(0.5349779,0,0,0.49348967,237.34119,-232.92636)"
+           transform="matrix(0.5349779,0,0,0.49348967,237.34119,-232.8703)"
            style="font-size:12px;overflow:visible;color-interpolation-filters:sRGB;fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.972576;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:3;stroke-dasharray:none;stroke-opacity:1;paint-order:normal">
           <title
              id="title214-17-4">Out</title>
@@ -1168,7 +1169,7 @@
            id="minuspercent"
            v:mID="169"
            v:groupContext="shape"
-           transform="matrix(0.5349779,0,0,0.49348967,253.97307,-232.92636)"
+           transform="matrix(0.5349779,0,0,0.49348967,253.97307,-232.8703)"
            style="font-size:12px;overflow:visible;color-interpolation-filters:sRGB;fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.972576;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:3;stroke-dasharray:none;stroke-opacity:1;paint-order:normal">
           <title
              id="title214-1-1-59">-%</title>
@@ -1185,7 +1186,7 @@
            id="trace"
            v:mID="169"
            v:groupContext="shape"
-           transform="matrix(0.5349779,0,0,0.49348967,270.60494,-232.92636)"
+           transform="matrix(0.5349779,0,0,0.49348967,270.60494,-232.8703)"
            style="font-size:12px;overflow:visible;color-interpolation-filters:sRGB;fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.972576;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:3;stroke-dasharray:none;stroke-opacity:1;paint-order:normal">
           <title
              id="title214-0-4-8">Trace</title>
@@ -1202,7 +1203,7 @@
            id="remdim"
            v:mID="169"
            v:groupContext="shape"
-           transform="matrix(0.5349779,0,0,0.49348967,237.34119,-247.47449)"
+           transform="matrix(0.5349779,0,0,0.49348967,237.34119,-247.41843)"
            style="font-size:12px;overflow:visible;color-interpolation-filters:sRGB;fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.972576;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:3;stroke-dasharray:none;stroke-opacity:1;paint-order:normal">
           <title
              id="title214-9-0">Rem Dim</title>
@@ -1219,7 +1220,7 @@
            id="pluspercent"
            v:mID="169"
            v:groupContext="shape"
-           transform="matrix(0.5349779,0,0,0.49348967,253.97306,-247.47449)"
+           transform="matrix(0.5349779,0,0,0.49348967,253.97306,-247.41843)"
            style="font-size:12px;overflow:visible;color-interpolation-filters:sRGB;fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.972576;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:3;stroke-dasharray:none;stroke-opacity:1;paint-order:normal">
           <title
              id="title214-1-5-5">+%</title>
@@ -1236,7 +1237,7 @@
            id="home"
            v:mID="169"
            v:groupContext="shape"
-           transform="matrix(0.5349779,0,0,0.49348967,270.60493,-247.47449)"
+           transform="matrix(0.5349779,0,0,0.49348967,270.60493,-247.41843)"
            style="font-size:12px;overflow:visible;color-interpolation-filters:sRGB;fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.972576;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:3;stroke-dasharray:none;stroke-opacity:1;paint-order:normal">
           <title
              id="title214-0-3-4">Home</title>
@@ -1253,7 +1254,7 @@
            id="slash"
            v:mID="169"
            v:groupContext="shape"
-           transform="matrix(0.5349779,0,0,0.49348967,237.34119,-262.02261)"
+           transform="matrix(0.5349779,0,0,0.49348967,237.34119,-261.96655)"
            style="font-size:12px;overflow:visible;color-interpolation-filters:sRGB;fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.972576;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:3;stroke-dasharray:none;stroke-opacity:1;paint-order:normal">
           <title
              id="title214-7-4">Slash</title>
@@ -1270,7 +1271,7 @@
            id="mark"
            v:mID="169"
            v:groupContext="shape"
-           transform="matrix(0.5349779,0,0,0.49348967,253.97306,-262.02261)"
+           transform="matrix(0.5349779,0,0,0.49348967,253.97306,-261.96655)"
            style="font-size:12px;overflow:visible;color-interpolation-filters:sRGB;fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.972576;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:3;stroke-dasharray:none;stroke-opacity:1;paint-order:normal">
           <title
              id="title214-1-3-7">Mark</title>
@@ -1287,7 +1288,7 @@
            id="sneak"
            v:mID="169"
            v:groupContext="shape"
-           transform="matrix(0.5349779,0,0,0.49348967,270.60493,-262.02261)"
+           transform="matrix(0.5349779,0,0,0.49348967,270.60493,-261.96655)"
            style="font-size:12px;overflow:visible;color-interpolation-filters:sRGB;fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.972576;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:3;stroke-dasharray:none;stroke-opacity:1;paint-order:normal">
           <title
              id="title214-0-2-6">Sneak</title>
@@ -1304,7 +1305,7 @@
            id="undoredo"
            v:mID="169"
            v:groupContext="shape"
-           transform="matrix(0.5349779,0,0,0.49348967,237.34119,-283.84479)"
+           transform="matrix(0.5349779,0,0,0.49348967,237.34119,-283.78873)"
            style="font-size:12px;overflow:visible;color-interpolation-filters:sRGB;fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.972576;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:3;stroke-dasharray:none;stroke-opacity:1;paint-order:normal">
           <title
              id="title214-4-79">Undo / Redo</title>
@@ -1321,7 +1322,7 @@
            id="high"
            v:mID="169"
            v:groupContext="shape"
-           transform="matrix(0.5349779,0,0,0.49348967,253.97307,-283.84479)"
+           transform="matrix(0.5349779,0,0,0.49348967,253.97307,-283.78873)"
            style="font-size:12px;overflow:visible;color-interpolation-filters:sRGB;fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.972576;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:3;stroke-dasharray:none;stroke-opacity:1;paint-order:normal">
           <title
              id="title214-1-58-3">High</title>
@@ -1338,7 +1339,7 @@
            id="fan"
            v:mID="169"
            v:groupContext="shape"
-           transform="matrix(0.5349779,0,0,0.49348967,270.60494,-283.84479)"
+           transform="matrix(0.5349779,0,0,0.49348967,270.60494,-283.78873)"
            style="font-size:12px;overflow:visible;color-interpolation-filters:sRGB;fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.972576;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:3;stroke-dasharray:none;stroke-opacity:1;paint-order:normal">
           <title
              id="title214-0-20-6">Fan</title>
@@ -1355,7 +1356,7 @@
            id="label"
            v:mID="169"
            v:groupContext="shape"
-           transform="matrix(0.5349779,0,0,0.49348967,237.34119,-298.39292)"
+           transform="matrix(0.5349779,0,0,0.49348967,237.34119,-298.33686)"
            style="font-size:12px;overflow:visible;color-interpolation-filters:sRGB;fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.972576;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:3;stroke-dasharray:none;stroke-opacity:1;paint-order:normal">
           <title
              id="title214-8-8">Label</title>
@@ -1372,7 +1373,7 @@
            id="unused"
            v:mID="169"
            v:groupContext="shape"
-           transform="matrix(0.5349779,0,0,0.49348967,253.97307,-298.39292)"
+           transform="matrix(0.5349779,0,0,0.49348967,253.97307,-298.33686)"
            style="font-size:12px;overflow:visible;color-interpolation-filters:sRGB;fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.972576;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:3;stroke-dasharray:none;stroke-opacity:1;paint-order:normal">
           <title
              id="title214-1-98-25">Unused</title>
@@ -1389,7 +1390,7 @@
            id="about"
            v:mID="169"
            v:groupContext="shape"
-           transform="matrix(0.5349779,0,0,0.49348967,270.60494,-298.39292)"
+           transform="matrix(0.5349779,0,0,0.49348967,270.60494,-298.33686)"
            style="font-size:12px;overflow:visible;color-interpolation-filters:sRGB;fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.972576;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:3;stroke-dasharray:none;stroke-opacity:1;paint-order:normal">
           <title
              id="title214-0-23-6">About</title>
@@ -1406,7 +1407,7 @@
            id="shutter_s4"
            v:mID="169"
            v:groupContext="shape"
-           transform="matrix(0.5349779,0,0,0.49348967,237.34119,-320.2151)"
+           transform="matrix(0.5349779,0,0,0.49348967,237.34119,-320.15904)"
            style="font-size:12px;overflow:visible;color-interpolation-filters:sRGB;fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.972576;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:3;stroke-dasharray:none;stroke-opacity:1;paint-order:normal">
           <title
              id="title214-8-9-9">Shutter / S4</title>
@@ -1423,7 +1424,7 @@
            id="image_s5"
            v:mID="169"
            v:groupContext="shape"
-           transform="matrix(0.5349779,0,0,0.49348967,253.97307,-320.2151)"
+           transform="matrix(0.5349779,0,0,0.49348967,253.97307,-320.15904)"
            style="font-size:12px;overflow:visible;color-interpolation-filters:sRGB;fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.972576;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:3;stroke-dasharray:none;stroke-opacity:1;paint-order:normal">
           <title
              id="title214-1-98-1-3">Image / S5</title>
@@ -1440,7 +1441,7 @@
            id="shutter_s6"
            v:mID="169"
            v:groupContext="shape"
-           transform="matrix(0.5349779,0,0,0.49348967,270.60494,-320.2151)"
+           transform="matrix(0.5349779,0,0,0.49348967,270.60494,-320.15904)"
            style="font-size:12px;overflow:visible;color-interpolation-filters:sRGB;fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.972576;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:3;stroke-dasharray:none;stroke-opacity:1;paint-order:normal">
           <title
              id="title214-0-23-4-8">Shutter / S6</title>
@@ -1457,7 +1458,7 @@
            id="next"
            v:mID="169"
            v:groupContext="shape"
-           transform="matrix(0.5349779,0,0,0.49348967,295.55275,-203.83012)"
+           transform="matrix(0.5349779,0,0,0.49348967,295.55275,-203.77406)"
            style="font-size:12px;overflow:visible;color-interpolation-filters:sRGB;fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.972576;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:3;stroke-dasharray:none;stroke-opacity:1;paint-order:normal">
           <title
              id="title214-0-36-5">Next</title>
@@ -1474,7 +1475,7 @@
            id="last"
            v:mID="169"
            v:groupContext="shape"
-           transform="matrix(0.5349779,0,0,0.49348967,295.55275,-218.37824)"
+           transform="matrix(0.5349779,0,0,0.49348967,295.55275,-218.32218)"
            style="font-size:12px;overflow:visible;color-interpolation-filters:sRGB;fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.972576;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:3;stroke-dasharray:none;stroke-opacity:1;paint-order:normal">
           <title
              id="title214-0-7-1-5">Last</title>
@@ -1491,7 +1492,7 @@
            id="selectactive"
            v:mID="169"
            v:groupContext="shape"
-           transform="matrix(0.5349779,0,0,0.49348967,295.55275,-232.92636)"
+           transform="matrix(0.5349779,0,0,0.49348967,295.55275,-232.8703)"
            style="font-size:12px;overflow:visible;color-interpolation-filters:sRGB;fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.972576;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:3;stroke-dasharray:none;stroke-opacity:1;paint-order:normal">
           <title
              id="title214-0-4-8-4">Select Active</title>
@@ -1508,7 +1509,7 @@
            id="selectmanual"
            v:mID="169"
            v:groupContext="shape"
-           transform="matrix(0.5349779,0,0,0.49348967,295.55274,-247.47449)"
+           transform="matrix(0.5349779,0,0,0.49348967,295.55274,-247.41843)"
            style="font-size:12px;overflow:visible;color-interpolation-filters:sRGB;fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.972576;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:3;stroke-dasharray:none;stroke-opacity:1;paint-order:normal">
           <title
              id="title214-0-3-4-9">Select Manual</title>
@@ -1525,7 +1526,7 @@
            id="selectlast"
            v:mID="169"
            v:groupContext="shape"
-           transform="matrix(0.5349779,0,0,0.49348967,295.55274,-262.02261)"
+           transform="matrix(0.5349779,0,0,0.49348967,295.55274,-261.96655)"
            style="font-size:12px;overflow:visible;color-interpolation-filters:sRGB;fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.972576;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:3;stroke-dasharray:none;stroke-opacity:1;paint-order:normal">
           <title
              id="title214-0-2-6-5">Select Last</title>
@@ -1542,7 +1543,7 @@
            id="capture"
            v:mID="169"
            v:groupContext="shape"
-           transform="matrix(0.5349779,0,0,0.49348967,295.55275,-283.84479)"
+           transform="matrix(0.5349779,0,0,0.49348967,295.55275,-283.78873)"
            style="font-size:12px;overflow:visible;color-interpolation-filters:sRGB;fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.972576;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:3;stroke-dasharray:none;stroke-opacity:1;paint-order:normal">
           <title
              id="title214-0-20-6-2">Capture</title>
@@ -1559,7 +1560,7 @@
            id="park"
            v:mID="169"
            v:groupContext="shape"
-           transform="matrix(0.5349779,0,0,0.49348967,295.55275,-298.39292)"
+           transform="matrix(0.5349779,0,0,0.49348967,295.55275,-298.33686)"
            style="font-size:12px;overflow:visible;color-interpolation-filters:sRGB;fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.972576;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:3;stroke-dasharray:none;stroke-opacity:1;paint-order:normal">
           <title
              id="title214-0-23-6-0">Park</title>
@@ -1576,7 +1577,7 @@
            id="moresk"
            v:mID="169"
            v:groupContext="shape"
-           transform="matrix(0.5349779,0,0,0.49348967,295.55275,-320.2151)"
+           transform="matrix(0.5349779,0,0,0.49348967,295.55275,-320.15904)"
            style="font-size:12px;overflow:visible;color-interpolation-filters:sRGB;fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.972576;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:3;stroke-dasharray:none;stroke-opacity:1;paint-order:normal">
           <title
              id="title214-0-23-4-8-4">More SK</title>
@@ -1593,7 +1594,7 @@
            id="pageleft"
            v:mID="169"
            v:groupContext="shape"
-           transform="matrix(0.5349779,0,0,0.49348967,324.65853,-283.84479)"
+           transform="matrix(0.5349779,0,0,0.49348967,324.65853,-283.78873)"
            style="font-size:12px;overflow:visible;color-interpolation-filters:sRGB;fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.972576;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:3;stroke-dasharray:none;stroke-opacity:1;paint-order:normal">
           <title
              id="title214-4-79-7">Page Left</title>
@@ -1606,7 +1607,7 @@
            id="pagedown"
            v:mID="169"
            v:groupContext="shape"
-           transform="matrix(0.5349779,0,0,0.49348967,341.29041,-283.84479)"
+           transform="matrix(0.5349779,0,0,0.49348967,341.29041,-283.78873)"
            style="font-size:12px;overflow:visible;color-interpolation-filters:sRGB;fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.972576;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:3;stroke-dasharray:none;stroke-opacity:1;paint-order:normal">
           <title
              id="title214-1-58-3-5">Page Down</title>
@@ -1623,7 +1624,7 @@
            id="escape"
            v:mID="169"
            v:groupContext="shape"
-           transform="matrix(0.5349779,0,0,0.49348967,324.65853,-298.39292)"
+           transform="matrix(0.5349779,0,0,0.49348967,324.65853,-298.33686)"
            style="font-size:12px;overflow:visible;color-interpolation-filters:sRGB;fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.972576;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:3;stroke-dasharray:none;stroke-opacity:1;paint-order:normal">
           <title
              id="title214-8-8-5">Escape</title>
@@ -1640,7 +1641,7 @@
            id="pageright"
            v:mID="169"
            v:groupContext="shape"
-           transform="matrix(0.5349779,0,0,0.49348967,357.92228,-283.84479)"
+           transform="matrix(0.5349779,0,0,0.49348967,357.92228,-283.78873)"
            style="font-size:12px;overflow:visible;color-interpolation-filters:sRGB;fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.972576;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:3;stroke-dasharray:none;stroke-opacity:1;paint-order:normal">
           <title
              id="title214-0-20-6-1">Page Right</title>
@@ -1657,7 +1658,7 @@
            id="pageup"
            v:mID="169"
            v:groupContext="shape"
-           transform="matrix(0.5349779,0,0,0.49348967,341.29041,-298.39292)"
+           transform="matrix(0.5349779,0,0,0.49348967,341.29041,-298.33686)"
            style="font-size:12px;overflow:visible;color-interpolation-filters:sRGB;fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.972576;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:3;stroke-dasharray:none;stroke-opacity:1;paint-order:normal">
           <title
              id="title214-1-98-25-3">Page Up</title>
@@ -1674,7 +1675,7 @@
            id="Select"
            v:mID="169"
            v:groupContext="shape"
-           transform="matrix(0.5349779,0,0,0.49348967,357.92228,-298.39292)"
+           transform="matrix(0.5349779,0,0,0.49348967,357.92228,-298.33686)"
            style="font-size:12px;overflow:visible;color-interpolation-filters:sRGB;fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.972576;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:3;stroke-dasharray:none;stroke-opacity:1;paint-order:normal">
           <title
              id="title214-0-23-6-4">Select</title>
@@ -1691,7 +1692,7 @@
            id="live"
            v:mID="169"
            v:groupContext="shape"
-           transform="matrix(0.5349779,0,0,0.49348967,324.65853,-320.2151)"
+           transform="matrix(0.5349779,0,0,0.49348967,324.65853,-320.15904)"
            style="font-size:12px;overflow:visible;color-interpolation-filters:sRGB;fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.972576;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:3;stroke-dasharray:none;stroke-opacity:1;paint-order:normal">
           <title
              id="title214-8-9-9-5">Live</title>
@@ -1708,7 +1709,7 @@
            id="blind"
            v:mID="169"
            v:groupContext="shape"
-           transform="matrix(0.5349779,0,0,0.49348967,341.29041,-320.2151)"
+           transform="matrix(0.5349779,0,0,0.49348967,341.29041,-320.15904)"
            style="font-size:12px;overflow:visible;color-interpolation-filters:sRGB;fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.972576;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:3;stroke-dasharray:none;stroke-opacity:1;paint-order:normal">
           <title
              id="title214-1-98-1-3-3">Blind</title>
@@ -1725,7 +1726,7 @@
            id="stage"
            v:mID="169"
            v:groupContext="shape"
-           transform="matrix(0.5349779,0,0,0.49348967,357.92228,-320.2151)"
+           transform="matrix(0.5349779,0,0,0.49348967,357.92228,-320.15904)"
            style="font-size:12px;overflow:visible;color-interpolation-filters:sRGB;fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.972576;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:3;stroke-dasharray:none;stroke-opacity:1;paint-order:normal">
           <title
              id="title214-0-23-4-8-5">Stage</title>
@@ -1742,7 +1743,7 @@
            id="manualwheel2"
            v:mID="104"
            v:groupContext="shape"
-           transform="matrix(0.56417292,0,0,0.57382528,313.51857,-269.61425)"
+           transform="matrix(0.56417292,0,0,0.57382528,313.51857,-269.55819)"
            style="font-size:12px;overflow:visible;color-interpolation-filters:sRGB;fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.878283;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:3;stroke-dasharray:none;stroke-opacity:1;paint-order:normal">
           <title
              id="title59-0-4">Manual Wheel 2</title>
@@ -1762,7 +1763,7 @@
            cy="-160.00319"
            rx="8.1785097"
            ry="7.1445422"
-           transform="translate(0,0.19288266)">
+           transform="translate(0,0.24894379)">
           <title
              id="title3057">Power</title>
         </ellipse>
@@ -1770,7 +1771,7 @@
            id="USB"
            v:mID="169"
            v:groupContext="shape"
-           transform="matrix(0.13374438,0,0,0.49348952,328.77746,-352.94832)"
+           transform="matrix(0.13374438,0,0,0.49348952,328.77746,-352.89226)"
            style="font-size:12px;overflow:visible;color-interpolation-filters:sRGB;fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1.83073;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:3;stroke-dasharray:none;stroke-opacity:1;paint-order:normal">
           <title
              id="title214-1-98-1-3-3-1">USB</title>
@@ -1782,7 +1783,8 @@
            cy="-159.89841"
            rx="20.789843"
            ry="18.185154"
-           inkscape:label="#encoder3">
+           inkscape:label="#encoder3"
+           transform="translate(0,0.05606113)">
           <title
              id="title3053">Encoder 3</title>
         </ellipse>
@@ -1793,7 +1795,8 @@
            cy="-159.89841"
            rx="20.789843"
            ry="18.185154"
-           inkscape:label="#encoder2">
+           inkscape:label="#encoder2"
+           transform="translate(0,0.05606113)">
           <title
              id="title3051">Encoder 2</title>
         </ellipse>
@@ -1804,7 +1807,8 @@
            cy="-159.89841"
            rx="20.789843"
            ry="18.185154"
-           inkscape:label="#encoder1">
+           inkscape:label="#encoder1"
+           transform="translate(0,0.05606113)">
           <title
              id="title3049">Encoder 1</title>
         </ellipse>
@@ -1812,7 +1816,7 @@
            id="enter"
            v:mID="169"
            v:groupContext="shape"
-           transform="matrix(1.0699561,0,0,0.49348971,281.7449,-203.83014)"
+           transform="matrix(1.0699561,0,0,0.49348971,281.7449,-203.77408)"
            style="font-size:12px;overflow:visible;color-interpolation-filters:sRGB;fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.485446;stroke-linejoin:miter;stroke-miterlimit:3;stroke-dasharray:none;stroke-opacity:1;paint-order:normal">
           <title
              id="title214-93-1"
@@ -1830,12 +1834,12 @@
            style="fill:none;stroke:#000000;stroke-width:0.64252;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:3;stroke-dasharray:none;stroke-opacity:1"
            d="m 280.44078,220.45312 h 40 v 0"
            id="path1262"
-           transform="matrix(0.83159372,0,0,0.72740618,-7.0115624,-178.33342)" />
+           transform="matrix(0.83159372,0,0,0.72740618,-7.0115624,-178.27736)" />
         <path
            style="font-size:12px;overflow:visible;color-interpolation-filters:sRGB;fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.637505;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:3;stroke-dasharray:none;stroke-opacity:1"
            d="m 280.44078,220.45312 h 40 v 0"
            id="path1262-9"
-           transform="matrix(0.83813561,0,0,0.73312846,-8.8461705,-165.04679)" />
+           transform="matrix(0.83813561,0,0,0.73312846,-8.8461705,-164.99073)" />
         <rect
            style="fill:none;fill-opacity:0.348684;stroke:#000000;stroke-width:0.566929;stroke-miterlimit:3;stroke-dasharray:none;stroke-opacity:1;paint-order:normal"
            id="format"
@@ -1843,7 +1847,7 @@
            height="5"
            x="360.4408"
            y="160.45312"
-           transform="matrix(0.83159372,0,0,0.72740618,-7.0115624,-178.33342)">
+           transform="matrix(0.83159372,0,0,0.72740618,-7.0115624,-178.27736)">
           <title
              id="title1302">Format</title>
         </rect>
@@ -1854,7 +1858,7 @@
            height="5"
            x="360.4408"
            y="160.45312"
-           transform="matrix(0.83159372,0,0,0.72740618,-7.0115723,-192.88155)">
+           transform="matrix(0.83159372,0,0,0.72740618,-7.0115723,-192.82549)">
           <title
              id="title1302-5">Tab</title>
         </rect>
@@ -1865,7 +1869,7 @@
            height="5"
            x="360.4408"
            y="160.45312"
-           transform="matrix(0.83159372,0,0,0.72740618,13.778271,-178.33343)">
+           transform="matrix(0.83159372,0,0,0.72740618,13.778271,-178.27737)">
           <title
              id="title1302-5-1">Expand</title>
         </rect>
@@ -1876,7 +1880,7 @@
            height="5"
            x="360.4408"
            y="160.45312"
-           transform="matrix(0.83159372,0,0,0.72740618,34.568114,-178.33343)">
+           transform="matrix(0.83159372,0,0,0.72740618,34.568114,-178.27737)">
           <title
              id="title1302-5-8">Data</title>
         </rect>
@@ -1887,7 +1891,7 @@
            height="5"
            x="360.4408"
            y="160.45312"
-           transform="matrix(0.83159372,0,0,0.72740618,34.568114,-192.88155)">
+           transform="matrix(0.83159372,0,0,0.72740618,34.568114,-192.82549)">
           <title
              id="title1302-5-8-2">Time</title>
         </rect>
@@ -1898,7 +1902,7 @@
            height="5"
            x="360.4408"
            y="160.45312"
-           transform="matrix(0.83159372,0,0,0.72740618,13.778271,-192.88155)">
+           transform="matrix(0.83159372,0,0,0.72740618,13.778271,-192.82549)">
           <title
              id="title1302-5-8-5">Flexi</title>
         </rect>
@@ -1909,7 +1913,7 @@
            height="20"
            x="395.4408"
            y="15.453117"
-           transform="matrix(0.83159372,0,0,0.72740618,-7.0115624,-178.33342)">
+           transform="matrix(0.83159372,0,0,0.72740618,-7.0115624,-178.27736)">
           <title
              id="title1402">USB</title>
         </rect>
@@ -1920,7 +1924,7 @@
            height="5"
            x="360.4408"
            y="160.45312"
-           transform="matrix(0.83159372,0,0,0.72740618,-260.64766,-189.24452)">
+           transform="matrix(0.83159372,0,0,0.72740618,-260.64766,-189.18846)">
           <title
              id="title1302-4">Manual Override</title>
         </rect>
@@ -1931,7 +1935,7 @@
            height="5"
            x="360.4408"
            y="160.45312"
-           transform="matrix(0.83159372,0,0,0.72740618,-260.64766,-232.88889)">
+           transform="matrix(0.83159372,0,0,0.72740618,-260.64766,-232.83283)">
           <title
              id="title1302-5-2">Off</title>
         </rect>
@@ -1942,7 +1946,7 @@
            height="5"
            x="360.4408"
            y="160.45312"
-           transform="matrix(0.83159372,0,0,0.72740618,-260.64766,-174.6964)">
+           transform="matrix(0.83159372,0,0,0.72740618,-260.64766,-174.64034)">
           <title
              id="title1302-5-1-4">Rate</title>
         </rect>
@@ -1953,7 +1957,7 @@
            height="5"
            x="360.4408"
            y="160.45312"
-           transform="matrix(0.83159372,0,0,0.72740618,-235.69984,-174.6964)">
+           transform="matrix(0.83159372,0,0,0.72740618,-235.69984,-174.64034)">
           <title
              id="title1302-5-8-3">Fader Page</title>
         </rect>
@@ -1964,7 +1968,7 @@
            height="5"
            x="360.4408"
            y="160.45312"
-           transform="matrix(0.83159372,0,0,0.72740618,-235.69984,-218.34077)">
+           transform="matrix(0.83159372,0,0,0.72740618,-235.69984,-218.28471)">
           <title
              id="title1302-5-8-2-6">Stop Effect</title>
         </rect>
@@ -1975,7 +1979,7 @@
            height="5"
            x="360.4408"
            y="160.45312"
-           transform="matrix(0.83159372,0,0,0.72740618,-235.69984,-203.79265)">
+           transform="matrix(0.83159372,0,0,0.72740618,-235.69984,-203.73659)">
           <title
              id="title1302-5-8-5-2">Filter</title>
         </rect>
@@ -1986,7 +1990,7 @@
            height="5"
            x="360.4408"
            y="160.45312"
-           transform="matrix(0.83159372,0,0,0.72740618,-235.69984,-189.24452)">
+           transform="matrix(0.83159372,0,0,0.72740618,-235.69984,-189.18846)">
           <title
              id="title1302-5-8-3-0">Timing Disable</title>
         </rect>
@@ -1997,7 +2001,7 @@
            height="5"
            x="360.4408"
            y="160.45312"
-           transform="matrix(0.83159372,0,0,0.72740618,-260.64766,-203.79265)">
+           transform="matrix(0.83159372,0,0,0.72740618,-260.64766,-203.73659)">
           <title
              id="title1302-5-8-3-3">Freeze</title>
         </rect>
@@ -2008,7 +2012,7 @@
            height="5"
            x="360.4408"
            y="160.45312"
-           transform="matrix(0.83159372,0,0,0.72740618,-260.64766,-218.34077)">
+           transform="matrix(0.83159372,0,0,0.72740618,-260.64766,-218.28471)">
           <title
              id="title1302-5-8-3-34">Go To Cue 0</title>
         </rect>
@@ -2019,7 +2023,7 @@
            height="5"
            x="360.4408"
            y="160.45312"
-           transform="matrix(0.83159372,0,0,0.72740618,-235.69984,-232.88889)">
+           transform="matrix(0.83159372,0,0,0.72740618,-235.69984,-232.83283)">
           <title
              id="title1302-5-8-3-1">Assert</title>
         </rect>
@@ -2030,7 +2034,7 @@
            height="5"
            x="360.4408"
            y="160.45312"
-           transform="matrix(0.83159372,0,0,0.72740618,-260.64766,-247.43702)">
+           transform="matrix(0.83159372,0,0,0.72740618,-260.64766,-247.38096)">
           <title
              id="title1302-5-8-3-2">Release</title>
         </rect>
@@ -2041,7 +2045,7 @@
            height="5"
            x="360.4408"
            y="160.45312"
-           transform="matrix(0.83159372,0,0,0.72740618,-235.69984,-247.43702)">
+           transform="matrix(0.83159372,0,0,0.72740618,-235.69984,-247.38096)">
           <title
              id="title1302-5-8-3-16">Spread</title>
         </rect>
