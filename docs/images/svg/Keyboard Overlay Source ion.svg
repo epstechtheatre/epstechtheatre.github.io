@@ -725,7 +725,7 @@
              id="rect231" />
         </g>
         <g
-           id="labelnote"
+           id="label_note"
            v:mID="179"
            v:groupContext="shape"
            transform="matrix(0.5349779,0,0,0.46696605,115.03867,-292.04075)">
@@ -770,7 +770,7 @@
              id="rect246" />
         </g>
         <g
-           id="copyto"
+           id="copyto_moveto"
            v:mID="187"
            v:groupContext="shape"
            transform="matrix(0.5349779,0,0,0.46696605,160.52088,-292.04075)">
@@ -1010,7 +1010,7 @@
              id="rect326" />
         </g>
         <g
-           id="qonlytrack"
+           id="qonly_track"
            v:mID="112"
            v:groupContext="shape"
            transform="matrix(0.5349779,0,0,0.46696605,221.93206,-217.47379)">
