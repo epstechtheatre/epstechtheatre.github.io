@@ -4,6 +4,21 @@ $('#mysidebar').height($(".nav").height());
 
 $( document ).ready(function() {
 
+    if (document.getElementsByClassName("display-button-softkey").length > 0
+    || document.getElementsByClassName("display-button-keypad").length > 0
+    || document.getElementsByClassName("inline-display-button").length > 0) {
+        var script = document.createElement("script");
+        script.type = "text/javascript";
+        script.src = "json/keyNames.mjs";
+
+        var script2 = document.createElement("script");
+        script.type = "text/javascript";
+        script.src = "js/svg_get_shape.js"
+
+        document.head.appendChild(script)
+        document.head.appendChild(script2)
+    }
+
     //this script says, if the height of the viewport is greater than 800px, then insert affix class, which makes the nav bar float in a fixed
     // position as your scroll. if you have a lot of nav items, this height may not work for you.
     var h = $(window).height();
@@ -104,7 +119,7 @@ function showNewKey(pageObj, keyID, revertToSoftkey, currentView = undefined) {
     } else {
         View = document.createElement("object")
         View.className = "keyboard-svg-graphic"
-        View.data = "/images/svg/Keyboard Overlay Source.svg"
+        View.data = "/images/svg/Keyboard Overlay Source ion xe.svg"
         View.type = "image/svg+xml"
         View.name = "Keyboard Graphic"
     
@@ -120,12 +135,12 @@ function showNewKey(pageObj, keyID, revertToSoftkey, currentView = undefined) {
 function ViewDoWork(View, keyID, revertToSoftkey) {
     if (currentKeys.length > 0) {
         for (let key of currentKeys) {
-            key.children[1].style = "fill:white"
+            getSvgShape(key).style = "fill:white;stroke:#000000"
         }
         currentKeys = []
     }
 
-    keyID = keyID.toString().replace("{", "").replace("}", "").replace("_", "").replace("[", "").replace("]", "").replace(" ", "").toLowerCase()
+    keyID = keyID.toString().replace("{", "").replace("}", "").replace("[", "").replace("]", "").replace(" ", "").toLowerCase()
 
     //Returns a string, or array of strings
     let searchElement = parseHighlight(keyID)
@@ -137,7 +152,7 @@ function ViewDoWork(View, keyID, revertToSoftkey) {
 
             if (targetKey) {
                 currentKeys.push(targetKey)
-                targetKey.children[1].style = "fill:lime"
+                getSvgShape(targetKey).style = "fill:lime;stroke:#000000"
             }
         }
     } else {
@@ -150,7 +165,7 @@ function ViewDoWork(View, keyID, revertToSoftkey) {
 
             if (targetKey) {
                 this.currentKeys.push(targetKey)
-                targetKey.children[1].style = "fill:lime"
+                getSvgShape(targetKey).style = "fill:lime;stroke:#000000"
             }
         }
     }
@@ -172,19 +187,15 @@ function parseHighlight(text) {
     }
 
     //Theres a few edge cases that make designing more intuitive
+    try {
+        if (LightingKeyboardAliases[text]) {
+            return LightingKeyboardAliases[text]
+        }
+    } catch(e) {
+        //
+    }
+
     switch (text) {
-        case ".":
-            return "dot"
-
-        case "/":
-            return "slash"
-
-        case "+":
-            return "plus"
-
-        case "-":
-            return "minus"
-
         case "number":
             return getNumbers();
 
@@ -198,43 +209,6 @@ function parseHighlight(text) {
         case "encoderwheel":
         case "encoderwheels":
             return getEncoderWheels();
-
-        case "label":
-        case "note":
-        case "notelabel":
-            return "labelnote"
-
-        case "stop":
-        case "back":
-        case "stopback":
-            return "stopback"
-
-        case "silverknob":
-        case "manualknob":
-        case "spinnywheel":
-        case "jennifer":
-        case "silverwheel":
-            return "manualwheel"
-
-        case "colourpalette":
-            return "colorpalette"
-
-        case "intensitypalette":
-            return "intpalette"
-
-        case "colour":
-            return "colour"
-
-        case "undo":
-        case "redo":
-            return "undoredo"
-
-        case "qonly":
-        case "track":
-            return "qonlytrack"
-
-        default:
-            break;
     }    
     //Edge cases dealt with, now we can remove slashes from others (like label/note)
 
@@ -251,6 +225,12 @@ function getSoftkeyKeys() {
         "s4",
         "s5",
         "s6",
+        "intensity_s1",
+        "focus_s2",
+        "color_s3",
+        "beam_s4",
+        "form_s5",
+        "shutter_s6",
         "moresk"
     ]
 }
@@ -262,7 +242,13 @@ function getEncoderPages() {
         "intensity",
         "form",
         "image",
-        "shutter"
+        "shutter",
+        "intensity_s1",
+        "focus_s2",
+        "color_s3",
+        "beam_s4",
+        "form_s5",
+        "shutter_s6",
     ]
 }
 
