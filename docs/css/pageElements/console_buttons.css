@@ -15,7 +15,7 @@
     border-radius: 3px;
     padding-left: 4px;
     padding-right: 4px;
-    border-color: rgb(129, 0, 0);
+    border-color: #c9265c;
     border-style: ridge;
     /* margin-right: 4px; */
     overflow-x: hidden;
@@ -74,13 +74,13 @@
 }
 
 .display-button-keypad {
-    border: 3px solid midnightblue;
+    border: 3px solid #c9265c;
     background-color: rgb(66, 66, 66);
     border-style: ridge;
 }
 
 .display-button-softkey {
-    border: 3px solid rgb(33, 33, 153);
+    border: 3px solid #d17327;
     background-color: rgb(97, 97, 97);
     border-style: ridge dotted;
 }
