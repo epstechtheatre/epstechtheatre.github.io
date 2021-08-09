@@ -202,7 +202,7 @@
              style="stroke:#000000;stroke-width:0.988808;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:3;stroke-dasharray:none;stroke-opacity:1;paint-order:normal" />
         </g>
         <g
-           id="stopback"
+           id="stop_back"
            v:mID="98"
            v:groupContext="shape"
            transform="matrix(0.56417391,0,0,0.49348955,-6.6450089,-254.11394)"
@@ -1302,7 +1302,7 @@
              style="stroke:#000000;stroke-width:0.972576;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:3;stroke-dasharray:none;stroke-opacity:1;paint-order:normal" />
         </g>
         <g
-           id="undoredo"
+           id="undo_redo"
            v:mID="169"
            v:groupContext="shape"
            transform="matrix(0.5349779,0,0,0.49348967,237.34119,-283.78873)"
@@ -1353,13 +1353,13 @@
              style="stroke:#000000;stroke-width:0.972576;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:3;stroke-dasharray:none;stroke-opacity:1;paint-order:normal" />
         </g>
         <g
-           id="label"
+           id="label_note"
            v:mID="169"
            v:groupContext="shape"
            transform="matrix(0.5349779,0,0,0.49348967,237.34119,-298.33686)"
            style="font-size:12px;overflow:visible;color-interpolation-filters:sRGB;fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.972576;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:3;stroke-dasharray:none;stroke-opacity:1;paint-order:normal">
           <title
-             id="title214-8-8">Label</title>
+             id="title214-8-8">Label / Note</title>
           <rect
              x="-51.912106"
              y="376.61508"
@@ -1438,13 +1438,13 @@
              style="stroke:#000000;stroke-width:0.972576;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:3;stroke-dasharray:none;stroke-opacity:1;paint-order:normal" />
         </g>
         <g
-           id="shutter_s6"
+           id="form_s6"
            v:mID="169"
            v:groupContext="shape"
            transform="matrix(0.5349779,0,0,0.49348967,270.60494,-320.15904)"
            style="font-size:12px;overflow:visible;color-interpolation-filters:sRGB;fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.972576;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:3;stroke-dasharray:none;stroke-opacity:1;paint-order:normal">
           <title
-             id="title214-0-23-4-8">Shutter / S6</title>
+             id="title214-0-23-4-8">Form / S6</title>
           <rect
              x="-51.912106"
              y="376.61508"
