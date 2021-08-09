@@ -1809,14 +1809,14 @@
              id="title3049">Encoder 1</title>
         </ellipse>
         <g
-           id="at-5"
+           id="enter"
            v:mID="169"
            v:groupContext="shape"
            transform="matrix(1.0699561,0,0,0.49348971,281.7449,-203.83014)"
            style="font-size:12px;overflow:visible;color-interpolation-filters:sRGB;fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.485446;stroke-linejoin:miter;stroke-miterlimit:3;stroke-dasharray:none;stroke-opacity:1;paint-order:normal">
           <title
              id="title214-93-1"
-             style="stroke:url(#linearGradient1257)">At</title>
+             style="stroke:url(#linearGradient1257)">Enter</title>
           <rect
              x="-51.912106"
              y="376.61508"
