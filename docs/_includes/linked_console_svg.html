@@ -5,6 +5,9 @@
 <div class="linked_console_svg_wrapper">
     <script src="js/svg_button_url_dict.js"></script> 
     <!-- var is buttonURLDict -->
+
+    <script src="js/svg_get_shape.js"></script>
+
     <script>
         //Hardcoded links for shape ids. The id is that if the svg changes, hopefully the shape ideas for buttons will remain consistent so this will inject correctly.
         //For similar reason, this is why the links aren't directly in the svg (am i being smart?)
@@ -12,39 +15,30 @@
         const returnColour = "#BF003F"
 
         window.addEventListener("load", function() {
-            document.getElementById("visual-svg-click-tip").innerText = "Click on a button to be taken to its help page"
+            document.getElementById("visual-svg-click-tip").innerText = "Click on a button to be taken to its help page. Not working? leave this page and come back to it."
 
             const display = document.getElementById("linked_console_svg").contentDocument.documentElement;
 
-            for (element of display.querySelectorAll("*")) {
-                let valid = false;
-                if (buttonURLDict[element.id]) {
-                    valid = true;
-                    element.onclick = function(element) {
-                        window.location = buttonURLDict[element.currentTarget.id]
-                    }
-                } else if (["encoder1", "encoder2", "encoder3", "encoder4"].includes(element.id)) {
-                    valid = true;
-                    element.onclick = function() {window.location = buttonURLDict["encoders"]}
-                } else if (element.id.match(/^s[1-6]$/)) {
-                    valid = true;
-                    element.onclick = function() {window.location = buttonURLDict["softkeys"]}
-                } else if (element.id.match(/^[0-9]$/)) {
-                    valid = true;
-                    element.onclick = function() {window.location = buttonURLDict["numbers"]}
-                }
+            for (dict of buttonURLDict) {
+                for (name of dict.names) {
+                    const element = display.getElementById(name)
+                    if (element !== null) {
+                        element.dataset.url = dict.url
+                        element.onclick = function(element) {
+                            debugger;
+                            window.location = element.target.dataset.url || element.target.parentElement.dataset.url;}
 
-                if (valid) {
-                    element.children[1].style = `fill:${returnColour}`
-                    element.style.cursor = "pointer"
-                    element.onmouseenter = function (element) {
-                        element.target.children[1].style = `fill:${activeColour};transition:0.2s`}
-                    element.onmouseleave = function (element) {
-                        element.target.children[1].style = `fill:${returnColour};transition:0.2s`}
+                        getSvgShape(element).style = `fill:${returnColour};stroke:#000000;`;
+                        element.style.cursor = "pointer";
+                        element.onmouseenter = function (element) {
+                            getSvgShape(element).style = `fill:${activeColour};transition:0.2s;stroke:#000000;`};
+                        element.onmouseleave = function (element) {
+                            getSvgShape(element).style = `fill:${returnColour};transition:0.2s;stroke:#000000;`};
+                    }
                 }
             }
         })
     </script>
 
-    <object id="linked_console_svg" class="linked_console_svg_display" data="/images/svg/Keyboard Overlay Source.svg" type="image/svg+xml" width="100%"></object>
+    <object id="linked_console_svg" class="linked_console_svg_display" data="/images/svg/Keyboard Overlay Source ion xe.svg" type="image/svg+xml" width="100%" style="padding-top: 10px;"></object>
 </div>
