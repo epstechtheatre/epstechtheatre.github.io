@@ -163,10 +163,6 @@ entries:
     - title: Clear
       output: web
       url: /Lighting_keyboard_clear.html
-
-    - title: Color
-      output: web
-      url: /Lighting_keyboard_color.html
     
     - title: Colour Palette
       output: web
@@ -179,10 +175,6 @@ entries:
     - title: Cue
       output: web
       url: /Lighting_keyboard_cue.html
-
-    - title: Custom
-      output: web
-      url: /Lighting_keyboard_intensity.html
     
     - title: Data
       output: web
@@ -216,9 +208,13 @@ entries:
       output: web
       url: /Lighting_keyboard_expand.html
 
-    - title: Encoders
+    - title: Encoder Pages
       output: web
-      url: /Lighting_keyboard_encoders.html.html
+      url: /Lighting_keyboard_encoder_pages.html
+
+    - title: Encoder Wheels
+      output: web
+      url: /Lighting_keyboard_encoder_wheels.html
 
     - title: Enter
       output: web
@@ -231,18 +227,10 @@ entries:
     - title: Flexi
       output: web
       url: /Lighting_keyboard_flexi.html
-
-    - title: Focus
-      output: web
-      url: /Lighting_keyboard_focus.html.html
     
     - title: Focus Palette
       output: web
       url: /Lighting_keyboard_focus_palette.html
-
-    - title: Form
-      output: web
-      url: /Lighting_keyboard_form.html
     
     - title: Format
       output: web
@@ -271,10 +259,6 @@ entries:
     - title: Home
       output: web
       url: /Lighting_keyboard_home.html
-
-    - title: Image
-      output: web
-      url: /Lighting_keyboard_image.html
     
     - title: Int Palette
       output: web
@@ -383,10 +367,6 @@ entries:
     - title: Shift
       output: web
       url: /Lighting_keyboard_shift.html
-
-    - title: Shutter
-      output: web
-      url: /Lighting_keyboard_shutter.html
     
     - title: Slash (/)
       output: web

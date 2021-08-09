@@ -6,6 +6,7 @@ permalink: Lighting_keyboard_buttons_info.html
 folder: Lighting
 draft: true
 toc: false
+noedit: true
 ---
 
 ## Welcome to the keyboard buttons guide
