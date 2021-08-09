@@ -1,7 +1,7 @@
 ---
-title: Shutter
+title: Encoder Wheels
 sidebar: Lighting_sidebar
-permalink: Lighting_keyboard_shutter.html
+permalink: Lighting_keyboard_encoder_wheels.html
 folder: Lighting
 # draft: true
 # toc: true
