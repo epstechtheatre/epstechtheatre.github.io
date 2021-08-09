@@ -61,9 +61,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="30.402859"
-     inkscape:cx="274.6886"
-     inkscape:cy="0.72516494"
+     inkscape:zoom="2.6193388"
+     inkscape:cx="216.40423"
+     inkscape:cy="92.513872"
      inkscape:document-units="mm"
      inkscape:current-layer="g519"
      inkscape:document-rotation="0"
@@ -89,7 +89,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -287,7 +287,7 @@
              style="stroke:#000000;stroke-width:0.972576;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:3;stroke-dasharray:none;stroke-opacity:1;paint-order:normal" />
         </g>
         <g
-           id="macro-9"
+           id="time1"
            v:mID="169"
            v:groupContext="shape"
            transform="matrix(0.5349779,0,0,0.49348967,154.18182,-203.77406)"
@@ -707,7 +707,7 @@
              style="stroke:#000000;stroke-width:0.972576;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:3;stroke-dasharray:none;stroke-opacity:1;paint-order:normal" />
         </g>
         <g
-           id="Dot"
+           id="dot"
            v:mID="169"
            v:groupContext="shape"
            transform="matrix(0.5349779,0,0,0.49348967,212.39338,-203.77406)"
@@ -1886,7 +1886,7 @@
         </rect>
         <rect
            style="font-size:12px;overflow:visible;color-interpolation-filters:sRGB;fill:none;fill-opacity:0.348684;fill-rule:evenodd;stroke:#000000;stroke-width:0.566929;stroke-linecap:square;stroke-miterlimit:3;stroke-dasharray:none;stroke-opacity:1;paint-order:normal"
-           id="time"
+           id="time2"
            width="20"
            height="5"
            x="360.4408"
