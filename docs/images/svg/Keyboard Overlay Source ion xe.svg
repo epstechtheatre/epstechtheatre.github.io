@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <svg
    xmlns:v="http://schemas.microsoft.com/visio/2003/SVGExtensions/"
+   xmlns:osb="http://www.openswatchbook.org/uri/2009/osb"
    xmlns:dc="http://purl.org/dc/elements/1.1/"
    xmlns:cc="http://creativecommons.org/ns#"
    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
@@ -15,28 +16,41 @@
    version="1.1"
    id="display_keyboard"
    inkscape:version="1.0.2 (e86c870879, 2021-01-15, custom)"
-   sodipodi:docname="Keyboard Overlay Source.svg">
+   sodipodi:docname="Keyboard Overlay Source ion xe.svg">
   <defs
      id="defs2">
     <linearGradient
-       inkscape:collect="always"
-       id="linearGradient1333">
+       id="linearGradient1286"
+       osb:paint="solid">
       <stop
          style="stop-color:#000000;stop-opacity:1;"
          offset="0"
-         id="stop1329" />
+         id="stop1284" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient1255"
+       osb:paint="solid">
       <stop
-         style="stop-color:#000000;stop-opacity:0;"
-         offset="1"
-         id="stop1331" />
+         style="stop-color:#000000;stop-opacity:1;"
+         offset="0"
+         id="stop1253" />
     </linearGradient>
     <linearGradient
        inkscape:collect="always"
-       xlink:href="#linearGradient1333"
-       id="linearGradient1335"
-       x1="-0.74743497"
+       xlink:href="#linearGradient1255"
+       id="linearGradient1257"
+       x1="-52.154829"
+       y1="391.35513"
+       x2="-20.580485"
+       y2="391.35513"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient1286"
+       id="linearGradient1288"
+       x1="-0.6685248"
        y1="449.14307"
-       x2="30.227535"
+       x2="30.148625"
        y2="449.14307"
        gradientUnits="userSpaceOnUse" />
   </defs>
@@ -47,18 +61,18 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="1.8967033"
-     inkscape:cx="-61.598596"
-     inkscape:cy="88.575157"
+     inkscape:zoom="1.9494505"
+     inkscape:cx="238.63415"
+     inkscape:cy="108.13398"
      inkscape:document-units="mm"
      inkscape:current-layer="g519"
      inkscape:document-rotation="0"
      showgrid="true"
-     inkscape:window-width="1902"
-     inkscape:window-height="1033"
-     inkscape:window-x="2"
-     inkscape:window-y="121"
-     inkscape:window-maximized="0"
+     inkscape:window-width="1920"
+     inkscape:window-height="1057"
+     inkscape:window-x="-8"
+     inkscape:window-y="113"
+     inkscape:window-maximized="1"
      units="px"
      inkscape:snap-page="false">
     <inkscape:grid
@@ -92,7 +106,8 @@
          v:mID="0"
          v:index="1"
          v:groupContext="foregroundPage"
-         id="g519">
+         id="g519"
+         style="display:inline">
         <g
            id="master"
            v:mID="98"
@@ -253,143 +268,6 @@
              class="st1"
              id="rect61-5"
              style="stroke:#000000;stroke-width:0.878284;stroke-linejoin:miter;stroke-miterlimit:3;stroke-dasharray:none;stroke-opacity:1;paint-order:normal" />
-        </g>
-        <g
-           id="rate"
-           v:mID="83"
-           v:groupContext="shape"
-           transform="matrix(0.56417293,0,0,0.12337251,39.092645,-111.5752)"
-           style="font-size:12px;overflow:visible;color-interpolation-filters:sRGB;fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1.89415;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:3;stroke-dasharray:none;stroke-opacity:1;paint-order:normal">
-          <title
-             id="title424-6"
-             style="stroke:url(#linearGradient1335)">Rate</title>
-          <rect
-             x="0"
-             y="434.40302"
-             width="29.480101"
-             height="29.480101"
-             class="st1"
-             id="rect426-1"
-             style="stroke:#000000;stroke-width:1.89415;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:3;stroke-dasharray:none;stroke-opacity:1;paint-order:normal" />
-        </g>
-        <g
-           id="faderpage"
-           v:mID="83"
-           v:groupContext="shape"
-           transform="matrix(0.56417293,0,0,0.12337251,64.040457,-111.5752)"
-           style="font-size:12px;overflow:visible;color-interpolation-filters:sRGB;fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1.89415;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:3;stroke-dasharray:none;stroke-opacity:1;paint-order:normal">
-          <title
-             id="title424-6-9">Fader Page</title>
-          <rect
-             x="0"
-             y="434.40302"
-             width="29.480101"
-             height="29.480101"
-             class="st1"
-             id="rect426-1-3"
-             style="stroke:#000000;stroke-width:1.89415;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:3;stroke-dasharray:none;stroke-opacity:1;paint-order:normal" />
-        </g>
-        <g
-           id="manualoverride"
-           v:mID="83"
-           v:groupContext="shape"
-           transform="matrix(0.56417293,0,0,0.12337251,39.092645,-126.12332)"
-           style="font-size:12px;overflow:visible;color-interpolation-filters:sRGB;fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1.89415;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:3;stroke-dasharray:none;stroke-opacity:1;paint-order:normal">
-          <title
-             id="title424-6-5">Manual Override</title>
-          <rect
-             x="0"
-             y="434.40302"
-             width="29.480101"
-             height="29.480101"
-             class="st1"
-             id="rect426-1-5"
-             style="stroke:#000000;stroke-width:1.89415;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:3;stroke-dasharray:none;stroke-opacity:1;paint-order:normal" />
-        </g>
-        <g
-           id="timingdisable"
-           v:mID="83"
-           v:groupContext="shape"
-           transform="matrix(0.56417293,0,0,0.12337251,64.040457,-126.12332)"
-           style="font-size:12px;overflow:visible;color-interpolation-filters:sRGB;fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1.89415;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:3;stroke-dasharray:none;stroke-opacity:1;paint-order:normal">
-          <title
-             id="title424-6-9-1">Timing Disable</title>
-          <rect
-             x="0"
-             y="434.40302"
-             width="29.480101"
-             height="29.480101"
-             class="st1"
-             id="rect426-1-3-5"
-             style="stroke:#000000;stroke-width:1.89415;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:3;stroke-dasharray:none;stroke-opacity:1;paint-order:normal" />
-        </g>
-        <g
-           id="freeze"
-           v:mID="83"
-           v:groupContext="shape"
-           transform="matrix(0.56417293,0,0,0.12337251,39.092645,-140.67144)"
-           style="font-size:12px;overflow:visible;color-interpolation-filters:sRGB;fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1.89415;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:3;stroke-dasharray:none;stroke-opacity:1;paint-order:normal">
-          <title
-             id="title424-6-6">Freeze</title>
-          <rect
-             x="0"
-             y="434.40302"
-             width="29.480101"
-             height="29.480101"
-             class="st1"
-             id="rect426-1-6"
-             style="stroke:#000000;stroke-width:1.89415;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:3;stroke-dasharray:none;stroke-opacity:1;paint-order:normal" />
-        </g>
-        <g
-           id="filter"
-           v:mID="83"
-           v:groupContext="shape"
-           transform="matrix(0.56417293,0,0,0.12337251,64.040457,-140.67144)"
-           style="font-size:12px;overflow:visible;color-interpolation-filters:sRGB;fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1.89415;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:3;stroke-dasharray:none;stroke-opacity:1;paint-order:normal">
-          <title
-             id="title424-6-9-3">Filter</title>
-          <rect
-             x="0"
-             y="434.40302"
-             width="29.480101"
-             height="29.480101"
-             class="st1"
-             id="rect426-1-3-3"
-             style="stroke:#000000;stroke-width:1.89415;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:3;stroke-dasharray:none;stroke-opacity:1;paint-order:normal" />
-        </g>
-        <g
-           id="gotocue0"
-           v:mID="83"
-           v:groupContext="shape"
-           transform="matrix(0.56417293,0,0,0.12337251,39.092645,-155.21956)"
-           style="font-size:12px;overflow:visible;color-interpolation-filters:sRGB;fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1.89415;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:3;stroke-dasharray:none;stroke-opacity:1;paint-order:normal">
-          <title
-             id="title424-6-3">Go To Cue 0</title>
-          <rect
-             x="0"
-             y="434.40302"
-             width="29.480101"
-             height="29.480101"
-             class="st1"
-             id="rect426-1-9"
-             style="stroke:#000000;stroke-width:1.89415;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:3;stroke-dasharray:none;stroke-opacity:1;paint-order:normal" />
-        </g>
-        <g
-           id="stopeffect"
-           v:mID="83"
-           v:groupContext="shape"
-           transform="matrix(0.56417293,0,0,0.12337251,64.040457,-155.21956)"
-           style="font-size:12px;overflow:visible;color-interpolation-filters:sRGB;fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1.89415;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:3;stroke-dasharray:none;stroke-opacity:1;paint-order:normal">
-          <title
-             id="title424-6-9-0">Stop Effect</title>
-          <rect
-             x="0"
-             y="434.40302"
-             width="29.480101"
-             height="29.480101"
-             class="st1"
-             id="rect426-1-3-0"
-             style="stroke:#000000;stroke-width:1.89415;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:3;stroke-dasharray:none;stroke-opacity:1;paint-order:normal" />
         </g>
         <g
            id="delay"
@@ -1205,8 +1083,8 @@
            id="at"
            v:mID="169"
            v:groupContext="shape"
-           transform="matrix(0.5349779,0,0,0.49348967,237.34119,-203.83012)"
-           style="font-size:12px;overflow:visible;color-interpolation-filters:sRGB;fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.972576;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:3;stroke-dasharray:none;stroke-opacity:1;paint-order:normal">
+           transform="matrix(0.534978,0,0,0.49348971,237.34119,-203.83013)"
+           style="font-size:12px;overflow:visible;color-interpolation-filters:sRGB;fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.97258;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:3;stroke-dasharray:none;stroke-opacity:1;paint-order:normal">
           <title
              id="title214-93">At</title>
           <rect
@@ -1216,24 +1094,7 @@
              height="29.480101"
              class="st1"
              id="rect216-21"
-             style="stroke:#000000;stroke-width:0.972576;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:3;stroke-dasharray:none;stroke-opacity:1;paint-order:normal" />
-        </g>
-        <g
-           id="enter"
-           v:mID="169"
-           v:groupContext="shape"
-           transform="matrix(1.069956,0,0,0.49348967,281.7449,-203.83012)"
-           style="font-size:12px;overflow:visible;color-interpolation-filters:sRGB;fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.687715;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:3;stroke-dasharray:none;stroke-opacity:1;paint-order:normal">
-          <title
-             id="title214-0-36">Enter</title>
-          <rect
-             x="-51.912106"
-             y="376.61508"
-             width="31.088898"
-             height="29.480101"
-             class="st1"
-             id="rect216-9-1"
-             style="stroke:#000000;stroke-width:0.687715;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:3;stroke-dasharray:none;stroke-opacity:1;paint-order:normal" />
+             style="stroke:#000000;stroke-width:0.97258;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:3;stroke-dasharray:none;stroke-opacity:1;paint-order:normal" />
         </g>
         <g
            id="full"
@@ -1878,108 +1739,6 @@
              style="stroke:#000000;stroke-width:0.972576;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:3;stroke-dasharray:none;stroke-opacity:1;paint-order:normal" />
         </g>
         <g
-           id="format"
-           v:mID="83"
-           v:groupContext="shape"
-           transform="matrix(0.56417293,0,0,0.12337251,292.72873,-115.21222)"
-           style="font-size:12px;overflow:visible;color-interpolation-filters:sRGB;fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1.89415;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:3;stroke-dasharray:none;stroke-opacity:1;paint-order:normal">
-          <title
-             id="title424-6-9-00">Format</title>
-          <rect
-             x="0"
-             y="434.40302"
-             width="29.480101"
-             height="29.480101"
-             class="st1"
-             id="rect426-1-3-30"
-             style="stroke:#000000;stroke-width:1.89415;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:3;stroke-dasharray:none;stroke-opacity:1;paint-order:normal" />
-        </g>
-        <g
-           id="tab"
-           v:mID="83"
-           v:groupContext="shape"
-           transform="matrix(0.56417293,0,0,0.12337251,292.72873,-129.76034)"
-           style="font-size:12px;overflow:visible;color-interpolation-filters:sRGB;fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1.89415;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:3;stroke-dasharray:none;stroke-opacity:1;paint-order:normal">
-          <title
-             id="title424-6-9-1-4">Tab</title>
-          <rect
-             x="0"
-             y="434.40302"
-             width="29.480101"
-             height="29.480101"
-             class="st1"
-             id="rect426-1-3-5-5"
-             style="stroke:#000000;stroke-width:1.89415;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:3;stroke-dasharray:none;stroke-opacity:1;paint-order:normal" />
-        </g>
-        <g
-           id="expand"
-           v:mID="83"
-           v:groupContext="shape"
-           transform="matrix(0.56417293,0,0,0.12337251,313.51857,-115.21223)"
-           style="font-size:12px;overflow:visible;color-interpolation-filters:sRGB;fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1.89415;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:3;stroke-dasharray:none;stroke-opacity:1;paint-order:normal">
-          <title
-             id="title424-6-9-5">Expand</title>
-          <rect
-             x="0"
-             y="434.40302"
-             width="29.480101"
-             height="29.480101"
-             class="st1"
-             id="rect426-1-3-70"
-             style="stroke:#000000;stroke-width:1.89415;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:3;stroke-dasharray:none;stroke-opacity:1;paint-order:normal" />
-        </g>
-        <g
-           id="flexi"
-           v:mID="83"
-           v:groupContext="shape"
-           transform="matrix(0.56417293,0,0,0.12337251,313.51857,-129.76035)"
-           style="font-size:12px;overflow:visible;color-interpolation-filters:sRGB;fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1.89415;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:3;stroke-dasharray:none;stroke-opacity:1;paint-order:normal">
-          <title
-             id="title424-6-9-1-9">Flexi</title>
-          <rect
-             x="0"
-             y="434.40302"
-             width="29.480101"
-             height="29.480101"
-             class="st1"
-             id="rect426-1-3-5-4"
-             style="stroke:#000000;stroke-width:1.89415;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:3;stroke-dasharray:none;stroke-opacity:1;paint-order:normal" />
-        </g>
-        <g
-           id="data"
-           v:mID="83"
-           v:groupContext="shape"
-           transform="matrix(0.56417293,0,0,0.12337251,334.30842,-115.21222)"
-           style="font-size:12px;overflow:visible;color-interpolation-filters:sRGB;fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1.89415;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:3;stroke-dasharray:none;stroke-opacity:1;paint-order:normal">
-          <title
-             id="title424-6-9-9">Data</title>
-          <rect
-             x="0"
-             y="434.40302"
-             width="29.480101"
-             height="29.480101"
-             class="st1"
-             id="rect426-1-3-2"
-             style="stroke:#000000;stroke-width:1.89415;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:3;stroke-dasharray:none;stroke-opacity:1;paint-order:normal" />
-        </g>
-        <g
-           id="time"
-           v:mID="83"
-           v:groupContext="shape"
-           transform="matrix(0.56417293,0,0,0.12337251,334.30842,-129.76034)"
-           style="font-size:12px;overflow:visible;color-interpolation-filters:sRGB;fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1.89415;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:3;stroke-dasharray:none;stroke-opacity:1;paint-order:normal">
-          <title
-             id="title424-6-9-1-49">Time</title>
-          <rect
-             x="0"
-             y="434.40302"
-             width="29.480101"
-             height="29.480101"
-             class="st1"
-             id="rect426-1-3-5-8"
-             style="stroke:#000000;stroke-width:1.89415;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:3;stroke-dasharray:none;stroke-opacity:1;paint-order:normal" />
-        </g>
-        <g
            id="manualwheel2"
            v:mID="104"
            v:groupContext="shape"
@@ -2002,7 +1761,8 @@
            cx="338.4664"
            cy="-160.00319"
            rx="8.1785097"
-           ry="7.1445422">
+           ry="7.1445422"
+           transform="translate(0,0.19288266)">
           <title
              id="title3057">Power</title>
         </ellipse>
@@ -2014,14 +1774,6 @@
            style="font-size:12px;overflow:visible;color-interpolation-filters:sRGB;fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1.83073;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:3;stroke-dasharray:none;stroke-opacity:1;paint-order:normal">
           <title
              id="title214-1-98-1-3-3-1">USB</title>
-          <rect
-             x="-51.912106"
-             y="376.61508"
-             width="31.088898"
-             height="29.480101"
-             class="st1"
-             id="rect216-1-5-2-0-6-5"
-             style="stroke:#000000;stroke-width:1.83073;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:3;stroke-dasharray:none;stroke-opacity:1;paint-order:normal" />
         </g>
         <ellipse
            style="font-size:12px;overflow:visible;color-interpolation-filters:sRGB;fill:none;fill-opacity:0.348684;fill-rule:evenodd;stroke:#000000;stroke-width:0.499725;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:3;stroke-dasharray:none;stroke-opacity:1;paint-order:normal"
@@ -2057,73 +1809,242 @@
              id="title3049">Encoder 1</title>
         </ellipse>
         <g
+           id="at-5"
+           v:mID="169"
+           v:groupContext="shape"
+           transform="matrix(1.0699561,0,0,0.49348971,281.7449,-203.83014)"
+           style="font-size:12px;overflow:visible;color-interpolation-filters:sRGB;fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.485446;stroke-linejoin:miter;stroke-miterlimit:3;stroke-dasharray:none;stroke-opacity:1;paint-order:normal">
+          <title
+             id="title214-93-1"
+             style="stroke:url(#linearGradient1257)">At</title>
+          <rect
+             x="-51.912106"
+             y="376.61508"
+             width="31.088898"
+             height="29.480101"
+             class="st1"
+             id="rect216-21-4"
+             style="stroke:#000000;stroke-width:0.485446;stroke-linejoin:miter;stroke-miterlimit:3;stroke-dasharray:none;stroke-opacity:1;paint-order:normal" />
+        </g>
+        <path
+           style="fill:none;stroke:#000000;stroke-width:0.64252;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:3;stroke-dasharray:none;stroke-opacity:1"
+           d="m 280.44078,220.45312 h 40 v 0"
+           id="path1262"
+           transform="matrix(0.83159372,0,0,0.72740618,-7.0115624,-178.33342)" />
+        <path
+           style="font-size:12px;overflow:visible;color-interpolation-filters:sRGB;fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.637505;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:3;stroke-dasharray:none;stroke-opacity:1"
+           d="m 280.44078,220.45312 h 40 v 0"
+           id="path1262-9"
+           transform="matrix(0.83813561,0,0,0.73312846,-8.8461705,-165.04679)" />
+        <rect
+           style="fill:none;fill-opacity:0.348684;stroke:#000000;stroke-width:0.566929;stroke-miterlimit:3;stroke-dasharray:none;stroke-opacity:1;paint-order:normal"
+           id="format"
+           width="20"
+           height="5"
+           x="360.4408"
+           y="160.45312"
+           transform="matrix(0.83159372,0,0,0.72740618,-7.0115624,-178.33342)">
+          <title
+             id="title1302">Format</title>
+        </rect>
+        <rect
+           style="font-size:12px;overflow:visible;color-interpolation-filters:sRGB;fill:none;fill-opacity:0.348684;fill-rule:evenodd;stroke:#000000;stroke-width:0.566929;stroke-linecap:square;stroke-miterlimit:3;stroke-dasharray:none;stroke-opacity:1;paint-order:normal"
+           id="tab"
+           width="20"
+           height="5"
+           x="360.4408"
+           y="160.45312"
+           transform="matrix(0.83159372,0,0,0.72740618,-7.0115723,-192.88155)">
+          <title
+             id="title1302-5">Tab</title>
+        </rect>
+        <rect
+           style="font-size:12px;overflow:visible;color-interpolation-filters:sRGB;fill:none;fill-opacity:0.348684;fill-rule:evenodd;stroke:#000000;stroke-width:0.566929;stroke-linecap:square;stroke-miterlimit:3;stroke-dasharray:none;stroke-opacity:1;paint-order:normal"
+           id="expand"
+           width="20"
+           height="5"
+           x="360.4408"
+           y="160.45312"
+           transform="matrix(0.83159372,0,0,0.72740618,13.778271,-178.33343)">
+          <title
+             id="title1302-5-1">Expand</title>
+        </rect>
+        <rect
+           style="font-size:12px;overflow:visible;color-interpolation-filters:sRGB;fill:none;fill-opacity:0.348684;fill-rule:evenodd;stroke:#000000;stroke-width:0.566929;stroke-linecap:square;stroke-miterlimit:3;stroke-dasharray:none;stroke-opacity:1;paint-order:normal"
+           id="data"
+           width="20"
+           height="5"
+           x="360.4408"
+           y="160.45312"
+           transform="matrix(0.83159372,0,0,0.72740618,34.568114,-178.33343)">
+          <title
+             id="title1302-5-8">Data</title>
+        </rect>
+        <rect
+           style="font-size:12px;overflow:visible;color-interpolation-filters:sRGB;fill:none;fill-opacity:0.348684;fill-rule:evenodd;stroke:#000000;stroke-width:0.566929;stroke-linecap:square;stroke-miterlimit:3;stroke-dasharray:none;stroke-opacity:1;paint-order:normal"
+           id="time"
+           width="20"
+           height="5"
+           x="360.4408"
+           y="160.45312"
+           transform="matrix(0.83159372,0,0,0.72740618,34.568114,-192.88155)">
+          <title
+             id="title1302-5-8-2">Time</title>
+        </rect>
+        <rect
+           style="font-size:12px;overflow:visible;color-interpolation-filters:sRGB;fill:none;fill-opacity:0.348684;fill-rule:evenodd;stroke:#000000;stroke-width:0.566929;stroke-linecap:square;stroke-miterlimit:3;stroke-dasharray:none;stroke-opacity:1;paint-order:normal"
+           id="flexi"
+           width="20"
+           height="5"
+           x="360.4408"
+           y="160.45312"
+           transform="matrix(0.83159372,0,0,0.72740618,13.778271,-192.88155)">
+          <title
+             id="title1302-5-8-5">Flexi</title>
+        </rect>
+        <rect
+           style="fill:none;fill-opacity:0.348684;stroke:#000000;stroke-width:0.529134;stroke-miterlimit:3;stroke-dasharray:none;stroke-opacity:1;paint-order:normal"
+           id="usb"
+           width="5"
+           height="20"
+           x="395.4408"
+           y="15.453117"
+           transform="matrix(0.83159372,0,0,0.72740618,-7.0115624,-178.33342)">
+          <title
+             id="title1402">USB</title>
+        </rect>
+        <rect
+           style="font-size:12px;overflow:visible;color-interpolation-filters:sRGB;fill:none;fill-opacity:0.348684;fill-rule:evenodd;stroke:#000000;stroke-width:0.566929;stroke-linecap:square;stroke-miterlimit:3;stroke-dasharray:none;stroke-opacity:1;paint-order:normal"
+           id="manualoverride"
+           width="20"
+           height="5"
+           x="360.4408"
+           y="160.45312"
+           transform="matrix(0.83159372,0,0,0.72740618,-260.64766,-189.24452)">
+          <title
+             id="title1302-4">Manual Override</title>
+        </rect>
+        <rect
+           style="font-size:12px;overflow:visible;color-interpolation-filters:sRGB;fill:none;fill-opacity:0.348684;fill-rule:evenodd;stroke:#000000;stroke-width:0.566929;stroke-linecap:square;stroke-miterlimit:3;stroke-dasharray:none;stroke-opacity:1;paint-order:normal"
            id="off"
-           v:mID="83"
-           v:groupContext="shape"
-           transform="matrix(0.56417293,0,0,0.12337251,39.092646,-169.76769)"
-           style="font-size:12px;overflow:visible;color-interpolation-filters:sRGB;fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1.89415;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:3;stroke-dasharray:none;stroke-opacity:1;paint-order:normal">
+           width="20"
+           height="5"
+           x="360.4408"
+           y="160.45312"
+           transform="matrix(0.83159372,0,0,0.72740618,-260.64766,-232.88889)">
           <title
-             id="title424-6-3-3">Off</title>
-          <rect
-             x="0"
-             y="434.40302"
-             width="29.480101"
-             height="29.480101"
-             class="st1"
-             id="rect426-1-9-6"
-             style="stroke:#000000;stroke-width:1.89415;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:3;stroke-dasharray:none;stroke-opacity:1;paint-order:normal" />
-        </g>
-        <g
-           id="release"
-           v:mID="83"
-           v:groupContext="shape"
-           transform="matrix(0.56417293,0,0,0.12337251,39.092646,-184.31581)"
-           style="font-size:12px;overflow:visible;color-interpolation-filters:sRGB;fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1.89415;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:3;stroke-dasharray:none;stroke-opacity:1;paint-order:normal">
+             id="title1302-5-2">Off</title>
+        </rect>
+        <rect
+           style="font-size:12px;overflow:visible;color-interpolation-filters:sRGB;fill:none;fill-opacity:0.348684;fill-rule:evenodd;stroke:#000000;stroke-width:0.566929;stroke-linecap:square;stroke-miterlimit:3;stroke-dasharray:none;stroke-opacity:1;paint-order:normal"
+           id="rate"
+           width="20"
+           height="5"
+           x="360.4408"
+           y="160.45312"
+           transform="matrix(0.83159372,0,0,0.72740618,-260.64766,-174.6964)">
           <title
-             id="title424-6-3-6">Release</title>
-          <rect
-             x="0"
-             y="434.40302"
-             width="29.480101"
-             height="29.480101"
-             class="st1"
-             id="rect426-1-9-3"
-             style="stroke:#000000;stroke-width:1.89415;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:3;stroke-dasharray:none;stroke-opacity:1;paint-order:normal" />
-        </g>
-        <g
-           id="spread"
-           v:mID="83"
-           v:groupContext="shape"
-           transform="matrix(0.56417293,0,0,0.12337251,64.040458,-184.31581)"
-           style="font-size:12px;overflow:visible;color-interpolation-filters:sRGB;fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1.89415;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:3;stroke-dasharray:none;stroke-opacity:1;paint-order:normal">
+             id="title1302-5-1-4">Rate</title>
+        </rect>
+        <rect
+           style="font-size:12px;overflow:visible;color-interpolation-filters:sRGB;fill:none;fill-opacity:0.348684;fill-rule:evenodd;stroke:#000000;stroke-width:0.566929;stroke-linecap:square;stroke-miterlimit:3;stroke-dasharray:none;stroke-opacity:1;paint-order:normal"
+           id="faderpage"
+           width="20"
+           height="5"
+           x="360.4408"
+           y="160.45312"
+           transform="matrix(0.83159372,0,0,0.72740618,-235.69984,-174.6964)">
           <title
-             id="title424-6-3-5">Spread</title>
-          <rect
-             x="0"
-             y="434.40302"
-             width="29.480101"
-             height="29.480101"
-             class="st1"
-             id="rect426-1-9-8"
-             style="stroke:#000000;stroke-width:1.89415;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:3;stroke-dasharray:none;stroke-opacity:1;paint-order:normal" />
-        </g>
-        <g
+             id="title1302-5-8-3">Fader Page</title>
+        </rect>
+        <rect
+           style="font-size:12px;overflow:visible;color-interpolation-filters:sRGB;fill:none;fill-opacity:0.348684;fill-rule:evenodd;stroke:#000000;stroke-width:0.566929;stroke-linecap:square;stroke-miterlimit:3;stroke-dasharray:none;stroke-opacity:1;paint-order:normal"
+           id="stopeffect"
+           width="20"
+           height="5"
+           x="360.4408"
+           y="160.45312"
+           transform="matrix(0.83159372,0,0,0.72740618,-235.69984,-218.34077)">
+          <title
+             id="title1302-5-8-2-6">Stop Effect</title>
+        </rect>
+        <rect
+           style="font-size:12px;overflow:visible;color-interpolation-filters:sRGB;fill:none;fill-opacity:0.348684;fill-rule:evenodd;stroke:#000000;stroke-width:0.566929;stroke-linecap:square;stroke-miterlimit:3;stroke-dasharray:none;stroke-opacity:1;paint-order:normal"
+           id="filter"
+           width="20"
+           height="5"
+           x="360.4408"
+           y="160.45312"
+           transform="matrix(0.83159372,0,0,0.72740618,-235.69984,-203.79265)">
+          <title
+             id="title1302-5-8-5-2">Filter</title>
+        </rect>
+        <rect
+           style="font-size:12px;overflow:visible;color-interpolation-filters:sRGB;fill:none;fill-opacity:0.348684;fill-rule:evenodd;stroke:#000000;stroke-width:0.566929;stroke-linecap:square;stroke-miterlimit:3;stroke-dasharray:none;stroke-opacity:1;paint-order:normal"
+           id="timingdisable"
+           width="20"
+           height="5"
+           x="360.4408"
+           y="160.45312"
+           transform="matrix(0.83159372,0,0,0.72740618,-235.69984,-189.24452)">
+          <title
+             id="title1302-5-8-3-0">Timing Disable</title>
+        </rect>
+        <rect
+           style="font-size:12px;overflow:visible;color-interpolation-filters:sRGB;fill:none;fill-opacity:0.348684;fill-rule:evenodd;stroke:#000000;stroke-width:0.566929;stroke-linecap:square;stroke-miterlimit:3;stroke-dasharray:none;stroke-opacity:1;paint-order:normal"
+           id="freeze"
+           width="20"
+           height="5"
+           x="360.4408"
+           y="160.45312"
+           transform="matrix(0.83159372,0,0,0.72740618,-260.64766,-203.79265)">
+          <title
+             id="title1302-5-8-3-3">Freeze</title>
+        </rect>
+        <rect
+           style="font-size:12px;overflow:visible;color-interpolation-filters:sRGB;fill:none;fill-opacity:0.348684;fill-rule:evenodd;stroke:#000000;stroke-width:0.566929;stroke-linecap:square;stroke-miterlimit:3;stroke-dasharray:none;stroke-opacity:1;paint-order:normal"
+           id="gotocue0"
+           width="20"
+           height="5"
+           x="360.4408"
+           y="160.45312"
+           transform="matrix(0.83159372,0,0,0.72740618,-260.64766,-218.34077)">
+          <title
+             id="title1302-5-8-3-34">Go To Cue 0</title>
+        </rect>
+        <rect
+           style="font-size:12px;overflow:visible;color-interpolation-filters:sRGB;fill:none;fill-opacity:0.348684;fill-rule:evenodd;stroke:#000000;stroke-width:0.566929;stroke-linecap:square;stroke-miterlimit:3;stroke-dasharray:none;stroke-opacity:1;paint-order:normal"
            id="assert2"
-           v:mID="83"
-           v:groupContext="shape"
-           transform="matrix(0.56417293,0,0,0.12337251,64.040456,-169.76768)"
-           style="font-size:12px;overflow:visible;color-interpolation-filters:sRGB;fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1.89415;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:3;stroke-dasharray:none;stroke-opacity:1;paint-order:normal">
+           width="20"
+           height="5"
+           x="360.4408"
+           y="160.45312"
+           transform="matrix(0.83159372,0,0,0.72740618,-235.69984,-232.88889)">
           <title
-             id="title424-6-3-36">Assert</title>
-          <rect
-             x="0"
-             y="434.40302"
-             width="29.480101"
-             height="29.480101"
-             class="st1"
-             id="rect426-1-9-0"
-             style="stroke:#000000;stroke-width:1.89415;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:3;stroke-dasharray:none;stroke-opacity:1;paint-order:normal" />
-        </g>
+             id="title1302-5-8-3-1">Assert</title>
+        </rect>
+        <rect
+           style="font-size:12px;overflow:visible;color-interpolation-filters:sRGB;fill:none;fill-opacity:0.348684;fill-rule:evenodd;stroke:#000000;stroke-width:0.566929;stroke-linecap:square;stroke-miterlimit:3;stroke-dasharray:none;stroke-opacity:1;paint-order:normal"
+           id="releast"
+           width="20"
+           height="5"
+           x="360.4408"
+           y="160.45312"
+           transform="matrix(0.83159372,0,0,0.72740618,-260.64766,-247.43702)">
+          <title
+             id="title1302-5-8-3-2">Release</title>
+        </rect>
+        <rect
+           style="font-size:12px;overflow:visible;color-interpolation-filters:sRGB;fill:none;fill-opacity:0.348684;fill-rule:evenodd;stroke:#000000;stroke-width:0.566929;stroke-linecap:square;stroke-miterlimit:3;stroke-dasharray:none;stroke-opacity:1;paint-order:normal"
+           id="spread"
+           width="20"
+           height="5"
+           x="360.4408"
+           y="160.45312"
+           transform="matrix(0.83159372,0,0,0.72740618,-235.69984,-247.43702)">
+          <title
+             id="title1302-5-8-3-16">Spread</title>
+        </rect>
       </g>
     </g>
   </g>
