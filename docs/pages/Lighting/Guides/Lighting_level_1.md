@@ -126,7 +126,7 @@ If you hit Stop / Back when one of these transitions are occurring, instead of g
 The board colourizes the PSD pretty well, use the colour prompts to figure out what cue you are in:
 
 - Yellow - Cue is active
-- Red - Transitioning to this cue (see the ‘Dur’ column for time remaining in the transition)
+- Red - Transitioning to this cue (see the `Dur` column for time remaining in the transition)
 - Nothing - Cue is inactive
 
 {% include tip.html content="You can also hit go before the current transition is finished, the board will just deal with it." %}
