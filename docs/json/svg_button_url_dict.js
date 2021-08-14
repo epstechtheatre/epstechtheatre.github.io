@@ -12,11 +12,11 @@ var buttonURLDict = [
         names: ["at"]
     },
     {
-        url: "/Lighting_keyboard_black_out.html",
+        url: "/Lighting_keyboard_blackout.html",
         names: ["blackout"]
     },
     {
-        url: "/Lighting_keyboard_beam_palette.html",
+        url: "/Lighting_keyboard_beampalette.html",
         names: ["beampalette"]
     },
     {
@@ -40,11 +40,11 @@ var buttonURLDict = [
         names: ["color"]
     },
     {
-        url: "/Lighting_keyboard_color_palette.html",
+        url: "/Lighting_keyboard_colorpalette.html",
         names: ["colorpalette"]
     },
     {
-        url: "/Lighting_keyboard_copy_to_move_to.html",
+        url: "/Lighting_keyboard_copyto_moveto.html",
         names: ["copyto_moveto"]
     },
     {
@@ -92,7 +92,7 @@ var buttonURLDict = [
         names: ["expand"]
     },
     {
-        url: "/Lighting_keyboard_fader_control.html",
+        url: "/Lighting_keyboard_fadercontrol.html",
         names: ["fadercontrol"]
     },
     {
@@ -104,7 +104,7 @@ var buttonURLDict = [
         names: ["focus"]
     },
     {
-        url: "/Lighting_keyboard_focus_palette.html",
+        url: "/Lighting_keyboard_focuspalette.html",
         names: ["focuspalette"]
     },
     {
@@ -124,11 +124,11 @@ var buttonURLDict = [
         names: ["go"]
     },
     {
-        url: "/Lighting_keyboard_go_to_cue.html",
+        url: "/Lighting_keyboard_gotocue.html",
         names: ["gotocue"]
     },
     {
-        url: "/Lighting_keyboard_go_to_cue.html#go-to-cue-0",
+        url: "/Lighting_keyboard_gotocue.html#go-to-cue-0",
         names: ["gotocue0"]
     },
     {
@@ -152,7 +152,7 @@ var buttonURLDict = [
         names: ["intensity"]    
     },
     {
-        url: "/Lighting_keyboard_int_palette.html",
+        url: "/Lighting_keyboard_intpalette.html",
         names: ["intpalette"]    
     },
     {
@@ -180,7 +180,7 @@ var buttonURLDict = [
         names: ["macro"]    
     },
     {
-        url: "/Lighting_keyboard_manual_wheel",
+        url: "/Lighting_keyboard_manualwheel",
         names: ["manualwheel", "manualwheel1", "manualwheel2"]
     },
     {
@@ -192,7 +192,7 @@ var buttonURLDict = [
         names: ["minus"]    
     },
     {
-        url: "/Lighting_keyboard_more_sk.html",
+        url: "/Lighting_keyboard_softkeys.html#More_SK",
         names: ["moresk"]    
     },
     {
@@ -216,6 +216,10 @@ var buttonURLDict = [
         names: ["path"]    
     },
     {
+        url: "/Lighting_keyboard_percentnudge.html",
+        names: ["+%", "-%", "pluspercent", "minuspercent"]
+    },
+    {
         url: "/Lighting_keyboard_plus.html",
         names: ["plus"]    
     },
@@ -228,7 +232,7 @@ var buttonURLDict = [
         names: ["preset"]    
     },
     {
-        url: "/Lighting_keyboard_q_only_track.html",
+        url: "/Lighting_keyboard_qonly_track.html",
         names: ["qonly_track"]    
     },
     {
@@ -236,7 +240,7 @@ var buttonURLDict = [
         names: ["query"]    
     },
     {
-        url: "/Lighting_keyboard_recall_from.html",
+        url: "/Lighting_keyboard_recallfrom.html",
         names: ["recallfrom"]    
     },
     {
@@ -244,15 +248,15 @@ var buttonURLDict = [
         names: ["record"]    
     },
     {
-        url: "/Lighting_keyboard_record_only.html",
+        url: "/Lighting_keyboard_recordonly.html",
         names: ["recordonly"]    
     },
     {
-        url: "/Lighting_keyboard_rem_dim.html",
+        url: "/Lighting_keyboard_remdim.html",
         names: ["remdim"]    
     },
     {
-        url: "/Lighting_keyboard_select_last.html",
+        url: "/Lighting_keyboard_selectlast.html",
         names: ["selectlast"]    
     },
     {

@@ -3,7 +3,7 @@
 </div>
 
 <div class="linked_console_svg_wrapper">
-    <script src="js/svg_button_url_dict.js"></script> 
+    <script src="json/svg_button_url_dict.js"></script> 
     <!-- var is buttonURLDict -->
 
     <script src="js/svg_get_shape.js"></script>
@@ -24,9 +24,7 @@
                     const element = display.getElementById(name)
                     if (element !== null) {
                         element.dataset.url = dict.url
-                        element.onclick = function(element) {
-                            debugger;
-                            window.location = element.target.dataset.url || element.target.parentElement.dataset.url;}
+                        element.onclick = function(element) {window.location = element.target.dataset.url || element.target.parentElement.dataset.url;}
 
                         getSvgShape(element).style = `fill:${returnColour};stroke:#000000;`;
                         element.style.cursor = "pointer";
