@@ -23,6 +23,7 @@
     display: inline-flex;
     font-weight: bold;
     line-break:normal;
+    color: black;
 }
 
 .display-button-keypad,
