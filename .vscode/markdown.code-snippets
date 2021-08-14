@@ -8,7 +8,7 @@
     "console sequence": {
         "prefix": ["console command", "button sequence", "sequence", "command"],
         "body": [
-            "{% include console_command.html content=\"$1\" noLegend=false noTip=false %}",
+            "{% include console_command.html content=\"$1\" noLegend=$2false noTip=$3false %}",
             "$0"
         ],
         "scope": "markdown"
@@ -92,6 +92,7 @@
             "# authors: []",
             "# last_updated: Month Day, Year",
             "# tags: []",
+            "# customPageType: text",
             "---",
             "$0"
         ],
@@ -127,7 +128,7 @@
         "body": [
             "{% capture $1 %}",
             "$2",
-            "{$ endcapture $}",
+            "{% endcapture %}",
             "$0"
         ],
         "scope": "markdown"
