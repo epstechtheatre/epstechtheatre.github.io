@@ -1,7 +1,7 @@
 ---
 title: Black Out
 sidebar: Lighting_sidebar
-permalink: Lighting_keyboard_black_out.html
+permalink: Lighting_keyboard_blackout.html
 folder: Lighting
 # draft: true
 # toc: true

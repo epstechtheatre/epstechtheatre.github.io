@@ -1,7 +1,7 @@
 ---
 title: Recall / From
 sidebar: Lighting_sidebar
-permalink: Lighting_keyboard_recall_from.html
+permalink: Lighting_keyboard_recallfrom.html
 folder: Lighting
 # draft: true
 # toc: true

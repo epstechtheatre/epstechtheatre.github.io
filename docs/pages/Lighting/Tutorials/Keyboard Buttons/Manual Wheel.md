@@ -1,7 +1,7 @@
 ---
-title: Record Only
+title: Manual Wheel
 sidebar: Lighting_sidebar
-permalink: Lighting_keyboard_recordonly.html
+permalink: Lighting_keyboard_manualwheel.html
 folder: Lighting
 # draft: true
 # toc: true

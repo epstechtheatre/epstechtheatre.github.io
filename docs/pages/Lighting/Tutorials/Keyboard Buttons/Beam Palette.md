@@ -1,7 +1,7 @@
 ---
 title: Beam Palette
 sidebar: Lighting_sidebar
-permalink: Lighting_keyboard_beam_palette.html
+permalink: Lighting_keyboard_beampalette.html
 folder: Lighting
 # draft: true
 # toc: true

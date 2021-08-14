@@ -1,7 +1,7 @@
 ---
 title: Focus Palette
 sidebar: Lighting_sidebar
-permalink: Lighting_keyboard_focus_palette.html
+permalink: Lighting_keyboard_focuspalette.html
 folder: Lighting
 # draft: true
 # toc: true

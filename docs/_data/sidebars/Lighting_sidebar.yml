@@ -142,11 +142,11 @@ entries:
 
     - title: Black Out
       output: web
-      url: /Lighting_keyboard_black_out.html
+      url: /Lighting_keyboard_blackout.html
     
     - title: Beam Palette
       output: web
-      url: /Lighting_keyboard_beam_palette.html
+      url: /Lighting_keyboard_beampalette.html
     
     - title: Blind
       output: web
@@ -166,11 +166,11 @@ entries:
     
     - title: Colour Palette
       output: web
-      url: /Lighting_keyboard_color_palette.html
+      url: /Lighting_keyboard_colorpalette.html
     
     - title: Copy To / Move To
       output: web
-      url: /Lighting_keyboard_copy_to_move_to.html
+      url: /Lighting_keyboard_copyto_moveto.html
     
     - title: Cue
       output: web
@@ -210,11 +210,11 @@ entries:
 
     - title: Encoder Pages
       output: web
-      url: /Lighting_keyboard_encoder_pages.html
+      url: /Lighting_keyboard_encoderpages.html
 
     - title: Encoder Wheels
       output: web
-      url: /Lighting_keyboard_encoder_wheels.html
+      url: /Lighting_keyboard_encoderwheels.html
 
     - title: Enter
       output: web
@@ -222,7 +222,7 @@ entries:
     
     - title: Fader Page
       output: web
-      url: /Lighting_keyboard_fader_control.html
+      url: /Lighting_keyboard_fadercontrol.html
     
     - title: Flexi
       output: web
@@ -230,7 +230,7 @@ entries:
     
     - title: Focus Palette
       output: web
-      url: /Lighting_keyboard_focus_palette.html
+      url: /Lighting_keyboard_focuspalette.html
     
     - title: Format
       output: web
@@ -246,7 +246,7 @@ entries:
     
     - title: Go To Cue
       output: web
-      url: /Lighting_keyboard_go_to_cue.html
+      url: /Lighting_keyboard_gotocue.html
     
     - title: Group
       output: web
@@ -262,7 +262,7 @@ entries:
     
     - title: Int Palette
       output: web
-      url: /Lighting_keyboard_int_palette.html
+      url: /Lighting_keyboard_intpalette.html
     
     - title: Label / Note
       output: web
@@ -298,7 +298,7 @@ entries:
 
     - title: More Sk
       output: web
-      url: /Lighting_keyboard_more_sk.html
+      url: /Lighting_keyboard_moresk.html
     
     - title: Next
       output: web
@@ -324,6 +324,10 @@ entries:
       output: web
       url: /Lighting_keyboard_path.html
 
+    - title: Percent Nudge
+      output: web
+      url: /Lighting_keyboard_percentnudge.html
+
     - title: Plus
       output: web
       url: /Lighting_keyboard_plus.html    
@@ -338,7 +342,7 @@ entries:
     
     - title: Q Only / Track
       output: web
-      url: /Lighting_keyboard_q_only_track.html
+      url: /Lighting_keyboard_qonly_track.html
     
     - title: Query
       output: web
@@ -346,7 +350,7 @@ entries:
     
     - title: Recall From
       output: web
-      url: /Lighting_keyboard_recall_from.html
+      url: /Lighting_keyboard_recallfrom.html
     
     - title: Record
       output: web
@@ -354,15 +358,15 @@ entries:
     
     - title: Record Only
       output: web
-      url: /Lighting_keyboard_record_only.html
+      url: /Lighting_keyboard_recordonly.html
     
     - title: Rem Dim
       output: web
-      url: /Lighting_keyboard_rem_dim.html
+      url: /Lighting_keyboard_remdim.html
 
     - title: Select Last
       output: web
-      url: /Lighting_keyboard_select_last.html
+      url: /Lighting_keyboard_selectlast.html
     
     - title: Shift
       output: web

@@ -1,7 +1,7 @@
 ---
-title: More Sk
+title: Percent Nudge
 sidebar: Lighting_sidebar
-permalink: Lighting_keyboard_more_sk.html
+permalink: Lighting_keyboard_percent_nudge.html
 folder: Lighting
 # draft: true
 # toc: true
@@ -10,4 +10,5 @@ folder: Lighting
 # authors: []
 # last_updated: Month Day, Year
 # tags: []
+# customPageType: text
 ---

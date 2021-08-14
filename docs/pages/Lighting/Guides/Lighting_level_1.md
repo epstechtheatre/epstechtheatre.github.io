@@ -7,18 +7,18 @@ folder: Lighting
 authors: [Ben MacDonald]
 summary: This guide covers the remaining missing knowledge you need to get started actually programming independently on the board
 draft: true
-tags: [getting_started]
+tags: [getting_started, lighting, guide]
 customPageType: guide
 ---
 
 {% include important.html content="If this is the first time you are seeing these guides, <a alt='Start with the Absolute Basics' href='/Lighting_level_0'>Start Here</a>" %}
 
 ## Outcomes of this Guide:
-☑ Control multicoloured lights and lights with additional non-intensity parameters
-☑ Record and playback a basic lighting cuelist
-☑ Learn how to close and reopen the software without shutting down the lighting board
-☑ Learn the usage of some less-commonly used but useful keyboard buttons
-☑ Learn a couple of shortcuts the significantly increase speed
+☑ Control multicoloured lights and lights with additional non-intensity parameters<br>
+☑ Record and playback a basic lighting cuelist<br>
+☑ Learn how to close and reopen the software without shutting down the lighting board<br>
+☑ Learn the usage of some less-commonly used but useful keyboard buttons<br>
+☑ Learn a couple of shortcuts the significantly increase speed<br>
 ☑ Completely understand how to use the tab system in the lighting software
 
 
@@ -45,7 +45,7 @@ To use this, simply select a light and then click or tap a colour on the magic s
 ### Controlling via Encoder Wheels
 At the top of the console keyboard, there are 4 wheels. These are the {% include console_button.html content="Encoder Wheels" %}. They allow you to control each individual parameter for lights. First, you need to make sure the encoders are in colour mode. On the Ion Xe, you can see what mode you are in at the bottom of your main monitor. From now on, this will be known as the encoder display. It is highlighting in red below:
 
-![Encoder Mode Position Image](./images/encoder-display.png)
+![Encoder Mode Position Image](./images/Lighting/encoder-display.png)
 
 {% include note.html content="The highlighted section doesn’t have the name of the mode, just the name of the properties in the mode, if you are in colour mode, for example, you will see the names of colours." %}
 
@@ -71,7 +71,7 @@ To change any parameter on a light, select the encoder mode and the light(s), th
 - Using image mode to change the light patterns of a fancy LED
 - Using form mode to change the strobe intensity of an LED light
 
-{% include callout.html type="note" content="Just like changing colour, select the channel you want to change, and it’s parameters will populate the encoder display. Then, spin the encoder wheels to change the value." %}
+{% include callout.html type="success" content="Just like changing colour, select the channel you want to change, and it’s parameters will populate the encoder display. Then, spin the encoder wheels to change the value." %}
 
 Now that you know how to control every type of light in the theatre, you can start recording cues with them.
 
@@ -79,8 +79,9 @@ Now that you know how to control every type of light in the theatre, you can sta
 
 ### Recording 
 Recording a cue follows this general structure:
-1) Set the lights to how you want them
-2) Record the cue
+
+1) Set the lights to how you want them<br>
+2) Record the cue<br>
 3) Repeat
 
 #### Setting the Lights
@@ -100,13 +101,17 @@ To see your cue list, use the PSD tab on the monitors (Tab 2)
 ### Fixing Cues
 Simply follow these steps:
 
-1) Use the playback instructions that follow to load the cue you want to edit, or type {% include console_button.html content="Go To Cue" %} and the number of cue you want to edit.
-2) Make your changes
-3) Use the exact same record command as you did when you originally saved the cue
+1) Use the playback instructions that follow to load the cue you want to edit, or type {% include console_button.html content="Go To Cue" %} and the number of cue you want to edit.<br>
+2) Make your changes<br>
+3) Use the exact same record command as you did when you originally saved the cue<br>
 {% include important.html content="This will prompt you to confirm that you want to override the existing cue, hit enter again to confirm." %}
 
-{% include tip.html content="Instead of typing the record command out again, you can use the Update button." %}
-<!-- Maybe make this actually nice at some point -->
+{% capture use_update %}
+Instead of typing the record command out again, you can use the {% include console_button.html content="Update" %} button.
+{% endcapture %}
+
+
+{% include tip.html content=use_update %}
 ### Playing Back Cues
 You will use 2 buttons here: Go and Stop / Back
 
@@ -144,4 +149,11 @@ Next, you can quickly close any closable tab by hitting escape on the keyboard w
 Lastly, to quickly change tabs or open new ones, instead of having to click through menus, you can hold down Tab and type in the tab ID. Plus, you can do this on either keyboard. For example, typing Tab 1 will open the Live Table.
 
 
-If you made it this far, congrats! You should now have all the knowledge you need in order to program at least mostly independently. The next 4 guides will be about expanding your knowledge and covering concepts that are useful in more and more specific situations. When you're ready, [Continue to next level](./Lighting_level_2.md) 
+## Closing
+
+Congrats! You should now have all the knowledge you need in order to program at least mostly independently. The next 4 guides will be about expanding your knowledge and covering concepts that are useful in more and more specific situations.
+
+If you want to get ahead right now, have a look at this [supplementary guide](./Lighting_level_1_supplementary.html). It covers a few common shortcuts that you will definitely use once you know them.
+
+
+When you're ready, [Continue to next level](./Lighting_level_2.md) 

@@ -1,7 +1,7 @@
 ---
 title: Select Last
 sidebar: Lighting_sidebar
-permalink: Lighting_keyboard_select_last.html
+permalink: Lighting_keyboard_selectlast.html
 folder: Lighting
 # draft: true
 # toc: true

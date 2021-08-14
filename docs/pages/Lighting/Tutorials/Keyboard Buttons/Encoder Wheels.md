@@ -1,7 +1,7 @@
 ---
 title: Encoder Wheels
 sidebar: Lighting_sidebar
-permalink: Lighting_keyboard_encoder_wheels.html
+permalink: Lighting_keyboard_encoderwheels.html
 folder: Lighting
 # draft: true
 # toc: true

@@ -1,7 +1,7 @@
 ---
 title: Copy To / Move To
 sidebar: Lighting_sidebar
-permalink: Lighting_keyboard_copy_to_move_to.html
+permalink: Lighting_keyboard_copyto_moveto.html
 folder: Lighting
 # draft: true
 # toc: true

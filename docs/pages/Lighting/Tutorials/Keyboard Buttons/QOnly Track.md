@@ -1,7 +1,7 @@
 ---
 title: QOnly / Track
 sidebar: Lighting_sidebar
-permalink: Lighting_keyboard_q_only_track.html
+permalink: Lighting_keyboard_qonly_track.html
 folder: Lighting
 # draft: true
 # toc: true

@@ -1,7 +1,7 @@
 ---
 title: Int Palette
 sidebar: Lighting_sidebar
-permalink: Lighting_keyboard_int_palette.html
+permalink: Lighting_keyboard_intpalette.html
 folder: Lighting
 # draft: true
 # toc: true
