@@ -69,6 +69,7 @@
     },
 
     "callout": {
+        "prefix": "callout",
         "body": [
             "{% include callout.html type=\"$1\" content=\"$2\" %}",
             "$0"
@@ -117,6 +118,16 @@
             "# customPageType: text",
             "# last_updated: Month Day, Year",
             "---",
+            "$0"
+        ],
+        "scope": "markdown"
+    },
+    "create capture": {
+        "prefix": "capture",
+        "body": [
+            "{% capture $1 %}",
+            "$2",
+            "{$ endcapture $}",
             "$0"
         ],
         "scope": "markdown"
