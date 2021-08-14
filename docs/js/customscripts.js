@@ -197,15 +197,6 @@ function parseHighlight(text) {
         return split;
     }
 
-    //Theres a few edge cases that make designing more intuitive
-    try {
-        if (LightingKeyboardAliases[text]) {
-            return LightingKeyboardAliases[text]
-        }
-    } catch(e) {
-        //
-    }
-
     switch (text) {
         case "number":
         case "numbers":
@@ -224,8 +215,15 @@ function parseHighlight(text) {
             return getEncoderWheels();
     }    
     //Edge cases dealt with, now we can remove slashes from others (like label/note)
-
     text = text.replace(/\//g, "")
+
+    try {
+        if (LightingKeyboardAliases[text]) {
+            return LightingKeyboardAliases[text]
+        }
+    } catch(e) {
+        //
+    }
 
     return text;
 }
@@ -241,9 +239,9 @@ function getSoftkeyKeys() {
         "intensity_s1",
         "focus_s2",
         "color_s3",
-        "beam_s4",
-        "form_s5",
-        "shutter_s6",
+        "shutter_s4",
+        "image_s5",
+        "form_s6",
         "moresk"
     ]
 }
