@@ -67,14 +67,14 @@ If you want to quickly blackout everything but one light or group of lights, thi
 
 For example:
 
-{% include console_command.html content="20, RemDim, Enter" noLegend=tru noTip=true %}
+{% include console_command.html content="20, RemDim, Enter" noLegend=true noTip=true %}
 <br>
 More info on the {% include console_button.html content="RemDim" %} button [here](Lighting_keyboard_remdim.html).
 
 
 ### Softkeys
-Softkeys are buttons that only exist in certain contexts. While they do have a physical presence on the keyboard, their functionality is ‘softly’ defined and changes depending on the command you type. Softkeys share the same key as the encoder pages, which is why when changing encoder modes you have to hold down the Encoder Page key.
+{% include console_button.html content="Softkeys" %} are buttons that only exist in certain contexts. While they do have a physical presence on the keyboard, their functionality is ‘softly’ defined and changes depending on the command you type. Softkeys share the same key as the encoder pages, which is why when changing encoder modes you have to hold down the Encoder Page key.
 
-You can see the current function of each softkey in the bottom right of your main monitor. If the green circle on “More SK” is lit, that means, like the encoder properties from earlier, there are more possible buttons than there is physical space on the board. Press More SK to cycle between all the options.
+You can see the current function of each softkey in the bottom right of your main monitor. If the green light on {% include console_button.html content="More SK" %} is lit, that means, like the encoder properties from earlier, there are more possible buttons than there is physical space on the board. Press More SK to cycle between all the options.
 
-This guide won’t cover every softkey because there are literally hundreds of them, but if you see a button in the future that you can’t find on the keyboard, it’s probably a softkey.
+These guides won’t cover every softkey because there are literally hundreds of them, but if you see a button in the future that you can’t find on the keyboard, it’s probably a softkey.
