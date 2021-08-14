@@ -16,11 +16,11 @@ customPageType: guide
 ## Outcomes of this Guide
 ☑ Understand what lighting can do for a theatrical production<br>
 ☑ What a lighting board is<br>
-☑ How to turn on and off a lighting board<br>
-☑ How to turn on and off any light connected to the lighting board, controlling lights both individually and concurrently<br>
-☑ How to load and create showfiles within the lighting board software<br>
-☑ How to navigate parts of the lighting software<br>
-☑ How to view and interact with the "Magic Sheet"
+☑ Learn how to turn on and off a lighting board<br>
+☑ Learn how to turn on and off any light connected to the lighting board, controlling lights both individually and concurrently<br>
+☑ Learn how to load and create showfiles within the lighting board software<br>
+☑ Learn how to navigate parts of the lighting software<br>
+☑ Learn how to view and interact with the "Magic Sheet"
 
 ## Before You Begin
 If you did any lighting work in your previous school, you might have used a lighting board with a bunch of sliders, where each slider controlled one light (or one colour of a multicoloured light). This is called an analogue lighting board. 
@@ -191,4 +191,4 @@ Faders (the black slidey things to the side of the console) are basically just f
 ## Conclusion
 That is about all you need to know in order to interact with lights. Now you can move onto the levelled guides. Level 1 will, among other things cover recording cues like you would for a show.
 
-Take a break, grab something to drink, and when you're ready [Continue to next level](./Lighting_level_1.md)
+Take a break, grab something to drink, and when you're ready, [Continue to next level](./Lighting_level_1.md)
