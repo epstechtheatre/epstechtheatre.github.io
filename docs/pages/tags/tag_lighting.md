@@ -1,5 +1,5 @@
 ---
-title: "Lighting Wiki pages"
+title: "Lighting Wiki Pages"
 tagName: lighting
 search: exclude
 permalink: tag_lighting.html

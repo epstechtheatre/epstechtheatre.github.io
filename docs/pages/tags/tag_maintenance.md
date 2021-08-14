@@ -1,5 +1,5 @@
 ---
-title: "Maintenance pages"
+title: "Maintenance Pages"
 tagName: maintenance
 search: exclude
 permalink: tag_maintenance.html
