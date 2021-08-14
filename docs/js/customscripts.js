@@ -9,13 +9,12 @@ $( document ).ready(function() {
     || document.getElementsByClassName("inline-display-button").length > 0) {
         var script = document.createElement("script");
         script.type = "text/javascript";
-        script.src = "json/keyNames.mjs";
+        script.src = "json/key_names.js";
+        document.head.appendChild(script)
 
         var script2 = document.createElement("script");
-        script.type = "text/javascript";
-        script.src = "js/svg_get_shape.js"
-
-        document.head.appendChild(script)
+        script2.type = "text/javascript";
+        script2.src = "js/svg_get_shape.js";
         document.head.appendChild(script2)
     }
 
@@ -140,7 +139,7 @@ function ViewDoWork(View, keyID, revertToSoftkey) {
         currentKeys = []
     }
 
-    keyID = keyID.toString().replace("{", "").replace("}", "").replace("[", "").replace("]", "").replace(" ", "").toLowerCase()
+    keyID = keyID.toString().replace(/({|}|[|]| )/g, "").toLowerCase()
 
     //Returns a string, or array of strings
     let searchElement = parseHighlight(keyID)
@@ -178,12 +177,24 @@ function ViewDoWork(View, keyID, revertToSoftkey) {
 
 function parseHighlight(text) {
     text = text.toString().toLowerCase()
-    text = text.replace("  ", " ").replace(" ", "_")
+    text = text.replace(/  /g, " ").replace(/ /g, "_")
 
     if (!isNaN(text) && !isNaN(parseFloat(text))) {
         //This is a valid number. If the number is over 9, highlight all numbers present in the string
 
-        return text.split("")
+        let split = text.split("");
+
+        split.forEach((element, index) => {
+            try {
+                if (LightingKeyboardAliases[element]) {
+                    split[index] = LightingKeyboardAliases[element]
+                }
+            } catch(e) {
+                //
+            }
+        });
+
+        return split;
     }
 
     //Theres a few edge cases that make designing more intuitive
@@ -197,9 +208,11 @@ function parseHighlight(text) {
 
     switch (text) {
         case "number":
+        case "numbers":
             return getNumbers();
 
         case "softkey":
+        case "softkeys":
             return getSoftkeyKeys();
 
         case "encoderpage":
@@ -212,7 +225,7 @@ function parseHighlight(text) {
     }    
     //Edge cases dealt with, now we can remove slashes from others (like label/note)
 
-    text = text.replace("/", "")
+    text = text.replace(/\//g, "")
 
     return text;
 }
