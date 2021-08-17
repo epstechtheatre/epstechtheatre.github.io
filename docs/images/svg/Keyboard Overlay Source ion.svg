@@ -8,13 +8,13 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="400"
-   height="300"
-   viewBox="0 0 105.83333 79.375002"
+   width="370.30002"
+   height="274.68411"
+   viewBox="0 0 97.97521 72.67684"
    version="1.1"
    id="display_keyboard"
    inkscape:version="1.0.2 (e86c870879, 2021-01-15, custom)"
-   sodipodi:docname="Keyboard Overlay Source.svg">
+   sodipodi:docname="Keyboard Overlay Source ion.svg">
   <defs
      id="defs2" />
   <sodipodi:namedview
@@ -24,17 +24,17 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="1.979899"
-     inkscape:cx="189.90201"
-     inkscape:cy="150.53103"
+     inkscape:zoom="1.8776405"
+     inkscape:cx="180.2696"
+     inkscape:cy="137.51594"
      inkscape:document-units="mm"
      inkscape:current-layer="g519"
      inkscape:document-rotation="0"
      showgrid="false"
      inkscape:window-width="1902"
      inkscape:window-height="1033"
-     inkscape:window-x="96"
-     inkscape:window-y="0"
+     inkscape:window-x="2"
+     inkscape:window-y="121"
      inkscape:window-maximized="0"
      units="px" />
   <metadata
@@ -52,7 +52,8 @@
   <g
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
-     id="layer1">
+     id="layer1"
+     transform="translate(-2.5485741,-3.4435763)">
     <g
        style="font-size:12px;overflow:visible;color-interpolation-filters:sRGB;fill:none;fill-rule:evenodd;stroke-linecap:square;stroke-miterlimit:3"
        id="g835"
@@ -63,7 +64,7 @@
          v:groupContext="foregroundPage"
          id="g519">
         <title
-           id="title12">Page-1</title>
+           id="title12">weeeeee!</title>
         <v:pageProperties
            v:drawingScale="0.0393701"
            v:pageScale="0.0393701"
@@ -200,7 +201,7 @@
              id="rect56" />
         </g>
         <g
-           id="manual_wheel"
+           id="manualwheel"
            v:mID="104"
            v:groupContext="shape"
            transform="matrix(0.5349779,0,0,0.46696605,269.24551,-242.85811)">
@@ -726,7 +727,7 @@
              id="rect231" />
         </g>
         <g
-           id="labelnote"
+           id="label_note"
            v:mID="179"
            v:groupContext="shape"
            transform="matrix(0.5349779,0,0,0.46696605,115.03867,-292.04075)">
@@ -771,12 +772,12 @@
              id="rect246" />
         </g>
         <g
-           id="copyto"
+           id="copyto_moveto"
            v:mID="187"
            v:groupContext="shape"
            transform="matrix(0.5349779,0,0,0.46696605,160.52088,-292.04075)">
           <title
-             id="title249">Copy To</title>
+             id="title249">Copy To/Move To</title>
           <rect
              x="0"
              y="434.40302"
@@ -831,7 +832,7 @@
              id="rect266" />
         </g>
         <g
-           id="undo"
+           id="undoredo"
            v:mID="191"
            v:groupContext="shape"
            transform="matrix(0.5349779,0,0,0.46696605,176.29203,-278.27459)">
@@ -1011,7 +1012,7 @@
              id="rect326" />
         </g>
         <g
-           id="qonlytrack"
+           id="qonly_track"
            v:mID="112"
            v:groupContext="shape"
            transform="matrix(0.5349779,0,0,0.46696605,221.93206,-217.47379)">

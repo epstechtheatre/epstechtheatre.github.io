@@ -7,6 +7,7 @@ sidebar: Overview_sidebar
 permalink: index.html
 summary: Welcome to the wiki! This page briefly goes over how to get around the website. Other topics will provide more in depth information.
 draft: true
+customPageType: nav
 toc: false
 last_updated: 'July 29, 2021'
 ---

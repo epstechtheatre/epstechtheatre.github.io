@@ -1,0 +1,26 @@
+.tag-guide {
+    background-color: #689768 !important;
+}
+
+.tag-page {
+    background-color: #808080 !important;
+}
+
+.tag-tutorial {
+    background-color: #4b227a !important;
+}
+
+.tag-supplement {
+    background-color: rgb(145, 123, 0) !important;
+}
+
+.tag-navigation,
+.tag-nav {
+    background-color: #92323b !important;
+}
+
+.category-lighting {
+    background-color: #356288 !important;
+}
+
+/* Nice unused colour background-color: #6793a3 !important; */

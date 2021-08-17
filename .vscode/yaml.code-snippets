@@ -1,0 +1,12 @@
+{
+    "sidebar webpage": {
+        "prefix": "sidebar webpage",
+        "body": [
+            "- title: $1",
+            "  output: web",
+            "  url: /$2.html",
+            "$0"
+        ],
+        "scope": "yaml"
+    }
+}
