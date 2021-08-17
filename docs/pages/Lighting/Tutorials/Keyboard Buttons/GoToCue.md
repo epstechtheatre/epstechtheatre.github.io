@@ -12,4 +12,6 @@ folder: Lighting
 # tags: []
 ---
 
+{% include stub.html %}
+
 ## Go To Cue 0

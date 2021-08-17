@@ -12,3 +12,4 @@ folder: Lighting
 # tags: []
 # customPageType: text
 ---
+{% include stub.html %}

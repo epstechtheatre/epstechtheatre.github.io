@@ -9,6 +9,8 @@ summary: Information on the DMX Distribution panels in the theatre
 draft: true
 ---
 
+{% include stub.html %}
+
 - What they are
 - Where they are (plug ins)
   - A Vs B

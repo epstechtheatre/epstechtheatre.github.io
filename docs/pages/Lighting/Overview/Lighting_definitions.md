@@ -11,6 +11,8 @@ draft: true
 
 ## Welcome to the Lighting Definitions
 
+{% include stub.html %}
+
 - DMX
 - Snaps
 - EOS

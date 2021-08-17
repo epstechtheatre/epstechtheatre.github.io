@@ -9,6 +9,8 @@ summary: Information on the dimmer racks present in the theatre
 draft: true
 ---
 
+{% include stub.html %}
+
 Rack in main booth area
 
 "Void" Dimmers (newer ones)

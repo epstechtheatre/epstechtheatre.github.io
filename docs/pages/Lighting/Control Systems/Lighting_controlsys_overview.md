@@ -4,7 +4,6 @@ keywords: [lighting, overview, getting started]
 sidebar: Lighting_sidebar
 permalink: Lighting_controlsys_overview.html
 folder: Lighting
-authors: [Ben MacDonald]
 draft: true
 ---
 

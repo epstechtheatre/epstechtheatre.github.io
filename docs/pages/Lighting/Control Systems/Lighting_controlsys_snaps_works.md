@@ -9,6 +9,8 @@ summary: Information on the snapshot panels present in the theatre
 draft: true
 ---
 
+{% include stub.html %}
+
 Include permanent panels (Stage, Booth, Audience L/R) AND portable controller (with plug-in information)
 
 - What they control

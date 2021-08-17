@@ -8,4 +8,4 @@ draft: true
 toc: true
 ---
 
-Troubleshooting Home Page
+{% include stub.html %}

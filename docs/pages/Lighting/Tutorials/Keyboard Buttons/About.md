@@ -11,3 +11,5 @@ summary:
 # last_updated: Month Day, Year
 # tags: []
 ---
+
+{% include stub.html %}

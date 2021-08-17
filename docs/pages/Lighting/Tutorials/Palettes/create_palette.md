@@ -9,4 +9,4 @@ summary: TODO
 draft: true
 ---
 
-TODO
+{% include stub.html %}
