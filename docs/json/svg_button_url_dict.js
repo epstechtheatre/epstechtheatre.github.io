@@ -92,8 +92,8 @@ var buttonURLDict = [
         names: ["expand"]
     },
     {
-        url: "/Lighting_keyboard_fadercontrol.html",
-        names: ["fadercontrol"]
+        url: "/Lighting_keyboard_faderpage.html",
+        names: ["fadercontrol", "faderpage"]
     },
     {
         url: "/Lighting_keyboard_flexi.html",
