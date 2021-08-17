@@ -29,23 +29,24 @@
 - docs/_data/tags.yml
 
 'wiki: Lighting':
-- docs/pages/Lighting/**.md 
-- docs/pages/Lighting/**.html
+- docs/pages/Lighting/**/*.md 
+- docs/pages/Lighting/**/*.html
 - docs/_data/sidebars/Lighting_sidebar.yml
 
 'wiki: Sound':
-- docs/pages/Sound/**.md
-- docs/pages/Sound/**.html
+- docs/pages/Sound/**/*.md
+- docs/pages/Sound/**/*.html
 - docs/_data/sidebars/Sound_sidebar.yml
 
 'wiki: Overview':
-- docs/pages/Overview/**.md
-- docs/pages/Overview/**.html
+- docs/pages/Overview/**/*.md
+- docs/pages/Overview/**/*.html
 - docs/*.md
 - docs/_data/sidebars/Overview_sidebar.yml
 
 'wiki: Images Modified':
-- docs/images/**
+- docs/images/**/*
 
 'wiki: Posts':
-- docs/_posts/**
+- docs/_posts/**/*.md
+- docs/_posts/**/*.html
