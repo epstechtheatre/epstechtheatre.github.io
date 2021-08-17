@@ -222,7 +222,7 @@ entries:
     
     - title: Fader Page
       output: web
-      url: /Lighting_keyboard_fadercontrol.html
+      url: /Lighting_keyboard_faderpage.html
     
     - title: Flexi
       output: web

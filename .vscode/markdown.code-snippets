@@ -123,6 +123,7 @@
         ],
         "scope": "markdown"
     },
+    
     "create capture": {
         "prefix": "capture",
         "body": [
@@ -137,6 +138,12 @@
     "stub": {
         "prefix": "stub",
         "body": "{% include stub.html %}",
+        "scope": "markdown"
+    },
+
+    "iframe": {
+        "prefix": "iframe",
+        "body": "{% include iframe.html src=\"$1\" width=\"$2\" height=\"$3\" %}",
         "scope": "markdown"
     }
 }

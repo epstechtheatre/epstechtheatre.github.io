@@ -21,7 +21,9 @@
         "encoderwheels",
         "endcapture",
         "EPS",
+        "epstechnicaltheatre",
         "fadercontrol",
+        "faderpage",
         "flexi",
         "focuspalette",
         "folderitems",
@@ -62,8 +64,7 @@
         "Submaster",
         "Submasters",
         "taglogic",
-        "woah",
-        "epstechnicaltheatre"
+        "woah"
     ],
     "ignorePaths": [
         "act/**"

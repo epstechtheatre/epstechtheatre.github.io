@@ -1,7 +1,7 @@
 ---
-title: Fader Control
+title: Fader Page
 sidebar: Lighting_sidebar
-permalink: Lighting_keyboard_fadercontrol.html
+permalink: Lighting_keyboard_faderpage.html
 folder: Lighting
 # draft: true
 # toc: true
