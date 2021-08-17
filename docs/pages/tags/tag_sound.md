@@ -1,10 +1,11 @@
 ---
-title: "Sound Wiki pages"
+title: "Sound Wiki Pages"
 tagName: sound
 search: exclude
 permalink: tag_sound.html
 sidebar: Overview_sidebar
 folder: tags
+noedit: true
 ---
 {% include taglogic.html %}
 

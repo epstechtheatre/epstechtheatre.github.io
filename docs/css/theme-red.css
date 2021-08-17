@@ -15,6 +15,7 @@ h4 {color: #808080; }
 
 .nav > li.active > a {
     background-color: #811f1f;
+    color: whitesmoke;
     transition: 0.2s;
 }
 
@@ -51,13 +52,13 @@ a[data-toggle="tooltip"] {
 }
 
 .navbar-inverse .navbar-nav>li>a:hover, a.fa.fa-home.fa-lg.navbar-brand:hover {
-     color: white;
-     background-color: #7a0000;
-     transition: 0.2s
+    color: white;
+    background-color: #7a0000;
+    transition: 0.2s
 }
 
 a.navbar-brand:hover {
-  color: white;
+    color: white;
 }
 
 .navbar-inverse .navbar-nav > .open > a, .navbar-inverse .navbar-nav > .open > a:hover, .navbar-inverse .navbar-nav > .open > a:focus {
@@ -71,14 +72,6 @@ a.navbar-brand:hover {
 
 .navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
     border-color: #c22424 !important;
-}
-
-.display-button-keypad {
-    border-color: #c9265c
-}
-
-.display-button-softkey {
-    border-color: #d17327
 }
 
 .btn-primary {
@@ -142,4 +135,10 @@ a {
 
 a:hover {
     color: #a83434;
+}
+
+input:focus { 
+    outline: none !important;
+    border-color: #55061e;
+    box-shadow: 0 0 10px #55061e;
 }

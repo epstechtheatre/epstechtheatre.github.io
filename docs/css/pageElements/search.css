@@ -4,10 +4,11 @@
     font-size: 12px;
     background-color: white;
     position: absolute;
-    top: 40px; /* if you change anything about the nav, you'll prob. need to reset the top and left values here.*/
-    left: 20px;
-    z-index: -1;
-    width:223px;
+    top: 38px; /* if you change anything about the nav, you'll prob. need to reset the top and left values here.*/
+    left: 21px;
+    z-index: 3;
+    width:238px;
+    border-radius: 5px;
     border-left: 1px solid #dedede;
 }
 
@@ -17,12 +18,14 @@ ul#results-container a {
 
 ul#results-container a:hover {
     color: black;
+    background-color: rgb(207, 207, 207);
 }
-
 
 #search-demo-container a:hover {
     color: black;
+    background-color: rgb(207, 207, 207);
 }
+
 #search-input {
     padding: .5em;
     margin-left:20px;
@@ -31,7 +34,7 @@ ul#results-container a:hover {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
-    margin-top:10px;
+    margin-top:8px;
 }
 /* end search */
 

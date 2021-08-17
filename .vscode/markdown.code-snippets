@@ -1,0 +1,136 @@
+{
+    "console button": {
+        "prefix": ["console button", "keypad button", "button"],
+        "body": "{% include console_button.html content=\"$1\" %}$0",
+        "scope": "markdown"
+    },
+
+    "console sequence": {
+        "prefix": ["console command", "button sequence", "sequence", "command"],
+        "body": [
+            "{% include console_command.html content=\"$1\" noLegend=$2false noTip=$3false %}",
+            "$0"
+        ],
+        "scope": "markdown"
+    },
+
+    "note": {
+        "prefix": "note",
+        "body": [
+            "{% include note.html content=\"$1\" %}",
+            "$0"
+        ],
+        "scope": "markdown"
+    },
+
+    "warning": {
+        "prefix": "warning",
+        "body": [
+            "{% include warning.html content=\"$1\" %}",
+            "$0"
+        ],
+        "scope": "markdown"
+    },
+
+    "tip": {
+        "prefix": "tip",
+        "body": [
+            "{% include tip.html content=\"$1\" %}",
+            "$0"
+        ],
+        "scope": "markdown"
+    },
+
+    "important": {
+        "prefix": "important",
+        "body": [
+            "{% include important.html content=\"$1\" %}",
+            "$0"
+        ],
+        "scope": "markdown"
+    },
+
+    "image": {
+        "prefix": "image",
+        "body": [
+            "{% include image.html file=\"$1\" alt=\"$2\" caption=\"$3\" max-width=\"$4\" url=\"$5\" %}",
+            "$0"
+        ],
+        "scope": "markdown"
+    },
+
+    "inline image": {
+        "prefix": "inline-image",
+        "body": [
+            "{% include inline_image.html file=\"$1\" type=\"$2\" caption=\"$3\" %}",
+            "$0"
+        ],
+        "scope": "markdown"
+    },
+
+    "callout": {
+        "prefix": "callout",
+        "body": [
+            "{% include callout.html type=\"$1\" content=\"$2\" %}",
+            "$0"
+        ],
+        "scope": "markdown"
+    },
+
+    "lighting front matter": {
+        "prefix": ["lighting front matter"],
+        "body": [
+            "---",
+            "title: ${TM_FILENAME_BASE:$1}",
+            "sidebar: Lighting_sidebar",
+            "permalink: Lighting_$2_$3${TM_FILENAME_BASE}.html",
+            "folder: Lighting",
+            "# draft: true",
+            "# toc: true",
+            "# summary: ",
+            "# keywords: []",
+            "# authors: []",
+            "# last_updated: Month Day, Year",
+            "# tags: []",
+            "# customPageType: text",
+            "---",
+            "$0"
+        ],
+        "scope": "markdown"
+    },
+
+    "full front matter": {
+        "prefix": ["full fm"],
+        "body": [
+            "---",
+            "title: ${TM_FILENAME_BASE:$1}",
+            "sidebar: $2_sidebar",
+            "permalink: $3_$4${TM_FILENAME_BASE}.html",
+            "folder: $5",
+            "draft: true",
+            "# summary:",
+            "# keywords: []",
+            "# authors: []",
+            "# tags: []",
+            "# noedit: true",
+            "# toc: false",
+            "# private: true",
+            "# search: exclude",
+            "# customPageType: text",
+            "# last_updated: Month Day, Year",
+            "---",
+            "$0"
+        ],
+        "scope": "markdown"
+    },
+    "create capture": {
+        "prefix": "capture",
+        "body": [
+            "{% capture $1 %}",
+            "$2",
+            "{% endcapture %}",
+            "$0"
+        ],
+        "scope": "markdown"
+    }
+}

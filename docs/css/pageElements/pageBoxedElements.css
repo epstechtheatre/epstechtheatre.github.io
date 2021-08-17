@@ -19,7 +19,7 @@
 .bs-callout {
     padding: 20px;
     margin: 20px 0;
-    border: 1px solid #eee;
+    border: 1px solid rgb(214, 214, 214);
     border-left-width: 5px;
     border-radius: 3px;
 }
@@ -94,4 +94,20 @@ div.alert code, h2 code {
 .note code, .alert code, .warning code, div#toc code, h2 code, h3 code, h4 code {
     color: inherit;
     padding: 0px;
+}
+
+.alert-success {
+    border-color: #3C763D;
+}
+
+.alert-info {
+    border-color: #3170B0
+}
+
+.alert-danger {
+    border-color: #A94442;
+}
+
+.alert-warning {
+    border-color: #444444;
 }

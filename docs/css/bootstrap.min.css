@@ -4084,7 +4084,6 @@ tbody.collapse.in {
 .dropdown-menu {
     position: absolute;
     top: 100%;
-    left: 0;
     z-index: 1000;
     display: none;
     float: left;
@@ -4862,10 +4861,6 @@ textarea.input-group-sm>.input-group-btn>.btn {
     border-top: 1px solid transparent;
 }
 
-.navbar-collapse.in {
-    overflow-y: auto
-}
-
 @media (min-width:768px) {
     .navbar-collapse {
         width: auto;
@@ -4878,9 +4873,7 @@ textarea.input-group-sm>.input-group-btn>.btn {
         overflow: visible!important;
         visibility: visible!important
     }
-    .navbar-collapse.in {
-        overflow-y: visible
-    }
+
     .navbar-fixed-bottom .navbar-collapse,
     .navbar-fixed-top .navbar-collapse,
     .navbar-static-top .navbar-collapse {
@@ -5026,7 +5019,7 @@ textarea.input-group-sm>.input-group-btn>.btn {
 
 @media (max-width:767px) {
     .navbar-nav .open .dropdown-menu {
-        position: static;
+        position: relative;
         float: none;
         width: auto;
         margin-top: 0;

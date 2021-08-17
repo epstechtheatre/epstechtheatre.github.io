@@ -1,14 +1,30 @@
+const KEYBOARD_SVG_FADE_TIME = 150;
+
 $('#mysidebar').height($(".nav").height());
 
 $( document ).ready(function() {
+
+    if (document.getElementsByClassName("display-button-softkey").length > 0
+    || document.getElementsByClassName("display-button-keypad").length > 0
+    || document.getElementsByClassName("inline-display-button").length > 0) {
+        var script = document.createElement("script");
+        script.type = "text/javascript";
+        script.src = "json/key_names.js";
+        document.head.appendChild(script)
+
+        var script2 = document.createElement("script");
+        script2.type = "text/javascript";
+        script2.src = "js/svg_get_shape.js";
+        document.head.appendChild(script2)
+    }
 
     //this script says, if the height of the viewport is greater than 800px, then insert affix class, which makes the nav bar float in a fixed
     // position as your scroll. if you have a lot of nav items, this height may not work for you.
     var h = $(window).height();
     //console.log (h);
-    if (h > 800) {
-        $( "#mysidebar" ).attr("class", "nav affix");
-    }
+    // if (h > 800) {
+    //     $( "#mysidebar" ).attr("class", "nav affix");
+    // }
     // activate tooltips. although this is a bootstrap js function, it must be activated this way in your theme.
     $('[data-toggle="tooltip"]').tooltip({
         placement : 'top'
@@ -20,16 +36,28 @@ $( document ).ready(function() {
     anchors.add('h2,h3,h4,h5');
 
     // Activate button keypad display overlays
-    $('.display-button-softkey').mouseenter(function() {
+    $('.display-button-softkey')
+    .mouseenter(function() {
         showNewKey(this, $(this).data('keyid'), true)
     })
-
-    $('.display-button-keypad').mouseenter(function() {
-        showNewKey(this, $(this).data('keyid'))
+    .mouseleave(function() {
+        unShow()
     })
 
-    $('.inline-display-button').mouseenter(function() {
-        showNewKey(this, $(this).data('keyid'))
+    $('.display-button-keypad')
+    .mouseenter(function() {
+        showNewKey(this, $(this).data('keyid'), false) //TODO: These currently don't have softkey support (maybe they should)
+    })
+    .mouseleave(function() {
+        unShow()
+    })
+
+    $('.inline-display-button')
+    .mouseenter(function() {
+        showNewKey(this, $(this).data('keyid'), false) //TODO: These currently don't have softkey support (maybe they should)
+    })
+    .mouseleave(function() {
+        unShow()
     })
 });
 
@@ -65,79 +93,117 @@ $(function() {
 });
 
 var currentKeys = [];
+var currentGraphic;
 
-function showNewKey(pageObj, keyID, revertToSoftkey = false) {
+function unShow() {
+    if (currentGraphic !== undefined) {
+        let work = currentGraphic;
+        currentGraphic = undefined;
+        visualAnimateOut(work).then(() => {
+            work.remove()
+        })
+    }
+}
+
+function showNewKey(pageObj, keyID, revertToSoftkey, currentView = undefined) {
+    unShow()
+
+    // Create the keyboard graphic
+    let View;
+
+    if (currentView) {
+        View = currentView
+
+        ViewDoWork(View, keyID, revertToSoftkey)
+    } else {
+        View = document.createElement("object")
+        View.className = "keyboard-svg-graphic"
+        View.data = "/images/svg/Keyboard Overlay Source ion xe.svg"
+        View.type = "image/svg+xml"
+        View.name = "Keyboard Graphic"
+    
+        pageObj.insertAdjacentElement("afterbegin", View)
+        currentGraphic = View;
+
+        View.addEventListener("load", () => {
+            ViewDoWork(View, keyID, revertToSoftkey)
+        })
+    }
+}
+
+function ViewDoWork(View, keyID, revertToSoftkey) {
     if (currentKeys.length > 0) {
         for (let key of currentKeys) {
-            key.children[1].style = "fill:white"
+            getSvgShape(key).style = "fill:white;stroke:#000000"
         }
         currentKeys = []
     }
 
-    keyID = keyID.toString().replace("{", "").replace("}", "").replace("_", "").replace("[", "").replace("]", "").toLowerCase()
+    keyID = keyID.toString().replace(/({|}|[|]| )/g, "").toLowerCase()
 
     //Returns a string, or array of strings
     let searchElement = parseHighlight(keyID)
 
+    const docElement = View.contentWindow.document.documentElement;
     if (Array.isArray(searchElement)) {
         for (let element of searchElement) {
-            let targetKey = pageObj.querySelector(".keyboard-svg-graphic")
-            if (!targetKey) targetKey = pageObj.parentElement.querySelector(".keyboard-svg-graphic")
-
-            if (!targetKey) continue
-
-            targetKey = targetKey.contentDocument.documentElement.getElementById(element)
+            let targetKey = docElement.getElementById(element)
 
             if (targetKey) {
                 currentKeys.push(targetKey)
-                targetKey.children[1].style = "fill:lime"
+                getSvgShape(targetKey).style = "fill:lime;stroke:#000000"
             }
         }
     } else {
-        let targetKey = pageObj.querySelector(".keyboard-svg-graphic")
-        if (!targetKey) targetKey = pageObj.parentElement.querySelector(".keyboard-svg-graphic")
+        let targetKey = docElement.getElementById(searchElement)
 
         if (!targetKey && revertToSoftkey === true) {
-            return this.showNewKey(pageObj, "softkey")
+            return this.showNewKey(pageObj, "softkey", View)
         } else {
-            targetKey = targetKey.contentDocument.documentElement.getElementById(searchElement)
+            targetKey = docElement.getElementById(searchElement)
 
             if (targetKey) {
                 this.currentKeys.push(targetKey)
-                targetKey.children[1].style = "fill:lime"
+                getSvgShape(targetKey).style = "fill:lime;stroke:#000000"
             }
         }
+    }
+
+    if (View.style.opacity !== 100) {
+        View.style.transition = `opacity ${KEYBOARD_SVG_FADE_TIME}ms linear`;
+        View.style.opacity = 100;
     }
 }
 
 function parseHighlight(text) {
     text = text.toString().toLowerCase()
-    text = text.replace("  ", " ").replace(" ", "_")
+    text = text.replace(/  /g, " ").replace(/ /g, "_")
 
     if (!isNaN(text) && !isNaN(parseFloat(text))) {
         //This is a valid number. If the number is over 9, highlight all numbers present in the string
 
-        return text.split("")
+        let split = text.split("");
+
+        split.forEach((element, index) => {
+            try {
+                if (LightingKeyboardAliases[element]) {
+                    split[index] = LightingKeyboardAliases[element]
+                }
+            } catch(e) {
+                //
+            }
+        });
+
+        return split;
     }
 
-    //Theres a few edge cases that make designing more intuitive
     switch (text) {
-        case ".":
-            return "dot"
-
-        case "/":
-            return "slash"
-
-        case "+":
-            return "plus"
-
-        case "-":
-            return "minus"
-
         case "number":
+        case "numbers":
             return getNumbers();
 
         case "softkey":
+        case "softkeys":
             return getSoftkeyKeys();
 
         case "encoderpage":
@@ -147,23 +213,17 @@ function parseHighlight(text) {
         case "encoderwheel":
         case "encoderwheels":
             return getEncoderWheels();
-
-        case "label":
-        case "note":
-        case "notelabel":
-            return "labelnote"
-
-        case "stop":
-        case "back":
-        case "stopback":
-            return "stopback"
-
-        default:
-            break;
     }    
     //Edge cases dealt with, now we can remove slashes from others (like label/note)
+    text = text.replace(/\//g, "")
 
-    text = text.replace("/", "")
+    try {
+        if (LightingKeyboardAliases[text]) {
+            return LightingKeyboardAliases[text]
+        }
+    } catch(e) {
+        //
+    }
 
     return text;
 }
@@ -176,6 +236,12 @@ function getSoftkeyKeys() {
         "s4",
         "s5",
         "s6",
+        "intensity_s1",
+        "focus_s2",
+        "color_s3",
+        "shutter_s4",
+        "image_s5",
+        "form_s6",
         "moresk"
     ]
 }
@@ -187,7 +253,13 @@ function getEncoderPages() {
         "intensity",
         "form",
         "image",
-        "shutter"
+        "shutter",
+        "intensity_s1",
+        "focus_s2",
+        "color_s3",
+        "beam_s4",
+        "form_s5",
+        "shutter_s6",
     ]
 }
 
@@ -213,4 +285,19 @@ function getNumbers() {
         "9",
         "0"
     ]
+}
+
+function visualAnimateOut(element) {
+    return new Promise(resolve => {
+        if (element.style.opacity != 100) {
+            resolve()
+            return;
+        }
+
+        element.style.opacity = 0;
+    
+        setTimeout(() => {
+            resolve()
+        }, KEYBOARD_SVG_FADE_TIME);
+    })
 }
