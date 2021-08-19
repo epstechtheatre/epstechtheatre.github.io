@@ -202,7 +202,7 @@
              style="stroke:#000000;stroke-width:0.988808;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:3;stroke-dasharray:none;stroke-opacity:1;paint-order:normal" />
         </g>
         <g
-           id="stop_back"
+           id="stopback"
            v:mID="98"
            v:groupContext="shape"
            transform="matrix(0.56417391,0,0,0.49348955,-6.6450089,-253.64891)"

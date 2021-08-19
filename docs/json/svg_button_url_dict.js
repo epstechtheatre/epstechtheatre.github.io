@@ -120,8 +120,8 @@ var buttonURLDict = [
         names: ["full"]
     },
     {
-        url: "/Lighting_keyboard_go.html",
-        names: ["go"]
+        url: "/Lighting_keyboard_go_stopback.html",
+        names: ["go", "stopback"]
     },
     {
         url: "/Lighting_keyboard_gotocue.html",
@@ -274,10 +274,6 @@ var buttonURLDict = [
     {
         url: "/Lighting_keyboard_sneak.html",
         names: ["sneak"]    
-    },
-    {
-        url: "/Lighting_keyboard_stop_back.html",
-        names: ["stop_back"]    
     },
     {
         url: "/Lighting_keyboard_sub.html",

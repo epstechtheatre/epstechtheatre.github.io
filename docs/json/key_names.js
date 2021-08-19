@@ -39,10 +39,9 @@ var LightingKeyboardAliases = {
     "jennifer": ["manualwheel1", "manualwheel2", "manualwheel"],
     "silverwheel": ["manualwheel1", "manualwheel2", "manualwheel"],
 
-    "stop": "stop_back",
-    "back": "stop_back",
-    "stopback": "stop_back",
-    "backstop": "stop_back",
+    "stop": "stopback",
+    "back": "stopback",
+    "backstop": "stopback",
 
     "label": "label_note",
     "note": "label_note",
