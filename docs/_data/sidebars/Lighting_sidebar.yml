@@ -240,9 +240,9 @@ entries:
       output: web
       url: /Lighting_keyboard_full.html
 
-    - title: Go
+    - title: Go / Stop Back
       output: web
-      url: /Lighting_keyboard_go.html
+      url: /Lighting_keyboard_go_stopback.html
     
     - title: Go To Cue
       output: web
@@ -383,10 +383,6 @@ entries:
     - title: Softkeys
       output: web
       url: /Lighting_keyboard_softkeys.html
-
-    - title: Stop / Back
-      output: web
-      url: /Lighting_keyboard_stop_back.html
     
     - title: Sub
       output: web
