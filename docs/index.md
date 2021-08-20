@@ -31,7 +31,7 @@ The wiki is currently in its preliminary development stages and very little is c
 Glad to hear! This wiki is open-source on Github. If you have programming experience and a Github account, feel free to follow the instructions over on the repo to submit a pull request.
 
 ### I have neither programmer experience nor a Github account?
-That's all right too! Send an email to [epstechtheatre@gmail.com](mailto:epstechtheatre@gmail.com) and I or someone else will help you out.
+That's all right too! Send an email to [techwiki@b-macdonald.ca](mailto:techwiki@b-macdonald.ca) and I or someone else will help you out.
 
 ## Where do I go first?
 The website is divide into categories and topics. If you know roughly what you're looking for, try searching for it using the search bar in the top right of the webpage (or in the dropdown menu on mobile). Otherwise, have a click around and see what you can find. 
