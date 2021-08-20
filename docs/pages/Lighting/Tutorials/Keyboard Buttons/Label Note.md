@@ -31,7 +31,7 @@ Record a new cue with a note
 {% include console_command.html content="Cue 1, Label, This is a new Label, Enter" noLegend=true noTip=true %}
 Edit the label of an existing cue.
 
-{% include console_command.html content="Cue, 1, Label, This is a label, Label noLegend=true, noTip=true %}
+{% include console_command.html content="Cue, 1, Label, This is a label, Label" noLegend=true noTip=true %}
 Removes all text back to the first {% include console_button.html content="Label" %} entry. If you add an {% include console_button.html content="Enter" %}, you can remove the label from a cue this way
 
 ## On Keyboard
