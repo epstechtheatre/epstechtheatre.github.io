@@ -1,6 +1,6 @@
 # Welcome to the EPS Technical Theatre Guide
-![](https://img.shields.io/github/license/epstechtheatre/epstechtheatre.github.io?style=for-the-badge)
-![](https://img.shields.io/badge/Wiki-techwiki.b--macdonald.ca-informational.svg?link=https://techwiki.b-macdonald.ca&style=for-the-badge)
+[![](https://img.shields.io/github/license/epstechtheatre/epstechtheatre.github.io?style=for-the-badge)](./LICENSE)
+[![](https://img.shields.io/badge/Wiki-techwiki.b--macdonald.ca-informational.svg?link=https://techwiki.b-macdonald.ca&style=for-the-badge)](https://techwiki.b-macdonald.ca)
 
 
 
