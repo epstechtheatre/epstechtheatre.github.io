@@ -67,9 +67,15 @@ layout: default
     </div>
 
     {% if page.authors %}
-    <div class="authors">
-        <body>{{page.authors | sort | join: ", "}}</body>
-    </div>
+        {% if page.authors.size == 1 and page.authors.first == "Ben MacDonald" or page.authors.first == "Benjamin MacDonald" %}
+        <div class = "authors authors-not-wonderful">
+            <body>{{page.authors | sort: "title" | join: ", "}}
+        </div>
+        {% else %}
+        <div class="authors">
+            <body>{{page.authors | sort: "title" | join: ", "}}
+        </div>
+        {% endif%}
     {% endif%}
 
 </div>
