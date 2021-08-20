@@ -1,5 +1,5 @@
 # Welcome to the EPS Technical Theatre Guide
-
+![](docs/images/svg/Wiki%20Logo.svg)
 ## What is this?
 This repository is home to a ton of information for students interested in technical theatre so they can learn and refine their skills. A static site is also generated and can be found [here](https://epstechtheatre.github.io/).
 
@@ -12,4 +12,4 @@ The main focus currently is on the initial content for the lighting section.
 ## Contributing and Contact
 I encourage future students to share any new knowledge they acquire on this page as well, however, I do realize Github can be quite intimidating to those with no prior experience in programming. Students at Dr. E.P. Scarlett who wish to contribute should ask their Drama or Technical Theatre teacher for more info.
 
-Alternatively, if you need any support, send an email to [epstechtheatre@gmail.com](mailto:epstechtheatre@gmail.com) with "Tech Theatre Wiki" in the subject line.
+Alternatively, if you need any support, send an email to [techwiki@b-macdonald.ca](mailto:techwiki@b-macdonald.ca) with "Tech Theatre Wiki" in the subject line.
