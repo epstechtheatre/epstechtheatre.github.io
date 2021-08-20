@@ -22,17 +22,14 @@ We are a passionate group of students interested in all aspects of the technical
 
 The project was started and is currently led by [Ben MacDonald](https://github.com/Quantum158/). They were the Technical Director at Dr. E.P. Scarlett Highschool during the 2020-2021 school year and will help maintain the project at least until they complete their bachelor's degree.
 
-## Sounds like a lot to cover. Is the wiki all complete?
-Not yet. Actually, we hope it never will be. Hopefully, this will serve as a hub years down the line where students can keep coming back to share cool things they learned.
-
-The wiki is currently in its preliminary development stages and very little is complete. Currently main focus is on the lighting section, however there is a lot to cover. If you want to use this as a resource, you may want to check back in a few months.
-
 ## I want to help out! Where can I contribute?
 Glad to hear! This wiki is open-source on Github. If you have programming experience and a Github account, feel free to follow the instructions over on the repo to submit a pull request.
 
 ### I have neither programmer experience nor a Github account?
 That's all right too! Send an email to [techwiki@b-macdonald.ca](mailto:techwiki@b-macdonald.ca) and I or someone else will help you out.
 
+## I run a theatre program and want to use this wiki for my own projects
+Certainly! We're glad to hear that this guide is helping you. The wiki is licensed under the copyleft MIT license. You can read the license text [here](https://github.com/epstechtheatre/epstechtheatre.github.io/blob/main/LICENSE), but, to put it simply, as long as you credit us and make it clear that you aren't the original source of the content, you can do whatever you like.
 ## Where do I go first?
 The website is divide into categories and topics. If you know roughly what you're looking for, try searching for it using the search bar in the top right of the webpage (or in the dropdown menu on mobile). Otherwise, have a click around and see what you can find. 
 
