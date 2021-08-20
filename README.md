@@ -1,4 +1,9 @@
 # Welcome to the EPS Technical Theatre Guide
+![](https://img.shields.io/github/license/epstechtheatre/epstechtheatre.github.io?style=for-the-badge)
+![](https://img.shields.io/badge/Wiki-techwiki.b--macdonald.ca-informational.svg?link=https://techwiki.b-macdonald.ca&style=for-the-badge)
+
+
+
 ![](docs/images/svg/Wiki%20Logo.svg)
 ## What is this?
 This repository is home to a ton of information for students interested in technical theatre so they can learn and refine their skills. A static site is also generated and can be found [here](https://epstechtheatre.github.io/).
