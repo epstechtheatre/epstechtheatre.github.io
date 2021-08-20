@@ -33,6 +33,7 @@ var LightingKeyboardAliases = {
     "intensitypalette": "intpalette",
     "colourpalette": "colorpalette",
     
+    "manualwheel": ["manualwheel1", "manualwheel2", "manualwheel0"],
     "silverknob": ["manualwheel1", "manualwheel2", "manualwheel"],
     "manualknob": ["manualwheel1", "manualwheel2", "manualwheel"],
     "spinnywheel": ["manualwheel1", "manualwheel2", "manualwheel"],
