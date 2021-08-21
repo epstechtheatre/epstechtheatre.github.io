@@ -139,10 +139,6 @@ entries:
     - title: At
       output: web
       url: /Lighting_keyboard_at.html
-
-    - title: Black Out
-      output: web
-      url: /Lighting_keyboard_blackout.html
     
     - title: Beam Palette
       output: web

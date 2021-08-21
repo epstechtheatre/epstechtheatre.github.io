@@ -12,10 +12,6 @@ var buttonURLDict = [
         names: ["at"]
     },
     {
-        url: "/Lighting_keyboard_blackout.html",
-        names: ["blackout"]
-    },
-    {
         url: "/Lighting_keyboard_beampalette.html",
         names: ["beampalette"]
     },
