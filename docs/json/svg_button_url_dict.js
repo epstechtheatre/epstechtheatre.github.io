@@ -260,6 +260,14 @@ var buttonURLDict = [
         names: ["selectlast"]    
     },
     {
+        url: "/Lighting_keyboard_selectactive.html",
+        names: ["selectactive"]
+    },
+    {
+        url: "Lighting_keyboard_selectmanual.html",
+        names: ["selectmanual"]
+    },
+    {
         url: "/Lighting_keyboard_shift.html",
         names: ["shift"] 
     },

@@ -360,9 +360,17 @@ entries:
       output: web
       url: /Lighting_keyboard_remdim.html
 
+    - title: Select Active
+      output: web
+      url: /Lighting_keyboard_selectactive.html
+    
     - title: Select Last
       output: web
       url: /Lighting_keyboard_selectlast.html
+
+    - title: Select Manual
+      output: web
+      url: /Lighting_keyboard_selectmanual.html
     
     - title: Shift
       output: web
