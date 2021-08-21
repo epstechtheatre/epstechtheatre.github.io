@@ -148,10 +148,6 @@ entries:
       output: web
       url: /Lighting_keyboard_beampalette.html
     
-    - title: Blind
-      output: web
-      url: /Lighting_keyboard_blind.html
-    
     - title: Block
       output: web
       url: /Lighting_keyboard_block.html
@@ -276,9 +272,9 @@ entries:
       output: web
       url: /Lighting_keyboard_learn.html
     
-    - title: Live
+    - title: Live and Blind
       output: web
-      url: /Lighting_keyboard_live.html
+      url: /Lighting_keyboard_live_blind.html
 
     - title: Load
       output: web

@@ -20,10 +20,6 @@ var buttonURLDict = [
         names: ["beampalette"]
     },
     {
-        url: "/Lighting_keyboard_blind.html",
-        names: ["blind"]
-    },
-    {
         url: "/Lighting_keyboard_block.html",
         names: ["block"]
     },
@@ -168,8 +164,8 @@ var buttonURLDict = [
         names: ["learn"]    
     },
     {
-        url: "/Lighting_keyboard_live.html",
-        names: ["live"]    
+        url: "/Lighting_keyboard_live_blind.html",
+        names: ["live", "blind"]    
     },
     {
         url: "/Lighting_keyboard_load.html",
