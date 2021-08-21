@@ -26,5 +26,13 @@ Sets Group 1 to 50%.
 
 {% include console_command.html content="Group 1, Record Cue 14" noLegend=true noTip=true %}
 Records the data for Group 1 into Cue 14.
+
+## Complex Examples
+{% include console_command.html content="1, At, 5, Enter" noLegend=true noTip=true %}
+Sets Channel 1 to 50%. This also applies for any single digit intensity value (ie, 9, will set to 90%)
+
+{% include console_command.html content="1, At, 05, Enter" noLegend=true noTip=true %}
+Sets Channel 1 to 5%
+
 ## On Keyboard
 {% include console_button.html content="Numbers" %} are mapped to their respective `0-9` keys on a QWERTY keyboard. Using the numbers on a Number Pad will also work.
