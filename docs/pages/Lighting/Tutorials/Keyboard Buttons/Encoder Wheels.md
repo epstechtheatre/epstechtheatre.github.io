@@ -32,6 +32,6 @@ The {% include console_button.html content="Encoder Wheels" %} are also clickabl
 - You've learned that a light you're working with has a mode with automatically cycles between colours at a set speed. Chances are that mode is accessible from the Encoder Hold-Down Menu. Select the light in question, hold down the encoder for the property you think the mode is behind. If you are correct, your softkey options will update and one will say `Mode`. Click that while still holding down the encoder to change modes.
 
 ## On Keyboard
-The {% include console_button.html content="Encoder Wheels" %} are not assigned to a key.
+The {% include console_button.html content="Encoder Wheels" %} are not mapped to a key.
 
 {% include tip.html content="Most complicated hold-down buttons and hidden menus can also be accessed from the monitor in the encoder display menu. Have a look around and see what you can find!" %}

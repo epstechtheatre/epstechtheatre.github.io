@@ -56,4 +56,4 @@ You want change to the colour page to manipulate the cyc. Use {% include console
 
 You want to home the Color properties for channel 1. Type {% include console_button.html content="1" %}, {% include console_button.html content="Shift" %} + {% include console_button.html content="Color" %}, {% include console_button.html content="Home" %}, {% include console_button.html content="Enter" %}.
 ## On Keyboard
-None of the Encoder Pages are assigned a key. However, you can change pages from within the Encoder Display menu on the monitor. You can also directly select properties from this area.
+None of the Encoder Pages are mapped to a key. However, you can change pages from within the Encoder Display menu on the monitor. You can also directly select properties from this area.
