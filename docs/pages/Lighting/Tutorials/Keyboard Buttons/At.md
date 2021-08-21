@@ -19,7 +19,7 @@ The first is, as stated above, to indicate the next number is a lighting intensi
 
 The second is used when patching lights to enter the physical address of the fixture.
 <br><br>
-You can also use at for more complex property percent assignments. See the examples below.
+{% include console_button.html content="At" %} also complex usages. See below for examples.
 
 ## Examples
 {% include console_command.html content="1, At, 45, Enter" noLegend=true noTip=true %}
