@@ -656,7 +656,7 @@
              style="stroke:#000000;stroke-width:0.972576;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:3;stroke-dasharray:none;stroke-opacity:1;paint-order:normal" />
         </g>
         <g
-           id="encoder_display"
+           id="encoderdisplay"
            v:mID="169"
            v:groupContext="shape"
            transform="matrix(0.5349779,0,0,0.49348967,154.18182,-319.69401)"

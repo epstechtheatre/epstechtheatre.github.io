@@ -76,6 +76,10 @@ var buttonURLDict = [
         names: ["encoders"]
     },
     {
+        url: "/Lighting_keyboard_encoderpages.html",
+        names: ["encoderdisplay"]
+    },
+    {
         url: "/Lighting_keyboard_enter.html",
         names: ["enter"]
     },
