@@ -1,6 +1,7 @@
 name: Something seems off
 description: You spotted a typo, a link isn't working, or you've found out-of-place content
 title: "[Bug]: "
+labels: ["request: Bug or Issue"]
 assignees:
   - Quantum158
 body:
