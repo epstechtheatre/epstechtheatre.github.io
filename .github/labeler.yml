@@ -6,8 +6,8 @@
 - docs/var/*
 - ./*
 - docs/*
-- !docs/*.md
-- !docs/*.html
+- all: ['!docs/*.md', '!docs/*.html', '!./*.md', '!./*.html']
+
 
 'backend: Styling':
 - docs/**/*.css
