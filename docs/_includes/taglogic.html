@@ -1,10 +1,12 @@
-<p>The following pages and posts are tagged with <button type="button" style="cursor: default" class="btn btn-default navbar-btn">{{page.tagName | replace: "_", " " | capitalize}}</button></p>
+<p>The following {{total_pages}} pages and posts are tagged with <button type="button" style="cursor: default" class="btn btn-default navbar-btn">{{page.tagName | replace: "_", " " | capitalize}}</button></p>
 
 <div style="overflow-x: auto;">
   <table><thead><tr><th>Title</th><th>Section</th><th>Type</th><th style="min-width: 300px;">Excerpt</th></tr></thead>
     <tbody>
     {% assign thisTag = page.tagName %}
-  {% for page in site.pages %}
+    
+  {% assign sorted_pages = site.pages | sort_natural: 'title' %}
+  {% for page in sorted_pages %}
     {% for tag in page.tags %}
         {% if tag == thisTag %}
 
