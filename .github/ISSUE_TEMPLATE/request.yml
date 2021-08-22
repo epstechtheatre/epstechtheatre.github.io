@@ -38,8 +38,8 @@ body:
       label: Would you be willing to author or co-author this new content?
       description: Your request is more likely to be accepted if you answer yes
       options:
-        - Yes
-        - No
+        - "Yes"
+        - "No"
     validations:
       required: true
   - type: textarea
