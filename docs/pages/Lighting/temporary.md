@@ -75,14 +75,14 @@ The best way to learn this is by playing around so don't be afraid to go wild.
 
 
 ## Recording Cues
-Firstly, you want to make sure you're recording your cues into a file where you'll be able to find them again. The easiest way to do this is to make a new cuelist if you're starting from scratch. (here's how to do that). Otherwise, remember where you save it (i don't actually know how to find it, but theoretically that would also be explained here)
+Firstly, you want to make sure you're recording your cues into a file where you'll be able to find them again. The easiest way to do this is to make a new cue list if you're starting from scratch. (here's how to do that). Otherwise, remember where you save it (i don't actually know how to find it, but theoretically that would also be explained here)
 
 The next step is to make the light look the way that you want. This is the fun part - do whatever you want, and make it really super cool. The super cool part is important. 
 
 Finally, you need to actually save it to a cue. Cue's like channels, and groups, also all have a unique identifier. Recording a cue means you record intensity, colours, mover positions, and everything else you have done. All you need to do for this is type 
 {% include console_command.html content="Record, Cue, Number, Enter" noTip=true noLegend=true %}
 
-{% include warning.html content="Your class is using a certain saving scheme for your cuelists, check with claire and ask her to show you either how to get into a separate cue list, or a unique showfile" %}
+{% include warning.html content="Your class is using a certain saving scheme for your cue lists, check with claire and ask her to show you either how to get into a separate cue list, or a unique showfile" %}
 
 Number your cues chronologically in the order they'll be in during the final performance. You can label them directly after creating them by hitting {% include console_button.html content="Label" %} before the clearing the command line, then using the actual English keyboard to type the name. If the command line has been cleared since you recorded the cue, you can still label them! Just specify the cue, so the command will be 
 {% include console_command.html content="Cue, Number, Label, Enter" noTip=true noLegend=true %}
@@ -93,7 +93,7 @@ Number your cues chronologically in the order they'll be in during the final per
 If you come back to a cue some time in the future and find you don't like it anymore, theres a very easy way to make updates to it. All you need to do is make sure you are currently in the cue you want to change, then just start changing lights. Once you have everything you like. Hit {% include console_button.html content="Update" %} or enter the record command using the ID of the cue you are updating. (You don't need to reenter a label if you have one, the board does that automatically.)
 
 ### Playing back cues
-This is really easy, use the {% include console_button.html content="Go" %} and {% include console_button.html content="Stop" %} buttons to go forwards and backwards in the cuelist. In the bottom right of the screen, the IDs of the currently active cue and the next cue can be seen. Check the next section on using the PSD 
+This is really easy, use the {% include console_button.html content="Go" %} and {% include console_button.html content="Stop" %} buttons to go forwards and backwards in the cue list. In the bottom right of the screen, the IDs of the currently active cue and the next cue can be seen. Check the next section on using the PSD 
 
 ## Using the monitors
 The monitors on the console are a way to show more information than what is possible on the command line alone. They also allow for more diverse control.
@@ -102,7 +102,7 @@ I mentioned the magic sheet and the colour picker, those are two tabs that help 
 
 Two tabs will always be open, they are the Playback Show Display (PSD) and the Live Table.
 
-The PSD shows the currently active cuelist, as you playback the show, the highlighted cue will travel downwards. This is also where you can see the labels if you made any.
+The PSD shows the currently active cue list, as you playback the show, the highlighted cue will travel downwards. This is also where you can see the labels if you made any.
 
 The Live Table shows raw lighting information. It's basically a magic sheet except less pretty to look at.
 

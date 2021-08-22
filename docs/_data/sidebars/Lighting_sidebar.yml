@@ -139,18 +139,10 @@ entries:
     - title: At
       output: web
       url: /Lighting_keyboard_at.html
-
-    - title: Black Out
-      output: web
-      url: /Lighting_keyboard_blackout.html
     
     - title: Beam Palette
       output: web
       url: /Lighting_keyboard_beampalette.html
-    
-    - title: Blind
-      output: web
-      url: /Lighting_keyboard_blind.html
     
     - title: Block
       output: web
@@ -240,9 +232,9 @@ entries:
       output: web
       url: /Lighting_keyboard_full.html
 
-    - title: Go
+    - title: Go / Stop Back
       output: web
-      url: /Lighting_keyboard_go.html
+      url: /Lighting_keyboard_go_stopback.html
     
     - title: Go To Cue
       output: web
@@ -276,9 +268,9 @@ entries:
       output: web
       url: /Lighting_keyboard_learn.html
     
-    - title: Live
+    - title: Live and Blind
       output: web
-      url: /Lighting_keyboard_live.html
+      url: /Lighting_keyboard_live_blind.html
 
     - title: Load
       output: web
@@ -364,9 +356,17 @@ entries:
       output: web
       url: /Lighting_keyboard_remdim.html
 
+    - title: Select Active
+      output: web
+      url: /Lighting_keyboard_selectactive.html
+    
     - title: Select Last
       output: web
       url: /Lighting_keyboard_selectlast.html
+
+    - title: Select Manual
+      output: web
+      url: /Lighting_keyboard_selectmanual.html
     
     - title: Shift
       output: web
@@ -383,10 +383,6 @@ entries:
     - title: Softkeys
       output: web
       url: /Lighting_keyboard_softkeys.html
-
-    - title: Stop / Back
-      output: web
-      url: /Lighting_keyboard_stop_back.html
     
     - title: Sub
       output: web

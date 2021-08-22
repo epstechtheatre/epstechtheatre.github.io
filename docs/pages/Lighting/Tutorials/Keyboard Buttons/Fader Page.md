@@ -7,7 +7,7 @@ folder: Lighting
 # toc: true
 # summary: 
 # keywords: []
-# authors: []
+authors: ["Ben MacDonald"]
 # last_updated: Month Day, Year
 # tags: []
 ---
