@@ -1,0 +1,39 @@
+name: Something Else...
+description: If you select this, please be very descriptive of your issue, otherwise we might not be able to act on it.
+title: "[Other]: "
+labels: ["request: other"]
+assignees:
+  - Quantum158
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to fill out this report!
+  - type: textarea
+    id: request
+    attributes:
+      label: What is your request?
+      description: Please describe in great detail. Include pictures if necessary!
+      value: "I would like to see... Because..."
+    validations:
+      required: true
+  - type: input
+    id: category
+    attributes:
+      label: Please describe what category your request falls under
+      placeholder: Description...
+  - type: dropdown
+    id: self-sufficient
+    attributes:
+      label: Would you be willing to author or co-author this new content?
+      description: Your request is more likely to be accepted if you answer yes
+      options:
+        - "Yes"
+        - "No"
+    validations:
+      required: true
+  - type: textarea
+    id: additional
+    attributes:
+      label: Additional Information
+      description: If you want to include additional information regarding your request, include it here!

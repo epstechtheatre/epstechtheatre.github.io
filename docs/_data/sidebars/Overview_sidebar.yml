@@ -64,7 +64,3 @@ entries:
     - title: Stats and Credits
       url: /stats_credits.html
       output: web, pdf
-
-    - title: Contact
-      url: /contact.html
-      output: web, pdf

@@ -1,0 +1,53 @@
+name: Something Seems Off
+description: You spotted a typo, a link isn't working, or you've found out-of-place content
+title: "[Bug]: "
+labels: ["request: Bug or Issue"]
+assignees:
+  - Quantum158
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to fill out this report!
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What did you see?
+      description: If possible, what do you expect to see? Include pictures if you like!
+      placeholder: Tell us what you see!
+      value: "Something is wrong!"
+    validations:
+      required: true
+  - type: dropdown
+    id: browsers
+    attributes:
+      label: What browser were you using when you had the problem? 
+      description: (If you tried another browser before filing this report, select both browsers below)
+      multiple: true
+      options:
+        - Firefox
+        - Chrome
+        - Safari
+        - Microsoft Edge
+        - Other (Include name below!)
+    validations:
+      required: true
+  - type: dropdown
+    id: device
+    attributes:
+      label: What device were you using?
+      multiple: true
+      options:
+        - Windows
+        - Mac
+        - IPhone
+        - IPad
+        - Android
+        - Other (Include name below!)
+    validations:
+      required: true
+  - type: textarea
+    id: additional
+    attributes:
+      label: Additional Information
+      description: If you want to include additional information regarding your issue, include it here!
