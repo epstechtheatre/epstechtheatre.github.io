@@ -6,9 +6,7 @@
 - docs/var/*
 - ./*
 - docs/*
-- !./*.md
 - !docs/*.md
-- !./*.html
 - !docs/*.html
 
 'backend: Styling':
