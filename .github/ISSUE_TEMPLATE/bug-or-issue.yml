@@ -1,4 +1,4 @@
-name: Something seems off
+name: Something Seems Off
 description: You spotted a typo, a link isn't working, or you've found out-of-place content
 title: "[Bug]: "
 labels: ["request: Bug or Issue"]
