@@ -29,6 +29,7 @@ body:
         - Safari
         - Microsoft Edge
         - Other (Include name below!)
+    validations:
       required: true
   - type: dropdown
     id: device
@@ -42,6 +43,7 @@ body:
         - IPad
         - Android
         - Other (Include name below!)
+    validation:
       required: true
   - type: textarea
     id: additional
