@@ -43,7 +43,7 @@ body:
         - IPad
         - Android
         - Other (Include name below!)
-    validation:
+    validations:
       required: true
   - type: textarea
     id: additional
