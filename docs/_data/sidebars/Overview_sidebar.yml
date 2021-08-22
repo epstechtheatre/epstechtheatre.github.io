@@ -60,3 +60,7 @@ entries:
       url: /index.html
       output: web, pdf
       type: homepage
+
+    - title: Stats
+      url: /stats.html
+      output: web, pdf
