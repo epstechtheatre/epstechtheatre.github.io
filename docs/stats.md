@@ -21,7 +21,7 @@ customPageType: info
     {% assign word_count = word_count | plus:words %}
 {% endfor %}
 
-Currently, there are **{{valid_pages | size}}** active pages in the wiki averaging roughly **{{word_count | divided_by:valid_pages.size}}** words per page. **{{valid_pages | where_exp:"item","item.authors" | size}}** pages have an non-anonymous author.
+Currently, there are **{{valid_pages | size}}** active pages in the wiki averaging roughly **{{word_count | divided_by:valid_pages.size}}** words per page. **{{valid_pages | where_exp:"item","item.authors" | size}}** pages have a non-anonymous author.
 
 <!-- Data for credits and percentage bars -->
 {% assign highest_contribution = 0 %}
