@@ -36,5 +36,7 @@
 
 <!-- Create a tip telling readers to hover over buttons, unless disabled with flag -->
 {% unless include.noTip == true %}
-{% include tip.html content="Hover over a button to see where it is on the keyboard" %}
+<div class="console_command_tip">
+    {% include tip.html content="Hover over a button to see where it is on the keyboard" %}
+</div>
 {% endunless %}

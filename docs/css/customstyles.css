@@ -292,8 +292,12 @@ span.soft {
     }
 
     .githubEditButton {
-        display: block;
+        display: inline-block;
         max-width: 175px;
+    }
+
+    .printerViewButton {
+        display: inline-block;
     }
 }
 
@@ -309,6 +313,11 @@ span.soft {
     }
 
     .githubEditButton {
+        float: right;
+        margin-left: 5px;
+    }
+
+    .printerViewButton {
         float: right;
     }
 }
