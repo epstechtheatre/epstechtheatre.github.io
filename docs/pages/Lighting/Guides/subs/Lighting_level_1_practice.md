@@ -22,10 +22,10 @@ customPageType: assignment
 {% include guide-req.html check=true content="Set the non-intensity parameter of a light or light group" %}
 {% include guide-req.html check=true content="Understanding of proper warmup procedure" %}
 
-You will not be asked to:
-{% include guide-req.html check=false content="Understand how transition timings work<br>" %}
-{% include guide-req.html check=false content="Apply other effects to lights<br>" %}
-{% include guide-req.html check=false content="Use any knowledge from guides 2-4 (those guides have their own assignments)" %}
+You will not need to know:
+{% include guide-req.html check=false content="How transition timings work<br>" %}
+{% include guide-req.html check=false content="How to apply other effects to lights<br>" %}
+{% include guide-req.html check=false content="Any knowledge from guides 2-4 (those guides have their own assignments)" %}
 
 # Task
 Create a new showfile from the mainfile. Using the methods you have learned, build a cue list with the following features:
