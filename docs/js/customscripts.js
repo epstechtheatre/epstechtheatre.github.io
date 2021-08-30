@@ -59,6 +59,40 @@ $( document ).ready(function() {
     .mouseleave(function() {
         unShow()
     })
+
+
+
+    //PDF View
+    let reqArgs = window.location.href.split("?")[1]
+    if (reqArgs) {
+        reqArgs = reqArgs.split("&")
+    } else {
+        reqArgs = [];
+    }
+
+    if (reqArgs.some(arg => arg.includes("pdf=true"))) { //Client requested pdf, time to break some stuff
+        if (pageNoPDFSetting != "true") {
+            $("#tg-sb-sidebar").hide();
+            $("#tg-sb-content").toggleClass('col-md-9');
+            $("#tg-sb-content").toggleClass('col-md-12');
+            $("#tg-sb-icon").toggleClass('fa-toggle-on');
+            $("#tg-sb-icon").toggleClass('fa-toggle-off');
+
+            $("#search-input").hide();
+            $(".githubEditButton").hide();
+            $(".printerViewButton").hide();
+            $(".navbar-right").hide();
+
+            $(".container").css({width: "100%"})
+            $(".tags").hide();
+            $("#toc").hide();
+            $(".navbar-static-top").hide()
+            $(".console_command_tip").hide()
+        } else {
+            document.getElementsByClassName("summary")[0].insertAdjacentHTML("beforebegin", "<div class=noPrinterView>Sorry! This page doesn't support printer-friendly viewing.</div")
+            alert("Sorry! This page doesn't support printer-friendly viewing")
+        }
+    }
 });
 
 // needed for nav tabs on pages. See Formatting > Nav tabs for more details.
