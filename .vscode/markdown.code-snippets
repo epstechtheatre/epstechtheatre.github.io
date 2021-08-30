@@ -163,5 +163,15 @@
     "enter-date": {
         "prefix": "English Date",
         "body": "$CURRENT_MONTH_NAME $CURRENT_DATE, $CURRENT_YEAR",
+        "scope": "markdown"
+    },
+
+    "guide-req": {
+        "prefix": "Guide Req",
+        "body": [
+            "{% include guide-req.html check=true$1 content=\"$2\" %}",
+            "$0"
+        ],
+        "scope": "markdown"
     }
 }
