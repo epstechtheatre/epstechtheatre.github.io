@@ -9,7 +9,7 @@ toc: true
 keywords: [supplementary, shortcuts, guides]
 # authors: []
 # last_updated: Month Day, Year
-tags: [getting_started, guide, lighting, supplement]
+tags: [guide, lighting, supplement]
 customPageType: supplement
 ---
 
