@@ -14,13 +14,14 @@ customPageType: guide
 {% include important.html content="If this is the first time you are seeing these guides, <a alt='Start with the Absolute Basics' href='/Lighting_level_0'>Start Here</a>" %}
 
 ## Outcomes of this Guide:
-☑ Control multicoloured lights and lights with additional non-intensity parameters<br>
-☑ Record and playback a basic lighting cue list<br>
-☑ Learn how to close and reopen the software without shutting down the lighting board<br>
-☑ Learn the usage of some less-commonly used but useful keyboard buttons<br>
-☑ Learn a couple of shortcuts the significantly increase speed<br>
-☑ Completely understand how to use the tab system in the lighting software
+{% include guide-req.html check=true content="Control multicoloured lights and lights with additional non-intensity parameters" %}
+{% include guide-req.html check=true content="Record and playback a basic lighting cue list" %}
+{% include guide-req.html check=true content="Learn how to close and reopen the software without shutting down the lighting board" %}
+{% include guide-req.html check=true content="Learn the usage of some less-commonly used but useful keyboard buttons" %}
+{% include guide-req.html check=true content="Learn a couple of shortcuts the significantly increase speed" %}
+{% include guide-req.html check=true content="Completely understand how to use the tab system in the lighting software" %}
 
+<hr>
 
 Now that you have a basic understanding of how to use the lighting board, these guides can become less bloated and start to only contain the information that is absolutely needed. With that being said, there are still a few things you should learn ASAP. 
 
@@ -35,7 +36,7 @@ First, select a multicolour light or group, such as the cyc. Now you have three 
 ### Controlling via the Colour Picker
 On the monitors, select or open a new colour picker tab (refer to the previous guide if you need a refresher on how to do this). Then, ensuring you still have the light or group selected, click on a new colour.
 
-{% include important.html content="If you don’t have at least one multicolour light selected, you will still be able to use the colour picker, however, nothing will happen." %}
+{% include important.html content="If you don’t have at least one multicolour light selected, you will still be able to use the colour picker and it will appear to work, however, nothing will happen." %}
 
 
 ### Controlling via the Magic Sheet

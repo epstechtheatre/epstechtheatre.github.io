@@ -14,13 +14,15 @@ customPageType: guide
 {% include note.html content="This page is very specifically tailored to the lighting network present at Dr. E.P. Scarlett, I highly recommend students from other schools that are just starting out take everything with a grain of salt, or go through the guide with a mentor so they can make corrections as they need to." %}
 
 ## Outcomes of this Guide
-☑ Understand what lighting can do for a theatrical production<br>
-☑ What a lighting board is<br>
-☑ Learn how to turn on and off a lighting board<br>
-☑ Learn how to turn on and off any light connected to the lighting board, controlling lights both individually and concurrently<br>
-☑ Learn how to load and create showfiles within the lighting board software<br>
-☑ Learn how to navigate parts of the lighting software<br>
-☑ Learn how to view and interact with the "Magic Sheet"
+{% include guide-req.html check=true content="Understand what lighting can do for a theatrical production" %}
+{% include guide-req.html check=true content="What a lighting board is" %}
+{% include guide-req.html check=true content="Learn how to turn on and off a lighting board" %}
+{% include guide-req.html check=true content="Learn how to turn on and off any light connected to the lighting board, controlling lights both individually and concurrently" %}
+{% include guide-req.html check=true content="Learn how to load and create showfiles within the lighting board software" %}
+{% include guide-req.html check=true content="Learn how to navigate parts of the lighting software" %}
+{% include guide-req.html check=true content="Learn how to view and interact with the \"Magic Sheet\"" %}
+
+<hr>
 
 ## Before You Begin
 If you did any lighting work in your previous school, you might have used a lighting board with a bunch of sliders, where each slider controlled one light (or one colour of a multicoloured light). This is called an analogue lighting board. 
