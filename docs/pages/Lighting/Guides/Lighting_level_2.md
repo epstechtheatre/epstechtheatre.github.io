@@ -7,9 +7,11 @@ folder: Lighting
 authors: [Ben MacDonald]
 summary:  This level covers lighting theory and applying that on the board
 draft: true
-tags: [getting_started]
+tags: [Lighting, Guide]
 customPageType: guide
 ---
+
+{% include stub.html %}
 
 - 3 Point lighting
 - "Warm"/"Cool"/"Top"

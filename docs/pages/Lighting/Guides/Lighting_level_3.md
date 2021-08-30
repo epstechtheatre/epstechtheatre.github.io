@@ -7,9 +7,11 @@ folder: Lighting
 authors: [Ben MacDonald]
 summary:  This level contains some more advanced commonly used functions on the lighting board, as well as some definitions regarding functions in the software.
 draft: true
-tags: [getting_started]
+tags: [Lighting, Guide]
 customPageType: guide
 ---
+
+{% include stub.html %}
 
 - Targets
  (Simply as these are all likely going to be a bigger topic)
