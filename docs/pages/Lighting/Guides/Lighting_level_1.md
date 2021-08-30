@@ -15,7 +15,7 @@ customPageType: guide
 
 ## Outcomes of this Guide:
 ☑ Control multicoloured lights and lights with additional non-intensity parameters<br>
-☑ Record and playback a basic lighting cuelist<br>
+☑ Record and playback a basic lighting cue list<br>
 ☑ Learn how to close and reopen the software without shutting down the lighting board<br>
 ☑ Learn the usage of some less-commonly used but useful keyboard buttons<br>
 ☑ Learn a couple of shortcuts the significantly increase speed<br>
@@ -122,9 +122,9 @@ You will often find a cue becomes redundant or so wrong that it is easier to jus
 ### Playing Back Cues
 You will use 2 buttons here: Go and Stop / Back
 
-{% include console_button.html content="Go" %}: Advances your cuelist by one cue. In a perfect show, this is the only button you have to press.
+{% include console_button.html content="Go" %}: Advances your cue list by one cue. In a perfect show, this is the only button you have to press.
 
-{% include console_button.html content="Stop / Back" %}: moves your cuelist back one cue or stop the current transition (if one is active).
+{% include console_button.html content="Stop / Back" %}: moves your cue list back one cue or stop the current transition (if one is active).
 
 On the PSD, you will see a bunch of numbers beside the cue number. These are the transition timings. We won’t be using these in this guide but we will in the future. To put it simply, the software allows you to change the timings for each part of the cue, for example you could have a colour change take 15 seconds, but an intensity change only take 4. 
 

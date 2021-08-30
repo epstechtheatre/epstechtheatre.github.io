@@ -13,7 +13,6 @@ summary: An entry node for those looking for lighting information.
 ---
 
 
-
 {% include important.html content="During development. Most pages will be stubs." %}
 ## Welcome to the Lighting Page
 

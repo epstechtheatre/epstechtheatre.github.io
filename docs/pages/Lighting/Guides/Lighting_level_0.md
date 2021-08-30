@@ -32,7 +32,7 @@ This is everything you need to know about the absolute basics of controlling the
 {% include warning.html content="You may want to ask for another more experienced tech to help you out with these steps to make sure you don’t miss anything" %}
 
 ### What does the lighting board actually do?
-In its simplest form, it is a playlist. When designing the show you create ‘looks’, which are basically just combinations of lights that look nice together and amplify the action and mood of the scene on stage. There are a lot of different looks we have to swap between throughout a show, so we add these looks to the playlist (or cuelist as it’s called). Then, when running the show, we don’t have to redo all the work of setting up a look, we can just hit a single button and the cue is loaded.
+In its simplest form, it is a playlist. When designing the show you create ‘looks’, which are basically just combinations of lights that look nice together and amplify the action and mood of the scene on stage. There are a lot of different looks we have to swap between throughout a show, so we add these looks to the playlist (or cue list as it’s called). Then, when running the show, we don’t have to redo all the work of setting up a look, we can just hit a single button and the cue is loaded.
 Parts of the lighting board
 The board is really just a specialized computer. The main part (the scary looking part) is the board itself. We call it the console. It has a bunch of buttons with words that don’t make sense and sliders that have digital displays. That’s the only part that’s different to just a regular computer. The rest is just monitors and a less scary looking keyboard and mouse. You will be using both parts when controlling lights.
 
