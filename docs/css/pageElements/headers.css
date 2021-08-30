@@ -42,3 +42,9 @@ h4.panel-title {
 .post-title-main {
     display: inline;
 }    
+
+@media (max-width: 999px) {
+    .post-title-main {
+        display: block;
+    }
+}
