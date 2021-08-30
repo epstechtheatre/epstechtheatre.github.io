@@ -12,16 +12,8 @@ var buttonURLDict = [
         names: ["at"]
     },
     {
-        url: "/Lighting_keyboard_blackout.html",
-        names: ["blackout"]
-    },
-    {
         url: "/Lighting_keyboard_beampalette.html",
         names: ["beampalette"]
-    },
-    {
-        url: "/Lighting_keyboard_blind.html",
-        names: ["blind"]
     },
     {
         url: "/Lighting_keyboard_block.html",
@@ -80,6 +72,10 @@ var buttonURLDict = [
         names: ["encoders"]
     },
     {
+        url: "/Lighting_keyboard_encoderpages.html",
+        names: ["encoderdisplay"]
+    },
+    {
         url: "/Lighting_keyboard_enter.html",
         names: ["enter"]
     },
@@ -92,8 +88,8 @@ var buttonURLDict = [
         names: ["expand"]
     },
     {
-        url: "/Lighting_keyboard_fadercontrol.html",
-        names: ["fadercontrol"]
+        url: "/Lighting_keyboard_faderpage.html",
+        names: ["fadercontrol", "faderpage"]
     },
     {
         url: "/Lighting_keyboard_flexi.html",
@@ -120,8 +116,8 @@ var buttonURLDict = [
         names: ["full"]
     },
     {
-        url: "/Lighting_keyboard_go.html",
-        names: ["go"]
+        url: "/Lighting_keyboard_go_stopback.html",
+        names: ["go", "stopback"]
     },
     {
         url: "/Lighting_keyboard_gotocue.html",
@@ -168,8 +164,8 @@ var buttonURLDict = [
         names: ["learn"]    
     },
     {
-        url: "/Lighting_keyboard_live.html",
-        names: ["live"]    
+        url: "/Lighting_keyboard_live_blind.html",
+        names: ["live", "blind"]    
     },
     {
         url: "/Lighting_keyboard_load.html",
@@ -260,6 +256,14 @@ var buttonURLDict = [
         names: ["selectlast"]    
     },
     {
+        url: "/Lighting_keyboard_selectactive.html",
+        names: ["selectactive"]
+    },
+    {
+        url: "Lighting_keyboard_selectmanual.html",
+        names: ["selectmanual"]
+    },
+    {
         url: "/Lighting_keyboard_shift.html",
         names: ["shift"] 
     },
@@ -274,10 +278,6 @@ var buttonURLDict = [
     {
         url: "/Lighting_keyboard_sneak.html",
         names: ["sneak"]    
-    },
-    {
-        url: "/Lighting_keyboard_stop_back.html",
-        names: ["stop_back"]    
     },
     {
         url: "/Lighting_keyboard_sub.html",

@@ -8,7 +8,7 @@
     "console sequence": {
         "prefix": ["console command", "button sequence", "sequence", "command"],
         "body": [
-            "{% include console_command.html content=\"$1\" noLegend=$2false noTip=$3false %}",
+            "{% include console_command.html content=\"$1\" noLegend=$2true noTip=$3true %}",
             "$0"
         ],
         "scope": "markdown"
@@ -90,7 +90,7 @@
             "# summary: ",
             "# keywords: []",
             "# authors: []",
-            "# last_updated: Month Day, Year",
+            "# last_updated: $CURRENT_MONTH_NAME $CURRENT_DATE, $CURRENT_YEAR",
             "# tags: []",
             "# customPageType: text",
             "---",
@@ -117,12 +117,13 @@
             "# private: true",
             "# search: exclude",
             "# customPageType: text",
-            "# last_updated: Month Day, Year",
+            "# last_updated: $CURRENT_MONTH_NAME $CURRENT_DATE, $CURRENT_YEAR",
             "---",
             "$0"
         ],
         "scope": "markdown"
     },
+    
     "create capture": {
         "prefix": "capture",
         "body": [
@@ -132,5 +133,35 @@
             "$0"
         ],
         "scope": "markdown"
+    },
+
+    "stub": {
+        "prefix": "stub",
+        "body": "{% include stub.html %}",
+        "scope": "markdown"
+    },
+
+    "iframe": {
+        "prefix": "iframe",
+        "body": "{% include iframe.html src=\"$1\" width=\"$2\" height=\"$3\" %}",
+        "scope": "markdown"
+    },
+
+    "keypad-template": {
+        "prefix": "Lighting Keypad Page Template",
+        "body": [
+            "## Usage",
+            "$0",
+            "## Examples",
+            "",
+            "## On Keyboard",
+            "",
+        ],
+        "scope": "markdown"
+    },
+
+    "enter-date": {
+        "prefix": "English Date",
+        "body": "$CURRENT_MONTH_NAME $CURRENT_DATE, $CURRENT_YEAR",
     }
 }

@@ -1,0 +1,49 @@
+name: Content Request
+description: You feel the wiki would benefit from a new page, or you think a page is missing that should definitely be included.
+title: "[Request]: "
+labels: ["request: New content"]
+assignees:
+  - Quantum158
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to fill out this form!
+  - type: textarea
+    id: content-description
+    attributes:
+      label: What new content would you like to see?
+      description: Include pictures if you like!
+      value: "I feel like the wiki should have... because..."
+    validations:
+      required: true
+  - type: dropdown
+    id: category
+    attributes:
+      label: What category best describes your content?
+      description: (Select multiple categories if applicable)
+      multiple: true
+      options:
+        - Costume
+        - Lighting
+        - Props
+        - Set
+        - Sound
+        - Stage Management
+    validations:
+      required: true
+  - type: dropdown
+    id: self-sufficient
+    attributes:
+      label: Would you be willing to author or co-author this new content?
+      description: Your request is more likely to be accepted if you answer yes
+      options:
+        - "Yes"
+        - "No"
+    validations:
+      required: true
+  - type: textarea
+    id: additional
+    attributes:
+      label: Additional Information
+      description: If you want to include additional information regarding your request, include it here!

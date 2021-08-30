@@ -1,0 +1,15 @@
+.credit-table {
+    width: 100%;
+}
+/* .stats-contribution-wrapper {
+}
+.stats-contribution {
+} */
+
+.sc-filled {
+    color: rgb(163, 0, 54);
+}
+
+.sc-empty {
+    color: rgb(77, 77, 77);
+}

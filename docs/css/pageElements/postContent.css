@@ -150,6 +150,10 @@ body {
     font-weight: bold;
 }
 
+.authors-not-wonderful:before {
+    content: "The following individuals helped write this page: " !important;
+}
+
 .footerMeta {
     background-color: whitesmoke;
     padding: 10px;

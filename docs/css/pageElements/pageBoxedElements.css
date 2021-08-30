@@ -8,6 +8,16 @@
     font-size: larger;
 }
 
+.stub-page-warning {
+    padding: 25px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    border-style: solid;
+    color: rgb(129, 0, 22);
+    background-color: rgb(218, 190, 190);
+    font-size: larger;
+}
+
 .alert, .callout {
     overflow: hidden;
 }
