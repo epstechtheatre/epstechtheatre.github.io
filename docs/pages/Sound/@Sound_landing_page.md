@@ -5,7 +5,7 @@ sidebar: Sound_sidebar
 toc: false
 permalink: Sound_landing_page.html
 folder: Sound
-authors: [Ben MacDonald]
+authors: []
 ---
 
 ## Welcome to the Sound Landing Page
