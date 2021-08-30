@@ -22,8 +22,6 @@ customPageType: guide
 {% include guide-req.html check=true content="Learn how to navigate parts of the lighting software" %}
 {% include guide-req.html check=true content="Learn how to view and interact with the \"Magic Sheet\"" %}
 
-<hr>
-
 ## Before You Begin
 If you did any lighting work in your previous school, you might have used a lighting board with a bunch of sliders, where each slider controlled one light (or one colour of a multicoloured light). This is called an analogue lighting board. 
 

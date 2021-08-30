@@ -21,7 +21,7 @@ customPageType: guide
 {% include guide-req.html check=true content="Learn a couple of shortcuts the significantly increase speed" %}
 {% include guide-req.html check=true content="Completely understand how to use the tab system in the lighting software" %}
 
-<hr>
+<br>
 
 Now that you have a basic understanding of how to use the lighting board, these guides can become less bloated and start to only contain the information that is absolutely needed. With that being said, there are still a few things you should learn ASAP. 
 
