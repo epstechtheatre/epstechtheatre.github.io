@@ -30,6 +30,8 @@ body:
         - Set
         - Sound
         - Stage Management
+        - Meta (repo, css, etc...)
+        - Other (please describe below...)
     validations:
       required: true
   - type: dropdown
