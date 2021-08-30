@@ -116,6 +116,7 @@
             "# toc: false",
             "# private: true",
             "# search: exclude",
+            "# noPDF: false",
             "# customPageType: text",
             "# last_updated: $CURRENT_MONTH_NAME $CURRENT_DATE, $CURRENT_YEAR",
             "---",
