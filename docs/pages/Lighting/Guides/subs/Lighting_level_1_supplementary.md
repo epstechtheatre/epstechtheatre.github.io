@@ -13,9 +13,7 @@ tags: [guide, lighting, supplement]
 customPageType: supplement
 ---
 
-
 ## Useful Buttons and Shortcuts to Learn
-
 Most of these shortcuts are quite easy to remember because they just make sense. Once you realize that you can use them, you'll never want to not (or at least that's what I thought).
 
 ### Go To Cue
