@@ -25,7 +25,7 @@ The project was started and is currently led by [Ben MacDonald](https://github.c
 ## I want to help out! Where can I contribute?
 Glad to hear! This wiki is open-source on Github. If you have programming experience and a Github account, feel free to follow the instructions over on the repo to submit a pull request.
 
-### I have neither programmer experience nor a Github account?
+### I have neither programming experience nor a Github account?
 That's all right too! Send an email to [techwiki@b-macdonald.ca](mailto:techwiki@b-macdonald.ca) and I or someone else will help you out.
 
 ## I run a theatre program and want to use this wiki for my own projects
