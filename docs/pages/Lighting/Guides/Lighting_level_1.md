@@ -7,7 +7,7 @@ folder: Lighting
 authors: [Ben MacDonald]
 summary: This guide covers the remaining missing knowledge you need to get started actually programming independently on the board
 draft: true
-tags: [getting_started, lighting, guide]
+tags: [lighting, guide]
 customPageType: guide
 ---
 
@@ -110,8 +110,15 @@ Simply follow these steps:
 Instead of typing the record command out again, you can use the {% include console_button.html content="Update" %} button.
 {% endcapture %}
 
-
 {% include tip.html content=use_update %}
+
+### Deleting Cues
+You will often find a cue becomes redundant or so wrong that it is easier to just restart, to delete a cue simply use this command:
+
+{% include console_command.html content="Delete, Cue, Number, Enter, Enter" noLegend=true noTip=true %}
+(`Number` represents the ID of the cue you want to delete. The second enter is to respond to the "Are you sure you want to delete that cue" prompt.)
+
+
 ### Playing Back Cues
 You will use 2 buttons here: Go and Stop / Back
 
@@ -155,5 +162,6 @@ Congrats! You should now have all the knowledge you need in order to program at 
 
 If you want to get ahead right now, have a look at this [supplementary guide](./Lighting_level_1_supplementary.html). It covers a few common shortcuts that you will definitely use once you know them.
 
+I also recommend you look at [this practice assignment](./Lighting_level_1_practice_assignment.html). Use all the skills covered up to this point to build a basic showfile.
 
-When you're ready, [Continue to next level](./Lighting_level_2.md) 
+When you're ready, [Continue to next level](./Lighting_level_2.md).
