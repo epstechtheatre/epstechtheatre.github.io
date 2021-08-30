@@ -1,0 +1,15 @@
+.checkbox {
+}
+
+.checkbox:before {
+    content: "☑ ";
+    color: #5cb85c;
+}
+
+.x-box {
+}
+
+.x-box:before {
+    content: "☒ ";
+    color: #d9534f;
+}

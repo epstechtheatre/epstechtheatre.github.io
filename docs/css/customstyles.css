@@ -9,6 +9,7 @@
 @import "pageElements/userMap.css";
 @import "tag-page.css";
 @import "pageElements/stats.css";
+@import "pageElements/guide-reqs.css";
 
 .navbar-static-top {
     position: sticky !important;
