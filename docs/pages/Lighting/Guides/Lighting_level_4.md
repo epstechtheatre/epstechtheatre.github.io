@@ -4,7 +4,7 @@ keywords: [lighting, overview, getting started]
 sidebar: Lighting_sidebar
 permalink: Lighting_level_4.html
 folder: Lighting
-authors: [Ben MacDonald]
+authors: []
 summary:  This level contains information on changing settings, making backups, and file management on the lighting board
 draft: true
 tags: [Lighting, Guide]

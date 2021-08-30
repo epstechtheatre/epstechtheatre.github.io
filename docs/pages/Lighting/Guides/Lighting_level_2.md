@@ -4,7 +4,7 @@ keywords: [lighting, overview, getting started]
 sidebar: Lighting_sidebar
 permalink: Lighting_level_2.html
 folder: Lighting
-authors: [Ben MacDonald]
+authors: []
 summary:  This level covers lighting theory and applying that on the board
 draft: true
 tags: [Lighting, Guide]

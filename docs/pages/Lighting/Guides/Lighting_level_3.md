@@ -4,7 +4,7 @@ keywords: [lighting, overview, getting started]
 sidebar: Lighting_sidebar
 permalink: Lighting_level_3.html
 folder: Lighting
-authors: [Ben MacDonald]
+authors: []
 summary:  This level contains some more advanced commonly used functions on the lighting board, as well as some definitions regarding functions in the software.
 draft: true
 tags: [Lighting, Guide]
