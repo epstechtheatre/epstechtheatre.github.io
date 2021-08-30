@@ -7,7 +7,7 @@ folder: Lighting
 authors: [Ben MacDonald, Katie Drysdale]
 summary: The most basic of what you need to know in order to interact with our lighting grid. It utilizes our existing setup but does not explain any theory behind why you do what you do.
 draft: true
-tags: [getting_started, lighting]
+tags: [getting_started, lighting, guide]
 customPageType: guide
 ---
 
