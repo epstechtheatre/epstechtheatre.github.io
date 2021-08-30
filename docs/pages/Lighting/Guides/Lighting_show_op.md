@@ -4,7 +4,7 @@ keywords: [lighting, overview, getting started]
 sidebar: Lighting_sidebar
 permalink: Lighting_show_op.html
 folder: Lighting
-authors: [Ben MacDonald]
+authors: []
 summary: This page contains the bare minimum information required to create and run a cue list on the lighting board
 draft: true
 tags: [Lighting, Guide]
