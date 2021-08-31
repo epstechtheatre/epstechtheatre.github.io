@@ -11,6 +11,8 @@
 @import "pageElements/stats.css";
 @import "pageElements/guide-reqs.css";
 
+@import "print.css";
+
 .navbar-static-top {
     position: sticky !important;
     position: -webkit-sticky !important;
@@ -286,18 +288,17 @@ span.soft {
     background-color: whitesmoke;
 }
 
+.title-buttons {
+    float: right;
+}
+
 @media (max-width: 999px) {
     #mysidebar {
         position: relative;
     }
 
-    .githubEditButton {
-        display: inline-block;
-        max-width: 175px;
-    }
-
-    .printerViewButton {
-        display: inline-block;
+    .title-buttons {
+        float: none;
     }
 }
 
@@ -305,20 +306,6 @@ span.soft {
 
     ul#mysidebar {
         width: 225px;
-    }
-
-    .post-title-main {
-        display: inline;
-        width: 40%;
-    }
-
-    .githubEditButton {
-        float: right;
-        margin-left: 5px;
-    }
-
-    .printerViewButton {
-        float: right;
     }
 }
 
