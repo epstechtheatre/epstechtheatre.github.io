@@ -3,7 +3,7 @@ title: "Lighting Wiki Pages"
 tagName: lighting
 search: exclude
 permalink: tag_lighting.html
-sidebar: Overview_sidebar
+sidebar: Lighting_sidebar
 folder: tags
 noedit: true
 noprinter: true
