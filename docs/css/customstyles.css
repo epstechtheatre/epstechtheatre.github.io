@@ -288,17 +288,23 @@ span.soft {
     background-color: whitesmoke;
 }
 
+.post-header {
+    display: flex;
+    flex-wrap: wrap;
+}
+
 .title-buttons {
-    float: right;
+    display: inline-flex;
+    margin-top: 4px;
+}
+
+.githubEditButton {
+    margin-left: 5px;
 }
 
 @media (max-width: 999px) {
     #mysidebar {
         position: relative;
-    }
-
-    .title-buttons {
-        float: none;
     }
 }
 
