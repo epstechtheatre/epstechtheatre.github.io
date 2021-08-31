@@ -1,12 +1,14 @@
 <footer>
-            <div class="row">
-                <div class="col-lg-12 footer">
-                &copy;{{ site.time | date: "%Y"  }} {{site.crew_name}}. All rights reserved. <br />
-                {% if page.last_updated %}<span>Page last updated:</span> {{page.last_updated}}<br/>{% endif %} Site last updated: {{ site.time | date: "%B %-d, %Y"  }} <br />
-                
-                <br>
-                
-                <p><img src="{{ "images/svg/Wiki Logo.svg" }}" alt="Scarlett Logo" width=300px/></p>
-                </div>
-            </div>
+    <div class="row">
+        <div class="col-lg-12 footer">
+        &copy;{{ site.time | date: "%Y"  }} {{site.crew_name}}<br />
+        {% if page.last_updated %}<span>Page last updated:</span> {{page.last_updated}}<br />{% endif %} 
+        
+        <span class="site-last-updated">Site last updated: {{ site.time | date: "%B %-d, %Y"  }}<br /></span>
+        
+        <br>
+        
+        <p><img id="page-footer-logo" src="{{ "images/svg/Wiki Logo.svg" }}" alt="Scarlett Logo" width=300px/></p>
+        </div>
+    </div>
 </footer>
