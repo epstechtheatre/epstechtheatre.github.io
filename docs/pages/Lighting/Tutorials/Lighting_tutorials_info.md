@@ -8,6 +8,7 @@ summary: The following categories are all distinct tutorials on various function
 draft: true
 tags: [getting_started]
 customPageType: tutorial
+noprinter: true
 ---
 
 {% include stub.html %}

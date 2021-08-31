@@ -7,6 +7,7 @@ permalink: tag_other.html
 sidebar: Overview_sidebar
 folder: tags
 noedit: true
+noprinter: true
 ---
 {% include taglogic.html %}
 

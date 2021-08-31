@@ -10,6 +10,7 @@ toc: false
 tags: [getting_started]
 customPageType: nav
 summary: An entry node for those looking for lighting information.
+noprinter: true
 ---
 
 

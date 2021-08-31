@@ -6,6 +6,7 @@ toc: false
 permalink: Sound_landing_page.html
 folder: Sound
 authors: []
+noprinter: true
 ---
 
 ## Welcome to the Sound Landing Page
