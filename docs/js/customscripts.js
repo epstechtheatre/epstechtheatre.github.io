@@ -1,7 +1,7 @@
 const KEYBOARD_SVG_FADE_TIME = 150;
 
 const possibleUriArgs = { //The name of the arg, and whether or not it is enabled
-    pdf: pageNoPDFSetting != "true"
+    printer: pageNoPrinterSetting != "true"
 }
 
 $('#mysidebar').height($(".nav").height());
@@ -59,7 +59,7 @@ $( document ).ready(function() {
 
     // Activate button keypad display overlays
 
-    if (validReqArgs["pdf"] != "true") {
+    if (validReqArgs["printer"] != "true") {
         $('.display-button-softkey')
         .mouseenter(function() {
             showNewKey(this, $(this).data('keyid'), true)
@@ -85,8 +85,8 @@ $( document ).ready(function() {
         })
     }
 
-    //PDF View
-    if (validReqArgs["pdf"] == "true") { //Client requested pdf, time to break some stuff
+    //Printer View
+    if (validReqArgs["printer"] == "true") { //Client requested printer view, time to break some stuff
         $("#tg-sb-sidebar").hide();
         $("#tg-sb-content").toggleClass('col-md-9');
         $("#tg-sb-content").toggleClass('col-md-12');
@@ -99,27 +99,23 @@ $( document ).ready(function() {
         $(".navbar-right").hide();
         $("#pageFooterHR").hide()
 
-        $(".container").css({width: "100%"})
+        $(".container").css({width: "100%"});
         $(".tags").hide();
         $("#toc").hide();
-        $(".navbar-static-top").hide()
-        $(".console_command_tip").hide()
+        $(".navbar-static-top").hide();
+        $(".console_command_tip").hide();
 
-        $("#page-footer-logo").width("200")
-        $("footer").css({"margin-top": "20px"})
-        $(".footer").css({"text-align": "center"})
+        $("#page-footer-logo").width("200");
+        $("footer").css({"margin-top": "20px"});
+        $(".footer").css({"text-align": "center"});
         $(".site-last-updated").hide()
+        
+        $(".page-url").show();
+        $(".page-accessed").show();
 
-        let d = Date.now();
-        let ye = new Intl.DateTimeFormat('en', { year: 'numeric' }).format(d);
-        let mo = new Intl.DateTimeFormat('en', { month: 'long' }).format(d);
-        let da = new Intl.DateTimeFormat('en', { day: '2-digit' }).format(d);
-
-        $(".site-last-updated").after(`<span>Page Accessed: ${`${mo} ${da}, ${ye}`}</span><br><i>${window.location.hostname}${window.location.pathname}</i>`)
     } else {
-        if (reqArgs.includes("pdf=true")) {
-            document.getElementsByClassName("summary")[0].insertAdjacentHTML("beforebegin", "<div class=noPrinterView>Sorry! This page doesn't have a printer-friendly view. You can still try printing normally and we will try to remove unneeded elements</div")
-            alert("Sorry! This page doesn't have a printer-friendly view")
+        if (reqArgs.includes("printer=true")) {
+            document.getElementsByClassName("post-header")[0].insertAdjacentHTML("afterend", "<div class=\"noPrinterView bs-callout bs-callout-danger\">Sorry! This page doesn't have a printer-friendly view.<br>You can still print normally and the page will try to remove unneeded elements.</div")
         }
     }
 });
