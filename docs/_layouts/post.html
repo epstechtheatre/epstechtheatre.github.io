@@ -27,7 +27,7 @@ layout: default
 
         {{ content }}
 
-        {% if page.authors %}
+        {% if page.authors and page.authors.size > 0 %}
         <div class="authors">
             {% for author in page.authors%}
                 {% if forloop.last == true %}
