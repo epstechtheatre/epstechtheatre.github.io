@@ -9,6 +9,7 @@ summary: This guide covers the remaining missing knowledge you need to get start
 draft: true
 tags: [lighting, guide]
 customPageType: guide
+last_updated: August 30, 2021
 ---
 
 {% include important.html content="If this is the first time you are seeing these guides, <a alt='Start with the Absolute Basics' href='/Lighting_level_0'>Start Here</a>" %}

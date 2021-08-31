@@ -10,6 +10,7 @@ toc: false
 tags: [getting_started]
 customPageType: nav
 summary: An entry node for those looking for lighting information.
+noprinter: true
 ---
 
 
@@ -18,7 +19,7 @@ summary: An entry node for those looking for lighting information.
 
 In this section, you will find guides on various lighting equipment and general lighting concepts. If you are new to lighting, we recommend starting with the [guides](./Lighting_level_0.html).
 
-{% include note.html content="Currently, 2 of the 5 guides have been written. However, they are still in draft and will be improved in the future. Any help would be greatly appreciated!" %}
+{% include note.html content="Currently, 2 of the 6 guides have been written. However, they are still in draft and will be improved in the future. Any help would be greatly appreciated!" %}
 
 
 ## Wiki Structure
