@@ -1,3 +1,11 @@
+.page-accessed {
+    display: none;
+}
+
+.page-url {
+    display: none;
+}
+
 @media print {
     #tg-sb-sidebar,
     #search-input,
@@ -31,5 +39,17 @@
 
     .footer {
         text-align: center
+    }
+
+    .page-accessed {
+        display: block;
+    }
+    
+    .page-url {
+        display: block;
+    }
+
+    .noPrinterView {
+        display: none;
     }
 }
