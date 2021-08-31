@@ -1,0 +1,35 @@
+@media print {
+    #tg-sb-sidebar,
+    #search-input,
+    .githubEditButton,
+    .printerViewButton,
+    .navbar-right,
+    #pageFooterHR,
+    .tags,
+    #toc,
+    .navbar-static-top,
+    .console_command_tip,
+    .site-last-updated {
+        display: none;
+    }
+
+    .container {
+        width: 100%;
+    }
+
+    #page-footer-logo {
+        width: 100%;
+    }
+
+    #page-footer-logo {
+        width: 200px;
+    }
+
+    footer {
+        margin-top: 20px;
+    }
+
+    .footer {
+        text-align: center
+    }
+}
