@@ -7,7 +7,7 @@
 }
 
 .noPrinterView {
-	background-color: lightgray;
+    background-color: lightgray;
 }
 
 @media print {
