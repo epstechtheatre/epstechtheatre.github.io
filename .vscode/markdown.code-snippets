@@ -161,12 +161,6 @@
         "scope": "markdown"
     },
 
-    "enter-date": {
-        "prefix": "English Date",
-        "body": "$CURRENT_MONTH_NAME $CURRENT_DATE, $CURRENT_YEAR",
-        "scope": "markdown"
-    },
-
     "guide-req": {
         "prefix": "Guide Req",
         "body": [
