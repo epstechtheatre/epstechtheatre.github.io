@@ -8,15 +8,17 @@ layout: default
     {% endif %}
 
 
-   <h1 class="post-title-main">{{ page.title }}</h1>
-   
-   {% if site.github_editme_path and page.noedit != true %}
-   <a target="_blank" rel="noopener" href="https://github.com/{{site.github_editme_path}}{{page.path}}" class="btn btn-default githubEditButton" role="button"><i class="fa fa-github fa-lg"></i> Edit this page</a>
-    {% endif %}
+    <h1 class="post-title-main">{{ page.title }}</h1>
 
-    {% if page.noPDF != true %}
-    <a target="_blank" rel="noopener" href="?pdf=true" class="btn btn-default printerViewButton" role="button"><i class="fa fa-file-text-o fa-lg"></i> Printer Friendly</a>
-    {% endif %}
+    <div class="title-buttons">
+        {% if page.noprinter != true %}
+        <a target="_blank" rel="noopener" href="?printer=true" class="btn btn-default printerViewButton" role="button"><i class="fa fa-file-text-o fa-lg"></i> Printer Friendly</a>
+        {% endif %}
+
+        {% if site.github_editme_path and page.noedit != true %}
+        <a target="_blank" rel="noopener" href="https://github.com/{{site.github_editme_path}}{{page.path}}" class="btn btn-default githubEditButton" role="button"><i class="fa fa-github fa-lg"></i> Edit this page</a>
+        {% endif %}
+    </div>
 </div>
 
 
@@ -44,9 +46,9 @@ layout: default
 
 <div class="post-content">
 
-   {% if page.summary %}
+    {% if page.summary %}
     <div class="summary">{{page.summary}}</div>
-   {% endif %}
+    {% endif %}
 
     {% if page.draft == true %}
     {% include draft.html %}
@@ -56,7 +58,7 @@ layout: default
     {% include toc.html %}
     {% endunless %}
 
-   {{content}}
+    {{content}}
 
     <div class="tags">
         {% if page.tags != null %}
@@ -84,6 +86,8 @@ layout: default
 
 </div>
 
-{{site.data.alerts.hr_shaded}}
+<div id="pageFooterHR">
+    {{site.data.alerts.hr_shaded}}
+</div>
 
 {% include footer.html %}

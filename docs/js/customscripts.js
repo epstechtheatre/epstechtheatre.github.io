@@ -1,8 +1,30 @@
 const KEYBOARD_SVG_FADE_TIME = 150;
 
+const possibleUriArgs = { //The name of the arg, and whether or not it is enabled
+    printer: pageNoPrinterSetting != "true"
+}
+
 $('#mysidebar').height($(".nav").height());
 
 $( document ).ready(function() {
+    const validReqArgs = {};
+    
+    let reqArgs = window.location.href.split("?")[1];
+    if (reqArgs) {
+        reqArgs = reqArgs.split("&");
+    } else {
+        reqArgs = [];
+    }
+
+    for (arg of reqArgs) {
+        let split = arg.split("=")
+
+        if (split.length === 2) {
+            if (possibleUriArgs[split[0]]) {
+                validReqArgs[split[0]] = split[1];
+            }
+        }
+    }
 
     if (document.getElementsByClassName("display-button-softkey").length > 0
     || document.getElementsByClassName("display-button-keypad").length > 0
@@ -36,61 +58,64 @@ $( document ).ready(function() {
     anchors.add('h2,h3,h4,h5');
 
     // Activate button keypad display overlays
-    $('.display-button-softkey')
-    .mouseenter(function() {
-        showNewKey(this, $(this).data('keyid'), true)
-    })
-    .mouseleave(function() {
-        unShow()
-    })
 
-    $('.display-button-keypad')
-    .mouseenter(function() {
-        showNewKey(this, $(this).data('keyid'), false) //TODO: These currently don't have softkey support (maybe they should)
-    })
-    .mouseleave(function() {
-        unShow()
-    })
-
-    $('.inline-display-button')
-    .mouseenter(function() {
-        showNewKey(this, $(this).data('keyid'), false) //TODO: These currently don't have softkey support (maybe they should)
-    })
-    .mouseleave(function() {
-        unShow()
-    })
-
-
-
-    //PDF View
-    let reqArgs = window.location.href.split("?")[1]
-    if (reqArgs) {
-        reqArgs = reqArgs.split("&")
-    } else {
-        reqArgs = [];
+    if (validReqArgs["printer"] != "true") {
+        $('.display-button-softkey')
+        .mouseenter(function() {
+            showNewKey(this, $(this).data('keyid'), true)
+        })
+        .mouseleave(function() {
+            unShow()
+        })
+    
+        $('.display-button-keypad')
+        .mouseenter(function() {
+            showNewKey(this, $(this).data('keyid'), false) //TODO: These currently don't have softkey support (maybe they should)
+        })
+        .mouseleave(function() {
+            unShow()
+        })
+    
+        $('.inline-display-button')
+        .mouseenter(function() {
+            showNewKey(this, $(this).data('keyid'), false) //TODO: These currently don't have softkey support (maybe they should)
+        })
+        .mouseleave(function() {
+            unShow()
+        })
     }
 
-    if (reqArgs.some(arg => arg.includes("pdf=true"))) { //Client requested pdf, time to break some stuff
-        if (pageNoPDFSetting != "true") {
-            $("#tg-sb-sidebar").hide();
-            $("#tg-sb-content").toggleClass('col-md-9');
-            $("#tg-sb-content").toggleClass('col-md-12');
-            $("#tg-sb-icon").toggleClass('fa-toggle-on');
-            $("#tg-sb-icon").toggleClass('fa-toggle-off');
+    //Printer View
+    if (validReqArgs["printer"] == "true") { //Client requested printer view, time to break some stuff
+        $("#tg-sb-sidebar").hide();
+        $("#tg-sb-content").toggleClass('col-md-9');
+        $("#tg-sb-content").toggleClass('col-md-12');
+        $("#tg-sb-icon").toggleClass('fa-toggle-on');
+        $("#tg-sb-icon").toggleClass('fa-toggle-off');
 
-            $("#search-input").hide();
-            $(".githubEditButton").hide();
-            $(".printerViewButton").hide();
-            $(".navbar-right").hide();
+        $("#search-input").hide();
+        $(".githubEditButton").hide();
+        $(".printerViewButton").hide();
+        $(".navbar-right").hide();
+        $("#pageFooterHR").hide()
 
-            $(".container").css({width: "100%"})
-            $(".tags").hide();
-            $("#toc").hide();
-            $(".navbar-static-top").hide()
-            $(".console_command_tip").hide()
-        } else {
-            document.getElementsByClassName("summary")[0].insertAdjacentHTML("beforebegin", "<div class=noPrinterView>Sorry! This page doesn't support printer-friendly viewing.</div")
-            alert("Sorry! This page doesn't support printer-friendly viewing")
+        $(".container").css({width: "100%"});
+        $(".tags").hide();
+        $("#toc").hide();
+        $(".navbar-static-top").hide();
+        $(".console_command_tip").hide();
+
+        $("#page-footer-logo").width("200");
+        $("footer").css({"margin-top": "20px"});
+        $(".footer").css({"text-align": "center"});
+        $(".site-last-updated").hide()
+        
+        $(".page-url").show();
+        $(".page-accessed").show();
+
+    } else {
+        if (reqArgs.includes("printer=true")) {
+            document.getElementsByClassName("post-header")[0].insertAdjacentHTML("afterend", "<div class=\"noPrinterView bs-callout bs-callout-danger\">Sorry! This page doesn't have a printer-friendly view.<br>You can still print normally and the page will try to remove unneeded elements.</div")
         }
     }
 });
