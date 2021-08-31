@@ -6,6 +6,10 @@
     display: none;
 }
 
+.noPrinterView {
+	background-color: lightgray;
+}
+
 @media print {
     #tg-sb-sidebar,
     #search-input,
