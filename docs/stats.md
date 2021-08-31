@@ -10,7 +10,7 @@ permalink: stats_credits.html
 # last_updated: Month Day, Year
 # tags: []
 noedit: true
-noPDF: true
+noprinter: true
 customPageType: info
 ---
 
