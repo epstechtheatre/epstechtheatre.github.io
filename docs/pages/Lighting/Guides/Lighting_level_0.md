@@ -9,6 +9,7 @@ summary: The most basic of what you need to know in order to interact with our l
 draft: true
 tags: [getting_started, lighting, guide]
 customPageType: guide
+last_updated: August 30, 2021
 ---
 
 {% include note.html content="This page is very specifically tailored to the lighting network present at Dr. E.P. Scarlett, I highly recommend students from other schools that are just starting out take everything with a grain of salt, or go through the guide with a mentor so they can make corrections as they need to." %}
