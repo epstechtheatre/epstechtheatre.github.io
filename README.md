@@ -5,7 +5,7 @@
 
 ![](docs/images/svg/Wiki%20Logo.svg)
 ## What is this?
-This repository is home to a ton of information for students interested in technical theatre so they can learn and refine their skills. A static site is also generated and can be found [here](https://epstechtheatre.github.io/).
+This repository contains source files for the E.P. Scarlett Technical Theatre Wiki, which contains a ton of information for students interested in technical theatre. The site is generated using Jekyll and can be found [here](https://epstechtheatre.github.io/).
 
 The project was created and is currently led by [Ben MacDonald](https://github.com/Quantum158/), the Technical Director at E.P Scarlett during the 2020-2021 school year. They will help maintain the repo at least until they complete their bachelor's degree.
 
