@@ -10,13 +10,15 @@
             let d = Date.now();
             let ye = new Intl.DateTimeFormat('en', { year: 'numeric' }).format(d);
             let mo = new Intl.DateTimeFormat('en', { month: 'long' }).format(d);
-            let da = new Intl.DateTimeFormat('en', { day: '2-digit' }).format(d);
+            let da = new Intl.DateTimeFormat('en', { day: 'numeric' }).format(d);
 
             $(".site-last-updated").after(`<span class="page-accessed">Page accessed: ${`${mo} ${da}, ${ye}`}<br></span>`)
             
             $(".page-accessed").after(`<span class="page-url"><i>${window.location.hostname}${window.location.pathname}</i></span>`)
+        
         </script>
         
+        <br id="footer-logo-spacer"/>
         <p><img id="page-footer-logo" src="{{ "images/svg/Wiki Logo.svg" }}" alt="Scarlett Logo" width=300px/></p>
         </div>
     </div>
