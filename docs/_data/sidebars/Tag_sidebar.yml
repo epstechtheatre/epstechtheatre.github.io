@@ -1,10 +1,10 @@
 entries:
 - title: Tags
-  product: Available Tags
+  product:
   #version: 1.0
   folders:
 
-  - title:
+  - title: 
     output: pdf
     type: frontmatter
     folderitems:
@@ -17,7 +17,7 @@ entries:
       output: pdf
       type: frontmatter
 
-  - title: "⠀"
+  - title: Available Tags
     output: web, pdf
     folderitems:
 
