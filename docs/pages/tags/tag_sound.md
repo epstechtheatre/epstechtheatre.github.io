@@ -3,7 +3,7 @@ title: "Sound Wiki Pages"
 tagName: sound
 search: exclude
 permalink: tag_sound.html
-sidebar: Sound_sidebar
+sidebar: Tag_sidebar
 folder: tags
 noedit: true
 noprinter: true

@@ -4,7 +4,7 @@ title: "Guide Pages"
 tagName: guide
 search: exclude
 permalink: tag_guide.html
-sidebar: Overview_sidebar
+sidebar: Tag_sidebar
 folder: tags
 noedit: true
 noprinter: true

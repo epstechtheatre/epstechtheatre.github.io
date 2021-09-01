@@ -4,7 +4,7 @@ title: "Other (Set, Props, Etc.) Pages"
 tagName: other
 search: exclude
 permalink: tag_other.html
-sidebar: Overview_sidebar
+sidebar: Tag_sidebar
 folder: tags
 noedit: true
 noprinter: true

@@ -4,11 +4,10 @@ keywords: [lighting, overview, getting started]
 sidebar: Lighting_sidebar
 permalink: Lighting_landing_page.html
 folder: Lighting
-tags: [navigation]
 draft: true
 toc: false
-tags: [getting_started]
-customPageType: nav
+tags: [getting_started, navigation]
+customPageType: navigation
 summary: An entry node for those looking for lighting information.
 noprinter: true
 ---

@@ -7,6 +7,8 @@ folder: Lighting
 authors: [Ben MacDonald]
 summary: TODO
 draft: true
+# tags: [Lighting, tutorial]
+customPageType: tutorial
 ---
 
 {% include stub.html %}

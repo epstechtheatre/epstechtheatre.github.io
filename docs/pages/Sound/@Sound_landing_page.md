@@ -7,6 +7,8 @@ permalink: Sound_landing_page.html
 folder: Sound
 authors: []
 noprinter: true
+tags: [sound, navigation]
+customPageType: navigation
 ---
 
 ## Welcome to the Sound Landing Page
