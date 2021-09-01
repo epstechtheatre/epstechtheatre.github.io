@@ -7,7 +7,7 @@ permalink: stats_credits_licenses.html
 # summary: 
 # keywords: []
 # authors: []
-# last_updated: Month Day, Year
+last_updated: August 31, 2021
 # tags: []
 noedit: true
 customPageType: info
