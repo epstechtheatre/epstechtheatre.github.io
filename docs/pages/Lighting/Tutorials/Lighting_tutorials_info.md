@@ -6,7 +6,7 @@ permalink: Lighting_tutorials_info.html
 folder: Lighting
 summary: The following categories are all distinct tutorials on various functions of the lighting board.
 draft: true
-tags: [getting_started]
+tags: [getting_started, navigation, lighting]
 customPageType: tutorial
 noprinter: true
 ---

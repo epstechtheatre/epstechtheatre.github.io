@@ -6,8 +6,7 @@ topnav:
     - title: GitHub
       external_url: https://github.com/epstechtheatre/epstechtheatre.github.io/
     - title: Updates
-      url: /news
-
+      url: /updates
 #Topnav dropdowns
 topnav_dropdowns:
 - title: Topnav dropdowns
@@ -20,3 +19,20 @@ topnav_dropdowns:
           url: /Lighting_landing_page.html
         - title: Sound
           url: /Sound_landing_page.html
+
+    - title: Tags
+      folderitems:
+        - title: Getting Started
+          url: /tag_getting_started.html
+        
+        - title: Navigation
+          url: tag_navigation.html
+
+        - title: Lighting
+          url: /tag_lighting.html
+
+        - title: Guides
+          url: /tag_guide.html
+
+        - title: Tutorials
+          url: /tag_tutorial.html

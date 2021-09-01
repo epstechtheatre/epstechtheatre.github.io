@@ -6,6 +6,9 @@ permalink: Lighting_keyboard_buttons_info.html
 folder: Lighting
 draft: true
 toc: false
+tags: [navigation, lighting]
+customPageType: navigation
+noprinter: true
 noedit: true
 ---
 

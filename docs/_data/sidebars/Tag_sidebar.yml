@@ -1,0 +1,66 @@
+entries:
+- title: Tags
+  product:
+  #version: 1.0
+  folders:
+
+  - title: 
+    output: pdf
+    type: frontmatter
+    folderitems:
+    - title:
+      url: /titlepage.html
+      output: pdf
+      type: frontmatter
+    - title:
+      url: /tocpage.html
+      output: pdf
+      type: frontmatter
+
+  - title: Available Tags
+    output: web, pdf
+    folderitems:
+
+    - title: Getting Started
+      url: /tag_getting_started.html
+      output: web
+
+    - title: Navigation
+      output: web
+      url: /tag_navigation.html
+
+    - title: Lighting
+      url: /tag_lighting.html
+      output: web
+      
+    - title: Sound
+      output: web
+      url: /tag_sound.html
+
+    - title: Guide
+      url: /tag_guide.html
+      output: web
+
+    - title: Tutorial
+      output: web
+      url: /tag_tutorial.html
+
+    - title: Maintenance
+      output: web
+      url: /tag_maintenance.html
+    
+    - title: Supplement
+      output: web
+      url: /tag_supplement.html
+    
+    - title: Troubleshooting
+      output: web
+      url: /tag_troubleshooting.html
+
+    - title: Updates
+      output: web
+      url: /tag_updates.html
+    
+    - title: Other
+      output: web
+      url: /tag_other.html

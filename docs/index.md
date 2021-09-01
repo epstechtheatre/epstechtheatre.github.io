@@ -3,11 +3,12 @@ title: EPS Technical Theatre Wiki
 keywords: 'homepage, welcome, overview'
 tags:
 - getting_started
+- navigation
 sidebar: Overview_sidebar
 permalink: index.html
 summary: Welcome to the wiki! This page briefly goes over how to get around the website. Other topics will provide more in depth information.
 draft: true
-customPageType: nav
+customPageType: navigation
 toc: false
 last_updated: 'July 29, 2021'
 noprinter: true
