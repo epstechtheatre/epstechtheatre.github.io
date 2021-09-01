@@ -62,7 +62,7 @@ entries:
       type: homepage
 
     - title: Stats, Credits and Licenses 
-      url: /stats_credits.html
+      url: /stats_credits_licenses.html
       output: web, pdf
       
     - title: Contact

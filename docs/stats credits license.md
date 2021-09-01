@@ -1,7 +1,7 @@
 ---
 title: Stats, Credits and Licenses
 sidebar: Overview_sidebar
-permalink: stats_credits.html
+permalink: stats_credits_licenses.html
 # draft: true
 # toc: true
 # summary: 
