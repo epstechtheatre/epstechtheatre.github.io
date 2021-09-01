@@ -5,7 +5,7 @@
 
 ![](docs/images/svg/Wiki%20Logo.svg)
 ## What is this?
-This repository is home to a ton of information for students interested in technical theatre so they can learn and refine their skills. A static site is also generated and can be found [here](https://epstechtheatre.github.io/).
+This repository contains source files for the E.P. Scarlett Technical Theatre Wiki, which contains a ton of information for students interested in technical theatre. The site is generated using Jekyll and can be found [here](https://epstechtheatre.github.io/).
 
 The project was created and is currently led by [Ben MacDonald](https://github.com/Quantum158/), the Technical Director at E.P Scarlett during the 2020-2021 school year. They will help maintain the repo at least until they complete their bachelor's degree.
 
@@ -19,6 +19,8 @@ I encourage future students to share any new knowledge they acquire on this page
 Alternatively, if you need any support, send an email to [techwiki@b-macdonald.ca](mailto:techwiki@b-macdonald.ca) with "Tech Theatre Wiki" in the subject line.
 
 ## Licensing
-This repository is licensed under the MIT license. License details can be found [here](./LICENSE).
+This repository is licensed under the GNU GPLv3 license. License details can be found [here](./LICENSE).
 
-Additionally, the project uses the [Documentation Theme for Jekyll](https://github.com/tomjoht/documentation-theme-jekyll) created by [Tom Johnson](https://github.com/tomjoht). All third-party licenses can be found in the [licenses](./docs/licenses) directory.
+Additionally, the project uses the [Documentation Theme for Jekyll](https://github.com/tomjoht/documentation-theme-jekyll) created by [Tom Johnson](https://github.com/tomjoht). 
+
+All additional third-party licenses can be found in the files the licensed work is used in.

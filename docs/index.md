@@ -17,7 +17,7 @@ noprinter: true
 {% include note.html content="If you are coming from a school other than E.P. Scarlett, hello! This wiki was tailored to the systems we have and use. There is a good chance this will not line up with the systems at your school. If this is the case, I hope you will still find a use for these guides." %}
 
 ## Welcome!
-Here you will find a plethora of information for students interested in technical theatre. From Lighting to Set; Costume to Sound, my hope is the information provided here will help to reduce the learning curve that is commonly associated with the work we do. These guides may not cover everything but we will try to provide as much information as we can.
+Here you will find a ton of information for students interested in technical theatre. From Lighting to Set; Costume to Sound, my hope is the information provided here will help to reduce the learning curve that is commonly associated with the work we do. These guides may not cover everything but we will try to provide as much information as we can.
 
 ## Sounds cool but who are you?
 We are a passionate group of students interested in all aspects of the technical theatre world. Many of us are actors too. We started this project as a volunteer initiative due to the impact that Covid-19 had on our training program. This wiki will help new students coming to the school that won't get the benefit of learning from a technician with 3 years of experience. 
@@ -31,7 +31,7 @@ Glad to hear! This wiki is open-source on Github. If you have programming experi
 That's all right too! Send an email to [techwiki@b-macdonald.ca](mailto:techwiki@b-macdonald.ca) and I or someone else will help you out.
 
 ## I run a theatre program and want to use this wiki for my own projects
-Certainly! We're glad to hear that this guide is helping you. The wiki is licensed under the copyleft MIT license. You can read the license text [here](https://github.com/epstechtheatre/epstechtheatre.github.io/blob/main/LICENSE), but, to put it simply, as long as you credit us and make it clear that you aren't the original source of the content, you can do whatever you like.
+Certainly! We're glad to hear that this guide is helping you. The wiki is licensed under the copyleft GNU GPLv3 license. You can read the license text [here](https://github.com/epstechtheatre/epstechtheatre.github.io/blob/main/LICENSE).
 ## Where do I go first?
 The website is divide into categories and topics. If you know roughly what you're looking for, try searching for it using the search bar in the top right of the webpage (or in the dropdown menu on mobile). Otherwise, have a click around and see what you can find. 
 
