@@ -3,16 +3,17 @@ title: Stats, Credits and Licenses
 sidebar: Overview_sidebar
 permalink: stats_credits_licenses.html
 # draft: true
-# toc: true
+toc: false
 # summary: 
 # keywords: []
 # authors: []
-last_updated: August 31, 2021
+last_updated: September 1, 2021
 # tags: []
 noedit: true
 customPageType: info
 ---
 
+## Stats 
 <!-- Data for page counts -->
 {% assign word_count = 0 %}
 {% assign valid_pages = site.pages | where_exp:"item","item.private != true" %}
@@ -85,19 +86,21 @@ The following individuals have chosen to take credit for their work. They are li
     {% endif %}
 {% endfor %}
 
-
 </tbody>
 </table>
 
-Many others have chosen to remain anonymous and have helped significantly in the background, even if they didn't directly write a page. I would personally like to thank everyone who has taken an interest in the project.
+Many others have chosen to remain anonymous and have helped significantly in the background, even if they didn't directly write a page. We would personally like to thank everyone who has taken an interest in the project.
 
-<br><br><br><br>
+## Credits
 The wiki backend was created in part using the open-source [Documentation Theme for Jekyll](https://idratherbewriting.com/documentation-theme-jekyll/) created by [Tom Johnson](https://github.com/tomjoht).
 
-All licenses for this project can be found below:
 
-| License | Copyright Holder |
-|---------|------------------|
-| [E.P Scarlett Wiki](licenses/txt/eps.txt)  [(Alt)](https://github.com/epstechtheatre/epstechtheatre.github.io/blob/main/LICENSE) | E.P. Scarlett Technical Theatre Crew and Society |
-| [Documentation Theme](licenses/txt/documentation.txt) | Tom Johnson |
-| [Navgoco Sidebar](licenses/txt/navgoco.txt) | Christodoulos Tsoulloftas |
+## Licenses
+Licenses can be found below: <br>
+
+| License | Type | Copyright Holder |
+|---------|------|------------------|
+| [E.P Scarlett Wiki](https://github.com/epstechtheatre/epstechtheatre.github.io/blob/main/LICENSE) | GNU GPLv3 | E.P. Scarlett Technical Theatre Crew and Society |
+| [Documentation Theme](https://github.com/tomjoht/documentation-theme-jekyll/blob/gh-pages/LICENSE) | Apache v2 | Google |
+
+All additional third-party licenses can be found in the file the licensed work is used in.

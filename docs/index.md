@@ -31,7 +31,7 @@ Glad to hear! This wiki is open-source on Github. If you have programming experi
 That's all right too! Send an email to [techwiki@b-macdonald.ca](mailto:techwiki@b-macdonald.ca) and I or someone else will help you out.
 
 ## I run a theatre program and want to use this wiki for my own projects
-Certainly! We're glad to hear that this guide is helping you. The wiki is licensed under the copyleft MIT license. You can read the license text [here](https://github.com/epstechtheatre/epstechtheatre.github.io/blob/main/LICENSE), but, to put it simply, as long as you credit us and make it clear that you aren't the original source of the content, you can do whatever you like.
+Certainly! We're glad to hear that this guide is helping you. The wiki is licensed under the copyleft GNU GPLv3 license. You can read the license text [here](https://github.com/epstechtheatre/epstechtheatre.github.io/blob/main/LICENSE).
 ## Where do I go first?
 The website is divide into categories and topics. If you know roughly what you're looking for, try searching for it using the search bar in the top right of the webpage (or in the dropdown menu on mobile). Otherwise, have a click around and see what you can find. 
 
