@@ -61,7 +61,7 @@ entries:
       output: web, pdf
       type: homepage
 
-    - title: Stats and Credits
+    - title: Stats, Credits and Licenses 
       url: /stats_credits.html
       output: web, pdf
       
