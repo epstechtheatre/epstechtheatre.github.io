@@ -10,6 +10,12 @@
     background-color: lightgray;
 }
 
+.printButton {
+    min-width: 5%;
+    margin-top: 4px;
+    display: inline-block;
+}
+
 @media print {
     #tg-sb-sidebar,
     #search-input,
@@ -21,7 +27,9 @@
     #toc,
     .navbar-static-top,
     .console_command_tip,
-    .site-last-updated {
+    .site-last-updated,
+    #footer-logo-spacer,
+    .printButton {
         display: none;
     }
 
