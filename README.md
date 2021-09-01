@@ -19,6 +19,6 @@ I encourage future students to share any new knowledge they acquire on this page
 Alternatively, if you need any support, send an email to [techwiki@b-macdonald.ca](mailto:techwiki@b-macdonald.ca) with "Tech Theatre Wiki" in the subject line.
 
 ## Licensing
-This repository is licensed under the MIT license. License details can be found [here](./LICENSE).
+This repository is licensed under the GPLv3 license. License details can be found [here](./LICENSE).
 
 Additionally, the project uses the [Documentation Theme for Jekyll](https://github.com/tomjoht/documentation-theme-jekyll) created by [Tom Johnson](https://github.com/tomjoht). All third-party licenses can be found in the [licenses](./docs/licenses) directory.
