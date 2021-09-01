@@ -21,4 +21,4 @@ Alternatively, if you need any support, send an email to [techwiki@b-macdonald.c
 ## Licensing
 This repository is licensed under the MIT license. License details can be found [here](./LICENSE).
 
-Additionally, the project uses the [Documentation Theme for Jekyll] created by [Tom Johnson](https://github.com/tomjoht). All third-party licenses can be found in the [licenses](./docs/licenses) directory.
+Additionally, the project uses the [Documentation Theme for Jekyll](https://idratherbewriting.com/documentation-theme-jekyll/) created by [Tom Johnson](https://github.com/tomjoht). All third-party licenses can be found in the [licenses](./docs/licenses) directory.
