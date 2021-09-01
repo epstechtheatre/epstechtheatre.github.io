@@ -17,3 +17,8 @@ The main focus currently is on the initial content for the lighting section.
 I encourage future students to share any new knowledge they acquire on this page as well, however, I do realize Github can be quite intimidating to those with no prior experience in programming. Students at Dr. E.P. Scarlett who wish to contribute should ask their Drama or Technical Theatre teacher for more info.
 
 Alternatively, if you need any support, send an email to [techwiki@b-macdonald.ca](mailto:techwiki@b-macdonald.ca) with "Tech Theatre Wiki" in the subject line.
+
+## Licensing
+This repository is licensed under the MIT license. License details can be found [here](./LICENSE).
+
+Additionally, the project uses the [Documentation Theme for Jekyll] created by [Tom Johnson](https://github.com/tomjoht). All third-party licenses can be found in the [licenses](./docs/licenses) directory.
