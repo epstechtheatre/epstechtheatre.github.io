@@ -17,7 +17,7 @@ noprinter: true
 {% include note.html content="If you are coming from a school other than E.P. Scarlett, hello! This wiki was tailored to the systems we have and use. There is a good chance this will not line up with the systems at your school. If this is the case, I hope you will still find a use for these guides." %}
 
 ## Welcome!
-Here you will find a plethora of information for students interested in technical theatre. From Lighting to Set; Costume to Sound, my hope is the information provided here will help to reduce the learning curve that is commonly associated with the work we do. These guides may not cover everything but we will try to provide as much information as we can.
+Here you will find a ton of information for students interested in technical theatre. From Lighting to Set; Costume to Sound, my hope is the information provided here will help to reduce the learning curve that is commonly associated with the work we do. These guides may not cover everything but we will try to provide as much information as we can.
 
 ## Sounds cool but who are you?
 We are a passionate group of students interested in all aspects of the technical theatre world. Many of us are actors too. We started this project as a volunteer initiative due to the impact that Covid-19 had on our training program. This wiki will help new students coming to the school that won't get the benefit of learning from a technician with 3 years of experience. 
