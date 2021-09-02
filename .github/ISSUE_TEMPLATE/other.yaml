@@ -1,7 +1,7 @@
 name: Something Else...
 description: If you select this, please be very descriptive of your issue, otherwise we might not be able to act on it.
 title: "[Other]: "
-labels: ["request: other"]
+labels: ["request: Other"]
 assignees:
   - Quantum158
 body:
