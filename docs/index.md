@@ -35,7 +35,7 @@ Certainly! We're glad to hear that this guide is helping you. The wiki is licens
 ## Where do I go first?
 The website is divide into categories and topics. If you know roughly what you're looking for, try searching for it using the search bar in the top right of the webpage (or in the dropdown menu on mobile). Otherwise, have a click around and see what you can find. 
 
-If you're just getting started in tech theatre, I strongly suggest you take a look at the Getting Started guides and overviews that you can find for [lighting](Lighting_landing_page) (more categories to be added in the future).
+If you're just getting started in tech theatre, I strongly suggest you take a look at the Getting Started guides and overviews that you can find for [lighting](./Lighting) (more categories to be added in the future).
 
 You can also click on the tag below to have a look at all the pages targeted at those just getting started.
 
