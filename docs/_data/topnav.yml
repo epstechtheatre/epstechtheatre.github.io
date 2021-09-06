@@ -16,9 +16,9 @@ topnav_dropdowns:
         - title: Overview
           url: /index.html
         - title: Lighting
-          url: /Lighting_landing_page.html
+          url: /Lighting.html
         - title: Sound
-          url: /Sound_landing_page.html
+          url: /Sound.html
 
     - title: Tags
       folderitems:
