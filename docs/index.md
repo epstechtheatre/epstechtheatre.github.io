@@ -27,7 +27,7 @@ The project was started and is currently led by [Ben MacDonald](https://github.c
 ## I want to help out! Where can I contribute?
 Glad to hear! This wiki is open-source on Github. If you have programming experience and a Github account, feel free to submit a pull request.
 
-If you don't want to, or don't know how to use Github, you can still help out! [fill out this form](https://forms.gle/jRTGT4GuW7Re5r586) using a email that works with Google Drive and we will automatically create a file that you can work in. Plus, it will already be shared with the right people (and organized properly in our backend).
+If you don't want to, or don't know how to use Github, you can still help out! [Fill out this form](https://forms.gle/jRTGT4GuW7Re5r586) using a email that works with Google Drive and we will automatically create a file that you can work in. It will already be shared with the right people too, so you don't have to worry about that.
 
 If you need any help, don't hesitate to send an email to [techwiki@b-macdonald.ca](mailto:techwiki@b-macdonald.ca).
 
