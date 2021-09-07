@@ -16,6 +16,8 @@ The main focus currently is on the initial content for the lighting section.
 ## Contributing and Contact
 I encourage future students to share any new knowledge they acquire on this page as well, however, I do realize Github can be quite intimidating to those with no prior experience in programming. Students at Dr. E.P. Scarlett who wish to contribute should ask their Drama or Technical Theatre teacher for more info.
 
+Alternatively, if you have an idea for the wiki and you just want to write, [fill out this form](https://forms.gle/jRTGT4GuW7Re5r586) using a email that works with Google Drive and a stub file will be created so you can draft using Docs instead of working purely in markdown. The files that are created are automatically automatically shared with the right people so you don't need to worry about visibility.
+
 Alternatively, if you need any support, send an email to [techwiki@b-macdonald.ca](mailto:techwiki@b-macdonald.ca) with "Tech Theatre Wiki" in the subject line.
 
 ## Licensing
