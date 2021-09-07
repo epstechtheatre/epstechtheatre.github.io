@@ -25,7 +25,9 @@ We are a passionate group of students interested in all aspects of the technical
 The project was started and is currently led by [Ben MacDonald](https://github.com/Quantum158/). They were the Technical Director at Dr. E.P. Scarlett Highschool during the 2020-2021 school year and will help maintain the project at least until they complete their bachelor's degree.
 
 ## I want to help out! Where can I contribute?
-Glad to hear! This wiki is open-source on Github. If you have programming experience and a Github account, feel free to follow the instructions over on the repo to submit a pull request.
+Glad to hear! This wiki is open-source on Github. If you have programming experience and a Github account, feel free to submit a pull request.
+
+If you don't want to, or don't know how to use Github, you can still help out! [fill out this form](https://forms.gle/jRTGT4GuW7Re5r586) using a email that works with Google Drive and we will automatically create a file that you can work in, pre-shared with the right people.
 
 ### I have neither programming experience nor a Github account?
 That's all right too! Send an email to [techwiki@b-macdonald.ca](mailto:techwiki@b-macdonald.ca) and I or someone else will help you out.
