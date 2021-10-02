@@ -87,8 +87,7 @@ Blind recording is a very scary concept at first. So let's get all the scary not
 
 Blind mode lets you modify cues and other targets without having to actually set the lights on stage. You can edit literally anything that stores light data. However, when in blind mode **Changes are saved immediately**. There is no update or rerecord, **As soon as execute a command, any and all changes that command mode are saved**.
 
-Yeah, that sounds scary, but it's really not so bad after you get used to it.
-{% include note.html content="Remember, if you ever make a mistake, you can usually rectify your mistake by using <a href="Lighting_level_1_supplementary#Undo_/_Redo">The Undo and Redo commands</a>." %}
+Yeah, that sounds scary, but it's really not so bad after you get used to it. Plus, if you ever make a mistake, you can usually rectify it by using [The Undo and Redo commands](/Lighting_level_1_supplementary.html#Undo_/_Redo).
 
 To enter blind mode, simply hit {% include console_button.html content="Blind" %}. There are 3 visual cues to know if you are in Blind mode: You'll see the button light up blue, the command line will say `Blind` at the start, and the live table will have a slightly bluer background.
 
@@ -96,11 +95,13 @@ To enter blind mode, simply hit {% include console_button.html content="Blind" %
 {% include console_button.html content="Live" %}
 {% endcapture %}
 
-{% include warning.html content="If you are in Blind mode and you don't think you have any good reason to be in blind mode, hit {{BlindLiveEscape}} to return to normal. It is very important you do most work in Live because it allows you to preview what you are programming." %}
+{% include warning.html content="If you are in Blind mode and you don't think you have any good reason to be in blind mode, hit {{BlindLiveEscape}} to return to normal. Because saves are instant in blind mode, it is very easy to accidentally destroy work." %}
 
-When are in blind mode
+For this section of the guide, only basic cue editing will be covered, more complex blind mode usages will be covered in the [supplementary material for this level](./Lighting_level_2_supplementary.html#Complex_Blind_Mode_Usages), as well as in the next level.
 
-TODO
+
+
+
 
 ## Cue Management and Timing
 
