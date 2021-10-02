@@ -16,6 +16,7 @@ last_updated: August 30, 2021
 
 ## Outcomes of this Guide:
 {% include guide-req.html check=true content="Control multicoloured lights and lights with additional non-intensity parameters" %}
+{% include guide-req.html check=true content="Apply pre-made effects to a light or group of lights" %}
 {% include guide-req.html check=true content="Record and playback a basic lighting cue list" %}
 {% include guide-req.html check=true content="Learn how to close and reopen the software without shutting down the lighting board" %}
 {% include guide-req.html check=true content="Learn the usage of some less-commonly used but useful keyboard buttons" %}
@@ -75,8 +76,29 @@ To change any parameter on a light, select the encoder mode and the light(s), th
 
 {% include callout.html type="success" content="Just like changing colour, select the channel you want to change, and it’s parameters will populate the encoder display. Then, spin the encoder wheels to change the value." %}
 
-Now that you know how to control every type of light in the theatre, you can start recording cues with them.
+## Applying Effects to Cues
+Sometimes, static looks just don't cut it for the feel you are going for. When this happens, we use effects. Effects are animated programs that run while a cue is loaded, and they are super powerful. Effects are full covered in [Level 3](/Lighting_level_3.html), but for now we will just learn how to add an effect to a light.
 
+In general, there are two types of effects: Those that can be run on any light, and those that have to be run on a light with a certain parameter or parameters (like `Red` or `Pan`). There are a ton of effects built right into the board that you can use in any showfile you are in, and in Level 3, you will learn how to make your own effects.
+
+You can apply multiple effects to a light, however, there is a restriction that each running effect on a light must target different parameters (otherwise only the most recent effect is used). For example, you can have an intensity effect and a pan effect, but not two intensity effects.
+
+### Using the Magic Sheet
+On the `Effects` tab of the magic sheet, you can see a few commonly used effects. There are also a bunch of other buttons that are used for modifying effects, so don't worry about those for now.
+
+To apply an effect, make sure you are starting from an empty command line, then specify the light or groups you want to target. Navigate to the effects tab and click the effect you want to apply. 
+
+TODO
+
+### Using the command line
+To apply an effect to a light, or group, you specify which lights you want to target, then type effect, and then type the effect id. It's a very similar syntax to how you would change the intensity of a light:
+
+{% include console_command.html content="Group, Number, Effect, Number, Enter" noLegend=true noTip=true %}
+
+TODO
+### Simple effect editing
+
+TODO
 ## Recording and Playing Back Cues
 
 ### Recording 
