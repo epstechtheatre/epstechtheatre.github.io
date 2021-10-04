@@ -33,8 +33,8 @@ If you read this, you will know the absolute basics of controlling lights with o
 ### What does the lighting board actually do?
 In its simplest form, it is a playlist. When designing the show you create ‘looks’, which are basically just combinations of lights that look nice together and work with whatever is happening on state. There are a lot of different looks we have to swap between throughout a show, so we add these looks to a playlist (or cue list as it’s called). Then, when running the show, we don’t have to redo all the work of setting up a look, we can just hit a single button and the cue is loaded.
 
-Parts of the lighting board
-The board is basically just a specialized game controller. Like video games, you can play them using a keyboard, but you can also use a controller explicitely designed to play games. The main part (the scary looking part) is the board itself. We call it the console. It has a bunch of buttons with words on them that don't make sense. It might also have a bunch of slidable controls connected to it. Apart from that, the rest is just a normal computer. There is a less-scary keyboard, mouse and monitor connected that work as well. 
+### Parts of the lighting board
+The board is basically just a specialized game controller. Like video games, you can play them using a keyboard, but you can also use a controller designed for the sole purpose of playing games. The main part (the scary looking part) is the board itself. We call it the console. It has a bunch of buttons with words on them that don't make sense. It might also have a bunch of slidable controls connected to it. Apart from that, the rest is just a normal computer. There is a less-scary keyboard, mouse and monitor connected that work as well. 
 
 ## Prenote
 Throughout most lighting pages, you will occasionally see boxed text that look like {% include console_button.html content="This" %}. These indicate a button on the console to press. if you tap or hover over them with your mouse, you will see an overlay that shows you where the button is on the keyboard.
