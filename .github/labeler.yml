@@ -1,13 +1,12 @@
 'backend: Scripting':
-- docs/_scripts/*
-- docs/js/*.js
-- docs/pdf/*
-- docs/pdfconfigs/*
-- docs/var/*
-- ./*
-- docs/*
-- all: ['!docs/*.md', '!docs/*.html', '!./*.md', '!./*.html']
-
+- *.js
+- *.json
+- *.sh
+- *.xml
+- Dockerfile
+- Gemfile
+- Gemfile.lock
+- all: ["!.vscode/**/*", "!.github/**/*"]
 
 'backend: Styling':
 - docs/**/*.css
