@@ -1,11 +1,11 @@
 'backend: Scripting':
-- *.js
-- *.json
-- *.sh
-- *.xml
-- Dockerfile
-- Gemfile
-- Gemfile.lock
+- docs/**/*.js
+- docs/**/*.json
+- docs/**/*.sh
+- docs/**/*.xml
+- docs/**/Dockerfile
+- docs/**/Gemfile
+- docs/**/Gemfile.lock
 - all: ["!.vscode/**/*", "!.github/**/*"]
 
 'backend: Styling':
