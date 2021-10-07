@@ -76,29 +76,50 @@ To change any parameter on a light, select the encoder mode and the light(s), th
 
 {% include callout.html type="success" content="Just like changing colour, select the channel you want to change, and it’s parameters will populate the encoder display. Then, spin the encoder wheels to change the value." %}
 
-## Applying Effects to Cues
-Sometimes, static looks just don't cut it for the feel you are going for. When this happens, we use effects. Effects are animated programs that run while a cue is loaded, and they are super powerful. Effects are full covered in [Level 3](/Lighting_level_3.html), but for now we will just learn how to add an effect to a light.
-
-In general, there are two types of effects: Those that can be run on any light, and those that have to be run on a light with a certain parameter or parameters (like `Red` or `Pan`). There are a ton of effects built right into the board that you can use in any showfile you are in, and in Level 3, you will learn how to make your own effects.
+## Using Effects
+Sometimes, static looks just don't cut it for the feel you are going for. When this happens, we use effects. Effects are animated programs that run while a cue is loaded, and they are super powerful. Effects are covered in [Level 3](/Lighting_level_3.html), but for now we will just learn how to add an effect to a light.
 
 You can apply multiple effects to a light, however, there is a restriction that each running effect on a light must target different parameters (otherwise only the most recent effect is used). For example, you can have an intensity effect and a pan effect, but not two intensity effects.
+### Different Types of Effects
+In general, there are two types of effects: Those that can be run on any light, and those that have to be run on a light with a certain parameter or parameters (like `Red` or `Pan`). There are a ton of effects built right into the board that you can use in any showfile you are in, and in Level 3, you will learn how to make your own effects.
 
-### Using the Magic Sheet
+Practically, effect types get a little more muddy. You will mostly be using `Linear` effects, or `Absolute` Effects. You will need to know what type of effect you're using in order to follow the editing instructions a little down the page.
+
+Linear effects use math and graphs to smoothly change parameters in an effect. Absolute effects require the effect author to specify each distinct state of the effect. Both have their advantages:
+
+Linear effects can use something call the "Base Property Value" and run based on that. If you applied a linear intensity effect to a light currently at 50%, and that effect made the intensity oscilate up and down 25%, you would notice different intensity if the light was initially at 25%.
+
+Absolute effects allow you to have much more aggressive and precise motions to the effect.For example if you have a colour-based effect but you don't want the colour to blend like it would linearly, you can make absolute looks for each of the most saturated colours and jump between them.
+
+TODO
+
+### Apply Effects Using the Magic Sheet
 On the `Effects` tab of the magic sheet, you can see a few commonly used effects. There are also a bunch of other buttons that are used for modifying effects, so don't worry about those for now.
 
 To apply an effect, make sure you are starting from an empty command line, then specify the light or groups you want to target. Navigate to the effects tab and click the effect you want to apply. 
 
-TODO
+You should see the effect immediately start playing. If it doesn't look quite like you want, there are a couple ways you might be able to fix it. That will be covered in a moment
 
-### Using the command line
+### Apply Effects Using the Command Line
 To apply an effect to a light, or group, you specify which lights you want to target, then type effect, and then type the effect id. It's a very similar syntax to how you would change the intensity of a light:
 
 {% include console_command.html content="Group, Number, Effect, Number, Enter" noLegend=true noTip=true %}
 
-TODO
-### Simple effect editing
+Like cues and lights and groups and everything else, effects also have numbers, however, finding out what those numbers are can be a little tricky if you don't know what you're doing. One of the ways to find an effect number is by looking on the `Effects` tab in the magic sheet. The other way is by opening the Effect Editor. 
+
+FIXME
+Warning:
+The effect editor uses a mode called `Blind Mode`. You haven't learned how to use blind mode yet, so make sure you don't accidentally fire commands or click buttons or anything. Even just left clicking the mouse in the wrong place can break things! To get out of Blind mode press `Live`.
+
+To open the effect editor, quickly press `Effect` twice. The screen on your monitor will change colour and content, and you should see a list of effects numbers, some of them might even be labelled. Memorize the ID of the effect you want to try and then **Click Live to return to live mode**. Make sure you do this! Otherwise your command will fail and might break stuff.
+
+Once you're back in live (you can tell if the `Live` button is lit up orange), use the syntax above to try out the effect.
+
+### Making Edits to Running Effects
+Most of the time, prebuilt effects may be close to what you want, but never right on. To fix that, we can do something called Live Effect Editing (or synonymously, editing effects in Live Mode). First, make sure your command line is empty.
 
 TODO
+
 ## Recording and Playing Back Cues
 
 ### Recording 
