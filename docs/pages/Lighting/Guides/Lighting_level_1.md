@@ -40,7 +40,6 @@ On the monitors, select or open a new colour picker tab (refer to the previous g
 
 {% include important.html content="If you don’t have at least one multicolour light selected, you will still be able to use the colour picker and it will appear to work, however, nothing will happen." %}
 
-
 ### Controlling via the Magic Sheet
 At the bottom of some of the tabs of the magic sheet, there are two rows of coloured boxes. These act as a great way to quickly get a colour on stage when you’re in a pitch or want to find ‘something close’. The top row is specifically designed for the cyc, and will only work for the cyc LEDs. The bottom row will work for any LED, but was designed for the scrollers (each colour is a frame in the scroller unit). See the next section for more information on lights with non-granular colour control.
 
@@ -85,13 +84,13 @@ In general, there are two types of effects: Those that can be run on any light, 
 
 Practically, effect types get a little more muddy. You will mostly be using `Linear` effects, or `Absolute` Effects. You will need to know what type of effect you're using in order to follow the editing instructions a little down the page.
 
-Linear effects use math and graphs to smoothly change parameters in an effect. Absolute effects require the effect author to specify each distinct state of the effect. Both have their advantages:
+Linear effects use graphs to smoothly change parameters in an effect. Absolute effects, on the other hand, require the effect author to specify each distinct state of the effect, which the computer will then transition between. Both have their advantages:
 
 Linear effects can use something call the "Base Property Value" and run based on that. If you applied a linear intensity effect to a light currently at 50%, and that effect made the intensity oscilate up and down 25%, you would notice different intensity if the light was initially at 25%.
 
-Absolute effects allow you to have much more aggressive and precise motions to the effect.For example if you have a colour-based effect but you don't want the colour to blend like it would linearly, you can make absolute looks for each of the most saturated colours and jump between them.
+Absolute effects allow you to have much more aggressive and precise motions. For example if you have a colour-based effect but you don't want the colour to blend like it would linearly, you can make absolute looks for each of the most saturated colours and jump between them.
 
-TODO
+See level three for more info on creating effects.
 
 ### Apply Effects Using the Magic Sheet
 On the `Effects` tab of the magic sheet, you can see a few commonly used effects. There are also a bunch of other buttons that are used for modifying effects, so don't worry about those for now.
@@ -105,18 +104,23 @@ To apply an effect to a light, or group, you specify which lights you want to ta
 
 {% include console_command.html content="Group, Number, Effect, Number, Enter" noLegend=true noTip=true %}
 
-Like cues and lights and groups and everything else, effects also have numbers, however, finding out what those numbers are can be a little tricky if you don't know what you're doing. One of the ways to find an effect number is by looking on the `Effects` tab in the magic sheet. The other way is by opening the Effect Editor. 
+Like cues and lights and groups and everything else, effects also have numbers, however, finding out what those numbers are can be a little tricky if you don't know what you're doing. One of the ways to find an effect number is by looking on the `Effects` tab in the Magic Sheet. The other way is by opening the Effect Editor. 
 
-FIXME
-Warning:
-The effect editor uses a mode called `Blind Mode`. You haven't learned how to use blind mode yet, so make sure you don't accidentally fire commands or click buttons or anything. Even just left clicking the mouse in the wrong place can break things! To get out of Blind mode press `Live`.
+{% capture blind_mode_warning %}
+The effect editor uses a mode called Blind Mode. You haven't learned how to use blind mode yet, so make sure you don't accidentally fire commands or click buttons or anything. Even just left clicking the mouse in the wrong place can break things! To get out of Blind mode press {% include console_button.html content="Live" %}.
+{% endcapture %}
 
-To open the effect editor, quickly press `Effect` twice. The screen on your monitor will change colour and content, and you should see a list of effects numbers, some of them might even be labelled. Memorize the ID of the effect you want to try and then **Click Live to return to live mode**. Make sure you do this! Otherwise your command will fail and might break stuff.
+{% include warning.html content=blind_mode_warning %}
 
-Once you're back in live (you can tell if the `Live` button is lit up orange), use the syntax above to try out the effect.
+To open the effect editor, quickly press {% include console_button.html content="Effect" %} twice. The screen on your monitor will change colour and content, and you should see a list of effects numbers, some of them might even be labelled. Use the scroll wheel on the mouse to scroll through. If scrolling is affecting content on the wrong monitor, click on the tab name in the tab list. Memorize the ID of the effect you want to try and then **Click {% include console_button.html content="Live" %} to return to live mode**. Make sure you do this! Otherwise your command will fail and might break stuff.
+
+Once you're back in live (you can tell if the {% include console_button.html content="Live" %} button is lit up orange). Then, use the syntax above to try out the effect.
 
 ### Making Edits to Running Effects
-Most of the time, prebuilt effects may be close to what you want, but never right on. To fix that, we can do something called Live Effect Editing (or synonymously, editing effects in Live Mode). First, make sure your command line is empty.
+Most of the time, prebuilt effects may be close to what you want, but never right on. To fix that, we can do something called Live Effect Editing (or synonymously, editing effects in Live Mode). First, make sure your command line is empty, then navigate to the effects tab on the Magic Sheet.
+
+Let's break down what this all means:
+{% include image.html file="Lighting/l1-effects-ms.png" alt="Effects Page Image" %}
 
 TODO
 
