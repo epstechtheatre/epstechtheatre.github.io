@@ -91,12 +91,6 @@ Yeah, that sounds scary, but it's really not so bad after you get used to it. Pl
 
 To enter blind mode, simply hit {% include console_button.html content="Blind" %}. There are 3 visual cues to know if you are in Blind mode: You'll see the button light up blue, the command line will say `Blind` at the start, and the live table will have a slightly bluer background.
 
-{% capture BlindLiveEscape %}
-{% include console_button.html content="Live" %}
-{% endcapture %}
-
-{% include warning.html content="If you are in Blind mode and you don't think you have any good reason to be in blind mode, hit {{BlindLiveEscape}} to return to normal. Because saves are instant in blind mode, it is very easy to accidentally destroy work." %}
-
 For this section of the guide, only basic cue editing will be covered, more complex blind mode usages will be covered in the [supplementary material for this level](./Lighting_level_2_supplementary.html#Complex_Blind_Mode_Usages), as well as in the next level.
 
 
