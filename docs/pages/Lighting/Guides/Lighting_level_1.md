@@ -122,7 +122,7 @@ Most of the time, prebuilt effects may be close to what you want, but never righ
 Let's break down what this all means:
 {% include image.html file="Lighting/l1-effects-ms.png" alt="Effects Page Image" %}
 
-TODO
+
 
 ## Recording and Playing Back Cues
 
