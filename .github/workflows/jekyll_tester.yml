@@ -1,4 +1,4 @@
-name: CSpell Checker
+name: Jekyll Tester
 on: [pull_request_target]
 
 jobs:
