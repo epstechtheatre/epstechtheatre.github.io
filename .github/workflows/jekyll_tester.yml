@@ -22,7 +22,7 @@ jobs:
         run: npm install
 
       - name: Test Jekyll
-        uses: epstechtheatre/Jekyll-Tester@latest
+        uses: epstechtheatre/Jekyll-Tester@v1.0.4
         with:
           path: docs/
 
