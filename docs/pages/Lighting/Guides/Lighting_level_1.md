@@ -86,7 +86,7 @@ Practically, effect types get a little more muddy. You will mostly be using `Lin
 
 Linear effects use graphs to smoothly change parameters in an effect. Absolute effects, on the other hand, require the effect author to specify each distinct state of the effect, which the computer will then transition between. Both have their advantages:
 
-Linear effects can use something call the "Base Property Value" and run based on that. If you applied a linear intensity effect to a light currently at 50%, and that effect made the intensity oscilate up and down 25%, you would notice different intensity if the light was initially at 25%.
+Linear effects can use something call the "Base Property Value" and run based on that. If you applied a linear intensity effect to a light currently at 50%, and that effect made the intensity oscillate up and down 25%, you would notice different intensity if the light was initially at 25%.
 
 Absolute effects allow you to have much more aggressive and precise motions. For example if you have a colour-based effect but you don't want the colour to blend like it would linearly, you can make absolute looks for each of the most saturated colours and jump between them.
 

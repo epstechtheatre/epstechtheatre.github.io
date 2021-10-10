@@ -12,9 +12,9 @@ entries:
         output: web
 
       - title: Lighting
-        url: /Lighting_landing_page.html
+        url: /Lighting.html
         output: web
 
       - title: Sound
-        url: /Sound_landing_page.html
+        url: /Sound.html
         output: web

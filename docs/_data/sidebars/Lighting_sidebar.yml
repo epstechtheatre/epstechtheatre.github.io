@@ -54,7 +54,7 @@ entries:
     output: web, pdf
     folderitems:
     - title: Lighting Home
-      url: /Lighting_landing_page.html
+      url: /Lighting.html
       output: web
 
     - title: Lighting Definitions

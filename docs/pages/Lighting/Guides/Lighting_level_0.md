@@ -9,7 +9,7 @@ summary: The most basic of what you need to know in order to interact with our l
 draft: true
 tags: [getting_started, lighting, guide]
 customPageType: guide
-last_updated: August 30, 2021
+last_updated: September 17, 2021
 ---
 
 {% include note.html content="This page is very specifically tailored to the lighting network present at Dr. E.P. Scarlett, I highly recommend students from other schools that are just starting out take everything with a grain of salt, or go through the guide with a mentor so they can make corrections as they need to." %}
@@ -24,37 +24,37 @@ last_updated: August 30, 2021
 {% include guide-req.html check=true content="Learn how to view and interact with the \"Magic Sheet\"" %}
 
 ## Before You Begin
-If you did any lighting work in your previous school, you might have used a lighting board with a bunch of sliders, where each slider controlled one light (or one colour of a multicoloured light). This is called an analogue lighting board. 
+If you've done any lighting before, you may be familiar with analogue lighting boards. They are similar(ish) enough to what we use that some skills are transferrable but you will still have a learning curve. At Scarlett, we have a digital lighting board. The main difference between the two is that digital boards run as an application on a computer. This means that, among other things, we can utilize the power of automation to create and run our shows. Every cue is pre-programmed and is therefore precise and repeatable. Plus, it makes it easier for operators to run shows, or stand-ins to take over when people are sick. Plus, we can create animations and time-critical moments. In a theatre like ours that has upwards of 50 lights active at a time, having a digital system becomes a necessity.
 
-At Scarlett, we have a digital lighting board. The main difference is, unlike an analogue board, our control system is an application running on a computer. This means that, among other things, we can utilize the power of automation to create and run our shows. No preparing the sliders for the next cue or fretting over a cue sheet with all the different slider positions. In a theatre like ours that has upwards of 50 active lights, having a digital system becomes a necessity.
+If you read this, you will know the absolute basics of controlling lights with our lighting board in our theatre.
 
-This is everything you need to know about the absolute basics of controlling the lights in our theatre.
-
-{% include warning.html content="You may want to ask for another more experienced tech to help you out with these steps to make sure you don’t miss anything" %}
+{% include warning.html content="You may want to ask for another more experienced tech to help you out with this guide to make sure you don’t miss anything" %}
 
 ### What does the lighting board actually do?
-In its simplest form, it is a playlist. When designing the show you create ‘looks’, which are basically just combinations of lights that look nice together and amplify the action and mood of the scene on stage. There are a lot of different looks we have to swap between throughout a show, so we add these looks to the playlist (or cue list as it’s called). Then, when running the show, we don’t have to redo all the work of setting up a look, we can just hit a single button and the cue is loaded.
-Parts of the lighting board
-The board is really just a specialized computer. The main part (the scary looking part) is the board itself. We call it the console. It has a bunch of buttons with words that don’t make sense and sliders that have digital displays. That’s the only part that’s different to just a regular computer. The rest is just monitors and a less scary looking keyboard and mouse. You will be using both parts when controlling lights.
+In its simplest form, it is a playlist. When designing the show you create ‘looks’, which are basically just combinations of lights that look nice together and work with whatever is happening on state. There are a lot of different looks we have to swap between throughout a show, so we add these looks to a playlist (or cue list as it’s called). Then, when running the show, we don’t have to redo all the work of setting up a look, we can just hit a single button and the cue is loaded.
 
+### Parts of the lighting board
+The board is basically just a specialized game controller. Like video games, you can play them using a keyboard, but you can also use a controller designed for the sole purpose of playing games. The main part (the scary looking part) is the board itself. We call it the console. It has a bunch of buttons with words on them that don't make sense. It might also have a bunch of slidable controls connected to it. Apart from that, the rest is just a normal computer. There is a less-scary keyboard, mouse and monitor connected that work as well. 
+
+## Prenote
+Throughout most lighting pages, you will occasionally see boxed text that look like {% include console_button.html content="This" %}. These indicate a button on the console to press. if you tap or hover over them with your mouse, you will see an overlay that shows you where the button is on the keyboard.
 ## Power
 ### Turning on and off the console
-Press the {% include console_button.html content="Power" %} button in the top left corner of the board and then wait. This will take a while, upwards of 2 minutes. When it’s ready, the displays on the board will show useful information that you might not understand yet. You will also be able to control the lights.
+Press the {% include console_button.html content="Power" %} and then wait for everything to turn on. When the board is ready, the displays will show useful information that you might not understand yet. You will also be able to control the lights.
 
-{% include warning.html content="Make sure you warm up the lights before using them. This will keep bulbs from breaking, which can happen if they get too hot too fast. See the <a alt='Warming Up Lights' href='#warming-up-lights'>Warming Up Lights</a> section" %}
+{% include warning.html content="Before getting ahead of yourself, make sure you warm up the lights before using them. This will keep bulbs from breaking, which can happen if they get too hot too fast. See the <a alt='Warming Up Lights' href='#warming-up-lights'>Warming Up Lights</a> section" %}
 
 To turn off the console, you have a few options:
 
-The first way (which is the easiest) is to just press the power button. This will pop up a screen on the monitor asking if you really want to shut down, either use the mouse to hit ‘OK’, or just click the power button one last time.
+The first way (which is the easiest) is to just press the {% include console_button.html content="Power" %} button again. This will pop up a screen on the monitor asking if you really want to shut down, either use the mouse to hit ‘OK’, or just click the power button one last time.
 
-The second way is done from the monitors, 
-Using the mouse, click the upwards facing triangle in the bottom right corner of the screen. If you don’t see one, the panel might already be open, in which case there will be a downwards facing triangle somewhere in the lower third of the right-hand part of the screen
+The second way is done from the monitors, using the mouse, click the upwards facing triangle in the bottom right corner of the screen. If you don’t see one, the panel might already be open, in which case there will be a downwards facing triangle somewhere in the lower third of the right-hand part of the screen
 
 In the screen that says “Browser: file”, just below “> File”, click “Power Off”
 
 {% include tip.html content="You’ll be using this file browser a lot, so it’s a good idea to learn it now" %}
 
-## Showfile
+## Showfiles
 
 {% include note.html content="Depending on who you are doing this with, you may want to skip this section for the time being.You should learn it eventually, but if you just need to learn how to control lights, this section is not useful presently" %}
 

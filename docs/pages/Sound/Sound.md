@@ -3,7 +3,7 @@ title: Sound
 keywords: wiki
 sidebar: Sound_sidebar
 toc: false
-permalink: Sound_landing_page.html
+permalink: Sound.html
 folder: Sound
 authors: []
 noprinter: true

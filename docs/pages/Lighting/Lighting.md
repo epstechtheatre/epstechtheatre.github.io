@@ -2,7 +2,7 @@
 title: Lighting Home
 keywords: [lighting, overview, getting started]
 sidebar: Lighting_sidebar
-permalink: Lighting_landing_page.html
+permalink: Lighting.html
 folder: Lighting
 draft: true
 toc: false
