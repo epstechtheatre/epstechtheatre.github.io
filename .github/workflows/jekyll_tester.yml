@@ -20,7 +20,7 @@ jobs:
           node-version: 16
 
       - name: Test Jekyll
-        uses: epstechtheatre/Jekyll-Tester@v1.1.0
+        uses: epstechtheatre/Jekyll-Tester@v1.1.1
         with:
           path: docs/
         env:
