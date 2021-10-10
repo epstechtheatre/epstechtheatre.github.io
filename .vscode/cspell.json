@@ -1,5 +1,5 @@
 {
-    "version": "0.1",
+    "version": "0.2",
     "language": "en-US",
     "words": [
         "beampalette",
@@ -52,6 +52,7 @@
         "offright",
         "percentnudge",
         "pluspercent",
+        "prepend",
         "qonly",
         "recallfrom",
         "recordonly",
