@@ -2,7 +2,7 @@ name: Jekyll Tester
 on: [pull_request_target]
 
 jobs:
-  Spell:
+  Test:
     runs-on: ubuntu-latest
 
     steps:
@@ -22,7 +22,7 @@ jobs:
         run: npm install
 
       - name: Test Jekyll
-        uses: epstechtheatre/Jekyll-Tester@v1.0.4
+        uses: epstechtheatre/Jekyll-Tester@v1.1.0
         with:
           path: docs/
 
