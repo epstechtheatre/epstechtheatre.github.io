@@ -10,7 +10,7 @@ summary: Welcome to the wiki! This page briefly goes over how to get around the 
 draft: true
 customPageType: navigation
 toc: false
-last_updated: 'July 29, 2021'
+last_updated: September 7, 2021
 noprinter: true
 ---
 
@@ -25,17 +25,18 @@ We are a passionate group of students interested in all aspects of the technical
 The project was started and is currently led by [Ben MacDonald](https://github.com/Quantum158/). They were the Technical Director at Dr. E.P. Scarlett Highschool during the 2020-2021 school year and will help maintain the project at least until they complete their bachelor's degree.
 
 ## I want to help out! Where can I contribute?
-Glad to hear! This wiki is open-source on Github. If you have programming experience and a Github account, feel free to follow the instructions over on the repo to submit a pull request.
+Glad to hear! This wiki is open-source on Github. If you have programming experience and a Github account, feel free to submit a pull request.
 
-### I have neither programming experience nor a Github account?
-That's all right too! Send an email to [techwiki@b-macdonald.ca](mailto:techwiki@b-macdonald.ca) and I or someone else will help you out.
+If you don't want to, or don't know how to use Github, you can still help out! [Fill out this form](https://links.b-macdonald.ca/wikisurvey) using a email that works with Google Drive and we will automatically create a file that you can work in. It will already be shared with the right people too, so you don't have to worry about that.
+
+If you need any help, don't hesitate to send an email to [techwiki@b-macdonald.ca](mailto:techwiki@b-macdonald.ca).
 
 ## I run a theatre program and want to use this wiki for my own projects
 Certainly! We're glad to hear that this guide is helping you. The wiki is licensed under the copyleft GNU GPLv3 license. You can read the license text [here](https://github.com/epstechtheatre/epstechtheatre.github.io/blob/main/LICENSE).
 ## Where do I go first?
 The website is divide into categories and topics. If you know roughly what you're looking for, try searching for it using the search bar in the top right of the webpage (or in the dropdown menu on mobile). Otherwise, have a click around and see what you can find. 
 
-If you're just getting started in tech theatre, I strongly suggest you take a look at the Getting Started guides and overviews that you can find for [lighting](Lighting_landing_page) (more categories to be added in the future).
+If you're just getting started in tech theatre, I strongly suggest you take a look at the Getting Started guides and overviews that you can find for [lighting](./Lighting) (more categories to be added in the future).
 
 You can also click on the tag below to have a look at all the pages targeted at those just getting started.
 
