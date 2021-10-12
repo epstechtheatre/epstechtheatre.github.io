@@ -9,7 +9,7 @@ summary: The most basic of what you need to know in order to interact with our l
 draft: true
 tags: [getting_started, lighting, guide]
 customPageType: guide
-last_updated: September 17, 2021
+last_updated: October 11, 2021
 ---
 
 {% include note.html content="This page is very specifically tailored to the lighting network present at Dr. E.P. Scarlett, I highly recommend students from other schools that are just starting out take everything with a grain of salt, or go through the guide with a mentor so they can make corrections as they need to." %}
@@ -146,6 +146,8 @@ This is the most graphical way to control lights in the theatre. It works like a
 {% include tip.html content="This may already be open as a tab, if it is the tab will say something along the lines of <u><i>3 Live MS “Main Lights”</i></u> right in the navigator" %}
 
 The map shows a simplified display of the theatre. You can click buttons to directly select lights (the same as if you were to type the number into the command line, like we did above). Some buttons select multiple lights at the same time, more on that in a moment. At the top of the sheet, there are a few tabs that say “Main Lights”, “Secondary Lights”, “Effects”, and “Macros”. Make sure to check out the tabs to familiarize yourself with the information provided, but don’t worry about the last two for now, they will be explained on another wiki page.
+
+Left-click like you would on a webpage to click buttons, hold down right-click to pan the magic sheet around and use the scroll wheel to zoom in and out.
 
 Once you have selected a light, you can use the {% include console_button.html content="Full" %}, {% include console_button.html content="Out" %}, and {% include console_button.html content="At" %}, syntax just like you were above. 
 
