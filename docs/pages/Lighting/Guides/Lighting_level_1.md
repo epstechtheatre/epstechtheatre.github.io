@@ -95,7 +95,7 @@ See level three for more info on creating effects.
 ### Apply Effects Using the Magic Sheet
 On the `Effects` tab of the magic sheet, you can see a few commonly used effects. There are also a bunch of other buttons that are used for modifying effects, so don't worry about those for now.
 
-To apply an effect, make sure you are starting from an empty command line, then specify the light or groups you want to target. Navigate to the effects tab and click the effect you want to apply. 
+To apply an effect, make sure you are starting from an empty command line, then specify the light or groups you want to target. Navigate to the effects tab and click the effect you want to apply. Effects in Grey boxes control intensity, and green boxes control any other parameter. Some effects can only be used by certain lights so make sure you are selecting a something compatible.
 
 You should see the effect immediately start playing. If it doesn't look quite like you want, there are a couple ways you might be able to fix it. That will be covered in a moment
 
@@ -117,12 +117,34 @@ To open the effect editor, quickly press {% include console_button.html content=
 Once you're back in live (you can tell if the {% include console_button.html content="Live" %} button is lit up orange). Then, use the syntax above to try out the effect.
 
 ### Making Edits to Running Effects
-Most of the time, prebuilt effects may be close to what you want, but never right on. To fix that, we can do something called Live Effect Editing (or synonymously, editing effects in Live Mode). First, make sure your command line is empty, then navigate to the effects tab on the Magic Sheet.
+Most of the time, prebuilt effects may be close to what you want, but never right on. To fix that, we can do something called Live Effect Editing (or synonymously, editing effects in Live Mode). In this guide, we'll being using the Magic Sheet Effect tab to help us.
 
 Let's break down what this all means:
 {% include image.html file="Lighting/l1-effects-ms.png" alt="Effects Page Image" %}
 
+The main part, of course, is a selection of effects you can pick from. The right hand side has common modifiers.
 
+**Size:** Controls how much the effect can manipulate the parameters of a light. For example, a linear effect causing an intensity oscillation of 20% running at 50% size would then only run as a 10% oscillation.
+
+**Rate:** Controls how fast the effect runs. A 3 second effect running at 200% would complete the same effect loop in 1.5 seconds.
+
+**Grouping:** By default, the starting position of an effect is smeared across each of the lights it affects. For example, a 3 second long effect running on 3 lights where lights were off for 1 second, at 50% for 1 second and at full for 1 second would have light 1 start at 0%, light 2 at 50% and light 3 at 100%. If the effect was running on more lights (such as 4), then light 1 would start at whatever the intensity was at 3/4 seconds (0%), light 2 would start at (3/4)\*2 seconds, light 3 at (3/4)\*3 seconds, etc.
+
+By modifying the grouping, you're specifying how much spread should exist. Using the same example as above, if it had a grouping of 1, the effect would run on every light as if they were the same light (therefore, every light would have the same intensity at the same time; there would be no spread). Setting a larger group size than the number of lights the effect is running on makes the lights transition smoother through steep transition curves (such as colour transitions). Even is a group size equal to number of lights the effect is running on.
+
+To change the parameters of an effect, first, make sure your command line is empty, then type:
+{% include console_command.html content="Effect, Number, Enter" noLegend=true noTip=true %}
+
+That's all you'll have to do from the command line. You'll know you did it right if a dialogue pops up showing all your running effects. Next, just click a button to change that property. Alternatively, if the built-in modifiers don't work you can select "Input" and type a percentage into the command line (remember to terminate your command!).
+
+The bottom row of buttons are other, effect-specific attributes you can toggle. Using the same syntax as above, play around with each property to see what they do.
+
+To stop a running effect, use the shortcuts in the bottom right corner or the `Stop All Effects` button in the top right. Some shortcuts require some additional information (such as what effect to stop or what lights to stop the effect on), you'll know if this is the case if you see `Running Macro xxx` flashing above your command line. Look for hints about what information the shortcut is asking for by looking at what's currently in the command line.
+
+Lastly, in order to save your effect modifications, you need to save it into a cue.
+{% include important.html content="If you go to a different cue or otherwise stop your effects, YOU WILL LOSE ANY WORK NOT SAVED!" %}
+
+Read below for how to record cues.
 
 ## Recording and Playing Back Cues
 
