@@ -147,7 +147,7 @@ This is the most graphical way to control lights in the theatre. It works like a
 
 The map shows a simplified display of the theatre. You can click buttons to directly select lights (the same as if you were to type the number into the command line, like we did above). Some buttons select multiple lights at the same time, more on that in a moment. At the top of the sheet, there are a few tabs that say “Main Lights”, “Secondary Lights”, “Effects”, and “Macros”. Make sure to check out the tabs to familiarize yourself with the information provided, but don’t worry about the last two for now, they will be explained on another wiki page.
 
-Left-click like you would on a webpage to click buttons, hold down right-click to pan the magic sheet around and use the scroll wheel to zoom in and out.
+Using the mouse, left-click like you would on a webpage to click buttons and hold down right-click to pan the magic sheet around. You can also use the scroll wheel to zoom in and out.
 
 Once you have selected a light, you can use the {% include console_button.html content="Full" %}, {% include console_button.html content="Out" %}, and {% include console_button.html content="At" %}, syntax just like you were above. 
 
