@@ -68,3 +68,16 @@ entries:
     - title: Contact
       url: /contact.html
       output: web, pdf
+
+  - title: Wikis
+    output: web, pdf
+    folderitems:
+
+    - title: Lighting
+      url: /lighting.html
+      output: web, pdf
+      type: homepage
+
+    - title: Sound
+      url: /sound.html
+      output: web, pdf
