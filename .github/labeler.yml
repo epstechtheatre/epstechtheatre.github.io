@@ -6,7 +6,6 @@
 - docs/**/Dockerfile
 - docs/**/Gemfile
 - docs/**/Gemfile.lock
-- all: ["!.vscode/**/*", "!.github/**/*"]
 
 'backend: Styling':
 - docs/**/*.css
