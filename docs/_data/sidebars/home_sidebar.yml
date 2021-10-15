@@ -12,7 +12,7 @@ entries:
         output: web
 
       - title: Lighting
-        url: /Lighting.html
+        url: /lighting.html
         output: web
 
       - title: Sound
