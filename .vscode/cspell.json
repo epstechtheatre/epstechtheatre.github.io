@@ -50,6 +50,8 @@
         "noprinter",
         "offleft",
         "offright",
+        "pagefolder",
+        "pagename",
         "percentnudge",
         "pluspercent",
         "Prenote",
