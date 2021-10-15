@@ -16,8 +16,56 @@ noprinter: true
 
 There are two ways you can edit a page. The most direct way is by editing it directly on Github, which you can do by <a id="contribute-github-link" href="https://github.com/epstechtheatre/epstechtheatre.github.io">clicking here</a>
 
-The second way is by using the public writing form on Google Drive. <a id="contribute-form-link" href="https://links.b-macdonald.ca/wikisurvey">Click here</a> to request a writing page for your contribution.
+The second way is by using the public writing form on Google Drive. Use the form below to request a contibution page.
+
+
+<iframe id=wikiSurvey src="https://docs.google.com/forms/d/e/1FAIpQLSfmI40BafIOfnSk9fbMsl3Gu7hftzyQaP7y-mqiS8ktsqRmGQ/viewform?embedded=true" width="100%" height="1281" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
 
 <script>
-    
+    let directArgs = window.location.search;
+    if (!(directArgs.length === 0 || !directArgs.startsWith("?"))) {
+        directArgs = directArgs.substring(1);
+
+        directArgs = directArgs.split("&")
+        let pageName = "";
+        let pageCategory = "";
+
+        for (const entry of directArgs) {
+            const process = entry.split("=");
+            if (process.length !== 2 || process[1] === undefined) {
+                continue;
+            }
+
+            switch (process[0]) {
+                case "pagename":
+                    pageName = process[1];
+                    break;
+
+                case "pagefolder":
+                    pageCategory = process[1];
+                    break;
+
+                case "githuburl":
+                    document.getElementById("contribute-github-link").setAttribute("href", process[1]);
+                    break;
+                default:
+                    break;
+            }
+        }
+        let url = "https://docs.google.com/forms/d/e/1FAIpQLSfmI40BafIOfnSk9fbMsl3Gu7hftzyQaP7y-mqiS8ktsqRmGQ/viewform?embedded=true"
+        if (pageName.length > 0) {
+            url += `&entry.1801446856=${pageName}`
+        }
+
+        url += "&entry.919070178=__other_option__";
+        
+        if (pageCategory.length > 0) {
+            url += `&entry.919070178.other_option_response=${pageCategory}`
+        } else {
+            url += `&entry.919070178.other_option_response=Other`
+        }
+
+        document.getElementById("wikiSurvey").setAttribute("src", url);
+    };
+
 </script>
