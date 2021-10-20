@@ -25,7 +25,8 @@ The second way is by using the public writing form on Google Drive. Use the form
 
 <iframe id=wikiSurvey src="https://docs.google.com/forms/d/e/1FAIpQLSfmI40BafIOfnSk9fbMsl3Gu7hftzyQaP7y-mqiS8ktsqRmGQ/viewform?embedded=true" width="100%" height="1500" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
 
-Not working? [Click here](https://links.b-macdonald.ca/wikiSurvey)
+{% include align.html content='Not working? <a href="https://links.b-macdonald.ca/wikiSurvey">Click here</a>' alignment="center" %}
+
 
 <script>
     let directArgs = window.location.search;
