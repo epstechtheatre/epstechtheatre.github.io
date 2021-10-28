@@ -8,7 +8,7 @@ folder: Lighting
 summary: Tab is used to quickly open a tab on the monitors
 # keywords: []
 authors: ["Ben MacDonald"]
-# last_updated: Month Day, Year
+last_updated: October 28, 2021
 # tags: []
 ---
 

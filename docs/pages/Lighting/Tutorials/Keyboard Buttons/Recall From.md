@@ -8,7 +8,7 @@ folder: Lighting
 summary: Recall From allows you to quickly copy values from one channel to another without immediately saving that data like Copy To does.
 # keywords: []
 authors: [Ben MacDonald]
-# last_updated: Month Day, Year
+last_updated: October 28, 2021
 # tags: []
 ---
 

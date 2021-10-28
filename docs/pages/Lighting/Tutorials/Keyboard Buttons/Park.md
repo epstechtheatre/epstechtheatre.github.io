@@ -8,7 +8,7 @@ folder: Lighting
 summary: Park allows you to forcefully keep a channel, address, or channel parameter at a set level. Parked channels are ignored in record commands.
 # keywords: []
 authors: ["Ben MacDonald"]
-# last_updated: Month Day, Year
+last_updated: October 28, 2021
 # tags: []
 ---
 

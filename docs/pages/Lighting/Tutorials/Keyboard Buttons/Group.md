@@ -8,7 +8,7 @@ folder: Lighting
 summary: Group is used to target and edit creating lighting groups.  
 # keywords: []
 authors: ["Ben MacDonald"]
-# last_updated: Month Day, Year
+last_updated: October 28, 2021
 # tags: []
 ---
 ## Usage

@@ -8,7 +8,7 @@ folder: Lighting
 summary: Undo and Redo can be used to undo and redo most actions taken when using the console. Undo history is cleared on save or power off.
 # keywords: []
 authors: ["Ben MacDonald"]
-# last_updated: Month Day, Year
+last_updated: October 28, 2021
 # tags: []
 ---
 
