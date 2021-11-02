@@ -1,6 +1,6 @@
 ---
 title: EPS Technical Theatre Wiki
-keywords: 'homepage, welcome, overview'
+keywords: ['homepage', 'welcome', 'overview']
 tags:
 - getting_started
 - navigation

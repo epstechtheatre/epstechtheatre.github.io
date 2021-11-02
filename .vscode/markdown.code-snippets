@@ -168,5 +168,13 @@
             "$0"
         ],
         "scope": "markdown"
+    },
+
+    "align": {
+        "prefix": "Align Text",
+        "body": [
+            "{% include align.html content='$1' alignment='left$2center$3right' %}",
+            "$0"
+        ]
     }
 }

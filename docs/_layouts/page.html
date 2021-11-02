@@ -16,7 +16,7 @@ layout: default
         {% endif %}
 
         {% if site.github_editme_path and page.noedit != true %}
-        <a target="_blank" rel="noopener" href="https://github.com/{{site.github_editme_path}}{{page.path}}" class="btn btn-default githubEditButton" role="button"><i class="fa fa-github fa-lg"></i> Edit this page</a>
+        <a target="_blank" href="/contribute_directory.html?githuburl=https://github.com/{{site.github_editme_path}}{{page.path}}&pagefolder={{page.folder}}&pagename={{page.title}}" class="btn btn-default githubEditButton" role="button"><i class="fa fa-github fa-lg"></i> Edit this page</a>
         {% endif %}
     </div>
 </div>
