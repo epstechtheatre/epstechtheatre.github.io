@@ -15,7 +15,11 @@ last_updated: November 02, 2021
 ## Usage
 Use {% include console_button.html content="Stop Effect" %} to quickly stop effects regardless of how they are running (channel, group, or fader assignment).
 
-{% include tip.html content="All functionality of the {% include console_button.html content="Stop Effect" %} button is mirrored in the Effects tab of the magic sheet." %}
+{% capture StopEffectMirroredFunction %}
+All functionality of the {% include console_button.html content="Stop Effect" %} button is mirrored in the Effects tab of the magic sheet.
+{% endcapture %}
+
+{% include tip.html content=StopEffectMirroredFunction %
 
 ## Examples
 {% include console_command.html content="Stop Effect, Enter" noLegend=true noTip=true %}
