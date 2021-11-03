@@ -19,7 +19,7 @@ Use {% include console_button.html content="Stop Effect" %} to quickly stop effe
 All functionality of the {% include console_button.html content="Stop Effect" %} button is mirrored in the Effects tab of the magic sheet.
 {% endcapture %}
 
-{% include tip.html content=StopEffectMirroredFunction %
+{% include tip.html content=StopEffectMirroredFunction %}
 
 ## Examples
 {% include console_command.html content="Stop Effect, Enter" noLegend=true noTip=true %}

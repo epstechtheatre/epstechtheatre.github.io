@@ -383,6 +383,10 @@ entries:
     - title: Softkeys
       output: web
       url: /Lighting_keyboard_softkeys.html
+
+    - title: Stop Effect
+      output: web
+      url: /Lighting_keyboard_stopeffect.html
     
     - title: Sub
       output: web

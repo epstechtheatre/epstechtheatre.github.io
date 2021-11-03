@@ -340,7 +340,7 @@ var buttonURLDict = [
         names: ["form_s6"]
     },
     {
-        url: "/stopeffect.html",
+        url: "/Lighting_keyboard_stopeffect.html",
         names: ["stopeffect"]
     }
 ]

@@ -52,5 +52,7 @@ var LightingKeyboardAliases = {
     ".": "dot",
     "+": "plus",
     "-": "minus",
-    "/": "slash"
+    "/": "slash",
+
+    "load": ["load", "master"]
 }
