@@ -10,14 +10,24 @@
 
         {% if firstChar == "{" and lastChar == "}" %}
             {% assign contentLength = {{buttonText.size | minus: 2 }}%}
-            {% assign usableText = {{buttonText | slice: 1, contentLength }} %}
+            {% assign usableText = {{buttonText | slice: 1, contentLength | split: ' '}} %}
             <span class="display-button-softkey" data-keyid="{{usableText}}">
-                {{usableText | capitalize }}
+                {% capture titlecase %}
+                    {% for word in usableText %}
+                        {{ word | capitalize }}
+                    {% endfor %}
+                {% endcapture %}
+                {{ titlecase }}
             </span>
         {% else %}
-            {% assign usableText = buttonText %}
+            {% assign usableText = buttonText | split: ' ' %}
             <span class="display-button-keypad" data-keyid="{{usableText}}">
-                {{buttonText | capitalize }}
+                {% capture titlecase %}
+                    {% for word in usableText %}
+                        {{ word | capitalize }}
+                    {% endfor %}
+                {% endcapture %}
+                {{ titlecase }}            
             </span>
         {% endif %}
 
