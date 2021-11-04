@@ -219,12 +219,12 @@ function ViewDoWork(View, keyID, revertToSoftkey) {
         let targetKey = docElement.getElementById(searchElement)
 
         if (!targetKey && revertToSoftkey === true) {
-            return this.showNewKey(pageObj, "softkey", View)
+            return ViewDoWork(View, "softkey")
         } else {
             targetKey = docElement.getElementById(searchElement)
 
             if (targetKey) {
-                this.currentKeys.push(targetKey)
+                currentKeys.push(targetKey)
                 getSvgShape(targetKey).style = "fill:lime;stroke:#000000"
             }
         }
