@@ -25,8 +25,7 @@
     color: black;
 }
 
-.display-button-keypad,
-.display-button-softkey {
+.display-button {
     position: relative;
     border-style: ridge;
     border-radius: 10px;
@@ -46,15 +45,14 @@
 .display-button-simultaneous {
     display: flex;
     flex-direction: row;
-    background-color: #F5F5F5;
+    background-color: #FBFBFB;
     border-radius: 5px;
     padding: 7px;
     border-color: #E3E3E3;
     border-width: 2px;
     border-style: ridge;
 }
-.display-button-simultaneous .display-button-keypad,
-.display-button-simultaneous .display-button-softkey {
+.display-button-simultaneous .display-button {
     margin: 0px;
 }
 
@@ -80,8 +78,7 @@
     overflow: auto;
 }
 
-.display-button-softkey > .keyboard-svg-graphic,
-.display-button-keypad > .keyboard-svg-graphic {
+.display-button > .keyboard-svg-graphic {
     top: 100%;
     margin-top: 0.5rem;
 }
