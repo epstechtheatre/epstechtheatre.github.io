@@ -175,7 +175,7 @@ function showNewKey(pageObj, keyID, revertToSoftkey, currentView = undefined) {
     if (currentView) {
         View = currentView
 
-        ViewDoWork(View, keyID, revertToSoftkey)
+        ViewDoWork(View, pageObj, keyID, revertToSoftkey)
     } else {
         View = document.createElement("object")
         View.className = "keyboard-svg-graphic"
@@ -187,12 +187,12 @@ function showNewKey(pageObj, keyID, revertToSoftkey, currentView = undefined) {
         currentGraphic = View;
 
         View.addEventListener("load", () => {
-            ViewDoWork(View, keyID, revertToSoftkey)
+            ViewDoWork(View, pageObj, keyID, revertToSoftkey)
         })
     }
 }
 
-function ViewDoWork(View, keyID, revertToSoftkey) {
+function ViewDoWork(View, pageObj, keyID, revertToSoftkey) {
     if (currentKeys.length > 0) {
         for (let key of currentKeys) {
             getSvgShape(key).style = "fill:white;stroke:#000000"
@@ -204,6 +204,24 @@ function ViewDoWork(View, keyID, revertToSoftkey) {
 
     //Returns a string, or array of strings
     let searchElement = parseHighlight(keyID)
+    let simultaneousHighlight = [];
+
+    //If the pageObj is a simultaneous key, we should highlight a bunch more stuff as well
+    if (pageObj.parentElement?.classList.contains("display-button-simultaneous")) {
+        const simultaneousButtons = pageObj.parentElement.querySelectorAll(".display-button");
+
+        simultaneousButtons.forEach(button => {
+            const buttonID = button.dataset.keyid.toString().replace(/({|}|[|]| )/g, "").toLowerCase();
+            if (buttonID === keyID) {
+                simultaneousHighlight.push(null);
+                return;
+            }
+
+            const additionSearch = parseHighlight(buttonID);
+
+            simultaneousHighlight = simultaneousHighlight.concat(additionSearch);
+        })
+    }
 
     const docElement = View.contentWindow.document.documentElement;
     if (Array.isArray(searchElement)) {
@@ -219,13 +237,48 @@ function ViewDoWork(View, keyID, revertToSoftkey) {
         let targetKey = docElement.getElementById(searchElement)
 
         if (!targetKey && revertToSoftkey === true) {
-            return ViewDoWork(View, "softkey")
+            return ViewDoWork(View, pageObj, "softkey")
         } else {
             targetKey = docElement.getElementById(searchElement)
 
             if (targetKey) {
                 currentKeys.push(targetKey)
                 getSvgShape(targetKey).style = "fill:lime;stroke:#000000"
+            }
+        }
+    }
+
+    if (simultaneousHighlight.length > 0) {
+        let nullFound = false;
+        let nullIndex = 0;
+        let index = 0;
+        const succeedingScale = [[0,255,255],[255,255,255]]  
+        //                        r, g , b     r , g , b
+        //                       [minBound  ,    MaxBound]
+
+        for (let element of simultaneousHighlight) {
+            if (element === null) {
+                nullFound = true;
+                continue;
+            }
+            let targetKey = docElement.getElementById(element);
+
+            if (targetKey) {
+                if (!nullFound) {
+                    nullIndex += 1;
+                }
+                index += 1;
+
+                currentKeys.push(targetKey);
+
+                //Create colour - the closer it is to being the next key, the closer the colour is the min bound
+                const SCALE_FACTOR = 1.3
+                const red = succeedingScale[0][0] + (succeedingScale[1][0] - succeedingScale[0][0]) * (-(1 / ((SCALE_FACTOR * (index) - 1) - nullIndex)) + 1);
+                const green = succeedingScale[0][1] + (succeedingScale[1][1] - succeedingScale[0][1]) * (-(1 / ((SCALE_FACTOR * (index) - 1) - nullIndex)) + 1)
+                const blue = succeedingScale[0][2] + (succeedingScale[1][2] - succeedingScale[0][2]) * (-(1 / ((SCALE_FACTOR * (index) - 1) - nullIndex)) + 1)
+                //https://www.desmos.com/calculator/lnh4xwvosi
+
+                getSvgShape(targetKey).style = nullFound ? `fill:rgb(${Math.round(red)},${Math.round(green)},${Math.round(blue)});stroke:#000000` : "fill:#0088AA;stroke:#000000";
             }
         }
     }
