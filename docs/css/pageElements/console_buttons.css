@@ -40,6 +40,8 @@
     font-size: 110%;
     text-align: center;
     margin: 9px;
+    margin-left: 4px;
+    margin-right: 4px;
 }
 
 .display-button-simultaneous {
@@ -53,7 +55,16 @@
     border-style: ridge;
 }
 .display-button-simultaneous .display-button {
-    margin: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.display-button-simultaneous .display-button:first-child {
+    margin-left: 0px;
+}
+
+.display-button-simultaneous .display-button:last-child {
+    margin-right: 0px;
 }
 
 .display-button-simultaneous .display-button-separator {
