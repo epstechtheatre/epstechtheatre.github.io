@@ -252,9 +252,6 @@ function ViewDoWork(View, pageObj, keyID, revertToSoftkey) {
         let nullFound = false;
         let nullIndex = 0;
         let index = 0;
-        const succeedingScale = [[0,255,255],[255,255,255]]  
-        //                        r, g , b     r , g , b
-        //                       [minBound  ,    MaxBound]
 
         for (let element of simultaneousHighlight) {
             if (element === null) {
@@ -272,13 +269,17 @@ function ViewDoWork(View, pageObj, keyID, revertToSoftkey) {
                 currentKeys.push(targetKey);
 
                 //Create colour - the closer it is to being the next key, the closer the colour is the min bound
-                const SCALE_FACTOR = 1.3
-                const red = succeedingScale[0][0] + (succeedingScale[1][0] - succeedingScale[0][0]) * (-(1 / ((SCALE_FACTOR * (index) - 1) - nullIndex)) + 1);
-                const green = succeedingScale[0][1] + (succeedingScale[1][1] - succeedingScale[0][1]) * (-(1 / ((SCALE_FACTOR * (index) - 1) - nullIndex)) + 1)
-                const blue = succeedingScale[0][2] + (succeedingScale[1][2] - succeedingScale[0][2]) * (-(1 / ((SCALE_FACTOR * (index) - 1) - nullIndex)) + 1)
-                //https://www.desmos.com/calculator/lnh4xwvosi
 
-                getSvgShape(targetKey).style = nullFound ? `fill:rgb(${Math.round(red)},${Math.round(green)},${Math.round(blue)});stroke:#000000` : "fill:#0088AA;stroke:#000000";
+                const succeedingScale = [[0,255,255],[255,255,255]]  
+                //                        r, g , b     r , g , b
+                //                       [minBound  ,    MaxBound]
+
+                const red = simultaneousButtonColourGradient(succeedingScale[0][0], succeedingScale[1][0], nullIndex, index);
+                const green = simultaneousButtonColourGradient(succeedingScale[0][1], succeedingScale[1][1], nullIndex, index);
+                const blue = simultaneousButtonColourGradient(succeedingScale[0][2], succeedingScale[1][2], nullIndex, index);
+
+                // getSvgShape(targetKey).style = nullFound ? `fill:rgb(${red},${green},${blue});stroke:#000000` : "fill:#0088AA;stroke:#000000";
+                getSvgShape(targetKey).style = nullFound ? `fill:rgb(${red},${green},${blue});stroke:#000000` : "fill:blue;stroke:#000000";
             }
         }
     }
@@ -287,6 +288,12 @@ function ViewDoWork(View, pageObj, keyID, revertToSoftkey) {
         View.style.transition = `opacity ${KEYBOARD_SVG_FADE_TIME}ms linear`;
         View.style.opacity = 100;
     }
+}
+
+function simultaneousButtonColourGradient(minBound, maxBound, asymptoteOffset, index) {
+    //https://www.desmos.com/calculator/akipfecugm
+    const SCALE_FACTOR = 1.3;
+    return Math.round(minBound + (maxBound - minBound) * (-(1 / ((SCALE_FACTOR * (index) - 1) - SCALE_FACTOR * asymptoteOffset + 1)) + 1));
 }
 
 function parseHighlight(text) {
