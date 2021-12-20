@@ -13,7 +13,7 @@ $( document ).ready(function() {
         $(".githubEditButton").hide();
         $(".printerViewButton").hide();
         $(".navbar-right").hide();
-        $("#pageFooterHR").hide()
+        $("#pageFooterHR").hide();
 
         $(".container").css({width: "100%"});
         $(".tags").hide();
@@ -24,7 +24,7 @@ $( document ).ready(function() {
         $("#page-footer-logo").width("200");
         $("footer").css({"margin-top": "20px"});
         $(".footer").css({"text-align": "center"});
-        $(".site-last-updated").hide()
+        $(".site-last-updated").hide();
         
         $(".page-url").show();
         $(".page-accessed").show();
