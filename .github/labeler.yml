@@ -46,7 +46,3 @@
 
 'wiki: Images Modified':
 - docs/images/**/*
-
-'wiki: Posts':
-- docs/_posts/**/*.md
-- docs/_posts/**/*.html
