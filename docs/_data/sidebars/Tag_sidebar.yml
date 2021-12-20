@@ -56,10 +56,6 @@ entries:
     - title: Troubleshooting
       output: web
       url: /tag_troubleshooting.html
-
-    - title: Updates
-      output: web
-      url: /tag_updates.html
     
     - title: Other
       output: web

@@ -2,7 +2,7 @@
 @import "pageElements/console_buttons.css";
 @import "pageElements/headers.css";
 @import "pageElements/nav.css";
-@import "pageElements/postContent.css";
+@import "pageElements/pageContent.css";
 @import "pageElements/tables.css";
 @import "pageElements/search.css";
 @import "pageElements/links.css";
@@ -49,7 +49,7 @@ p.external a {
 #definition-box-container div a.active {
     font-weight: bold;
 }
-p.post-meta {font-size: 80%; color: #777;}
+p.page-meta {font-size: 80%; color: #777;}
 
 .entry-date{font-size:14px;font-size:0.875rem;line-height:1.71429;margin-bottom:0;text-transform:uppercase;}
 
@@ -289,7 +289,7 @@ span.soft {
     background-color: whitesmoke;
 }
 
-.post-header {
+.page-header {
     display: flex;
     flex-wrap: wrap;
 }
@@ -365,7 +365,7 @@ time {
     margin-right: 10px;
 }
 
-p.post-meta time {
+p.page-meta time {
     margin-right: 0px;
 }
 

@@ -5,8 +5,6 @@ topnav:
   items:
     - title: GitHub
       external_url: https://github.com/epstechtheatre/epstechtheatre.github.io/
-    - title: Updates
-      url: /updates
 #Topnav dropdowns
 topnav_dropdowns:
 - title: Topnav dropdowns

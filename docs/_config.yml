@@ -80,16 +80,6 @@ defaults:
       search: true
       tooltip: true
 
-  -
-    scope:
-      path: ""
-      type: "posts"
-    values:
-      layout: "post"
-      search: true
-      sidebar: home_sidebar
-      topnav: topnav
-
 # these are defaults used for the frontmatter for these file types
 
 sidebars:
