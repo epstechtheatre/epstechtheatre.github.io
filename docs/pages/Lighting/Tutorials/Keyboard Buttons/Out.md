@@ -13,11 +13,11 @@ last_updated: August 19, 2021
 ---
 
 ## Usage
-{% include console_button.html content="Out" %} can be used with any light that has a non-0 intensity level. 
+{% include lighting/console_button.html content="Out" %} can be used with any light that has a non-0 intensity level. 
 
-Additionally, {% include console_button.html content="Out" %} has an implicit Enter. See [Enter](./Lighting_keyboard_enter.html) for more info.
+Additionally, {% include lighting/console_button.html content="Out" %} has an implicit Enter. See [Enter](./Lighting_keyboard_enter.html) for more info.
 ## Examples
-{% include console_command.html content="1, Out" noLegend=true noTip=true %}
+{% include lighting/console_command.html content="1, Out" noLegend=true noTip=true %}
 
 ## On Keyboard
-{% include console_button.html content="Out" %} is mapped to `O` on a QWERTY keyboard.
+{% include lighting/console_button.html content="Out" %} is mapped to `O` on a QWERTY keyboard.

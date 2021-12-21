@@ -13,9 +13,9 @@ last_updated: August 19, 2021
 ---
 
 ## Usage
-The {% include console_button.html content="Dot" %} is used to add decimals to targets, especially cue IDs. Targets can have up to 3 decimals.
+The {% include lighting/console_button.html content="Dot" %} is used to add decimals to targets, especially cue IDs. Targets can have up to 3 decimals.
 ## Examples
-{% include console_command.html content="Record, Cue, 1, ., 5" noLegend=true noTip=true %}
+{% include lighting/console_command.html content="Record, Cue, 1, ., 5" noLegend=true noTip=true %}
 
 ## On Keyboard
-{% include console_button.html content="Dot" %} is mapped to `.` on a QWERTY keyboard.
+{% include lighting/console_button.html content="Dot" %} is mapped to `.` on a QWERTY keyboard.

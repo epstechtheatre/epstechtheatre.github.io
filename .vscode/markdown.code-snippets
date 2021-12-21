@@ -1,14 +1,14 @@
 {
     "console button": {
         "prefix": ["console button", "keypad button", "button"],
-        "body": "{% include console_button.html content=\"$1\" %}$0",
+        "body": "{% include lighting/console_button.html content=\"$1\" %}$0",
         "scope": "markdown"
     },
 
     "console sequence": {
         "prefix": ["console command", "button sequence", "sequence", "command"],
         "body": [
-            "{% include console_command.html content=\"$1\" noLegend=$2true noTip=$3true %}",
+            "{% include lighting/console_command.html content=\"$1\" noLegend=$2true noTip=$3true %}",
             "$0"
         ],
         "scope": "markdown"

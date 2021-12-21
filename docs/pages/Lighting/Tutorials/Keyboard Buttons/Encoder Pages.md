@@ -17,15 +17,15 @@ last_updated: August 21, 2021
 
 There are six property categories:
 
-- {% include console_button.html content="Intensity" %}
-- {% include console_button.html content="Focus" %}
-- {% include console_button.html content="Color" %}
-- {% include console_button.html content="Shutter" %}
-- {% include console_button.html content="Image" %}
-- and {% include console_button.html content="Form" %}
+- {% include lighting/console_button.html content="Intensity" %}
+- {% include lighting/console_button.html content="Focus" %}
+- {% include lighting/console_button.html content="Color" %}
+- {% include lighting/console_button.html content="Shutter" %}
+- {% include lighting/console_button.html content="Image" %}
+- and {% include lighting/console_button.html content="Form" %}
 
 ### Intensity
-Typically only contains one property: The Brightness of the Light. Brightness is always controllable by the {% include console_button.html content="Manual Wheel" %}.
+Typically only contains one property: The Brightness of the Light. Brightness is always controllable by the {% include lighting/console_button.html content="Manual Wheel" %}.
 
 ### Focus
 Contains the `Pan` and `Tilt` properties of moving lights. Also contains lesser used properties like `Position Speed`, which controls the maximum speed of the light when moving.
@@ -43,17 +43,17 @@ Not super command with traditional lights. Contains properties that manipulate t
 Contains properties such as `Strobe`, `Edge`, and `Zoom`.
 
 ## Usage
-To select a page, hold down {% include console_button.html content="Encoder Display" %} and then click the key for the page you want to select.
+To select a page, hold down {% include lighting/console_button.html content="Encoder Display" %} and then click the key for the page you want to select.
 {% capture note1 %}
-If you aren't using a keyboard with the {% include console_button.html content="Encoder Display" %} button, you do not need to hold it down to select an encoder page.
+If you aren't using a keyboard with the {% include lighting/console_button.html content="Encoder Display" %} button, you do not need to hold it down to select an encoder page.
 {% endcapture %}
 
 {% include note.html content=note1 %}
 
-You can also use these buttons to directly add the name of the property to your current command. Hold down {% include console_button.html content="Shift" %} and click the key.
+You can also use these buttons to directly add the name of the property to your current command. Hold down {% include lighting/console_button.html content="Shift" %} and click the key.
 ## Examples
-You want change to the colour page to manipulate the cyc. Use {% include console_button.html content="Encoder Display" %} and {% include console_button.html content="Color" %}
+You want change to the colour page to manipulate the cyc. Use {% include lighting/console_button.html content="Encoder Display" %} and {% include lighting/console_button.html content="Color" %}
 
-You want to home the Color properties for channel 1. Type {% include console_button.html content="1" %}, {% include console_button.html content="Shift" %} + {% include console_button.html content="Color" %}, {% include console_button.html content="Home" %}, {% include console_button.html content="Enter" %}.
+You want to home the Color properties for channel 1. Type {% include lighting/console_button.html content="1" %}, {% include lighting/console_button.html content="Shift" %} + {% include lighting/console_button.html content="Color" %}, {% include lighting/console_button.html content="Home" %}, {% include lighting/console_button.html content="Enter" %}.
 ## On Keyboard
 None of the Encoder Pages are mapped to a key. However, you can change pages from within the Encoder Display menu on the monitor. You can also directly select properties from this area.

@@ -1,0 +1,75 @@
+<!-- Display a sequence of keyboard buttons that look aesthetically nice -->
+
+<!-- Content syntax: "Button, Separated, By, Commas, {Softkey in brackets}, Simultaneous + Buttons, with + pluses" -->
+<div class="button-sequence">
+    {% assign texts = {{include.content | replace: "  ", " " | split: ', '}} %}
+    
+    {% for buttonText in texts %}
+        {% assign firstChar = {{buttonText | slice: 0,0}} %}
+        {% assign lastChar = {{buttonText | slice: -1,-1}} %}
+        {% assign workingSet = '' | split: "," %}
+        {% if buttonText contains "+" %}
+            <span class="display-button-simultaneous">
+            {% assign plusSplit = buttonText | split: "+" %}
+            {% for simult in plusSplit %}
+                {% assign workingSet = workingSet | push: simult %}
+            {% endfor %}
+        {% else %}
+            {% assign workingSet = workingSet | push: buttonText %}
+        {% endif %}
+
+        {% for single in workingSet %}
+            {% if single.size == 0 %}
+                continue
+            {% endif %}
+            {% if firstChar == "{" and lastChar == "}" %}
+                {% assign contentLength = {{single.size | minus: 2 }}%}
+                {% assign usableText = {{single | slice: 1, contentLength | split: ' '}} %}
+                <span class="display-button display-button-softkey" data-keyid="{{usableText}}">
+                    {% capture titlecase %}
+                        {% for word in usableText %}
+                            {{ word | capitalize }}
+                        {% endfor %}
+                    {% endcapture %}
+                    {{ titlecase }}
+                </span>
+            {% else %}
+                {% assign usableText = single | split: ' ' %}
+                <span class="display-button display-button-keypad" data-keyid="{{usableText}}">
+                    {% capture titlecase %}
+                        {% for word in usableText %}
+                            {{ word | capitalize }}
+                        {% endfor %}
+                    {% endcapture %}
+                    {{ titlecase }}            
+                </span>
+            {% endif %}
+
+            {% unless forloop.last %}
+                <span class="display-button-separator">&</span>
+            {% endunless %}
+        {% endfor %}
+
+        {% if buttonText contains "+" %}
+            </span>
+        {% endif %}
+
+        {% unless forloop.last %}
+        <span class="display-button-separator">▶</span>
+        {% endunless %}
+    {% endfor %}
+
+    <!-- Create a legend for the buttons, unless disabled with flag -->
+    {% unless include.noLegend == true %}
+    <div class="button-sequence-legend">
+        Solid boxes represent keyboard buttons<br>Dotted boxes represent softkeys
+    </div>
+    {% endunless %}
+</div>
+
+<!-- Create a tip telling readers to hover over buttons, unless disabled with flag -->
+{% unless include.noTip == true %}
+<div class="console_command_tip">
+    {% include tip.html content="Hover over a button to see where it is on the keyboard" %}
+</div>
+{% endunless %}
