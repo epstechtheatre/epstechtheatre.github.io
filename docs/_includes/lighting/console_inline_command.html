@@ -1,7 +1,7 @@
 <!-- Display a sequence of keyboard buttons that look aesthetically nice -->
 
 <!-- Content syntax: "Button, Separated, By, Commas, {Softkey in brackets}, Simultaneous + Buttons, with + pluses" -->
-<div class="button-sequence">
+<div class="button-sequence-inline">
     {% assign texts = {{include.content | replace: "  ", " " | split: ', '}} %}
     
     {% for buttonText in texts %}
@@ -46,7 +46,11 @@
             {% endif %}
 
             {% unless forloop.last %}
-                <span class="display-button-separator">&</span>
+                {% if include.andAsWord == true %}
+                    <span class="display-button-separator">and</span>
+                {% else %}
+                    <span class="display-button-separator">&</span>
+                {% endif %}
             {% endunless %}
         {% endfor %}
 
@@ -58,18 +62,4 @@
         <span class="display-button-separator">▶</span>
         {% endunless %}
     {% endfor %}
-
-    <!-- Create a legend for the buttons, unless disabled with flag -->
-    {% unless include.noLegend == true %}
-    <div class="button-sequence-legend">
-        Solid boxes represent keyboard buttons<br>Dotted boxes represent softkeys
-    </div>
-    {% endunless %}
 </div>
-
-<!-- Create a tip telling readers to hover over buttons, unless disabled with flag -->
-{% unless include.noTip == true %}
-<div class="console_command_tip">
-    {% include tip.html content="Hover over a button to see where it is on the keyboard" %}
-</div>
-{% endunless %}

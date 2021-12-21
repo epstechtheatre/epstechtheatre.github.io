@@ -46,7 +46,11 @@
             {% endif %}
 
             {% unless forloop.last %}
-                <span class="display-button-separator">&</span>
+                {% if include.andAsWord == true %}
+                    <span class="display-button-separator">and</span>
+                {% else %}
+                    <span class="display-button-separator">&</span>
+                {% endif %}
             {% endunless %}
         {% endfor %}
 
