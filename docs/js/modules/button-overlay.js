@@ -1,6 +1,7 @@
 import {validReqArgs} from "./uriArgs.js"
 
 const KEYBOARD_SVG_FADE_TIME = 150;
+const EDGE_BUFFER = 5;
 
 $( document ).ready(function() {
     if (document.getElementsByClassName("display-button-softkey").length > 0
@@ -121,6 +122,22 @@ function ViewDoWork(View, keyID, revertToSoftkey) {
             }
         }
     }
+
+    const smallScreenCorrection = View.scrollWidth >= window.screen.width - 1
+
+    if (smallScreenCorrection) {
+        View.style.left = `${View.offsetLeft - (View.getBoundingClientRect().right - window.screen.width)}px`
+    } else {
+        if (View.getBoundingClientRect().right > window.screen.width ) {
+            View.style.left = `${View.offsetLeft - (View.getBoundingClientRect().right - window.screen.width) - EDGE_BUFFER}px`
+        } 
+    
+        if (View.getBoundingClientRect().left < 0) {
+            View.style.left = `${View.offsetLeft - (View.getBoundingClientRect().left) + EDGE_BUFFER}px`
+        } 
+    }
+
+
 
     if (View.style.opacity !== 100) {
         View.style.transition = `opacity ${KEYBOARD_SVG_FADE_TIME}ms linear`;
