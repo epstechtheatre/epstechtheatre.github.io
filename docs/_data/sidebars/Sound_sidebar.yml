@@ -33,7 +33,7 @@
 
 entries:
 - title: Sound
-  product: Sound
+  product: <i class="fa fa-volume-up" aria-hidden="true"></i> Sound
   #version: 1.0
   folders:
 
