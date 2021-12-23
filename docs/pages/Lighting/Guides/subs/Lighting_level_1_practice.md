@@ -13,18 +13,17 @@ tags: [guide, lighting, supplement]
 customPageType: assignment
 ---
 
-{% include callout.html type="danger" content="Remember! Asking for help is a strength, not a weakness!" %}
-
 # Prerequisites
 {% include guide-req.html check=true content="Create and load a new showfile" %}
 {% include guide-req.html check=true content="Set the intensity of lights and light groups" %}
 {% include guide-req.html check=true content="Record lights into a cue list and understand how recording works" %}
 {% include guide-req.html check=true content="Set the non-intensity parameter of a light or light group" %}
 {% include guide-req.html check=true content="Understanding of proper warmup procedure" %}
+{% include guide-req.html check=true content="How to use and modify prebuilt effects<br>" %}
+
 
 You will not need to know:
 {% include guide-req.html check=false content="How transition timings work<br>" %}
-{% include guide-req.html check=false content="How to apply other effects to lights<br>" %}
 {% include guide-req.html check=false content="Any knowledge from guides 2-4 (those guides have their own assignments)" %}
 
 # Task
@@ -38,8 +37,11 @@ Create a new showfile from the mainfile. Using the methods you have learned, bui
 
 - A cue where each light transitions to a different colour. Make sure to utilize both lights that have linear colour selection and step-based colour selection
 - A cue that transitions a parameter other than colour or intensity
+- A cue that utilizes an absolute effect running on one light or group, as well as two effects running simultaneously on a different light or group.
+
+{% include callout.html type="danger" content="Remember! Asking for help is a strength, not a weakness!" %}
 
 # Sample
-A cue list demonstrating the above requirements is available for [download](/db/Lighting_level_1_practice_solution.zip).
+Although we strongly recommend you attempt this by yourself first, a cue list demonstrating the above requirements is available for download [here](/db/Lighting_level_1_practice_solution.zip).
 
-See the tutorial on [Running EOS on a Separate Computer](./Lighting_tutorial_eos_off_console.html) for more info on opening the sample.
+See the tutorial on [Running EOS on a Separate Computer](./Lighting_tutorial_eos_off_console.html) for more help opening the sample.

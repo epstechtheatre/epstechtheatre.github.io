@@ -45,7 +45,7 @@ Contains properties such as `Strobe`, `Edge`, and `Zoom`.
 ## Usage
 To select a page, hold down {% include console_button.html content="Encoder Display" %} and then click the key for the page you want to select.
 {% capture note1 %}
-If you aren't using a keyboard with the {% include console_button.html content="Encoder Display" %} button, you do not need to hold it down to select an encoder page.
+If you aren't using a keyboard with the {% include console_button.html content="Encoder Display" %} button, you do not need to hold it down to select an encoder page. On consoles like these, typically the encoder page buttons are not shared with another function.
 {% endcapture %}
 
 {% include note.html content=note1 %}

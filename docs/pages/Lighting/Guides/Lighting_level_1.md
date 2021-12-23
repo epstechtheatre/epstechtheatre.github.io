@@ -9,13 +9,14 @@ summary: This guide covers the remaining missing knowledge you need to get start
 draft: true
 tags: [lighting, guide]
 customPageType: guide
-last_updated: August 30, 2021
+last_updated: December 15, 2021
 ---
 
 {% include important.html content="If this is the first time you are seeing these guides, <a alt='Start with the Absolute Basics' href='/Lighting_level_0'>Start Here</a>" %}
 
 ## Outcomes of this Guide:
 {% include guide-req.html check=true content="Control multicoloured lights and lights with additional non-intensity parameters" %}
+{% include guide-req.html check=true content="Apply pre-made effects to a light or group of lights" %}
 {% include guide-req.html check=true content="Record and playback a basic lighting cue list" %}
 {% include guide-req.html check=true content="Learn how to close and reopen the software without shutting down the lighting board" %}
 {% include guide-req.html check=true content="Learn the usage of some less-commonly used but useful keyboard buttons" %}
@@ -24,7 +25,7 @@ last_updated: August 30, 2021
 
 <br>
 
-Now that you have a basic understanding of how to use the lighting board, these guides can become less bloated and start to only contain the information that is absolutely needed. With that being said, there are still a few things you should learn ASAP. 
+Now that you have a basic understanding of how to use the lighting board, we can start building on the skills you have to do more and more with the systems. Just like math, once the syntax clicks, you'll be well on your way to mastery!
 
 ## Controlling Multicoloured Lights
 We don’t have a lot of these types of lights in our theatre, but we do use them often enough that it is very important that you know how to control them. Luckily it is very easy to do this.
@@ -39,43 +40,125 @@ On the monitors, select or open a new colour picker tab (refer to the previous g
 
 {% include important.html content="If you don’t have at least one multicolour light selected, you will still be able to use the colour picker and it will appear to work, however, nothing will happen." %}
 
-
 ### Controlling via the Magic Sheet
-At the bottom of some of the tabs of the magic sheet, there are two rows of coloured boxes. These act as a great way to quickly get a colour on stage when you’re in a pitch or want to find ‘something close’. The top row is specifically designed for the cyc, and will only work for the cyc LEDs. The bottom row will work for any LED, but was designed for the scrollers (each colour is a frame in the scroller unit). See the next section for more information on lights with non-granular colour control.
+At the bottom of some of the tabs of the magic sheet, there are two rows of coloured boxes. These act as a great way to quickly get a colour on stage when you’re in a pitch or want to find ‘something close’. The top row is specifically designed for the cyc, **and will only work for the cyc LEDs.** The bottom row will work for any LED, but was designed for the scrollers (each colour is a frame in the scroller unit). See the next section for more information on lights with non-granular colour control.
 
 To use this, simply select a light and then click or tap a colour on the magic sheet. If the light is compatible with the colour, it will just work, otherwise it will try its best.
 ### Controlling via Encoder Wheels
-At the top of the console keyboard, there are 4 wheels. These are the {% include console_button.html content="Encoder Wheels" %}. They allow you to control each individual parameter for lights. First, you need to make sure the encoders are in colour mode. On the Ion Xe, you can see what mode you are in at the bottom of your main monitor. From now on, this will be known as the encoder display. It is highlighting in red below:
+At the top of the console keyboard, there are 4 wheels. These are the {% include console_button.html content="Encoder Wheels" %}. They allow you to control each individual parameter for lights. Because there are more parameters than there are encoder wheels, the board groups the parameters by type into pages (or modes) that you can swap between. 
+<br><br>
+First, you need to make sure the encoders are in colour mode. On the Ion Xe, you can see what mode you are in at the bottom of your main monitor. From now on, this will be known as the encoder display. It is highlighting in red below:
 
 ![Encoder Mode Position Image](./images/Lighting/encoder-display.png)
 
 {% include note.html content="The highlighted section doesn’t have the name of the mode, just the name of the properties in the mode, if you are in colour mode, for example, you will see the names of colours." %}
 
-To change to colour mode, either click the up triangle to the right of the section highlighted in red then click Color, or hold down Encoder Page and click Color. 
+There are 4 boxes in the display, which correspond to the 4 encoder wheels on the board. Each contains the name of the parameter it controls, as well as the current value of it.
+<br><br>
+To change into colour mode, either click the up triangle to the right of the section highlighted in red then click Color, or hold down Encoder Page and click Color. 
 
 Some modes have more than 4 properties. You can check this by clicking the same triangle as described above. Each mode says how many pages of properties there are.
 
-When you select a channel or group, if those lights have the currently displayed properties, their values will appear in the highlighted section. For example, if you select the cyc, it’s red, green and blue properties will appear in the respective boxes. When you see this, you’re all set. Spin the encoder wheels for each box to granularly control each property.
+You might be wondering why there are so many properties. This is because when you don't have a light selected, it shows the properties from every light patched into the system. When you select a light (or lights), it will remove all of the irrelevant properties for your selection (ie, if you select the cyc, you will only see colour properties, not mover properties, or vise versa).
+
+With the light selected, granularly update each parameter by spinning the encoder wheels, just as you were doing with the {% include console_button.html content="Manual Wheel" %}.
 
 ### Lights with Colour Properties, but Not Granular Control
-This is specifically for the scrollers, but other lights have this as well. Instead of having LEDs, scrollers change colour by moving a coloured gel in front of regular light, this means that the colours you can use are limited and predetermined. 
+It would make sense that if you change a property using a wheel, you get very fine precision over the changes, but that isn't always the case. There are some lights in the theatres which use parameters as a mode selector (where there are a finite number of modes), or as another type of finite selector.
 
-If you are changing the colour of a light like this via the colour picker, you will notice that the crosshair will snap to certain points. These points represent the frames in the unit.
+The example you'll run into quite commonly is the scrollers. Scrollers get there colour by cheating and sliding a coloured gel under the light, instead of changing the light directly. However, there are only so many different gels in the housing. Instead of changing the individual red, green, and blue parameters, you select from a predetermined list.
 
-I find it best to use the encoder wheels to change these lights. This way, not only do you not have to worry about what colours you can use, you also get to see some of the wonderful names that companies use for their colours. I strongly recommend you learn how to use the encoder wheels as you will use them as often, if not more often, than the manual wheel.
+Other lights have this as well. For example the DJ mover which does this for both it's colours, as well as for a ton of mode selectors.
+
+{% include tip.html content="If you are changing the colour of a light like this via the colour picker, you will notice that the crosshair will snap to certain points. The point it snaps to is the frame which has the closest colour to where you initially clicked." %}
+
+When manipulating these lights, I find it best to use the encoder wheels over the magic sheet or colour picker. This way, not only do you not have to worry about what colours you can use, you also get to see some of the wonderful names that companies use for their colours. **I strongly recommend you learn how to use the encoder wheels as you will use them as often, if not more often, than the manual wheel.**
 
 ## Controlling Lights with Other Non-Intensity Parameters
 This is very similar to controlling colour, in fact it is functionally identical. The only difference is that with colour, you got a colour picker tab, now you don’t.
 
-To change any parameter on a light, select the encoder mode and the light(s), then spin the encoder wheels. Some example of this are:
+To change any parameter on a light, select the encoder mode that the parameter is under, and the light(s) you want to modify, then spin the encoder wheels. Some example of this are:
 
 - Using focus mode to change the rotation and angle of a moving light
 - Using image mode to change the light patterns of a fancy LED
 - Using form mode to change the strobe intensity of an LED light
 
-{% include callout.html type="success" content="Just like changing colour, select the channel you want to change, and it’s parameters will populate the encoder display. Then, spin the encoder wheels to change the value." %}
+## Effects
+Sometimes, static looks just don't cut it for the feel you are going for. When this happens, we use effects. Effects are animated programs that run while a cue is loaded, and they are super powerful. Effects are covered more thoroughly in [Level 3](/Lighting_level_3.html), but for now we will just learn how to add an effect to a light.
 
-Now that you know how to control every type of light in the theatre, you can start recording cues with them.
+### Different Types of Effects
+In general, there are two types of effects: Those that can be run on any light, and those that have to be run on a light with a certain parameter or parameters (like `Red` or `Pan`). There are a ton of effects built right into the board that you can use in any showfile you are in, and in Level 3, you will learn how to make your own effects.
+
+Practically, effect types get a little more muddy. You will mostly be using `Linear` effects, or `Absolute` Effects. You will need to know what type of effect you're using in order to follow the editing instructions a little down the page.
+
+Linear effects use graphs and algebra to smoothly change parameters in an effect. Absolute effects, on the other hand, require the effect author to specify each distinct state of the effect, which the computer will then transition between. Both have their advantages:
+
+Linear effects can use something call the "Base Property Value" and run based on that. If you applied a linear intensity effect to a light currently at 50%, and that effect made the intensity oscillate up and down 25%, you would notice different intensity if the light was initially at 25%.
+
+Absolute effects allow you to have much more aggressive and precise motions. For example if you have a colour-based effect but you don't want the colour to blend like it would linearly, you can make absolute looks for each of the most saturated colours and jump between them (We call this effect an absolute colour shift or rainbow).
+
+### Apply Effects Using the Magic Sheet
+On the `Effects` tab of the magic sheet, you can see a few commonly used effects. There are also a bunch of other buttons that are used for modifying effects, so don't worry about those for now.
+
+To apply an effect, make sure you are starting from an empty command line, then specify the light or groups you want to target. Navigate to the effects tab and click the effect you want to apply. Effects in Grey boxes control intensity, and green boxes control any other parameter. Some effects can only be used by certain lights so make sure you are selecting a something compatible.
+
+You should see the effect immediately start playing. If it doesn't look quite like you want, there are a couple ways you might be able to fix it. That will be covered in a moment
+
+### Apply Effects Using the Command Line
+To apply an effect to a light, or group, you specify which lights you want to target, then type effect, and then type the effect id. It's a very similar syntax to how you would change the intensity of a light:
+
+{% include console_command.html content="Group, Number, Effect, Number, Enter" noLegend=true noTip=true %}
+
+Like cues and lights and groups and everything else, effects also have numbers, however, finding out what those numbers are can be a little tricky if you don't know what you're doing. One of the ways to find an effect number is by looking on the `Effects` tab in the Magic Sheet. The other way is by opening the Effect Editor. 
+
+{% capture blind_mode_warning %}
+The effect editor uses a mode called Blind Mode. You haven't learned how to use blind mode yet, so make sure you don't accidentally fire commands or click buttons or anything. Even just left clicking the mouse in the wrong place can break things! To get out of Blind mode press {% include console_button.html content="Live" %}.
+{% endcapture %}
+
+{% include warning.html content=blind_mode_warning %}
+
+To open the effect editor, quickly press {% include console_button.html content="Effect" %} twice. The screen on your monitor will change colour and content, and you should see a list of effects numbers, some of them might even be labelled. Use the scroll wheel on the mouse to scroll through. If scrolling is affecting content on the wrong monitor, click on the tab name in the tab list. Memorize the ID of the effect you want to try and then **Click {% include console_button.html content="Live" %} to return to live mode**. Make sure you do this! Otherwise your command will fail and might break stuff.
+
+Once you're back in live (you can tell if the {% include console_button.html content="Live" %} button is lit up orange). Then, use the syntax above to try out the effect.
+
+### Making Edits to and Stopping Running Effects
+Most of the time, prebuilt effects may be close to what you want, but never right on. To fix that, we can do something called Live Effect Editing (or synonymously, editing effects in Live Mode). We haven't covered what that means quite yet, but simply but, it means changes you make to the effect in one cue don't propagate to any other cue that uses the same effect. 
+<br><br>
+In this guide, we'll being using the Magic Sheet Effect tab to help us. Let's break down what this all means:
+{% include image.html file="Lighting/l1-effects-ms.png" alt="Effects Page Image" %}
+
+The main part, of course, is a selection of effects you can pick from. The right hand side has common modifiers.
+
+**Size:** Controls how much the effect can manipulate the parameters of a light. For example, a linear effect causing an intensity oscillation of 20% running at 50% size would then only run as a 10% oscillation.
+
+**Rate:** Controls how fast the effect runs. A 3 second effect running at 200% would complete the same effect loop in 1.5 seconds.
+
+**Grouping:** By default, the starting position of an effect is smeared across each of the lights it affects. For example, a 3 second long effect running on 3 lights where lights were off for 1 second, at 50% for 1 second and at full for 1 second would have light 1 start at 0%, light 2 at 50% and light 3 at 100%. If the effect was running on more lights (such as 4), then light 1 would start at whatever the intensity was at 3/4 seconds (0%), light 2 would start at (3/4)\*2 seconds, light 3 at (3/4)\*3 seconds, etc.
+
+By modifying the grouping, you're specifying how much spread should exist. Using the same example as above, if it had a grouping of 1, the effect would run on every light as if they were the same light (therefore, every light would have the same intensity at the same time; there would be no spread). Setting a larger group size than the number of lights the effect is running on makes the lights transition smoother through steep transition curves (such as colour transitions). Even is a group size equal to number of lights the effect is running on.
+
+To change the parameters of an effect, first, make sure your command line is empty, then type:
+{% include console_command.html content="Effect, Number, Enter" noLegend=true noTip=true %}
+
+That's all you'll have to do from the command line. You'll know you did it right if a dialogue pops up showing all your running effects. Next, just click a button to change that property. Alternatively, if the built-in modifiers don't work you can select "Input" and type a percentage into the command line (remember to terminate your command!).
+
+The bottom row of buttons are other, effect-specific attributes you can toggle. Using the same syntax as above, play around with each property to see what they do.
+
+To stop a running effect, use the shortcuts in the bottom right corner or the `Stop All Effects` button in the top right. Some shortcuts require some additional information (such as what effect to stop or what lights to stop the effect on), you'll know if this is the case if you see `Running Macro xxx` flashing above your command line. Look for hints about what information the shortcut is asking for by looking at what is already entered into command. For these shortcuts, typically the only thing you need to enter is the channel id or the effect id.
+
+Lastly, in order to save your effect modifications, you need to save it into a cue.
+{% include important.html content="If you go to a different cue or otherwise stop your effects, YOU WILL LOSE ANY WORK NOT SAVED!" %}
+
+Read below for how to record cues.
+
+### Limitations
+Effects can't do everything, there are a lot of things that you need to consider. Especially in the future when you're creating your own. These are the limitations you will run into with respect to this level.
+
+First, while you can apply multiple effects to a light, there is a restriction that each running effect on a light must target different parameters. If you attempt to add another conflicting effect to a light, only the most recent effect is used. For example, you can have an intensity effect and a pan effect, but not two intensity effects.
+
+Second, when playing back effects that are saved in a cue, all effects start playing at the exact same time. This means looks might look different that when you programed them. This is especially important if you are trying to convey and theme like "chaos"; If you started effects at different times while programming, those effects will all fall into unison after it's saved.
+
+Lastly, effects are not a force to be reckoned with, **they rarely look good right out the gate.** Even though I did a ton with effects, I never made one perfect right away. The best effect is simple and reusable.
 
 ## Recording and Playing Back Cues
 
