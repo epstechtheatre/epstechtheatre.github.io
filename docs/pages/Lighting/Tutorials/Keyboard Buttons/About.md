@@ -17,7 +17,7 @@ With nothing in your command line. Pressing {% include console_button.html conte
 
 You can also use about to see information about any target. This is especially useful if you have a "Zombie Light" that is stuck on for some reason.
 
-Press {% include console_button.html content="About" %} again to close the window.
+Press {% include console_button.html content="About" %} again to close the window. You will need to do this before you can access other parts of the UI, such as the file browser.
 ## Examples
 
 {% capture col1 %}
@@ -30,12 +30,12 @@ With an empty command line, press {% include console_button.html content="About"
 
 
 
-{% include faq_opening.html %}
+{% include faq/opening.html %}
 
-{% include faq_panel.html number='one' title='Figure out why a light won\'t turn off when you go to a cue' body=col1 %}
+{% include faq/panel.html panelUID='softwareUpToDate' title='Check if your software is up-to-date' body=col2 %}
 
-{% include faq_panel.html number='two' title='Check if your software is up-to-date' body=col2 %}
+{% include faq/panel.html panelUID='ZombieLight' title='Figure out why a light won\'t turn off when you go to a cue' body=col1 %}
 
-{% include faq_closing.html %}
+{% include faq/closing.html %}
 ## On Keyboard
 {% include console_button.html content="About" %} is mapped to `Y` on a QWERTY keyboard
