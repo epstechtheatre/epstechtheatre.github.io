@@ -19,8 +19,23 @@ You can also use about to see information about any target. This is especially u
 
 Press {% include console_button.html content="About" %} again to close the window.
 ## Examples
-You want to check if your software is up-to-date. With an empty command line, press {% include console_button.html content="About" %} and check the reported version against the latest download on the ETC website.
 
-You are trying to figure out why a light won't turn off when you go to cue 0. Type in the ID of the channel and click {% include console_button.html content="About" %} to see where it is getting properties from.
+{% capture col1 %}
+Type in the ID of the channel and click {% include console_button.html content="About" %} to see where it is getting properties from.
+{% endcapture %}
+
+{% capture col2 %}
+With an empty command line, press {% include console_button.html content="About" %} and check the reported version against the latest download on the ETC website.
+{% endcapture %}
+
+
+
+{% include faq_opening.html %}
+
+{% include faq_panel.html number='one' title='Figure out why a light won\'t turn off when you go to a cue' body=col1 %}
+
+{% include faq_panel.html number='two' title='Check if your software is up-to-date' body=col2 %}
+
+{% include faq_closing.html %}
 ## On Keyboard
 {% include console_button.html content="About" %} is mapped to `Y` on a QWERTY keyboard
