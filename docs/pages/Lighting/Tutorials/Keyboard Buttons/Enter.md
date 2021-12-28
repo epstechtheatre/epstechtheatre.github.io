@@ -8,7 +8,7 @@ folder: Lighting
 summary: The Enter key is used to terminate commands you type into the console. It is also used to confirm some dialog popups on the monitor, such as cue deletion/overwrite confirmations.
 # keywords: []
 authors: ["Ben MacDonald"]
-last_updated: August 19, 2021
+last_updated: December 28, 2021
 # tags: []
 ---
 
@@ -25,9 +25,35 @@ Some commands will add an implicit enter for you and run without needing to pres
 - [Percent Nudges](Lighting_keyboard_percent_nudge.html)
 
 ## Examples
+<!-- Leave the linkID blank if you want to be able to open multiple sections at once.
+Otherwise, only one panel can be open at a time per linkUID.
+panelUID must be unique to all other faq panels on this page -->
+
+{% include faq/opening.html linkUID='' %}
+
+{% capture TypicalUse %}
 {% include console_command.html content="1, At, Full, Enter" noLegend=true noTip=true %}
-<br>
+{% include callout.html type="success" content="This example simply sets Channel 1 to Full intensity. Changing the parameters of lights is the most common time you will be using enter." %}
+{% endcapture %}
+
+{% capture ImpliedEnterCallout %}
+This example uses the {% include console_button.html content="Out" %} keyword to quickly set Channel 1 to 0% intensity. {% include console_button.html content="Out" %} is an example of an operation that automatically hits {% include console_button.html content="Enter" %} and terminates the command.
+{% endcapture %}
+
+{% capture ImpliedEnter %}
 {% include console_command.html content="1, Out" noLegend=true noTip=true %}
+{% include callout.html type="success" content=ImpliedEnterCallout %}
+{% endcapture %}
+
+
+{% include faq/panel.html panelUID='TypicalUse' title='Typical Use' body=TypicalUse linkUID='' startOpen='true' %}
+
+{% include faq/panel.html panelUID='ImpliedEnter' title='Operations with implied enter' body=ImpliedEnter linkUID='' startOpen='false' %}
+
+
+{% include faq/closing.html%}
+
+<br>
 
 
 ## On Keyboard
