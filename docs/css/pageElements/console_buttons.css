@@ -96,6 +96,7 @@
     height: max-content;
     padding: 15px;
     overflow: auto;
+    box-shadow: 1px 1px rgba(0,0,0,0.5);
 }
 
 .display-button > .keyboard-svg-graphic {
