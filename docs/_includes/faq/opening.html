@@ -1,0 +1,9 @@
+{% if include.linkUID != empty and include.linkUID.size > 0 %}
+<div class="panel-group" id={{include.linkUID}}>
+{% else %}
+<div class="panel-group">
+{% endif %}
+
+<div class="faq-mobile-warning">
+    {% include callout.html type="danger" content="Because you are using a touchscreen device, you may have to double-tap the title to open or close it's section."%}
+</div>
