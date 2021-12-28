@@ -56,7 +56,7 @@ panelUID must be unique to all other faq panels on this page -->
 {% include faq/closing.html%}
 
 
-### Lesser Used or Specific Examples
+### Lesser Used / Specific Examples
 
 <!-- Leave the linkID blank if you want to be able to open multiple sections at once.
 Otherwise, only one panel can be open at a time per linkUID.

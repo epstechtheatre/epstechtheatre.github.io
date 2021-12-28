@@ -203,5 +203,11 @@
             "$0"
         ],
         "scope": "markdown"
+    },
+
+    "code tag enclose": {
+        "prefix": "<code> enclose",
+        "body": "<code>$1</code>$0",
+        "scope": "markdown"
     }
 }
