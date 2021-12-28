@@ -33,7 +33,7 @@
 
 entries:
 - title: Lighting
-  product: Lighting 
+  product: <i class="fa fa-lightbulb-o" aria-hidden="true"></i> Lighting
   #version: 1.0
   folders:
 

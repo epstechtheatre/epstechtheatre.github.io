@@ -29,6 +29,7 @@ body:
         - Chrome
         - Safari
         - Microsoft Edge
+        - This issue is not linked to specific browser
         - Other (Include name below!)
     validations:
       required: true
@@ -40,9 +41,10 @@ body:
       options:
         - Windows
         - Mac
-        - IPhone
-        - IPad
+        - iPhone
+        - iPad
         - Android
+        - This issue is not linked to a specific device
         - Other (Include name below!)
     validations:
       required: true
