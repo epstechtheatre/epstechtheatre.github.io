@@ -23,12 +23,12 @@ panelUID must be unique to all other faq panels on this page -->
 {% include faq/opening.html linkUID='' %}
 
 {% capture CloseTabCallout %}
-Depending on your open tabs and the tab you just closed, the board may switch into or out of [Live Mode](Lighting_keyboard_live_blind.html). You can tell if this has happened by the current state of the lights on the {% include console_button.html content="Live" %} and {% include console_button.html content="Blind" %} buttons.<br><br>If you are in Live Mode, an orange light will be visible on the {% include console_button.html content="Live" %} button, and the word "Blind" will not be present in any of the upper corners of either monitor.
+Depending on your open tabs and the tab you just closed, the board may switch into or out of [Live Mode](Lighting_keyboard_live_blind.html). You can tell if this has happened by the current state of the lights on the {% include lighting/console_button.html content="Live" %} and {% include lighting/console_button.html content="Blind" %} buttons.<br><br>If you are in Live Mode, an orange light will be visible on the {% include lighting/console_button.html content="Live" %} button, and the word "Blind" will not be present in any of the upper corners of either monitor.
 {% endcapture %}
 
 
 {% capture CloseTab %}
-Simply click on the tab using your mouse pointer to select it, then press {% include console_button.html content="Escape" %}.
+Simply click on the tab using your mouse pointer to select it, then press {% include lighting/console_button.html content="Escape" %}.
 {% include warning.html content=CloseTabCallout %}
 
 {% endcapture %}
@@ -42,4 +42,4 @@ Simply click on the tab using your mouse pointer to select it, then press {% inc
 
 
 ## On Keyboard
-{% include console_button.html content="Escape" %} is mapped to `Escape` on a QWERTY keyboard.
+{% include lighting/console_button.html content="Escape" %} is mapped to `Escape` on a QWERTY keyboard.

@@ -13,13 +13,13 @@ last_updated: August 21, 2021
 ---
 
 ## Usage
-Like the manual wheel, {% include console_button.html content="Encoder Wheels" %} require a selected light in the command line before you can control properties. When a light or group is selected, a list of properties will appear in the encoder display of the monitor. Only properties that the selected light has will appear in the encoder display.
+Like the manual wheel, {% include lighting/console_button.html content="Encoder Wheels" %} require a selected light in the command line before you can control properties. When a light or group is selected, a list of properties will appear in the encoder display of the monitor. Only properties that the selected light has will appear in the encoder display.
 
 When no light is selected every unique property from your current lighting patch will be displayed.
 
 There are six categories of encoder properties. To switch between them, see [Encoder Pages](./Lighting_keyboard_encoderpages.html).
 
-The {% include console_button.html content="Encoder Wheels" %} are also clickable. When you click an {% include console_button.html content="Encoder Wheel" %}, you append the property it manipulate to your current command line. See the Lesser Used Examples.
+The {% include lighting/console_button.html content="Encoder Wheels" %} are also clickable. When you click an {% include lighting/console_button.html content="Encoder Wheel" %}, you append the property it manipulate to your current command line. See the Lesser Used Examples.
 
 ## Examples
 <!-- Leave the linkID blank if you want to be able to open multiple sections at once.
@@ -36,7 +36,7 @@ You could accomplish this by manipulating the <code>Pan</code> and <code>Tilt</c
 {% include faq/panel.html panelUID='FocusMover' title='Focus a moving light on an actor on stage' body=FocusMover linkUID='' startOpen='true' %}
 
 {% capture UpdateCyc %}
-Using the {% include console_button.html content="Encoder Wheels" %}, you could select problematic LED(s) and manipulate the <code>Red</code> colour property to quickly and precisely lower its percentage without fussing about in the Colour Picker tab.
+Using the {% include lighting/console_button.html content="Encoder Wheels" %}, you could select problematic LED(s) and manipulate the <code>Red</code> colour property to quickly and precisely lower its percentage without fussing about in the Colour Picker tab.
 {% endcapture %}
 
 
@@ -57,7 +57,7 @@ panelUID must be unique to all other faq panels on this page -->
 {% capture TypeEncoderProperty %}
 To paste the name of the property into your command line, press down on the encoder bound to your desired property and quickly release.<br><br>For this to work, your encoder must be bound to a property, which can be done by selecting a channel or group and then repeating the above instructions.
 
-<br><br>After appending the property, you can modify it by providing a numerical value and then hitting {% include console_button.html content="Enter" %}.
+<br><br>After appending the property, you can modify it by providing a numerical value and then hitting {% include lighting/console_button.html content="Enter" %}.
 {% endcapture %}
 
 {% include faq/panel.html panelUID='TypeEncoderProperty' title='Append a parameter controlled by an encoder wheel to the command line' body=TypeEncoderProperty linkUID='' startOpen='false' %}
@@ -76,5 +76,5 @@ Changing modes can also be done from the encoder menu. Open the encoder menu by 
 {% include faq/closing.html %}
 
 ## On Keyboard
-The {% include console_button.html content="Encoder Wheels" %} are not mapped to a key.
+The {% include lighting/console_button.html content="Encoder Wheels" %} are not mapped to a key.
 

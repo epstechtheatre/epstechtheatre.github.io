@@ -1,14 +1,12 @@
 <div id="visual-svg-click-tip">
-    Please ensure Javascript is enabled or try refreshing the page.
+    <noscript>Please ensure Javascript is enabled or try refreshing the page.</noscript>
 </div>
 
-<div class="linked_console_svg_wrapper">
-    <script src="json/svg_button_url_dict.js"></script> 
-    <!-- var is buttonURLDict -->
+<div class="linked_console_svg_wrapper"> 
+    <script type="module">
+        import {UrlAndButtonNameMap} from "../json/svg_button_url_map.js"; 
+        import {getSvgShape} from "../js/modules/svg_get_shape.js";
 
-    <script src="js/svg_get_shape.js"></script>
-
-    <script>
         //Hardcoded links for shape ids. The id is that if the svg changes, hopefully the shape ideas for buttons will remain consistent so this will inject correctly.
         //For similar reason, this is why the links aren't directly in the svg (am i being smart?)
         const activeColour = "#990033"
@@ -19,7 +17,7 @@
 
             const display = document.getElementById("linked_console_svg").contentDocument.documentElement;
 
-            for (dict of buttonURLDict) {
+            for (const dict of UrlAndButtonNameMap) {
                 for (name of dict.names) {
                     const element = display.getElementById(name)
                     if (element !== null) {

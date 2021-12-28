@@ -1,14 +1,23 @@
 {
     "console button": {
         "prefix": ["console button", "keypad button", "button"],
-        "body": "{% include console_button.html content=\"$1\" %}$0",
+        "body": "{% include lighting/console_button.html content=\"$1\" %}$0",
         "scope": "markdown"
     },
 
     "console sequence": {
         "prefix": ["console command", "button sequence", "sequence", "command"],
         "body": [
-            "{% include console_command.html content=\"$1\" noLegend=$2true noTip=$3true %}",
+            "{% include lighting/console_command.html content=\"$1\" noLegend=$2true noTip=$3true andAsWord=false %}",
+            "$0"
+        ],
+        "scope": "markdown"
+    },
+
+    "inline_console_sequence": {
+        "prefix": ["inline console command", "inline button sequence", "inline sequence", "inline command"],
+        "body": [
+            "{% include lighting/inline_console_command.html content=\"$1\" andAsWord=false %}",
             "$0"
         ],
         "scope": "markdown"

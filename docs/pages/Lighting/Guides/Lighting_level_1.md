@@ -45,7 +45,7 @@ At the bottom of some of the tabs of the magic sheet, there are two rows of colo
 
 To use this, simply select a light and then click or tap a colour on the magic sheet. If the light is compatible with the colour, it will just work, otherwise it will try its best.
 ### Controlling via Encoder Wheels
-At the top of the console keyboard, there are 4 wheels. These are the {% include console_button.html content="Encoder Wheels" %}. They allow you to control each individual parameter for lights. First, you need to make sure the encoders are in colour mode. On the Ion Xe, you can see what mode you are in at the bottom of your main monitor. From now on, this will be known as the encoder display. It is highlighting in red below:
+At the top of the console keyboard, there are 4 wheels. These are the {% include lighting/console_button.html content="Encoder Wheels" %}. They allow you to control each individual parameter for lights. First, you need to make sure the encoders are in colour mode. On the Ion Xe, you can see what mode you are in at the bottom of your main monitor. From now on, this will be known as the encoder display. It is highlighting in red below:
 
 ![Encoder Mode Position Image](./images/Lighting/encoder-display.png)
 
@@ -92,7 +92,7 @@ Using everything you’ve learned up to this point, turn lights on and off, chan
 #### Recording the Cue
 Whenever you record, by default it will automatically take a snapshot of the current lighting conditions and save it to the list. Simply type the following command:
 
-{% include console_command.html content="Record, Cue, Numbers, Enter" noLegend=true noTip=true %}
+{% include lighting/console_command.html content="Record, Cue, Numbers, Enter" noLegend=true noTip=true %}
 
 (Replace numbers with the number you want the cue to be. The number must be a positive, 1-4 digit number that can optionally have up to 3 decimals.)
 
@@ -103,13 +103,13 @@ To see your cue list, use the PSD tab on the monitors (Tab 2)
 ### Fixing Cues
 Simply follow these steps:
 
-1) Use the playback instructions that follow to load the cue you want to edit, or type {% include console_button.html content="Go To Cue" %} and the number of cue you want to edit.<br>
+1) Use the playback instructions that follow to load the cue you want to edit, or type {% include lighting/console_button.html content="Go To Cue" %} and the number of cue you want to edit.<br>
 2) Make your changes<br>
 3) Use the exact same record command as you did when you originally saved the cue<br>
 {% include important.html content="This will prompt you to confirm that you want to override the existing cue, hit enter again to confirm." %}
 
 {% capture use_update %}
-Instead of typing the record command out again, you can use the {% include console_button.html content="Update" %} button.
+Instead of typing the record command out again, you can use the {% include lighting/console_button.html content="Update" %} button.
 {% endcapture %}
 
 {% include tip.html content=use_update %}
@@ -117,16 +117,16 @@ Instead of typing the record command out again, you can use the {% include conso
 ### Deleting Cues
 You will often find a cue becomes redundant or so wrong that it is easier to just restart, to delete a cue simply use this command:
 
-{% include console_command.html content="Delete, Cue, Number, Enter, Enter" noLegend=true noTip=true %}
+{% include lighting/console_command.html content="Delete, Cue, Number, Enter, Enter" noLegend=true noTip=true %}
 (`Number` represents the ID of the cue you want to delete. The second enter is to respond to the "Are you sure you want to delete that cue" prompt.)
 
 
 ### Playing Back Cues
 You will use 2 buttons here: Go and Stop / Back
 
-{% include console_button.html content="Go" %}: Advances your cue list by one cue. In a perfect show, this is the only button you have to press.
+{% include lighting/console_button.html content="Go" %}: Advances your cue list by one cue. In a perfect show, this is the only button you have to press.
 
-{% include console_button.html content="Stop / Back" %}: moves your cue list back one cue or stop the current transition (if one is active).
+{% include lighting/console_button.html content="Stop / Back" %}: moves your cue list back one cue or stop the current transition (if one is active).
 
 On the PSD, you will see a bunch of numbers beside the cue number. These are the transition timings. We won’t be using these in this guide but we will in the future. To put it simply, the software allows you to change the timings for each part of the cue, for example you could have a colour change take 15 seconds, but an intensity change only take 4. 
 

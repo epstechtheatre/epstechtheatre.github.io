@@ -13,29 +13,29 @@ last_updated: December 28, 2021
 ---
 
 ## Usage
-{% include console_button.html content="At" %} has two primary usages:
+{% include lighting/console_button.html content="At" %} has two primary usages:
 
 The first is, as stated above, to indicate the next number is a lighting intensity.
 
 The second is used when patching lights to enter the physical address of the fixture.
 <br><br>
-{% include console_button.html content="At" %} also lesser used functions. See below for more details.
+{% include lighting/console_button.html content="At" %} also lesser used functions. See below for more details.
 
 ## Examples
 
 {% capture typicalUsage %}
-{% include console_command.html content="1, At, 45, Enter" noLegend=true noTip=true %}
+{% include lighting/console_command.html content="1, At, 45, Enter" noLegend=true noTip=true %}
 {% include callout.html type="success" content="This example sets channel 1 to be at 45% intensity." %}
 
 {% endcapture %}
 
 {% capture addressNote %}
-In patch mode, {% include console_button.html content="At" %} will enter as {% include console_button.html content="Address" %}, representing the physical location the light is **at**.
+In patch mode, {% include lighting/console_button.html content="At" %} will enter as {% include lighting/console_button.html content="Address" %}, representing the physical location the light is **at**.
 {% endcapture %}
 
 
 {% capture patchUsage %}
-{% include console_command.html content="1, At, 2, Enter" noLegend=true noTip=true %}
+{% include lighting/console_command.html content="1, At, 2, Enter" noLegend=true noTip=true %}
 {% include callout.html type="success" content="This example tells the lighting board that channel 1 on the console should control the physical lighting instrument connected to address 2 in the theatre." %}
 
 {% include note.html content=addressNote %}
@@ -65,14 +65,14 @@ panelUID must be unique to all other faq panels on this page -->
 {% include faq/opening.html linkUID='' %}
 
 {% capture backgroundLevel %}
-{% include console_command.html content="1, At, Enter" noLegend=true noTip=true %}
+{% include lighting/console_command.html content="1, At, Enter" noLegend=true noTip=true %}
 {% include note.html content="The background level comes from either a previous cue or the lights home state from the home preset." %}
 {% endcapture %}
 
 {% include faq/panel.html panelUID='restoreToBackground' title='Return a channel to the background intensity level' body=backgroundLevel linkUID='' %}
 
 {% capture nonIntensity %}
-{% include console_command.html content="1, {Pan}, At, 50, Enter" noLegend=true noTip=true %}
+{% include lighting/console_command.html content="1, {Pan}, At, 50, Enter" noLegend=true noTip=true %}
 
 {% include note.html content="This example sets channel 1's `Pan` property to 50.<br><br>The `Pan` button can be accessed by clicking down on the encoder mapped to the `Pan` property, or by clicking `Pan` in the encoder display portion of the monitor (It might be in the triangle menu). If the encoders are not currently mapped to anything, terminate the command after specifying your target. The pan property should appear. Pressing the parameter will continue the command using implicit target selection.<br><br>If the parameter does not appear, it likely doesn't exist on the light." %}
 
@@ -81,7 +81,7 @@ panelUID must be unique to all other faq panels on this page -->
 {% include faq/panel.html panelUID='nonIntenseProperty' title='Change the value of non-intensity parameters' body=nonIntensity linkUID='' %}
 
 {% capture resetCapture %}
-{% include console_command.html content="1, Color, At, Enter" noLegend=true noTip=true %}
+{% include lighting/console_command.html content="1, Color, At, Enter" noLegend=true noTip=true %}
 
 {% include note.html content="This example resets all properties in the `Color` category." %}
 
@@ -92,4 +92,4 @@ panelUID must be unique to all other faq panels on this page -->
 {% include faq/closing.html%}
 
 ## On Keyboard
-{% include console_button.html content="At" %} is mapped to `A` on a QWERTY keyboard
+{% include lighting/console_button.html content="At" %} is mapped to `A` on a QWERTY keyboard
