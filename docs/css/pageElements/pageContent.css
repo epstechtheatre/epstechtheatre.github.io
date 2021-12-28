@@ -1,4 +1,4 @@
-.post-content img {
+.page-content img {
     margin: 12px 0px 3px 0px;
     width: auto;
     height: auto;
@@ -45,24 +45,24 @@ figcaption {
     color: gray;
 }
 
-.post-content ol li, .post-content ul li {
+.page-content ol li, .page-content ul li {
     margin: 10px 0px;
 }
 
-.post-content a.fa-rss {
+.page-content a.fa-rss {
     color: orange;
 }
 
-.post-content .rssfeedLink {
+.page-content .rssfeedLink {
     color: #248EC2;
 }
 
-.post-content img.inline {
+.page-content img.inline {
     margin:0px;
     margin-bottom:6px;
 }
 
-.post-content img {
+.page-content img {
     margin: 12px 0px 3px 0px;
     width: auto;
     height: auto;
@@ -89,24 +89,24 @@ body {
     padding-left:20px;
 }
 
-.post-summary {
+.page-summary {
     margin-bottom:12px;
 }
 
-.post-meta {
+.page-meta {
     font-size: 14px;
     color: #828282;
 }
 
-.post-link {
+.page-link {
     font-size: 22px;
 }
 
-.post-list p {
+.page-list p {
     margin: 10px 0px;
 }
 
-.post-content table th {
+.page-content table th {
     vertical-align: top;
 }
 

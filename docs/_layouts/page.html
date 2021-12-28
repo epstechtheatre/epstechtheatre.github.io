@@ -2,13 +2,13 @@
 layout: default
 ---
 
-<div class="post-header">
+<div class="page-header">
     {% if page.private == true %}
     {% include private.html %}
     {% endif %}
 
 
-    <h1 class="post-title-main">{{ page.title }}</h1>
+    <h1 class="page-title-main">{{ page.title }}</h1>
 
     <div class="title-buttons">
         {% if page.noprinter != true %}
@@ -44,7 +44,7 @@ layout: default
 
 {% endif %}
 
-<div class="post-content">
+<div class="page-content">
 
     {% if page.summary %}
     <div class="summary">{{page.summary}}</div>
