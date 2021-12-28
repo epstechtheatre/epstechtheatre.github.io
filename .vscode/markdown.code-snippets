@@ -183,11 +183,14 @@
         "prefix": ["faq boilerplate"],
         "body": [
             "<!-- Leave the linkID blank if you want to be able to open multiple sections at once.",
-            "Otherwise, only one panel can be open at a time per linkUID. -->",
-            "{% include faq_opening.html linkUID='$1' %}",
-            "{% include faq_panel.html number='$2' title='$3' body='$4' linkUID='$5' %}",
+            "Otherwise, only one panel can be open at a time per linkUID.",
+            "panelUID must be unique to all other faq panels on this page -->",
             "",
-            "{% include faq_closing.html%}",
+            "{% include faq/opening.html linkUID='$1' %}",
+            "",
+            "{% include faq/panel.html panelUID='$2' title='$3' body='$4' linkUID='$5' startOpen='false' %}",
+            "",
+            "{% include faq/closing.html%}",
             "$0"
         ],
         "scope": "markdown"
@@ -196,7 +199,7 @@
     "faq_panel": {
         "prefix": "faq panel",
         "body": [
-            "{% include faq_panel.html number='$1' title='$2' body='$3' linkUID='$4' %}",
+            "{% include faq/panel.html panelUID='$1' title='$2' body='$3' linkUID='$4' startOpen='false' %}",
             "$0"
         ],
         "scope": "markdown"
