@@ -13,7 +13,7 @@ if (reqArgs) {
     reqArgs = [];
 }
 
-for (arg of reqArgs) {
+for (const arg of reqArgs) {
     let split = arg.split("=")
 
     if (split.length === 2) {
@@ -21,6 +21,6 @@ for (arg of reqArgs) {
             validReqArgs[split[0]] = split[1];
         }
 
-        rawReqArgs[split[0] = split[1]]
+        rawReqArgs[split[0]] = split[1];
     }
 }

@@ -56,13 +56,13 @@
       if (this_level === level) // same level as before; same indenting
         html += "<li><a href='#" + header.id + "'>" + header.innerHTML + "</a>";
       else if (this_level <= level){ // higher level than before; end parent ol
-        for(i = this_level; i < level; i++) {
+        for(let i = this_level; i < level; i++) {
           html += "</li></"+settings.listType+">"
         }
         html += "<li><a href='#" + header.id + "'>" + header.innerHTML + "</a>";
       }
       else if (this_level > level) { // lower level than before; expand the previous to contain a ol
-        for(i = this_level; i > level; i--) {
+        for(let i = this_level; i > level; i--) {
           html += "<"+settings.listType+"><li>"
         }
         html += "<a href='#" + header.id + "'>" + header.innerHTML + "</a>";
