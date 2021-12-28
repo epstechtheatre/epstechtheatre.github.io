@@ -20,7 +20,7 @@ The goal of this section is to provide a simplified subset of the information al
 
 <br>
 
-Remember that at any time, you can hold down {% include console_button.html content="Help" %} and click any button on the keypad to open a help page right on the console
+Remember that at any time, you can hold down {% include lighting/console_button.html content="Help" %} and click any button on the keypad to open a help page right on the console
 (click help again to close the help window).
 
 ## Visual Directory

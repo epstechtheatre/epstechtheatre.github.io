@@ -20,31 +20,31 @@ Most of these shortcuts are quite easy to remember because they just make sense.
 Type in the name of the cue you want to see and immediately go to it
 
 Try:
-{% include console_command.html content="Go To Cue, 0.2, Enter" noLegend=true noTip=true %}
+{% include lighting/console_command.html content="Go To Cue, 0.2, Enter" noLegend=true noTip=true %}
 <br>
-More info on the {% include console_button.html content="Go To Cue" %} button [here](Lighting_keyboard_gotocue.html).
+More info on the {% include lighting/console_button.html content="Go To Cue" %} button [here](Lighting_keyboard_gotocue.html).
 
 ### Implied target selection for repeated commands
 That’s a lot of words. Basically, what it means is if you select a target (such as a channel or group) and do multiple things, you don’t have to retype the target each time.
 
 For example, if you were changing the intensity of a group, you only have to type Group the first time. Each subsequent command (so long as the group is still in the command line), you only have to specify what changed:
 
-{% include console_command.html content="Group, 30, At, Full, Enter" noLegend=true noTip=true %}<br>
+{% include lighting/console_command.html content="Group, 30, At, Full, Enter" noLegend=true noTip=true %}<br>
 
 Then...
-{% include console_command.html content="At, 60, Enter" noLegend=true noTip=true %}<br>
+{% include lighting/console_command.html content="At, 60, Enter" noLegend=true noTip=true %}<br>
 
 Then...
-{% include console_command.html content="At, 50, Enter" noLegend=true noTip=true %}
+{% include lighting/console_command.html content="At, 50, Enter" noLegend=true noTip=true %}
 
 
 ### Update
 When fixing cues that have already been recorded, instead of having to retype the entire record command, simply use:
-{% include console_command.html content="Update, Enter" noLegend=true noTip=true %}
+{% include lighting/console_command.html content="Update, Enter" noLegend=true noTip=true %}
 <br>
 When you do this, you will not be prompted to confirm you want to override the cue.
 
-More info on the {% include console_button.html content="Update" %} button [here](Lighting_keyboard_update.html).
+More info on the {% include lighting/console_button.html content="Update" %} button [here](Lighting_keyboard_update.html).
 
 ### Shift + Update
 Quickly save your showfile. The same as going through the file browser and clicking File > Save 
@@ -57,7 +57,7 @@ If right after undoing you decide that you actually did the right thing, you can
 
 Warning: Whenever you save your showfile, you lose the ability to undo any action that occurred before the save
 <br>
-More info on the {% include console_button.html content="Undo / Redo" %} button [here](Lighting_keyboard_undo_redo.html).
+More info on the {% include lighting/console_button.html content="Undo / Redo" %} button [here](Lighting_keyboard_undo_redo.html).
 
 
 ### RemDim
@@ -65,14 +65,14 @@ If you want to quickly blackout everything but one light or group of lights, thi
 
 For example:
 
-{% include console_command.html content="20, RemDim, Enter" noLegend=true noTip=true %}
+{% include lighting/console_command.html content="20, RemDim, Enter" noLegend=true noTip=true %}
 <br>
-More info on the {% include console_button.html content="RemDim" %} button [here](Lighting_keyboard_remdim.html).
+More info on the {% include lighting/console_button.html content="RemDim" %} button [here](Lighting_keyboard_remdim.html).
 
 
 ### Softkeys
-{% include console_button.html content="Softkeys" %} are buttons that only exist in certain contexts. While they do have a physical presence on the keyboard, their functionality is ‘softly’ defined and changes depending on the command you type. Softkeys share the same key as the encoder pages, which is why when changing encoder modes you have to hold down the Encoder Page key.
+{% include lighting/console_button.html content="Softkeys" %} are buttons that only exist in certain contexts. While they do have a physical presence on the keyboard, their functionality is ‘softly’ defined and changes depending on the command you type. Softkeys share the same key as the encoder pages, which is why when changing encoder modes you have to hold down the Encoder Page key.
 
-You can see the current function of each softkey in the bottom right of your main monitor. If the green light on {% include console_button.html content="More SK" %} is lit, that means, like the encoder properties from earlier, there are more possible buttons than there is physical space on the board. Press More SK to cycle between all the options.
+You can see the current function of each softkey in the bottom right of your main monitor. If the green light on {% include lighting/console_button.html content="More SK" %} is lit, that means, like the encoder properties from earlier, there are more possible buttons than there is physical space on the board. Press More SK to cycle between all the options.
 
 These guides won’t cover every softkey because there are literally hundreds of them, but if you see a button in the future that you can’t find on the keyboard, it’s probably a softkey.

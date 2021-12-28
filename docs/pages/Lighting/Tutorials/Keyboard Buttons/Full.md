@@ -13,9 +13,9 @@ last_updated: August 19, 2021
 ---
 
 ## Usage
-After specifying a target, type {% include console_button.html content="Full" %} and terminate the command.
+After specifying a target, type {% include lighting/console_button.html content="Full" %} and terminate the command.
 ## Examples
-{% include console_command.html content="1, At, Full, Enter" noLegend=true noTip=true %}
+{% include lighting/console_command.html content="1, At, Full, Enter" noLegend=true noTip=true %}
 
 ## On Keyboard
-{% include console_button.html content="Full" %} is mapped to `F` on a QWERTY keyboard.
+{% include lighting/console_button.html content="Full" %} is mapped to `F` on a QWERTY keyboard.

@@ -38,16 +38,16 @@ In its simplest form, it is a playlist. When designing the show you create ‘lo
 The board is basically just a specialized game controller. Like video games, you can play them using a keyboard, but you can also use a controller designed for the sole purpose of playing games. The main part (the scary looking part) is the board itself. We call it the console. It has a bunch of buttons with words on them that don't make sense. It might also have a bunch of slidable controls connected to it. Apart from that, the rest is just a normal computer. There is a less-scary keyboard, mouse and monitor connected that work as well. 
 
 ## Prenote
-Throughout most lighting pages, you will occasionally see boxed text that look like {% include console_button.html content="This" %}. These indicate a button on the console to press. if you tap or hover over them with your mouse, you will see an overlay that shows you where the button is on the keyboard.
+Throughout most lighting pages, you will occasionally see boxed text that look like {% include lighting/console_button.html content="This" %}. These indicate a button on the console to press. if you tap or hover over them with your mouse, you will see an overlay that shows you where the button is on the keyboard.
 ## Power
 ### Turning on and off the console
-Press the {% include console_button.html content="Power" %} and then wait for everything to turn on. When the board is ready, the displays will show useful information that you might not understand yet. You will also be able to control the lights.
+Press the {% include lighting/console_button.html content="Power" %} and then wait for everything to turn on. When the board is ready, the displays will show useful information that you might not understand yet. You will also be able to control the lights.
 
 {% include warning.html content="Before getting ahead of yourself, make sure you warm up the lights before using them. This will keep bulbs from breaking, which can happen if they get too hot too fast. See the <a alt='Warming Up Lights' href='#warming-up-lights'>Warming Up Lights</a> section" %}
 
 To turn off the console, you have a few options:
 
-The first way (which is the easiest) is to just press the {% include console_button.html content="Power" %} button again. This will pop up a screen on the monitor asking if you really want to shut down, either use the mouse to hit ‘OK’, or just click the power button one last time.
+The first way (which is the easiest) is to just press the {% include lighting/console_button.html content="Power" %} button again. This will pop up a screen on the monitor asking if you really want to shut down, either use the mouse to hit ‘OK’, or just click the power button one last time.
 
 The second way is done from the monitors, using the mouse, click the upwards facing triangle in the bottom right corner of the screen. If you don’t see one, the panel might already be open, in which case there will be a downwards facing triangle somewhere in the lower third of the right-hand part of the screen
 
@@ -62,9 +62,9 @@ In the screen that says “Browser: file”, just below “> File”, click “P
 A showfile is basically just like any other document on a computer. Just like you might have different word documents for different assignments or images in your phone, a showfile is just a bunch of data related to a certain show. If you’re in the wrong file, you won’t have the right cues, or even worse, you could accidentally erase someone elses cues. 
 
 ### Loading Showfiles
-It’s good practice to first save whatever file you’re in. Do this by either clicking {% include console_button.html content="Shift" %} and {% include console_button.html content="Update" %} at the same time, or by going to the file browser, clicking “File”, then clicking “Save”
+It’s good practice to first save whatever file you’re in. Do this by either clicking {% include lighting/console_button.html content="Shift" %} and {% include lighting/console_button.html content="Update" %} at the same time, or by going to the file browser, clicking “File”, then clicking “Save”
 
-If you can’t see the browser and you are confident you should be able to, click the {% include console_button.html content="About" %} key a few times. If that still doesn’t resolve it, refer to [Troubleshooting](./Lighting_troubleshooting_landing_page.html)
+If you can’t see the browser and you are confident you should be able to, click the {% include lighting/console_button.html content="About" %} key a few times. If that still doesn’t resolve it, refer to [Troubleshooting](./Lighting_troubleshooting_landing_page.html)
 
 
 Once you have saved, go to the browser, go to “File”, click “Open”, and then click “Show File Archive”. You should see a bunch of folders. For demonstration purposes, click “!Mainfile”, then double click MAINFILE…..esf.
@@ -99,20 +99,20 @@ For this, we will be using the command line. If you have any coding experience, 
 
 Go ahead and try this command right now:
 
-{% include console_command.html content="20, At, Full, Enter" noLegend=true noTip=false %}
+{% include lighting/console_command.html content="20, At, Full, Enter" noLegend=true noTip=false %}
 
 You should see a light turn on. 
 
 Now try the same command, but instead of pressing “Full”, type a number between 0 and 100, then hit enter. You should see the same light turn on, but at a different intensity
 
-Lastly, try spinning the {% include console_button.html content="Silver Knob" %}  on the right hand side of the console up and down. You should see the light get brighter and dimmer depending on which way you spin it. This is called the manual control knob.
+Lastly, try spinning the {% include lighting/console_button.html content="Silver Knob" %}  on the right hand side of the console up and down. You should see the light get brighter and dimmer depending on which way you spin it. This is called the manual control knob.
 
 Congrats! You now know the basics to turning lights on and off. Before you go any further, let’s talk about warming up.
 
 ### Warming up lights
 The lights in the theatre are old. Old lights don’t like temperature changes, so to stop them from exploding we warm them up first. It’s not hard to do this, but you will have to wait for a few minutes for the lights to actually get warm. 
 
-To do this, all you have to do is go into cue 0.2. Do this by clicking the {% include console_button.html content="Go" %} button until the number in the highlighted number in the bottom left corner of the console screen says 0.2. All the lights should dimly turn on. Wait in this for no less than 3 minutes.
+To do this, all you have to do is go into cue 0.2. Do this by clicking the {% include lighting/console_button.html content="Go" %} button until the number in the highlighted number in the bottom left corner of the console screen says 0.2. All the lights should dimly turn on. Wait in this for no less than 3 minutes.
 
 {% include note.html content="The reason we didn’t have to warm up the light in the last step is because it was an LED. Unlike conventional lights with a glass bulb, LEDs are pretty good at not exploding under rapid temperature change (they also don’t heat up as much)" %}
 
@@ -150,7 +150,7 @@ The map shows a simplified display of the theatre. You can click buttons to dire
 
 Using the mouse, left-click like you would on a webpage to click buttons and hold down right-click to pan the magic sheet around. You can also use the scroll wheel to zoom in and out.
 
-Once you have selected a light, you can use the {% include console_button.html content="Full" %}, {% include console_button.html content="Out" %}, and {% include console_button.html content="At" %}, syntax just like you were above. 
+Once you have selected a light, you can use the {% include lighting/console_button.html content="Full" %}, {% include lighting/console_button.html content="Out" %}, and {% include lighting/console_button.html content="At" %}, syntax just like you were above. 
 
 ### Controlling multiple lights at the same time
 {% include important.html content="Make sure you have warmed up before continuing with the guide" %}
@@ -159,15 +159,15 @@ Now that we can see where every light is we can start doing some more practical 
 
 Only changing one light per action ends up being slow and inefficient, especially when working under a time crunch, like right before a show. We can use extensions to the syntax you already know to select multiple lights. Try this command now.
 
-{% include console_command.html content="1, Thru, 10, At, Full, Enter" noLegend=true noTip=true %}
+{% include lighting/console_command.html content="1, Thru, 10, At, Full, Enter" noLegend=true noTip=true %}
 
-You should see every front light turn on at full brightness. {% include console_button.html content="Thru" %} selects every light between 2 numbers you provide (in the example above, you selected all lights between 1 and 10, including channel 1 and channel 10). 
+You should see every front light turn on at full brightness. {% include lighting/console_button.html content="Thru" %} selects every light between 2 numbers you provide (in the example above, you selected all lights between 1 and 10, including channel 1 and channel 10). 
 
 <br>
 
 You can also discretely select multiple channels:
 
-{% include console_command.html content="1, +, 3, +, 5, At, 30, Enter" noLegend=true noTip=true %}
+{% include lighting/console_command.html content="1, +, 3, +, 5, At, 30, Enter" noLegend=true noTip=true %}
 
 <br>
 
@@ -180,7 +180,7 @@ There are three other ways to select multiple lights as well:
 #### Groups
 Groups are predefined sets of channels. For example, you could have every light pointed at downstage left in a group, so instead of having to memorize that channels 3, 5 and 13 are pointed there, you could just type Group 4. Try this command:
 
-{% include console_command.html content="Group, 1, At, 50, Enter" noLegend=true noTip=true %}
+{% include lighting/console_command.html content="Group, 1, At, 50, Enter" noLegend=true noTip=true %}
 
 You should see every single light in the theatre turn on at 50%.
 

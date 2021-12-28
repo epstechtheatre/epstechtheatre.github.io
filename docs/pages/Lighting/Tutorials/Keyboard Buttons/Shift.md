@@ -13,11 +13,11 @@ last_updated: August 19, 2021
 ---
 
 ## Usage
-Like Shift on a keyboard, {% include console_button.html content="Shift" %} on the lighting board changes the action of some keys to similar, but alternative functions.
+Like Shift on a keyboard, {% include lighting/console_button.html content="Shift" %} on the lighting board changes the action of some keys to similar, but alternative functions.
 ## Examples
 - [Using Shift with Clear](./Lighting_keyboard_clear.html)
 - [Using Shift with Encoder Pages](./Lighting_keyboard_encoderpages.html)
 - [Quickly Saving the Showfile](./Lighting_keyboard_update.html)
 
 ## On Keyboard
-{% include console_button.html content="Shift" %} is mapped to `Shift` on a QWERTY keyboard
+{% include lighting/console_button.html content="Shift" %} is mapped to `Shift` on a QWERTY keyboard

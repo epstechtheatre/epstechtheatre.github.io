@@ -15,7 +15,7 @@ last_updated: August 19, 2021
 ## Usage
 Escape does not cancel or pause operations, like it does in some computer programs. Instead it attempts to close the currently active window. You can press escape at any time, although if your command is operating in the active window's context, you will reset your command line.
 ## Examples
-Close a magic sheet, duplicate tab, or any other un-needed window but selecting the tab and pressing {% include console_button.html content="Escape" %}.
+Close a magic sheet, duplicate tab, or any other un-needed window but selecting the tab and pressing {% include lighting/console_button.html content="Escape" %}.
 
 Close out of the "New Magic Sheet" selector by pressing escape.
 
@@ -23,4 +23,4 @@ Close out of the "New Magic Sheet" selector by pressing escape.
 
 
 ## On Keyboard
-{% include console_button.html content="Escape" %} is mapped to `Escape` on a QWERTY keyboard.
+{% include lighting/console_button.html content="Escape" %} is mapped to `Escape` on a QWERTY keyboard.
