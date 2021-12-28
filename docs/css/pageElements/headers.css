@@ -52,6 +52,18 @@ h4.panel-title {
 @media only screen and (max-width: 991px), only screen and (max-device-width: 991px) {
     .page-title-main {
         margin-right: 0px;
-        margin-top: 25px;
+        width: 100% 
+    }
+
+    .post-header {
+        margin-top: 27px;
+    }
+    
+    .title-buttons {
+        margin-top: 7px !important
+    }
+
+    .githubEditButton:first-child {
+        margin-left: 0px
     }
 }
