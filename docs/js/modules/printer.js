@@ -31,6 +31,8 @@ $( document ).ready(function() {
 
         $(".page-header").after('<a target="_blank" rel="noopener" class="btn btn-default printButton" role="button" onclick=window.print();return false><i class="fa fa-print fa-lg"></i> Print</a>')
 
+        $(".page-content .panel-collapse").addClass("in")
+
     } else {
         if (rawReqArgs["printer"] && rawReqArgs["printer"] === "true") {
             document.getElementsByClassName("page-header")[0].insertAdjacentHTML("afterend", "<div class=\"noPrinterView bs-callout bs-callout-danger\">Sorry! This page doesn't have a printer-friendly view.<br>You can still print normally and the page will try to remove unneeded elements.</div")
