@@ -1,0 +1,8 @@
+.faq-mobile-warning {
+    display: none;
+}
+@media (pointer:none), (pointer:coarse) {
+    .faq-mobile-warning {
+        display: block;
+    }
+}
