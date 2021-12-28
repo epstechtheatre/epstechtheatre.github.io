@@ -12,6 +12,7 @@ customPageType: guide
 last_updated: October 11, 2021
 ---
 
+
 {% include note.html content="This page is very specifically tailored to the lighting network present at Dr. E.P. Scarlett, I highly recommend students from other schools that are just starting out take everything with a grain of salt, or go through the guide with a mentor so they can make corrections as they need to." %}
 
 ## Outcomes of this Guide

@@ -1,23 +1,11 @@
-import {validReqArgs} from "./uriArgs.js"
+import {validReqArgs} from "./uriArgs.js";
+import {KeyNameAliasDict} from "../../json/key_names_aliases.js";
+import { getSvgShape } from "./svg_get_shape.js";
 
 const KEYBOARD_SVG_FADE_TIME = 150;
 const EDGE_BUFFER = 5;
 
 $( document ).ready(function() {
-    if (document.getElementsByClassName("display-button-softkey").length > 0
-    || document.getElementsByClassName("display-button-keypad").length > 0
-    || document.getElementsByClassName("inline-display-button").length > 0) {
-        var script = document.createElement("script");
-        script.type = "text/javascript";
-        script.src = "json/key_names.js";
-        document.head.appendChild(script)
-
-        var script2 = document.createElement("script");
-        script2.type = "text/javascript";
-        script2.src = "js/svg_get_shape.js";
-        document.head.appendChild(script2)
-    }
-
     // Activate button keypad display overlays
     if (validReqArgs["printer"] != "true") {
         $('.display-button-softkey')
@@ -154,17 +142,21 @@ function parseHighlight(text) {
 
         let split = text.split("");
 
-        split.forEach((element, index) => {
-            try {
-                if (LightingKeyboardAliases[element]) {
-                    split[index] = LightingKeyboardAliases[element]
-                }
-            } catch(e) {
-                //
-            }
-        });
-
         return split;
+    } else {
+        //We might have a situation where we need to do an alias replacement, this can be checked super easily
+        let working = text;
+        try {
+            while (KeyNameAliasDict[working]) {
+                //Incase theres something like "colour", which would go
+                // "colour" --> "color" --> ["color_s3", "color"]
+                working = KeyNameAliasDict[working]
+            }
+        } catch(e) {
+            //
+        }
+
+        return working
     }
 
     switch (text) {
