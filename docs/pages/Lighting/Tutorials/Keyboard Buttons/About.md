@@ -8,7 +8,7 @@ folder: Lighting
 toc: true
 authors: [Ben MacDonald]
 summary: The About button shows system information as well as channel source information
-last_updated: August 21, 2021
+last_updated: December 28, 2021
 # tags: []
 ---
 
