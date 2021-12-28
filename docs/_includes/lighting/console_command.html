@@ -8,10 +8,10 @@
         {% assign firstChar = {{buttonText | slice: 0,0}} %}
         {% assign lastChar = {{buttonText | slice: -1,-1}} %}
         {% assign workingSet = '' | split: "," %}
-        {% if buttonText contains "+" %}
+        {% if buttonText contains "&" %}
             <span class="display-button-simultaneous">
-            {% assign plusSplit = buttonText | split: "+" %}
-            {% for simult in plusSplit %}
+            {% assign andSplit = buttonText | split: "&" %}
+            {% for simult in andSplit %}
                 {% assign workingSet = workingSet | push: simult %}
             {% endfor %}
         {% else %}
@@ -54,7 +54,7 @@
             {% endunless %}
         {% endfor %}
 
-        {% if buttonText contains "+" %}
+        {% if buttonText contains "&" %}
             </span>
         {% endif %}
 
