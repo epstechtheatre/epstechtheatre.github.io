@@ -1,4 +1,4 @@
-var LightingKeyboardAliases = {
+export const KeyNameAliasDict = {
     "s1": ["intensity_s1", "s1"],
     "s2": ["focus_s2", "s2"],
     "s3": ["color_s3", "s3"],
@@ -6,12 +6,12 @@ var LightingKeyboardAliases = {
     "s5": ["image_s5", "s5"],
     "s6": ["form_s6", "s6"],
 
-    "intensity": ["intensity_s1", "s1"],
-    "focus": ["focus_s2", "s2"],
-    "color": ["color_s3", "s3"],
-    "shutter": ["shutter_s4", "s4"],
-    "image": ["image_s5", "s5"],
-    "form": ["form_s6", "s6"],
+    "intensity": ["intensity_s1", "intensity"],
+    "focus": ["focus_s2", "focus"],
+    "color": ["color_s3", "colour"],
+    "shutter": ["shutter_s4", "shutter"],
+    "image": ["image_s5", "image"],
+    "form": ["form_s6", "form"],
 
     "copyto": "copyto_moveto",
     "copytomoveto": "copyto_moveto",

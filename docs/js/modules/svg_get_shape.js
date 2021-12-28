@@ -1,4 +1,4 @@
-var getSvgShape = (element) => {
+export function getSvgShape(element) {
     if (element.target) {
         if (element.target.tagName !== "g") {
             return element.target;
