@@ -23,8 +23,8 @@ export const KeyNameAliasDict = {
     "trackqonly": "qonly_track",
     "track": "qonly_track",
 
-    "undo": "undo_redo",
-    "redo": "undo_redo",
+    "undo": ["undo_redo", "undo"],
+    "redo": ["undo_redo", "undo"],
     "undoredo": "undo_redo",
     "redoundo": "undo_redo",
 
@@ -64,5 +64,15 @@ export const KeyNameAliasDict = {
     "softkeys": "softkey",
 
     "encoderwheel": ["encoder1", "encoder2", "encoder3", "encoder4"],
-    "encoderwheels": "encoderwheel"
+    "encoderwheels": "encoderwheel",
+
+    "playback1": ["playback1", "playbackfaderback1"],
+    "playback2": ["playback2", "playbackfaderback2"],
+
+    "fader1": "playback1",
+    "fader2": "playback2",
+
+    "grandmaster": ["grandmaster", "grandmasterfaderback"],
+
+    "time": ["time", "time1", "time2"]
 }

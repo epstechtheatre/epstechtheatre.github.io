@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <svg
-   xmlns:v="http://schemas.microsoft.com/visio/2003/SVGExtensions/"
-   xmlns:dc="http://purl.org/dc/elements/1.1/"
-   xmlns:cc="http://creativecommons.org/ns#"
-   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-   xmlns:svg="http://www.w3.org/2000/svg"
-   xmlns="http://www.w3.org/2000/svg"
-   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
-   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    width="370.30002"
    height="274.68411"
    viewBox="0 0 97.97521 72.67684"
    version="1.1"
    id="display_keyboard"
-   inkscape:version="1.0.2 (e86c870879, 2021-01-15, custom)"
-   sodipodi:docname="Keyboard Overlay Source ion.svg">
+   inkscape:version="1.1 (c68e22c387, 2021-05-23)"
+   sodipodi:docname="Keyboard Overlay Source ion.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:v="http://schemas.microsoft.com/visio/2003/SVGExtensions/">
   <defs
      id="defs2" />
   <sodipodi:namedview
@@ -25,18 +25,19 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="1.8776405"
-     inkscape:cx="180.2696"
-     inkscape:cy="137.51594"
+     inkscape:cx="31.422416"
+     inkscape:cy="137.67279"
      inkscape:document-units="mm"
      inkscape:current-layer="g519"
      inkscape:document-rotation="0"
      showgrid="false"
-     inkscape:window-width="1902"
+     inkscape:window-width="1065"
      inkscape:window-height="1033"
-     inkscape:window-x="2"
-     inkscape:window-y="121"
+     inkscape:window-x="845"
+     inkscape:window-y="0"
      inkscape:window-maximized="0"
-     units="px" />
+     units="px"
+     inkscape:pagecheckerboard="0" />
   <metadata
      id="metadata5">
     <rdf:RDF>
@@ -45,7 +46,6 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -72,10 +72,12 @@
            v:shadowOffsetX="8.50394"
            v:shadowOffsetY="-8.50394" />
         <g
-           id="shape92-1"
+           id="playbackfaderback1"
            v:mID="92"
            v:groupContext="shape"
            transform="matrix(0.5349779,0,0,0.46696605,34.430323,-253.41892)">
+          <title
+             id="title1132">weeeee!</title>
           <rect
              x="0"
              y="351.85901"
@@ -85,7 +87,7 @@
              id="rect16" />
         </g>
         <g
-           id="Playback_1"
+           id="playback1"
            v:mID="94"
            v:groupContext="shape"
            transform="matrix(0.5349779,0,0,0.46696605,29.852198,-282.86299)">
@@ -100,10 +102,12 @@
              id="rect21" />
         </g>
         <g
-           id="shape93-5"
+           id="playbackfaderback2"
            v:mID="93"
            v:groupContext="shape"
            transform="matrix(0.5349779,0,0,0.46696605,53.530641,-253.41892)">
+          <title
+             id="title1134">weeeee!</title>
           <rect
              x="0"
              y="351.85901"
@@ -113,7 +117,7 @@
              id="rect26" />
         </g>
         <g
-           id="Playback_2"
+           id="playback2"
            v:mID="95"
            v:groupContext="shape"
            transform="matrix(0.5349779,0,0,0.46696605,49.193575,-282.78687)">
@@ -158,10 +162,12 @@
              id="rect41" />
         </g>
         <g
-           id="shape101-13"
+           id="grandmasterfaderback"
            v:mID="101"
            v:groupContext="shape"
            transform="matrix(0.5349779,0,0,0.46696605,-0.48543552,-253.41892)">
+          <title
+             id="title1136">weeeee!</title>
           <rect
              x="0"
              y="351.85901"
@@ -171,7 +177,7 @@
              id="rect46" />
         </g>
         <g
-           id="Grandmaster"
+           id="grandmaster"
            v:mID="102"
            v:groupContext="shape"
            transform="matrix(0.5349779,0,0,0.46696605,-5.0634563,-282.86299)">
@@ -1563,7 +1569,7 @@
              r="29.480101" />
         </g>
         <g
-           id="Display"
+           id="display"
            v:mID="246"
            v:groupContext="shape"
            transform="matrix(0.5349779,0,0,0.46696605,24.354175,-338.31054)">

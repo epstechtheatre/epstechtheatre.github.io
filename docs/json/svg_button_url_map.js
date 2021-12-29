@@ -297,7 +297,7 @@ export const UrlAndButtonNameMap = [
     },
     {
         "url": "/Lighting_keyboard_undo_redo.html",
-        "names": ["undo_redo"]    
+        "names": ["undo_redo", "undo"]    
     },
     {
         "url": "/Lighting_keyboard_update.html",

@@ -2,15 +2,17 @@ import { checkIfPreference, deletePreference, getPreference, setPreference } fro
     import {validReqArgs} from "../uriArgs.js"
 
 export const storeKeyToPath = {
-    "ion": "/images/Lighting/svg/Keyboard Overlay Source ion.svg",
-    "ion xe": "/images/Lighting/svg/Keyboard Overlay Source ion xe.svg"
+    "ion": "/images/Lighting/svg/keyboard-overlay-source-ion.svg",
+    "ion xe": "/images/Lighting/svg/keyboard-overlay-source-ion-xe.svg",
+    "element i": "/images/Lighting/svg/keyboard-overlay-source-element-i.svg",
+    "element ii": "/images/Lighting/svg/keyboard-overlay-source-element-ii.svg"
 }
 
 export const storeKeyToHumanName = {
     "ion xe": "ETC Ion XE",
     "ion": "ETC Ion",
-    "element I": "ETC Element I",
-    "element II": "ETC Element II"
+    "element i": "ETC Element I",
+    "element ii": "ETC Element II"
 }
 
 const DEFAULT_KEY = "ion xe";
@@ -31,8 +33,8 @@ function createPopover(title) {
                     <select class="form-control" id=${PREFERENCE_DROPDOWN_KEY}>
                         <option value="ion xe">ETC Ion XE</option>
                         <option value="ion">ETC Ion</option>
-                        <option value="element I">ETC Element I</option>
-                        <option value="element II">ETC Element II</option>
+                        <option value="element i">ETC Element I</option>
+                        <option value="element ii">ETC Element II</option>
                         <option value="unset">Delete my Selection</option>
                     </select>
                 </div>
