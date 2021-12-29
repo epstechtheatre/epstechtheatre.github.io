@@ -832,7 +832,7 @@
              id="rect266" />
         </g>
         <g
-           id="undoredo"
+           id="undo_redo"
            v:mID="191"
            v:groupContext="shape"
            transform="matrix(0.5349779,0,0,0.46696605,176.29203,-278.27459)">

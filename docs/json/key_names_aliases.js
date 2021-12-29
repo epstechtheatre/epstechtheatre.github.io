@@ -52,5 +52,17 @@ export const KeyNameAliasDict = {
     ".": "dot",
     "+": "plus",
     "-": "minus",
-    "/": "slash"
+    "/": "slash",
+
+    "number": ["1", "2", "3", "4", "5", "6", "7", "8", "9", "0"],
+    "numbers": "number",
+
+    "encoderpage": ["focus", "color", "intensity", "form", "image", "shutter", "intensity_s1", "focus_s2", "color_s3", "beam_s4", "form_s5", "shutter_s6"],
+    "encoderpages": "encoderpage",
+
+    "softkey": ["s1", "s2", "s3", "s4", "s5", "s6", "intensity_s1", "focus_s2", "color_s3", "shutter_s4", "image_s5", "form_s6", "moresk"],
+    "softkeys": "softkey",
+
+    "encoderwheel": ["encoder1", "encoder2", "encoder3", "encoder4"],
+    "encoderwheels": "encoderwheel"
 }
