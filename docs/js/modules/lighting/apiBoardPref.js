@@ -22,7 +22,7 @@ function createPopover(title) {
             <div class="modal-content">
                 <div class="modal-header">
                     <h5 class="modal-title">${title}</h5>
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <button class="close" data-dismiss="modal" aria-label="Close">
                     <span aria-hidden="true">&times;</span>
                     </button>
                 </div>
@@ -37,8 +37,8 @@ function createPopover(title) {
                     </select>
                 </div>
                 <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                    <button type="button" class="btn btn-primary" data-dismiss="modal">Save changes</button>
+                    <button class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    <button class="btn btn-primary" data-dismiss="modal">Save changes</button>
                 </div>
             </div>
         </div>
@@ -57,7 +57,8 @@ export function run() {
     updatePopover.ariaHidden="true";
     updatePopover.innerHTML = createPopover("Lighting Overlay Preference");
 
-    const activationButton = `<button type="button" class="btn btn-secondary" data-toggle="modal" data-target="#${EL_ID}">click here</button>`
+
+    const activationButton = `<button class="btn btn-default" data-toggle="modal" data-target="#${EL_ID}">click here</button>`
 
     const prefNote = document.createElement("div")
     prefNote.classList.add("noLightingOverlayCookieWarning")
