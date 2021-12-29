@@ -1,6 +1,7 @@
 import {validReqArgs} from "./uriArgs.js";
 import {KeyNameAliasDict} from "../../json/key_names_aliases.js";
 import { getSvgShape } from "./svg_get_shape.js";
+import { getFileNameFromPreference } from "./lighting/apiBoardPref.js";
 
 const KEYBOARD_SVG_FADE_TIME = 150;
 const EDGE_BUFFER = 5;
@@ -60,7 +61,7 @@ function showNewKey(pageObj, keyID, revertToSoftkey, currentView = undefined) {
     } else {
         View = document.createElement("object")
         View.className = "keyboard-svg-graphic"
-        View.data = "/images/svg/Keyboard Overlay Source ion xe.svg"
+        View.data = getFileNameFromPreference(true);
         View.type = "image/svg+xml"
         View.name = "Keyboard Graphic"
     
@@ -144,6 +145,8 @@ function parseHighlight(text) {
 
         return split;
     } else {
+        text = text.replace(/\//g, "")
+
         //We might have a situation where we need to do an alias replacement, this can be checked super easily
         let working = text;
         try {
@@ -156,97 +159,8 @@ function parseHighlight(text) {
             //
         }
 
-        return working
+        return working;
     }
-
-    switch (text) {
-        case "number":
-        case "numbers":
-            return getNumbers();
-
-        case "softkey":
-        case "softkeys":
-            return getSoftkeyKeys();
-
-        case "encoderpage":
-        case "encoderpages":
-            return getEncoderPages();
-
-        case "encoderwheel":
-        case "encoderwheels":
-            return getEncoderWheels();
-    }    
-    //Edge cases dealt with, now we can remove slashes from others (like label/note)
-    text = text.replace(/\//g, "")
-
-    try {
-        if (LightingKeyboardAliases[text]) {
-            return LightingKeyboardAliases[text]
-        }
-    } catch(e) {
-        //
-    }
-
-    return text;
-}
-
-function getSoftkeyKeys() {
-    return [
-        "s1",
-        "s2",
-        "s3",
-        "s4",
-        "s5",
-        "s6",
-        "intensity_s1",
-        "focus_s2",
-        "color_s3",
-        "shutter_s4",
-        "image_s5",
-        "form_s6",
-        "moresk"
-    ]
-}
-
-function getEncoderPages() {
-    return [
-        "focus",
-        "color",
-        "intensity",
-        "form",
-        "image",
-        "shutter",
-        "intensity_s1",
-        "focus_s2",
-        "color_s3",
-        "beam_s4",
-        "form_s5",
-        "shutter_s6",
-    ]
-}
-
-function getEncoderWheels() {
-    return [
-        "encoder1",
-        "encoder2",
-        "encoder3",
-        "encoder4"
-    ]
-}
-
-function getNumbers() {
-    return [
-        "1",
-        "2",
-        "3",
-        "4",
-        "5",
-        "6",
-        "7",
-        "8",
-        "9",
-        "0"
-    ]
 }
 
 function visualAnimateOut(element) {

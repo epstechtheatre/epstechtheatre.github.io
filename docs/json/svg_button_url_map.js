@@ -28,7 +28,7 @@ export const UrlAndButtonNameMap = [
         "names": ["clear"]
     },
     {
-        "url": "/Lighting_keyboard_color.html",
+        "url": "/Lighting_keyboard_encoderpages.html",
         "names": ["color"]
     },
     {
@@ -96,7 +96,7 @@ export const UrlAndButtonNameMap = [
         "names": ["flexi"]
     },
     {
-        "url": "/Lighting_keyboard_focus.html",
+        "url": "/Lighting_keyboard_encoderpages.html",
         "names": ["focus"]
     },
     {
@@ -104,7 +104,7 @@ export const UrlAndButtonNameMap = [
         "names": ["focuspalette"]
     },
     {
-        "url": "/Lighting_keyboard_form.html",
+        "url": "/Lighting_keyboard_encoderpages.html",
         "names": ["form"]
     },
     {
@@ -140,12 +140,12 @@ export const UrlAndButtonNameMap = [
         "names": ["home"]    
     },
     {
-        "url": "/Lighting_keyboard_image.html",
+        "url": "/Lighting_keyboard_encoderpages.html",
         "names": ["image"]    
     },
     {
-        "url": "/Lighting_keyboard_intensity.html",
-        "names": ["intensity"]    
+        "url": "/Lighting_keyboard_encoderpages.html",
+        "names": ["intensity", "custom"]
     },
     {
         "url": "/Lighting_keyboard_intpalette.html",
@@ -188,7 +188,7 @@ export const UrlAndButtonNameMap = [
         "names": ["minus"]    
     },
     {
-        "url": "/Lighting_keyboard_softkeys.html#More_SK",
+        "url": "/Lighting_keyboard_softkeys.html",
         "names": ["moresk"]    
     },
     {
@@ -268,7 +268,7 @@ export const UrlAndButtonNameMap = [
         "names": ["shift"] 
     },
     {
-        "url": "/Lighting_keyboard_shutter.html",
+        "url": "/Lighting_keyboard_encoderpages.html",
         "names": ["shutter"]    
     },
     {
@@ -297,7 +297,7 @@ export const UrlAndButtonNameMap = [
     },
     {
         "url": "/Lighting_keyboard_undo_redo.html",
-        "names": ["undo_redo"]    
+        "names": ["undo_redo", "undo"]    
     },
     {
         "url": "/Lighting_keyboard_update.html",

@@ -36,5 +36,18 @@
         })
     </script>
 
-    <object id="linked_console_svg" class="linked_console_svg_display" data="/images/svg/Keyboard Overlay Source ion xe.svg" type="image/svg+xml" width="100%" style="padding-top: 10px;"></object>
+    <script type="module">
+        import {getFileNameFromPreference} from "/js/modules/lighting/apiBoardPref.js"
+
+        const FullScreenSVG = document.createElement("object");
+        FullScreenSVG.id = "linked_console_svg";
+        FullScreenSVG.classList.add("linked_console_svg_display");
+        FullScreenSVG.data = getFileNameFromPreference(true);
+        FullScreenSVG.type = "image/svg+xml";
+        FullScreenSVG.name = "Keyboard Graphic";
+        FullScreenSVG.width = "100%";
+        FullScreenSVG.style.paddingTop = "10px";
+
+        document.querySelector(".linked_console_svg_wrapper").appendChild(FullScreenSVG)
+    </script>
 </div>

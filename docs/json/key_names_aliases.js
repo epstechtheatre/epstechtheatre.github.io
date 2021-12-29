@@ -23,8 +23,8 @@ export const KeyNameAliasDict = {
     "trackqonly": "qonly_track",
     "track": "qonly_track",
 
-    "undo": "undo_redo",
-    "redo": "undo_redo",
+    "undo": ["undo_redo", "undo"],
+    "redo": ["undo_redo", "undo"],
     "undoredo": "undo_redo",
     "redoundo": "undo_redo",
 
@@ -52,5 +52,27 @@ export const KeyNameAliasDict = {
     ".": "dot",
     "+": "plus",
     "-": "minus",
-    "/": "slash"
+    "/": "slash",
+
+    "number": ["1", "2", "3", "4", "5", "6", "7", "8", "9", "0"],
+    "numbers": "number",
+
+    "encoderpage": ["focus", "color", "intensity", "form", "image", "shutter", "intensity_s1", "focus_s2", "color_s3", "beam_s4", "form_s5", "shutter_s6"],
+    "encoderpages": "encoderpage",
+
+    "softkey": ["s1", "s2", "s3", "s4", "s5", "s6", "intensity_s1", "focus_s2", "color_s3", "shutter_s4", "image_s5", "form_s6", "moresk"],
+    "softkeys": "softkey",
+
+    "encoderwheel": ["encoder1", "encoder2", "encoder3", "encoder4"],
+    "encoderwheels": "encoderwheel",
+
+    "playback1": ["playback1", "playbackfaderback1"],
+    "playback2": ["playback2", "playbackfaderback2"],
+
+    "fader1": "playback1",
+    "fader2": "playback2",
+
+    "grandmaster": ["grandmaster", "grandmasterfaderback"],
+
+    "time": ["time", "time1", "time2"]
 }

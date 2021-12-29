@@ -12,6 +12,17 @@ last_updated: August 21, 2021
 # tags: []
 ---
 
+{% capture test %}
+Does this work like i want it
+{% include lighting/console_command.html content="1, At, Full" noLegend=true noTip=true andAsWord=false %}
+{% include callout.html type="success" content="Testing" %}
+
+{% endcapture %}
+
+
+{% include modal/buttonActivator.html modalUID="test" buttonLabel="test" %}
+{% include modal/popover.html modalUID="test" modalTitle="import test" modalBody=test %}
+
 ## Usage
 With nothing in your command line. Pressing {% include lighting/console_button.html content="About" %} will show you the current system information for the lighting board application. You can see the current version, number of cues in the showfile, and IP address of the console.
 
