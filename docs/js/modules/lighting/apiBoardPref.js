@@ -37,6 +37,10 @@ function createPopover(title) {
                         <option value="element ii">ETC Element II</option>
                         <option value="unset">Delete my Selection</option>
                     </select>
+
+                    <div class="bs-callout bs-callout-warning">
+                        <p>The following is for GDPR compliance:<br>Your response will be stored as a cookie in your browser for 30 days. It is used strictly for displaying command tooltips that are more relevant to you.<br>You may delete the cookie at any time by selecting "Delete my Selection" in the dropdown above.</p>
+                    </div>
                 </div>
                 <div class="modal-footer">
                     <button class="btn btn-secondary" data-dismiss="modal">Close</button>
@@ -88,6 +92,10 @@ export function run() {
             deletePreference();
         } else {
             setPreference(value);
+
+            if (window.location.origin.trim() === '{{site.host_url}}') {
+                mixpanel.track("Lighting Board Preference Set", {boardID: storeKeyToHumanName[value]})
+            }
         }
 
         window.location.reload();
