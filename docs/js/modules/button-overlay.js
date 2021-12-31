@@ -57,7 +57,7 @@ function showNewKey(pageObj, keyID, revertToSoftkey, currentView = undefined) {
     if (currentView) {
         View = currentView
 
-        ViewDoWork(View, keyID, revertToSoftkey)
+        ViewDoWork(pageObj, View, keyID, revertToSoftkey)
     } else {
         View = document.createElement("object")
         View.className = "keyboard-svg-graphic"
@@ -69,12 +69,12 @@ function showNewKey(pageObj, keyID, revertToSoftkey, currentView = undefined) {
         currentGraphic = View;
 
         View.addEventListener("load", () => {
-            ViewDoWork(View, keyID, revertToSoftkey)
+            ViewDoWork(pageObj, View, keyID, revertToSoftkey)
         })
     }
 }
 
-function ViewDoWork(View, keyID, revertToSoftkey) {
+function ViewDoWork(pageObj, View, keyID, revertToSoftkey) {
     if (currentKeys.length > 0) {
         for (let key of currentKeys) {
             getSvgShape(key).style = "fill:white;stroke:#000000"
@@ -86,6 +86,24 @@ function ViewDoWork(View, keyID, revertToSoftkey) {
 
     //Returns a string, or array of strings
     let searchElement = parseHighlight(keyID)
+    let simultaneousHighlight = [];
+
+    //If the pageObj is a simultaneous key, we should highlight a bunch more stuff as well
+    if (pageObj.parentElement?.classList.contains("display-button-simultaneous")) {
+        const simultaneousButtons = pageObj.parentElement.querySelectorAll(".display-button");
+
+        simultaneousButtons.forEach(button => {
+            const buttonID = button.dataset.keyid.toString().replace(/({|}|[|]| )/g, "").toLowerCase();
+            if (buttonID === keyID) {
+                simultaneousHighlight.push(null);
+                return;
+            }
+
+            const additionSearch = parseHighlight(buttonID);
+
+            simultaneousHighlight = simultaneousHighlight.concat(additionSearch);
+        })
+    }
 
     const docElement = View.contentWindow.document.documentElement;
     if (Array.isArray(searchElement)) {
@@ -126,12 +144,52 @@ function ViewDoWork(View, keyID, revertToSoftkey) {
         } 
     }
 
+    if (simultaneousHighlight.length > 0) {
+        let nullFound = false;
+        let nullIndex = 0;
+        let index = 0;
 
+        for (let element of simultaneousHighlight) {
+            if (element === null) {
+                nullFound = true;
+                continue;
+            }
+            let targetKey = docElement.getElementById(element);
+
+            if (targetKey) {
+                if (!nullFound) {
+                    nullIndex += 1;
+                }
+                index += 1;
+
+                currentKeys.push(targetKey);
+
+                //Create colour - the closer it is to being the next key, the closer the colour is the min bound
+
+                const succeedingScale = [[0,255,255],[255,255,255]]  
+                //                        r, g , b     r , g , b
+                //                       [minBound  ,    MaxBound]
+
+                const red = simultaneousButtonColourGradient(succeedingScale[0][0], succeedingScale[1][0], nullIndex, index);
+                const green = simultaneousButtonColourGradient(succeedingScale[0][1], succeedingScale[1][1], nullIndex, index);
+                const blue = simultaneousButtonColourGradient(succeedingScale[0][2], succeedingScale[1][2], nullIndex, index);
+
+                // getSvgShape(targetKey).style = nullFound ? `fill:rgb(${red},${green},${blue});stroke:#000000` : "fill:#0088AA;stroke:#000000";
+                getSvgShape(targetKey).style = nullFound ? `fill:rgb(${red},${green},${blue});stroke:#000000` : "fill:blue;stroke:#000000";
+            }
+        }
+    }
 
     if (View.style.opacity !== 100) {
         View.style.transition = `opacity ${KEYBOARD_SVG_FADE_TIME}ms linear`;
         View.style.opacity = 100;
     }
+}
+
+function simultaneousButtonColourGradient(minBound, maxBound, asymptoteOffset, index) {
+    //https://www.desmos.com/calculator/akipfecugm
+    const SCALE_FACTOR = 1.3;
+    return Math.round(minBound + (maxBound - minBound) * (-(1 / ((SCALE_FACTOR * (index) - 1) - SCALE_FACTOR * asymptoteOffset + 1)) + 1));
 }
 
 function parseHighlight(text) {
