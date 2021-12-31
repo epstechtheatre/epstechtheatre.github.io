@@ -9,7 +9,7 @@ export function getPreference() {
     return getCookie(COOKIE_NAME)
 }
 
-export function setPreference(value) {
+export function setPreference(value) {    
     return setCookie(COOKIE_NAME, value, 30)
 }
 
