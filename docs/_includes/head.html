@@ -46,7 +46,8 @@
             '{{site.mix_panel_token}}', {
                 ignore_dnt: true, 
                 api_host: "https://api.mixpanel.com", 
-                disable_persistence: true //prevents cookies
+                disable_persistence: true, //prevents cookies
+                secure: true
             }); 
         mixpanel.track('Page Visit', {folder: "{{page.folder}}", title: "{{page.title}}"});
     }
