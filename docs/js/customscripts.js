@@ -1,5 +1,6 @@
 import "./modules/printer.js"
 import "./modules/button-overlay.js"
+import "./modules/runFolderSpecificFunc.js"
 
 
 $( document ).ready(function() {

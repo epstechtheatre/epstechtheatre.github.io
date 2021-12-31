@@ -352,7 +352,7 @@ span.soft {
 }
 
 .btn-default {
-    margin-bottom: 10px;
+    /* margin-bottom: 10px; */
     transition: 0.3s;
 }
 

@@ -1,0 +1,941 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="418.61923mm"
+   height="249.29623mm"
+   viewBox="0 0 418.61923 249.29623"
+   version="1.1"
+   id="svg5"
+   sodipodi:docname="element i.svg"
+   inkscape:version="1.1 (c68e22c387, 2021-05-23)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="0.79107744"
+     inkscape:cx="475.30113"
+     inkscape:cy="325.50543"
+     inkscape:window-width="958"
+     inkscape:window-height="1033"
+     inkscape:window-x="-8"
+     inkscape:window-y="0"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="layer1">
+    <inkscape:grid
+       type="xygrid"
+       id="grid824"
+       originx="85.004987"
+       originy="90.207918" />
+  </sodipodi:namedview>
+  <defs
+     id="defs2" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(85.004991,90.20792)">
+    <rect
+       style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.478466;stroke-opacity:1;paint-order:fill markers stroke"
+       id="cue"
+       width="21.166666"
+       height="21.166666"
+       x="1.4305116e-06"
+       y="52.916664">
+      <title
+         id="title3911">Cue</title>
+    </rect>
+    <rect
+       style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.478466;stroke-opacity:1;paint-order:fill markers stroke"
+       id="record"
+       width="21.166666"
+       height="21.166666"
+       x="21.166666"
+       y="52.916668">
+      <title
+         id="title3909">Record</title>
+    </rect>
+    <rect
+       style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.478466;stroke-opacity:1;paint-order:fill markers stroke"
+       id="part"
+       width="21.166666"
+       height="21.166666"
+       x="2.5431316e-06"
+       y="74.083328">
+      <title
+         id="title3913">Part</title>
+    </rect>
+    <rect
+       style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.478466;stroke-opacity:1;paint-order:fill markers stroke"
+       id="update"
+       width="21.166666"
+       height="21.166666"
+       x="21.166666"
+       y="74.083336">
+      <title
+         id="title3891">Update</title>
+    </rect>
+    <rect
+       style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.478466;stroke-opacity:1;paint-order:fill markers stroke"
+       id="macro"
+       width="21.166666"
+       height="21.166666"
+       x="2.7020772e-06"
+       y="-3.1789143e-06">
+      <title
+         id="title3923">Macro</title>
+    </rect>
+    <rect
+       style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.478466;stroke-opacity:1;paint-order:fill markers stroke"
+       id="learn"
+       width="21.166666"
+       height="21.166666"
+       x="21.166666"
+       y="6.357829e-07">
+      <title
+         id="title3921">Learn</title>
+    </rect>
+    <rect
+       style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.478466;stroke-opacity:1;paint-order:fill markers stroke"
+       id="delete"
+       width="21.166666"
+       height="21.166666"
+       x="3.6557515e-06"
+       y="21.166662">
+      <title
+         id="title3925">Delete</title>
+    </rect>
+    <rect
+       style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.478466;stroke-opacity:1;paint-order:fill markers stroke"
+       id="help"
+       width="21.166666"
+       height="21.166666"
+       x="21.166666"
+       y="21.166666">
+      <title
+         id="title3919">Help</title>
+    </rect>
+    <rect
+       style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.478466;stroke-opacity:1;paint-order:fill markers stroke"
+       id="intpalette"
+       width="21.166666"
+       height="21.166666"
+       x="2.0662944e-06"
+       y="95.25">
+      <title
+         id="title3915">Int Palette</title>
+    </rect>
+    <rect
+       style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.478466;stroke-opacity:1;paint-order:fill markers stroke"
+       id="sub"
+       width="21.166666"
+       height="21.166666"
+       x="21.166666"
+       y="95.250008">
+      <title
+         id="title3917">Sub</title>
+    </rect>
+    <rect
+       style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.478466;stroke-opacity:1;paint-order:fill markers stroke"
+       id="delay"
+       width="21.166666"
+       height="21.166666"
+       x="3.1789145e-06"
+       y="116.41668">
+      <title
+         id="title3955">Delay</title>
+    </rect>
+    <rect
+       style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.478466;stroke-opacity:1;paint-order:fill markers stroke"
+       id="group"
+       width="21.166666"
+       height="21.166666"
+       x="21.166666"
+       y="116.41668">
+      <title
+         id="title3957">Group</title>
+    </rect>
+    <rect
+       style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.478466;stroke-opacity:1;paint-order:fill markers stroke"
+       id="shift"
+       width="21.166666"
+       height="21.166666"
+       x="4.9273176e-06"
+       y="137.58334">
+      <title
+         id="title3953">Shift</title>
+    </rect>
+    <rect
+       style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.676653;stroke-opacity:1;paint-order:fill markers stroke"
+       id="go"
+       width="42.333332"
+       height="21.166666"
+       x="-84.666664"
+       y="137.58333">
+      <title
+         id="title3230">Go</title>
+    </rect>
+    <rect
+       style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.676653;stroke-opacity:1;paint-order:fill markers stroke"
+       id="stopback"
+       width="42.333332"
+       height="21.166666"
+       x="-84.666664"
+       y="105.83333">
+      <title
+         id="title3228">Stop / Back</title>
+    </rect>
+    <rect
+       style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.447564;stroke-opacity:1;paint-order:fill markers stroke"
+       id="playbackfaderback2"
+       width="5.2916679"
+       height="74.083328"
+       x="-52.916672"
+       y="-3.1737576e-14">
+      <title
+         id="title3222">weeeee!</title>
+    </rect>
+    <rect
+       style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.447564;stroke-opacity:1;paint-order:fill markers stroke"
+       id="playbackfaderback1"
+       width="5.2916679"
+       height="74.083328"
+       x="-79.375"
+       y="-3.1737576e-14">
+      <title
+         id="title3220">weeeee!</title>
+    </rect>
+    <rect
+       style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.478466;stroke-opacity:1;paint-order:fill markers stroke"
+       id="time"
+       width="21.166666"
+       height="21.166666"
+       x="21.166666"
+       y="137.58334">
+      <title
+         id="title3887">Time</title>
+    </rect>
+    <rect
+       style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.478466;stroke-opacity:1;paint-order:fill markers stroke"
+       id="slash"
+       width="21.166666"
+       height="21.166666"
+       x="148.16667"
+       y="52.916649">
+      <title
+         id="title3602">/</title>
+    </rect>
+    <rect
+       style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.478466;stroke-opacity:1;paint-order:fill markers stroke"
+       id="sneak"
+       width="21.166666"
+       height="21.166666"
+       x="169.33333"
+       y="52.916656">
+      <title
+         id="title3901">Sneak</title>
+    </rect>
+    <rect
+       style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.478466;stroke-opacity:1;paint-order:fill markers stroke"
+       id="remdim"
+       width="21.166666"
+       height="21.166666"
+       x="148.16667"
+       y="74.083313">
+      <title
+         id="title3907">Rem Dim</title>
+    </rect>
+    <rect
+       style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.478466;stroke-opacity:1;paint-order:fill markers stroke"
+       id="dimmer_address"
+       width="21.166666"
+       height="21.166666"
+       x="169.33333"
+       y="74.083328">
+      <title
+         id="title3903">Dimmer / Address</title>
+    </rect>
+    <rect
+       style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.478466;stroke-opacity:1;paint-order:fill markers stroke"
+       id="label_note"
+       width="21.166666"
+       height="21.166666"
+       x="148.16667"
+       y="-1.5258789e-05">
+      <title
+         id="title3895">Label / Note</title>
+    </rect>
+    <rect
+       style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.478466;stroke-opacity:1;paint-order:fill markers stroke"
+       id="last"
+       width="21.166666"
+       height="21.166666"
+       x="169.33333"
+       y="-7.6293945e-06">
+      <title
+         id="title3897">Last</title>
+    </rect>
+    <rect
+       style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.478466;stroke-opacity:1;paint-order:fill markers stroke"
+       id="effect"
+       width="21.166666"
+       height="21.166666"
+       x="148.16667"
+       y="21.166649">
+      <title
+         id="title3893">Effect</title>
+    </rect>
+    <rect
+       style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.478466;stroke-opacity:1;paint-order:fill markers stroke"
+       id="next"
+       width="21.166666"
+       height="21.166666"
+       x="169.33333"
+       y="21.166656">
+      <title
+         id="title3899">Next</title>
+    </rect>
+    <rect
+       style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.478466;stroke-opacity:1;paint-order:fill markers stroke"
+       id="out"
+       width="21.166666"
+       height="21.166666"
+       x="148.16667"
+       y="95.249985">
+      <title
+         id="title3731">Out</title>
+    </rect>
+    <rect
+       style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.478466;stroke-opacity:1;paint-order:fill markers stroke"
+       id="frame"
+       width="21.166666"
+       height="21.166666"
+       x="169.33333"
+       y="95.25">
+      <title
+         id="title3905">Frame</title>
+    </rect>
+    <rect
+       style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.478466;stroke-opacity:1;paint-order:fill markers stroke"
+       id="full"
+       width="21.166666"
+       height="21.166666"
+       x="148.16667"
+       y="116.41667">
+      <title
+         id="title3729">Full</title>
+    </rect>
+    <rect
+       style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.478466;stroke-opacity:1;paint-order:fill markers stroke"
+       id="qonly_track"
+       width="21.166666"
+       height="21.166666"
+       x="169.33333"
+       y="116.41667">
+      <title
+         id="title3733">QOnly / Track</title>
+    </rect>
+    <rect
+       style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.478466;stroke-opacity:1;paint-order:fill markers stroke"
+       id="at"
+       width="21.166666"
+       height="21.166666"
+       x="148.16667"
+       y="137.58333">
+      <title
+         id="title3725">At</title>
+    </rect>
+    <rect
+       style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.478466;stroke-opacity:1;paint-order:fill markers stroke"
+       id="enter"
+       width="21.166666"
+       height="21.166666"
+       x="169.33333"
+       y="137.58333">
+      <title
+         id="title3727">Enter</title>
+    </rect>
+    <rect
+       style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.478466;stroke-opacity:1;paint-order:fill markers stroke"
+       id="plus"
+       width="21.166666"
+       height="21.166666"
+       x="63.500004"
+       y="52.916656">
+      <title
+         id="title3476">+</title>
+    </rect>
+    <rect
+       style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.478466;stroke-opacity:1;paint-order:fill markers stroke"
+       id="thru"
+       width="21.166666"
+       height="21.166666"
+       x="84.666664"
+       y="52.91666">
+      <title
+         id="title3478">Thru</title>
+    </rect>
+    <rect
+       style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.478466;stroke-opacity:1;paint-order:fill markers stroke"
+       id="7"
+       width="21.166666"
+       height="21.166666"
+       x="63.500008"
+       y="74.083321">
+      <title
+         id="title3470">7</title>
+    </rect>
+    <rect
+       style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.478466;stroke-opacity:1;paint-order:fill markers stroke"
+       id="8"
+       width="21.166666"
+       height="21.166666"
+       x="84.666664"
+       y="74.083328">
+      <title
+         id="title3472">8</title>
+    </rect>
+    <rect
+       style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.478466;stroke-opacity:1;paint-order:fill markers stroke"
+       id="about"
+       width="21.166666"
+       height="21.166666"
+       x="63.500008"
+       y="-9.5367432e-06">
+      <title
+         id="title3971">About</title>
+    </rect>
+    <rect
+       style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.478466;stroke-opacity:1;paint-order:fill markers stroke"
+       id="copyto_moveto"
+       width="21.166666"
+       height="21.166666"
+       x="84.666664"
+       y="-5.7220459e-06">
+      <title
+         id="title3973">Copy To / Move To</title>
+    </rect>
+    <rect
+       style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.478466;stroke-opacity:1;paint-order:fill markers stroke"
+       id="gotocue"
+       width="21.166666"
+       height="21.166666"
+       x="63.500008"
+       y="21.166655">
+      <title
+         id="title3889">Go To Cue</title>
+    </rect>
+    <rect
+       style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.478466;stroke-opacity:1;paint-order:fill markers stroke"
+       id="s1"
+       width="21.166666"
+       height="21.166666"
+       x="0"
+       y="-42.333332">
+      <title
+         id="title3869">S1</title>
+    </rect>
+    <rect
+       style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.478466;stroke-opacity:1;paint-order:fill markers stroke"
+       id="load"
+       width="21.166666"
+       height="21.166666"
+       x="-74.083344"
+       y="-42.333332">
+      <title
+         id="title3885">Load</title>
+    </rect>
+    <rect
+       style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.478466;stroke-opacity:1;paint-order:fill markers stroke"
+       id="s2"
+       width="21.166666"
+       height="21.166666"
+       x="28.222218"
+       y="-42.333332">
+      <title
+         id="title3871">S2</title>
+    </rect>
+    <rect
+       style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.478466;stroke-opacity:1;paint-order:fill markers stroke"
+       id="block"
+       width="21.166666"
+       height="21.166666"
+       x="84.666664"
+       y="21.166658">
+      <title
+         id="title3967">Block</title>
+    </rect>
+    <rect
+       style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.478466;stroke-opacity:1;paint-order:fill markers stroke"
+       id="4"
+       width="21.166666"
+       height="21.166666"
+       x="63.500008"
+       y="95.249992">
+      <title
+         id="title3464">4</title>
+    </rect>
+    <rect
+       style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.478466;stroke-opacity:1;paint-order:fill markers stroke"
+       id="5"
+       width="21.166666"
+       height="21.166666"
+       x="84.666664"
+       y="95.25">
+      <title
+         id="title3466">5</title>
+    </rect>
+    <rect
+       style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.478466;stroke-opacity:1;paint-order:fill markers stroke"
+       id="1"
+       width="21.166666"
+       height="21.166666"
+       x="63.500008"
+       y="116.41667">
+      <title
+         id="title3458">1</title>
+    </rect>
+    <rect
+       style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.478466;stroke-opacity:1;paint-order:fill markers stroke"
+       id="2"
+       width="21.166666"
+       height="21.166666"
+       x="84.666664"
+       y="116.41667">
+      <title
+         id="title3460">2</title>
+    </rect>
+    <rect
+       style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.478466;stroke-opacity:1;paint-order:fill markers stroke"
+       id="clear"
+       width="21.166666"
+       height="21.166666"
+       x="63.500008"
+       y="137.58334">
+      <title
+         id="title3963">Clear</title>
+    </rect>
+    <rect
+       style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.478466;stroke-opacity:1;paint-order:fill markers stroke"
+       id="0"
+       width="21.166666"
+       height="21.166666"
+       x="84.666664"
+       y="137.58334">
+      <title
+         id="title3456">0</title>
+    </rect>
+    <rect
+       style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.478466;stroke-opacity:1;paint-order:fill markers stroke"
+       id="minus"
+       width="21.166666"
+       height="21.166666"
+       x="105.83334"
+       y="52.916668">
+      <title
+         id="title3480">-</title>
+    </rect>
+    <rect
+       style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.478466;stroke-opacity:1;paint-order:fill markers stroke"
+       id="9"
+       width="21.166666"
+       height="21.166666"
+       x="105.83334"
+       y="74.083336">
+      <title
+         id="title3474">9</title>
+    </rect>
+    <rect
+       style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.478466;stroke-opacity:1;paint-order:fill markers stroke"
+       id="recallfrom"
+       width="21.166666"
+       height="21.166666"
+       x="105.83334"
+       y="2.5431316e-06">
+      <title
+         id="title3975">Recall From</title>
+    </rect>
+    <rect
+       style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.478466;stroke-opacity:1;paint-order:fill markers stroke"
+       id="undo"
+       width="21.166666"
+       height="21.166666"
+       x="105.83334"
+       y="21.166666">
+      <title
+         id="title3969">Undo</title>
+    </rect>
+    <rect
+       style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.478466;stroke-opacity:1;paint-order:fill markers stroke"
+       id="escape"
+       width="21.166666"
+       height="21.166666"
+       x="211.66667"
+       y="-2.5431311e-06">
+      <title
+         id="title3949">Escape</title>
+    </rect>
+    <rect
+       style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.478466;stroke-opacity:1;paint-order:fill markers stroke"
+       id="pageup"
+       width="21.166666"
+       height="21.166666"
+       x="232.83333"
+       y="1.2715662e-06">
+      <title
+         id="title3863">Page Up</title>
+    </rect>
+    <rect
+       style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.478466;stroke-opacity:1;paint-order:fill markers stroke"
+       id="pageleft"
+       width="21.166666"
+       height="21.166666"
+       x="211.66667"
+       y="21.166662">
+      <title
+         id="title3861">Page Left</title>
+    </rect>
+    <rect
+       style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.478466;stroke-opacity:1;paint-order:fill markers stroke"
+       id="pagedown"
+       width="21.166666"
+       height="21.166666"
+       x="232.83333"
+       y="21.166666">
+      <title
+         id="title3865">Page Down</title>
+    </rect>
+    <rect
+       style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.756521;stroke-opacity:1;paint-order:fill markers stroke"
+       id="manualwheel"
+       width="21.166666"
+       height="52.916668"
+       x="232.83333"
+       y="79.375">
+      <title
+         id="title3339">Manual Wheel</title>
+    </rect>
+    <rect
+       style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.478466;stroke-opacity:1;paint-order:fill markers stroke"
+       id="select"
+       width="21.166666"
+       height="21.166666"
+       x="254.00002"
+       y="8.90096e-06">
+      <title
+         id="title3951">Select</title>
+    </rect>
+    <rect
+       style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.478466;stroke-opacity:1;paint-order:fill markers stroke"
+       id="swap"
+       width="21.166666"
+       height="21.166666"
+       x="211.66667"
+       y="-42.333332">
+      <title
+         id="title3941">Swap</title>
+    </rect>
+    <rect
+       style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.478466;stroke-opacity:1;paint-order:fill markers stroke"
+       id="flexi"
+       width="21.166666"
+       height="21.166666"
+       x="232.83333"
+       y="-42.333328">
+      <title
+         id="title3945">Flexi</title>
+    </rect>
+    <rect
+       style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.478466;stroke-opacity:1;paint-order:fill markers stroke"
+       id="scrolllock"
+       width="21.166666"
+       height="21.166666"
+       x="254.00002"
+       y="-42.333321">
+      <title
+         id="title3943">Scroll Lock</title>
+    </rect>
+    <rect
+       style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.478466;stroke-opacity:1;paint-order:fill markers stroke"
+       id="format"
+       width="21.166666"
+       height="21.166666"
+       x="211.66667"
+       y="-68.791664">
+      <title
+         id="title3947">Format</title>
+    </rect>
+    <rect
+       style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.478466;stroke-opacity:1;paint-order:fill markers stroke"
+       id="expand"
+       width="21.166666"
+       height="21.166666"
+       x="232.83333"
+       y="-68.791664">
+      <title
+         id="title3959">Expand</title>
+    </rect>
+    <rect
+       style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.478466;stroke-opacity:1;paint-order:fill markers stroke"
+       id="data"
+       width="21.166666"
+       height="21.166666"
+       x="254.00002"
+       y="-68.791656">
+      <title
+         id="title3961">Data</title>
+    </rect>
+    <rect
+       style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.478466;stroke-opacity:1;paint-order:fill markers stroke"
+       id="blackout"
+       width="21.166666"
+       height="21.166666"
+       x="312.20834"
+       y="-42.333332">
+      <title
+         id="title3883">Blackout</title>
+    </rect>
+    <rect
+       style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.207182;stroke-opacity:1;paint-order:fill markers stroke"
+       id="usb"
+       width="5.2916527"
+       height="15.874997"
+       x="320.14584"
+       y="-66.145836">
+      <title
+         id="title3345">USB</title>
+    </rect>
+    <rect
+       style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.478466;stroke-opacity:1;paint-order:fill markers stroke"
+       id="pageright"
+       width="21.166666"
+       height="21.166666"
+       x="254.00002"
+       y="21.166674">
+      <title
+         id="title3867">Page Right</title>
+    </rect>
+    <rect
+       style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.478466;stroke-opacity:1;paint-order:fill markers stroke"
+       id="6"
+       width="21.166666"
+       height="21.166666"
+       x="105.83334"
+       y="95.250008">
+      <title
+         id="title3468">6</title>
+    </rect>
+    <rect
+       style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.478466;stroke-opacity:1;paint-order:fill markers stroke"
+       id="3"
+       width="21.166666"
+       height="21.166666"
+       x="105.83334"
+       y="116.41668">
+      <title
+         id="title3462">3</title>
+    </rect>
+    <rect
+       style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.478466;stroke-opacity:1;paint-order:fill markers stroke"
+       id="dot"
+       width="21.166666"
+       height="21.166666"
+       x="105.83334"
+       y="137.58336">
+      <title
+         id="title3965">Dot</title>
+    </rect>
+    <rect
+       style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.478466;stroke-opacity:1;paint-order:fill markers stroke"
+       id="s3"
+       width="21.166666"
+       height="21.166666"
+       x="56.444439"
+       y="-42.333336">
+      <title
+         id="title3873">S3</title>
+    </rect>
+    <rect
+       style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.478466;stroke-opacity:1;paint-order:fill markers stroke"
+       id="s4"
+       width="21.166666"
+       height="21.166666"
+       x="84.666656"
+       y="-42.333332">
+      <title
+         id="title3875">S4</title>
+    </rect>
+    <rect
+       style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.478466;stroke-opacity:1;paint-order:fill markers stroke"
+       id="moresk"
+       width="21.166666"
+       height="21.166666"
+       x="169.33333"
+       y="-42.333332">
+      <title
+         id="title3881">More SK</title>
+    </rect>
+    <rect
+       style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.478466;stroke-opacity:1;paint-order:fill markers stroke"
+       id="s5"
+       width="21.166666"
+       height="21.166666"
+       x="112.88888"
+       y="-42.333332">
+      <title
+         id="title3877">S5</title>
+    </rect>
+    <rect
+       style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.478466;stroke-opacity:1;paint-order:fill markers stroke"
+       id="s6"
+       width="21.166666"
+       height="21.166666"
+       x="141.11108"
+       y="-42.333332">
+      <title
+         id="title3879">S6</title>
+    </rect>
+    <rect
+       style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.478466;stroke-opacity:1;paint-order:fill markers stroke"
+       id="live"
+       width="21.166666"
+       height="21.166666"
+       x="-5.0862627e-06"
+       y="-68.791664">
+      <title
+         id="title3929">Live</title>
+    </rect>
+    <rect
+       style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.478466;stroke-opacity:1;paint-order:fill markers stroke"
+       id="blind"
+       width="21.166666"
+       height="21.166666"
+       x="28.222208"
+       y="-68.791664">
+      <title
+         id="title3927">Blind</title>
+    </rect>
+    <rect
+       style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.478466;stroke-opacity:1;paint-order:fill markers stroke"
+       id="patch"
+       width="21.166666"
+       height="21.166666"
+       x="56.444439"
+       y="-68.791672">
+      <title
+         id="title3931">Patch</title>
+    </rect>
+    <rect
+       style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.478466;stroke-opacity:1;paint-order:fill markers stroke"
+       id="setup"
+       width="21.166666"
+       height="21.166666"
+       x="84.666649"
+       y="-68.791664">
+      <title
+         id="title3933">Setup</title>
+    </rect>
+    <rect
+       style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.478466;stroke-opacity:1;paint-order:fill markers stroke"
+       id="mlcontrol"
+       width="21.166666"
+       height="21.166666"
+       x="169.33333"
+       y="-68.791664">
+      <title
+         id="title3939">ML Control</title>
+    </rect>
+    <rect
+       style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.478466;stroke-opacity:1;paint-order:fill markers stroke"
+       id="park"
+       width="21.166666"
+       height="21.166666"
+       x="112.88888"
+       y="-68.791664">
+      <title
+         id="title3935">Park</title>
+    </rect>
+    <rect
+       style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.478466;stroke-opacity:1;paint-order:fill markers stroke"
+       id="browser"
+       width="21.166666"
+       height="21.166666"
+       x="141.11108"
+       y="-68.791664">
+      <title
+         id="title3937">Browser</title>
+    </rect>
+    <circle
+       style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.464364;stroke-opacity:1;paint-order:fill markers stroke"
+       id="modeknob"
+       cx="-63.667229"
+       cy="-81.589188"
+       r="8.3865499">
+      <title
+         id="title3337">Mode Knob</title>
+    </circle>
+    <circle
+       style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.464364;stroke-opacity:1;paint-order:fill markers stroke"
+       id="power"
+       cx="322.80099"
+       cy="-81.589188"
+       r="8.3865499">
+      <title
+         id="title3347">Power</title>
+    </circle>
+    <rect
+       style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.327582;stroke-opacity:1;paint-order:fill markers stroke"
+       id="playback2"
+       width="10.58333"
+       height="19.843746"
+       x="-55.562504"
+       y="47.625">
+      <title
+         id="title3226">Playback 2</title>
+    </rect>
+    <rect
+       style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.447564;stroke-opacity:1;paint-order:fill markers stroke"
+       id="grandmasterfaderback"
+       width="5.2916679"
+       height="74.083328"
+       x="320.14584"
+       y="0">
+      <title
+         id="title3341">weeeee!</title>
+    </rect>
+    <rect
+       style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.327582;stroke-opacity:1;paint-order:fill markers stroke"
+       id="grandmaster"
+       width="10.58333"
+       height="19.843746"
+       x="317.5"
+       y="47.625004">
+      <title
+         id="title3343">Grand Master</title>
+    </rect>
+    <rect
+       style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.327582;stroke-opacity:1;paint-order:fill markers stroke"
+       id="playback1"
+       width="10.583335"
+       height="19.843748"
+       x="-82.020836"
+       y="6.6145835">
+      <title
+         id="title3224">Playback 1</title>
+    </rect>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1.032;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m -72.23125,-81.491666 h 6.085417"
+       id="path3138" />
+  </g>
+</svg>
