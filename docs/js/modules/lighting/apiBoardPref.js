@@ -38,8 +38,8 @@ function createPopover(title) {
                         <option value="unset">Delete my Selection</option>
                     </select>
 
-                    <div class="bs-callout bs-callout-warning">
-                        <p>The following is for GDPR compliance:<br>Your response will be stored as a cookie in your browser for 30 days. It is used strictly for displaying command tooltips that are more relevant to you.<br>You may delete the cookie at any time by selecting "Delete my Selection" in the dropdown above.</p>
+                    <div class="cookieConsent bs-callout bs-callout-warning">
+                        <p>Your response will be stored as a cookie in your browser for 30 days. It is used strictly for displaying command tooltips.<br><br>You may delete the cookie at any time by selecting "Delete my Selection" in the dropdown above.</p>
                     </div>
                 </div>
                 <div class="modal-footer">
@@ -71,10 +71,10 @@ export function run() {
     prefNote.classList.add("bs-callout")
 
     if (!checkIfPreference()) {
-        prefNote.classList.add("bs-callout-warning")
+        prefNote.classList.add("bs-callout-warning", "lightingPreferenceSelectionUpdateBox")
         prefNote.innerHTML = `<p><b>Note:</b> You haven't set what lighting board you use. For more tailored examples, please ${activationButton} to update this.<br>By default, the wiki will assume you use an ETC Ion XE console.</p>`
     } else {
-        prefNote.classList.add("bs-callout-success")
+        prefNote.classList.add("bs-callout-success", "lightingPreferenceSelectionUpdateBox")
         prefNote.innerHTML = `<p>Your lighting board is currently set to <i>${storeKeyToHumanName[getPreference()]}</i>. If you want to change this, ${activationButton}.`
     }
 

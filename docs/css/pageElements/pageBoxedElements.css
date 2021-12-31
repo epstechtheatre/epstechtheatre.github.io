@@ -121,3 +121,7 @@ div.alert code, h2 code {
 .alert-warning {
     border-color: #444444;
 }
+
+.lightingPreferenceSelectionUpdateBox {
+    border-radius: 0px;
+}
