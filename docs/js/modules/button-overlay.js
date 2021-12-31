@@ -90,7 +90,7 @@ function ViewDoWork(pageObj, View, keyID, revertToSoftkey) {
 
     //If the pageObj is a simultaneous key, we should highlight a bunch more stuff as well
     if (pageObj.parentElement?.classList.contains("display-button-simultaneous")) {
-        const simultaneousButtons = pageObj.parentElement.querySelectorAll(".display-button");
+        const simultaneousButtons = pageObj.parentElement.querySelectorAll([".display-button", ".inline-display-button"]);
 
         simultaneousButtons.forEach(button => {
             const buttonID = button.dataset.keyid.toString().replace(/({|}|[|]| )/g, "").toLowerCase();
