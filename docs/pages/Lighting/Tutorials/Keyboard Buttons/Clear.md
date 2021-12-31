@@ -24,7 +24,7 @@ panelUID must be unique to all other faq panels on this page -->
 
 {% capture clearLine %}
 {% include lighting/console_command.html content="1, At, 5, Enter, Clear" noLegend=true noTip=true %}
-{% include callout.html type="success" content="This example clears the entire command line. This will work for any terminated command. You can tell if a command is terminate as it shows the 🔶 symbol at the end of the line." %}
+{% include callout.html type="success" content="This example clears the entire command line. This will work for any terminated command. You can tell if a command is terminated as it shows the 🔶 symbol at the end of the line." %}
 
 {% include tip.html content="If you start typing a new command but don't clear, the board is sometimes smart enough to automatically clear the command line for you." %}
 
@@ -41,7 +41,8 @@ You could continue typing this command as if {% include lighting/console_button.
 {% endcapture %}
 
 {% capture ShiftClearCallout %}
-Pressing {% include lighting/console_button.html content="Shift" %} and {% include lighting/console_button.html content="Clear" %} at the same time performs the same operation as clearing a terminated command and deletes everything in the command line.<br><br>Plus, it can be used at any time, even your command isn't terminated yet.
+Pressing {% include lighting/inline_console_command.html content="Shift & Clear" andAsWord=true %}
+ at the same time performs the same operation as clearing a terminated command and deletes everything in the command line.<br><br>Plus, it can be used at any time, even your command isn't terminated yet.
 {% endcapture %}
 
 
