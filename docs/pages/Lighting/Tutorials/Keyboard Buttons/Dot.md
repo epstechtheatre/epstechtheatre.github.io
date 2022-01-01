@@ -13,8 +13,7 @@ last_updated: December 28, 2021
 ---
 
 ## Usage
-The {% include lighting/console_button.html content="Dot" %} is used to add decimals to targets. This is used most commonly in cue ID's. Targets that allow decimal numbers can use up to three decimal places. A very typical reason to use decimal cues is when making additions to the cue list far in the future. Some tech like to use decimal cues as a personal marker regarding what type of cue it is.<br><br>
-For example, I used decimal cues for any cue activated by a follow time. That way I was aware of what the intention of the cue list was, and operators were less prone to thinking they accidentally hit go.
+The {% include lighting/console_button.html content="Dot" %} is used to add decimals to targets. This is used most commonly in cue ID's. Targets that allow decimal numbers can use up to three decimal places.
 ## Examples
 <!-- Leave the linkID blank if you want to be able to open multiple sections at once.
 Otherwise, only one panel can be open at a time per linkUID.
@@ -28,8 +27,20 @@ panelUID must be unique to all other faq panels on this page -->
 
 {% endcapture %}
 
+{% capture whenToUse %}
+A very typical reason to use decimal cues is when making additions to the cue list far in the future and not accounting for the fact that you may have to do so. It is far more convenient and efficient to add a decimal cue rather than renumber every cue in the list.
 
-{% include faq/panel.html panelUID='' title='Use a decimal number when recording a target' body=Decimal linkUID='' startOpen='true' %}
+<br><br>
+Other than that, some techs like to use decimal cues as a personal marker to represent what type of cue it is.<br><br>
+For example, I used decimal cues for any cue activated by a follow time. This way, when I run the cue in a show or many weeks after programming a sequence, I'm aware of what the intention of the cue list was and am less prone to misfiring cues.
+{% endcapture %}
+
+
+
+{% include faq/panel.html panelUID='usage' title='Use a decimal number when recording a target' body=Decimal linkUID='' startOpen='true' %}
+
+{% include faq/panel.html panelUID='whenToUse' title='An example of when to use decimal cues' body=whenToUse linkUID='' startOpen='false' %}
+
 
 {% include faq/closing.html%}
 
