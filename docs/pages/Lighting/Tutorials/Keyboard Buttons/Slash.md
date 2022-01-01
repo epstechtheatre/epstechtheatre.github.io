@@ -37,7 +37,7 @@ You can also prepare a specific cue number in the new list by specifying the cue
 
 {% endcapture %}
 
-{% include faq/panel.html panelUID='loadCueList' title='Load another cue list stored in the showfile' body=loadCueList linkUID='' startOpen='false' %}
+{% include faq/panel.html panelUID='loadCueList' title='Load another cue list stored in the showfile' body=loadCueList linkUID='' startOpen='true' %}
 
 {% capture patchUniverse %}
 Using slash, you can mitigate the math you have to do to patch channels to DMX values in separate DMX universes.
