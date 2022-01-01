@@ -203,7 +203,7 @@ function parseHighlight(text) {
 
         return split;
     } else {
-        text = text.replace(/\//g, "")
+        if (text !== "/") text = text.replace(/\//g, "")
 
         //We might have a situation where we need to do an alias replacement, this can be checked super easily
         let working = text;
