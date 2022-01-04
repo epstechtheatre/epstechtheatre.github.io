@@ -26,7 +26,7 @@ panelUID must be unique to all other faq panels on this page -->
 {% include faq/opening.html linkUID='' %}
 
 {% capture openPanel %}
-Press {% include lighting/console_button.html content="Undo" %} once. Make sure not to terminate your command.
+Press {% include lighting/console_button.html content="Undo" %} once. This will open the undo panel on your monitor. Make sure not to terminate your command line!
 {% endcapture %}
 
 {% include faq/panel.html panelUID='openPanel' title='Open the Undo Panel' body=openPanel linkUID='' startOpen='true' %}
