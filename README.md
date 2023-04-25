@@ -7,7 +7,7 @@
 ## What is this?
 This repository contains source files for the E.P. Scarlett Technical Theatre Wiki, which contains a ton of information for students interested in technical theatre. The site is generated using Jekyll and can be found [here](https://epstechtheatre.github.io/).
 
-The project was created and is currently led by [Ben MacDonald](https://github.com/Quantum158/), the Technical Director at E.P Scarlett during the 2020-2021 school year. They will help maintain the repo at least until they complete their bachelor's degree.
+The project was created and is currently led by [Bea MacDonald](https://github.com/Q-Bea/), the Technical Director at E.P Scarlett during the 2020-2021 school year. They will help maintain the repo for at least the next few years
 
 ## Progress
 This project is in its early stages.
@@ -18,7 +18,7 @@ I encourage future students to share any new knowledge they acquire on this page
 
 Alternatively, if you have an idea for the wiki and you just want to write, [fill out this form](https://forms.gle/jRTGT4GuW7Re5r586) using a email that works with Google Drive and a stub file will be created so you can draft using Docs instead of working purely in markdown. The files that are created are automatically automatically shared with the right people so you don't need to worry about visibility.
 
-Alternatively, if you need any support, send an email to [techwiki@b-macdonald.ca](mailto:techwiki@b-macdonald.ca) with "Tech Theatre Wiki" in the subject line.
+Alternatively, if you need any support, send an email to [epstechtheatre@gmail.com](mailto:epstechtheatre@gmail.com) with "Tech Theatre Wiki" in the subject line.
 
 ## Licensing
 This repository is licensed under the GNU GPLv3 license. License details can be found [here](./LICENSE).
