@@ -7,7 +7,7 @@
       minimumHeaders: 3,
       headers: 'h1, h2, h3, h4',
       listType: 'ol', // values: [ol|ul]
-      showEffect: 'show', // values: [show|slideDown|fadeIn|none]
+      showEffect: 'slideDown', // values: [show|slideDown|fadeIn|none]
       showSpeed: 'slow' // set to 0 to deactivate effect
     },
     settings = $.extend(defaults, options);
@@ -42,7 +42,7 @@
     var level = get_level(headers[0]),
       this_level,
       html = settings.title + " <"+settings.listType+">";
-    headers.on('click', function() {
+    headers.on('tap', function() {
       if (!settings.noBackToTopLinks) {
         window.location.hash = this.id;
       }
@@ -71,7 +71,7 @@
     });
     html += "</"+settings.listType+">";
     if (!settings.noBackToTopLinks) {
-      $(document).on('click', '.back-to-top', function() {
+      $(document).on('tap', '.back-to-top', function() {
         $(window).scrollTop(0);
         window.location.hash = '';
       });

@@ -76,6 +76,7 @@
         "Softkeys",
         "Spacebar",
         "stopback",
+        "stopeffect",
         "subfolderitems",
         "subfolders",
         "Submaster",
@@ -83,6 +84,8 @@
         "taglogic",
         "techwiki",
         "Tsoulloftas",
+        "Unpark",
+        "Unparks",
         "woah"
     ],
     "ignorePaths": [

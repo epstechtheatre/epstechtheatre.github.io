@@ -1,0 +1,16 @@
+<div class="panel panel-default">
+    <div class="panel-heading">
+        <h4 class="panel-title">
+            {% if include.linkUID != empty and include.linkUID.size > 0 %}
+            <a class="noCrossRef accordion-toggle" data-toggle="collapse" data-parent="#{{include.linkUID}}" href="#collapse{{include.panelUID}}">{{include.title}}</a>
+            {% else %}
+            <a class="noCrossRef accordion-toggle" data-toggle="collapse" href="#collapse{{include.panelUID}}">{{include.title}}</a>
+            {% endif %}
+        </h4>
+    </div>
+    <div id="collapse{{include.panelUID}}" class="panel-collapse collapse noCrossRef {% if include.startOpen == 'true' %}in{% endif %}">
+        <div class="panel-body">
+            {{include.body}}
+        </div>
+    </div>
+</div>

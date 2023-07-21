@@ -32,6 +32,8 @@ export const KeyNameAliasDict = {
 
     "intensitypalette": "intpalette",
     "colourpalette": "colorpalette",
+
+    "address": "at",
     
     "manualwheel": ["manualwheel1", "manualwheel2", "manualwheel0"],
     "silverknob": ["manualwheel1", "manualwheel2", "manualwheel"],
@@ -54,6 +56,8 @@ export const KeyNameAliasDict = {
     "-": "minus",
     "/": "slash",
 
+    "load": ["load", "master"],
+    
     "number": ["1", "2", "3", "4", "5", "6", "7", "8", "9", "0"],
     "numbers": "number",
 

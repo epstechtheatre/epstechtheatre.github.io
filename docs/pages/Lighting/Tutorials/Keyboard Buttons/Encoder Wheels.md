@@ -19,19 +19,62 @@ When no light is selected every unique property from your current lighting patch
 
 There are six categories of encoder properties. To switch between them, see [Encoder Pages](./Lighting_keyboard_encoderpages.html).
 
-The {% include lighting/console_button.html content="Encoder Wheels" %} are also clickable. When you click an {% include lighting/console_button.html content="Encoder Wheel" %}, you append the property it manipulate to your current command line. See the complex examples.
+The {% include lighting/console_button.html content="Encoder Wheels" %} are also clickable. When you click an {% include lighting/console_button.html content="Encoder Wheel" %}, you append the property it manipulate to your current command line. See the Lesser Used Examples.
 
 ## Examples
-- You are trying to focus of moving light on an actor on stage. You could manipulate the `Pan` and `Tilt` parameters using the encoder wheels to quickly and precisely target them.
+<!-- Leave the linkID blank if you want to be able to open multiple sections at once.
+Otherwise, only one panel can be open at a time per linkUID.
+panelUID must be unique to all other faq panels on this page -->
 
-- You are told by your lighting designer that the colour on the cyc is too red. You could manipulate the `Red` property of the Cyc to lower it without using the Colour Picker tab.
+{% include faq/opening.html linkUID='' %}
 
-### Complex Examples
-- You want to enter a typed value for the `Pan` value of a light. Make sure you are on the `Focus` page, click down the {% include lighting/console_button.html content="Encoder Wheel" %}, type {% include lighting/console_button.html content="At" %} and a number.
+{% capture FocusMover %}
+You could accomplish this by manipulating the <code>Pan</code> and <code>Tilt</code> parameters of the light using the encoder wheels to quickly and precisely target the actor. If the actor starts moving around, this has the added benefit of enabling you to try and track them.
+{% endcapture %}
 
-- You've learned that a light you're working with has a mode with automatically cycles between colours at a set speed. Chances are that mode is accessible from the Encoder Hold-Down Menu. Select the light in question, hold down the encoder for the property you think the mode is behind. If you are correct, your softkey options will update and one will say `Mode`. Click that while still holding down the encoder to change modes.
+
+{% include faq/panel.html panelUID='FocusMover' title='Focus a moving light on an actor on stage' body=FocusMover linkUID='' startOpen='true' %}
+
+{% capture UpdateCyc %}
+Using the {% include lighting/console_button.html content="Encoder Wheels" %}, you could select problematic LED(s) and manipulate the <code>Red</code> colour property to quickly and precisely lower its percentage without fussing about in the Colour Picker tab.
+{% endcapture %}
+
+
+{% include faq/panel.html panelUID='UpdateCyc' title='Update the colour of a led (such as the cyc)' body=UpdateCyc linkUID='' startOpen='false' %}
+
+
+{% include faq/closing.html%}
+
+
+### Lesser Used / Specific Examples
+
+<!-- Leave the linkID blank if you want to be able to open multiple sections at once.
+Otherwise, only one panel can be open at a time per linkUID.
+panelUID must be unique to all other faq panels on this page -->
+
+{% include faq/opening.html linkUID='' %}
+
+{% capture TypeEncoderProperty %}
+To paste the name of the property into your command line, press down on the encoder bound to your desired property and quickly release.<br><br>For this to work, your encoder must be bound to a property, which can be done by selecting a channel or group and then repeating the above instructions.
+
+<br><br>After appending the property, you can modify it by providing a numerical value and then hitting {% include lighting/console_button.html content="Enter" %}.
+{% endcapture %}
+
+{% include faq/panel.html panelUID='TypeEncoderProperty' title='Append a parameter controlled by an encoder wheel to the command line' body=TypeEncoderProperty linkUID='' startOpen='false' %}
+
+{% capture FancyCycleLight %}
+You've learned that a light you're working with has a mode with automatically cycles between colours at a set speed. Chances are that mode is accessible from the Encoder Hold-Down Menu. Select the light in question, hold down the encoder for the property you think the mode is behind. If you are correct, your softkey options will update and one will say <code>Mode</code>. Click that while still holding down the encoder to change modes.<br><br>
+
+Changing modes can also be done from the encoder menu. Open the encoder menu by clicking the upwards triangle close to the bottom left of the monitor which show parameter names just above the command line. Then, navigate through the menus to find the parameter you want to change the mode of. You know a parameter has different modes if it has a button in its section that says <code>Mode</code>. Click it to cycle through the different options, or hit <code>Expand</code> to pop up more options on the right half of the window and select one from there.
+
+{% include tip.html content="Most complicated hold-down buttons and hidden menus can also be accessed from the monitor in the encoder display menu. Make sure to take a look around at what information is present." %}
+
+{% endcapture %}
+
+{% include faq/panel.html panelUID='FancyCycleLight' title='Use encoders to change the parameter mode of more customizable lights' body=FancyCycleLight linkUID='' startOpen='false' %}
+
+{% include faq/closing.html %}
 
 ## On Keyboard
 The {% include lighting/console_button.html content="Encoder Wheels" %} are not mapped to a key.
 
-{% include tip.html content="Most complicated hold-down buttons and hidden menus can also be accessed from the monitor in the encoder display menu. Have a look around and see what you can find!" %}

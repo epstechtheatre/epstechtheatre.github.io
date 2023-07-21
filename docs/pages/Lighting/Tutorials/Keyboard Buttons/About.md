@@ -8,30 +8,34 @@ folder: Lighting
 toc: true
 authors: [Ben MacDonald]
 summary: The About button shows system information as well as channel source information
-last_updated: August 21, 2021
+last_updated: December 28, 2021
 # tags: []
 ---
-
-{% capture test %}
-Does this work like i want it
-{% include lighting/console_command.html content="1, At, Full" noLegend=true noTip=true andAsWord=false %}
-{% include callout.html type="success" content="Testing" %}
-
-{% endcapture %}
-
-
-{% include modal/buttonActivator.html modalUID="test" buttonLabel="test" %}
-{% include modal/popover.html modalUID="test" modalTitle="import test" modalBody=test %}
 
 ## Usage
 With nothing in your command line. Pressing {% include lighting/console_button.html content="About" %} will show you the current system information for the lighting board application. You can see the current version, number of cues in the showfile, and IP address of the console.
 
 You can also use about to see information about any target. This is especially useful if you have a "Zombie Light" that is stuck on for some reason.
 
-Press {% include lighting/console_button.html content="About" %} again to close the window.
+Press {% include lighting/console_button.html content="About" %} again to close the window. You will need to do this before you can access other parts of the UI, such as the file browser.
 ## Examples
-You want to check if your software is up-to-date. With an empty command line, press {% include lighting/console_button.html content="About" %} and check the reported version against the latest download on the ETC website.
 
-You are trying to figure out why a light won't turn off when you go to cue 0. Type in the ID of the channel and click {% include lighting/console_button.html content="About" %} to see where it is getting properties from.
+{% capture col1 %}
+Type in the ID of the channel and click {% include lighting/console_button.html content="About" %} to see where it is getting properties from.
+{% endcapture %}
+
+{% capture col2 %}
+With an empty command line, press {% include lighting/console_button.html content="About" %} and check the reported version against the latest download on the ETC website.
+{% endcapture %}
+
+
+
+{% include faq/opening.html %}
+
+{% include faq/panel.html panelUID='softwareUpToDate' title='Check if your software is up-to-date' body=col2 %}
+
+{% include faq/panel.html panelUID='ZombieLight' title='Figure out why a light won\'t turn off when you go to a cue' body=col1 %}
+
+{% include faq/closing.html %}
 ## On Keyboard
 {% include lighting/console_button.html content="About" %} is mapped to `Y` on a QWERTY keyboard

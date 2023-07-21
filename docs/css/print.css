@@ -72,4 +72,8 @@
     .sc-empty {
         display: none;
     }
+
+    .faq-mobile-warning {
+        display: none !important;
+    }
 }
