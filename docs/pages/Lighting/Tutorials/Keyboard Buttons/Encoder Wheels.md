@@ -7,7 +7,7 @@ folder: Lighting
 # toc: true
 summary: The Encoder Wheels are used to modify the values of parameters for a light, they provide a view high degree of precision without having to type long commands. The are very similar to the Manual Wheel, which is used to control the intensity of a light.
 # keywords: []
-authors: [Ben MacDonald]
+authors: [Bea MacDonald]
 last_updated: August 21, 2021
 # tags: []
 ---

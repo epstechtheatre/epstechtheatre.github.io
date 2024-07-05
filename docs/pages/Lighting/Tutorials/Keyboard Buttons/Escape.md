@@ -7,7 +7,7 @@ folder: Lighting
 # toc: true
 summary: The Escape key is mostly used to interact with tabs and dialogs on the monitors 
 # keywords: []
-authors: ["Ben MacDonald"]
+authors: ["Bea MacDonald"]
 last_updated: August 19, 2021
 # tags: []
 ---

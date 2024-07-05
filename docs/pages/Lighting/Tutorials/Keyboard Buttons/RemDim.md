@@ -7,7 +7,7 @@ folder: Lighting
 # toc: true
 summary: RemDim is used to quickly take out the intensity of any channel you don't select.
 # keywords: []
-authors: [Ben MacDonald]
+authors: [Bea MacDonald]
 last_updated: August 21, 2021
 # tags: []
 ---

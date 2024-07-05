@@ -7,7 +7,7 @@ folder: Lighting
 # toc: true
 summary: Go To Cue is used to quickly jump to a cue much later or much earlier than the current cue. It can also be used to jump to a cue in a different cue list.
 # keywords: []
-authors: ["Ben MacDonald"]
+authors: ["Bea MacDonald"]
 # last_updated: August 19, 2021
 # tags: []
 ---

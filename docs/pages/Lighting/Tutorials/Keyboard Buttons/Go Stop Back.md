@@ -7,7 +7,7 @@ folder: Lighting
 # toc: true
 summary: Proceed to the next, or revert to the previous cue
 # keywords: []
-authors: ["Ben MacDonald"]
+authors: ["Bea MacDonald"]
 last_updated: August 19th, 2021
 # tags: []
 ---

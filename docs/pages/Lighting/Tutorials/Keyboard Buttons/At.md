@@ -7,7 +7,7 @@ folder: Lighting
 # toc: true
 summary: At is used most commonly to signify that the next number in your command is a lighting intensity
 # keywords: []
-authors: ["Ben MacDonald"]
+authors: ["Bea MacDonald"]
 last_updated: August 19, 2021
 # tags: []
 ---

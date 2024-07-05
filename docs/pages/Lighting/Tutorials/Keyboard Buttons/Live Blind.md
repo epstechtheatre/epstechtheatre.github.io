@@ -7,7 +7,7 @@ folder: Lighting
 # toc: true
 summary: Live and Blind mode are the two programming modes on the console. In live mode, commands you run are immediately displayed on stage, while in blind mode, changes you make are done silently in the background.
 # keywords: []
-authors: ["Ben MacDonald"]
+authors: ["Bea MacDonald"]
 last_updated: August 19, 2021
 tags: ["Lighting"]
 ---

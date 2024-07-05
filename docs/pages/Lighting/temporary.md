@@ -2,7 +2,7 @@
 title: Lighting Crash Course
 permalink: LCCx913ha.html
 search: exclude
-authors: [Ben MacDonald, Katie Drysdale]
+authors: [Bea MacDonald, Katie Drysdale]
 summary: A very specific information set for information you said you wanted to know
 private: true
 noedit: true

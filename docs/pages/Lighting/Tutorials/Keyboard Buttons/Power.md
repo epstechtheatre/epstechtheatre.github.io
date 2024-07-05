@@ -7,7 +7,7 @@ folder: Lighting
 # toc: true
 summary: The power button turns off the console.
 # keywords: []
-authors: ["Ben MacDonald"]
+authors: ["Bea MacDonald"]
 last_updated: August 19, 2021
 # tags: []
 ---

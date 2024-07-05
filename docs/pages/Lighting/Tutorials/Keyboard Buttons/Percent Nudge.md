@@ -7,7 +7,7 @@ folder: Lighting
 # toc: true
 summary: Percent Nudges are used to quickly step the intensity of a light up or down.
 # keywords: []
-authors: ["Ben MacDonald"]
+authors: ["Bea MacDonald"]
 last_updated: August 19, 2021
 # tags: []
 # customPageType: text

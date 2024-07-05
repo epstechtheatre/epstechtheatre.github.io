@@ -7,7 +7,7 @@ folder: Lighting
 # toc: true
 summary: The Enter key is used to terminate commands you type into the console. It is also used to confirm some dialog popups on the monitor, such as cue deletion/overwrite confirmations.
 # keywords: []
-authors: ["Ben MacDonald"]
+authors: ["Bea MacDonald"]
 last_updated: August 19, 2021
 # tags: []
 ---

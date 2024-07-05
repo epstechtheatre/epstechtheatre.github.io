@@ -7,7 +7,7 @@ folder: Lighting
 # toc: true
 summary: Add little notes and phrases to cues so you remember what they are
 # keywords: []
-authors: ["Ben MacDonald"]
+authors: ["Bea MacDonald"]
 last_updated: August 19, 2021
 # tags: []
 ---

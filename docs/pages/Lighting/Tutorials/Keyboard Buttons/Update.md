@@ -7,7 +7,7 @@ folder: Lighting
 # toc: true
 summary: Update is used for two primary functions, updating a cue and saving the showfile.
 # keywords: []
-authors: ["Ben MacDonald"]
+authors: ["Bea MacDonald"]
 last_updated: August 19, 2021
 # tags: []
 ---

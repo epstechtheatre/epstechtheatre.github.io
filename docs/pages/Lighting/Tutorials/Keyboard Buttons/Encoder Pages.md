@@ -7,7 +7,7 @@ folder: Lighting
 # toc: true
 summary: The Encoder Pages are used to change the properties that the Encoder Wheels manipulate.
 # keywords: []
-authors: [Ben MacDonald]
+authors: [Bea MacDonald]
 last_updated: August 21, 2021
 # tags: []
 ---

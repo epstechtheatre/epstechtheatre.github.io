@@ -7,7 +7,7 @@ draft: true
 # toc: true
 summary: EOS is simply a program that can run on any computer (assuming you have permission to download and install apps on it)
 keywords: ["tutorial", "eos", "laptop", "external"]
-authors: ["Ben MacDonald"]
+authors: ["Bea MacDonald"]
 last_updated: August 30, 2021
 tags: [Lighting, tutorial]
 customPageType: tutorial

@@ -7,7 +7,7 @@ folder: Lighting
 # toc: true
 summary: Slash is used to select a subset from a target. This could be a cue in a cue list, for example.
 # keywords: []
-authors: [Ben MacDonald]
+authors: [Bea MacDonald]
 last_updated: August 21, 2021
 # tags: []
 ---

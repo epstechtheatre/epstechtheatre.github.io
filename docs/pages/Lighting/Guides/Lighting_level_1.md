@@ -4,7 +4,7 @@ keywords: [lighting, overview, getting started]
 sidebar: Lighting_sidebar
 permalink: Lighting_level_1.html
 folder: Lighting
-authors: [Ben MacDonald]
+authors: [Bea MacDonald]
 summary: This guide covers the remaining missing knowledge you need to get started actually programming independently on the board
 draft: true
 tags: [lighting, guide]

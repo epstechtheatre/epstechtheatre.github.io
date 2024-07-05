@@ -7,7 +7,7 @@ folder: Lighting
 # toc: true
 summary: The Help key is basically an on-console wiki. Use it to your advantage!
 # keywords: []
-authors: ["Ben MacDonald"]
+authors: ["Bea MacDonald"]
 last_updated: August 19, 2021
 # tags: []
 ---

@@ -4,7 +4,7 @@ keywords: [lighting, overview, getting started]
 sidebar: Lighting_sidebar
 permalink: Lighting_controlsys_dmx.html
 folder: Lighting
-authors: [Ben MacDonald]
+authors: [Bea MacDonald]
 summary: Information on the DMX Distribution panels in the theatre
 draft: true
 ---

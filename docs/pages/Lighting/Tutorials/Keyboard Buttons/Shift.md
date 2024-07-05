@@ -7,7 +7,7 @@ folder: Lighting
 # toc: true
 summary: Shift is used to modify the actions of another key. It has no functionality on its own.
 # keywords: []
-authors: ["Ben MacDonald"]
+authors: ["Bea MacDonald"]
 last_updated: August 19, 2021
 # tags: []
 ---

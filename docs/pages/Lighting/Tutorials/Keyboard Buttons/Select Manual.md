@@ -7,7 +7,7 @@ folder: Lighting
 # toc: true
 summary: Select Manual is used to quickly select every light that has a manually set (ie, not recorded) value
 # keywords: []
-authors: [Ben MacDonald]
+authors: [Bea MacDonald]
 last_updated: August 21, 2021
 # tags: []
 # customPageType: text

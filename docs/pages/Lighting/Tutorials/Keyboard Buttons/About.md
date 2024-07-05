@@ -6,7 +6,7 @@ permalink: Lighting_keyboard_about.html
 folder: Lighting
 # draft: true
 toc: true
-authors: [Ben MacDonald]
+authors: [Bea MacDonald]
 summary: The About button shows system information as well as channel source information
 last_updated: August 21, 2021
 # tags: []

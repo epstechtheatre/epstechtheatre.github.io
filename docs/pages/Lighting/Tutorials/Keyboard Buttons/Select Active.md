@@ -7,7 +7,7 @@ folder: Lighting
 # toc: true
 summary: Select Active is used to quickly select every light with a non-0 intensity.
 # keywords: []
-authors: [Ben MacDonald]
+authors: [Bea MacDonald]
 last_updated: August 21, 2021
 # tags: []
 # customPageType: text

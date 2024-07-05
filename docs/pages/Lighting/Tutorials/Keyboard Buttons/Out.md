@@ -7,7 +7,7 @@ folder: Lighting
 # toc: true
 summary: Out is used to set the intensity property of a light to 0%
 # keywords: []
-authors: ["Ben MacDonald"]
+authors: ["Bea MacDonald"]
 last_updated: August 19, 2021
 # tags: []
 ---

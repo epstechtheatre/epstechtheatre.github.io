@@ -7,7 +7,7 @@ folder: Lighting
 # toc: true
 summary: Home returns the target to it's default state.
 # keywords: []
-authors: ["Ben MacDonald"]
+authors: ["Bea MacDonald"]
 last_updated: August 19, 2021
 # tags: []
 ---

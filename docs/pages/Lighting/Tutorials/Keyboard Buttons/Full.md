@@ -7,7 +7,7 @@ folder: Lighting
 # toc: true
 summary: Full is used to quickly set a lights intensity to 100%
 # keywords: []
-authors: ["Ben MacDonald"]
+authors: ["Bea MacDonald"]
 last_updated: August 19, 2021
 # tags: []
 ---

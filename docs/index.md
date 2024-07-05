@@ -22,7 +22,7 @@ Here you will find a ton of information for students interested in technical the
 ## Sounds cool but who are you?
 We are a passionate group of students interested in all aspects of the technical theatre world. Many of us are actors too. We started this project as a volunteer initiative due to the impact that Covid-19 had on our training program. This wiki will help new students coming to the school that won't get the benefit of learning from a technician with 3 years of experience. 
 
-The project was started and is currently led by [Ben MacDonald](https://github.com/Quantum158/). They were the Technical Director at Dr. E.P. Scarlett Highschool during the 2020-2021 school year and will help maintain the project at least until they complete their bachelor's degree.
+The project was started and is currently led by [Bea MacDonald](https://github.com/Quantum158/). They were the Technical Director at Dr. E.P. Scarlett Highschool during the 2020-2021 school year and will help maintain the project at least until they complete their bachelor's degree.
 
 ## I want to help out! Where can I contribute?
 Glad to hear! This wiki is open-source on Github. If you have programming experience and a Github account, feel free to submit a pull request.

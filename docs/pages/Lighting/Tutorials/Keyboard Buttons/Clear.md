@@ -7,7 +7,7 @@ folder: Lighting
 # toc: true
 summary: Clears the previous key pressed into a non-terminated command line, or clears the command if it had been terminated.
 # keywords: []
-authors: ["Ben MacDonald"]
+authors: ["Bea MacDonald"]
 last_updated: August 19, 2021
 # tags: []
 ---
