@@ -26,4 +26,4 @@ customPageType: guide
     - Scarlett's Self-Defined convention
 
 - Crazy stuff like custom fixtures
-  - Expand this to have weird stuff only Ben knows
+  - Expand this to have weird stuff only Bea knows

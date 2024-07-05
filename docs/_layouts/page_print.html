@@ -25,7 +25,7 @@ comments: false
     {% if page.authors %}
     <div class="authors">
         {% if page.authors %}
-            {% if page.authors.size == 1 and page.authors.first == "Bea MacDonald" or page.authors.first == "Benjamin MacDonald" %}
+            {% if page.authors.size == 1 and page.authors.first == "Bea MacDonald" %}
             <div class = "authors, authors-not-wonderful">
                 <body>{{page.authors | sort: "title" | join: ", "}}
             </div>
